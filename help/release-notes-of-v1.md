@@ -23,8 +23,8 @@ snippet: y
 | Version       | 1.10 (1.10.0.3 on Mac and Windows)                                                                                                                                                                                                                     |
 | Type          | Minor release                                                                                                                                                                                                                                          |
 | Date          | August 31, 2018                                                                                                                                                                                                                                        |
-| Download URLs |  <ul><li>Mac OS X 64 bit</li><li>Windows 32 bit</li><li>Windows 64 bit</li></ul> **Note:** If you downloaded the installer before September 5, 2018, ensure that you are using the v1.10 of the pap. Double check the binary's version and re-download if needed. The links on this page were stale before.  |
-| Compatibility | <ul><li>AEM 6.4 SP1</li><li>AEM 6.3 SP2</li><li>AEM 6.2 SP1 CFP2+</li><li>AEM 6.1 SP2 CFP7+</li></ul>                                                                                                                                                                                   |
+| Download URLs |  Following are the download links: <ul><li>Mac OS X 64 bit</li><li>Windows 32 bit</li><li>Windows 64 bit</li></ul> **Note:** If you downloaded the installer before September 5, 2018, ensure that you are using the v1.10 of the app. Double check the binary's version and re-download if needed. The links on this page were stale before.  |
+| Compatibility | Works with these AEM versions: <ul><li>AEM 6.4 SP1</li><li>AEM 6.3 SP2</li><li>AEM 6.2 SP1 CFP2+</li><li>AEM 6.1 SP2 CFP7+</li></ul>                                                                                                                                                                                   |
 
 >[!NOTE]
 >
@@ -333,7 +333,7 @@ AEM Desktop App works with various verisons of AEM. See the compatibility matrix
 
 | Version | Revision               | Release Date | Compatibility                                               |
 |---------|------------------------|--------------|-------------------------------------------------------------|
-| 1.10    | 1.10.0.3 (Mac and Win) | Aug 31, 2018 | <ul><li>AEM 6.4 SP1</li><li>AEM 6.3 SP2</li><li>AEM 6.2 SP1 CFP2+</li><li>AEM 6.1 SP2 CFP7+</li></ul> |
-| 1.9     | 1.9.1.1 (Mac and Win)  | Jun 21, 2018 | <ul><li>AEM 6.4</li><li>AEM 6.3 SP1</li><li>AEM 6.2 SP1 CFP2+</li></li>AEM 6.1 SP2 CFP7+</li></ul>     |
-| 1.8     | 1.8.1.0 (Mac and Win)  | Mar 28, 2018 | <ul><li>AEM 6.4</li></li>AEM 6.3 SP1</li></li>AEM 6.2 SP1 CFP2+</li></li>AEM 6.1 SP2 CFP7+</li></ul>     |
-| 1.7     | 1.7.0.3 (Mac and Win)  | Jan 10, 2018 | <ul><li>AEM 6.3 SP1</li></li>AEM 6.2 SP1 CFP2+</li></li>AEM 6.1 SP2 CFP7+</li></ul>             |
+| 1.10    | 1.10.0.3 (Mac and Win) | Aug 31, 2018 | Compatible AEM versions: <ul><li>AEM 6.4 SP1</li><li>AEM 6.3 SP2</li><li>AEM 6.2 SP1 CFP2+</li><li>AEM 6.1 SP2 CFP7+</li></ul> |
+| 1.9     | 1.9.1.1 (Mac and Win)  | Jun 21, 2018 | Compatible AEM versions: <ul><li>AEM 6.4</li><li>AEM 6.3 SP1</li><li>AEM 6.2 SP1 CFP2+</li></li>AEM 6.1 SP2 CFP7+</li></ul>     |
+| 1.8     | 1.8.1.0 (Mac and Win)  | Mar 28, 2018 | Compatible AEM versions: <ul><li>AEM 6.4</li></li>AEM 6.3 SP1</li></li>AEM 6.2 SP1 CFP2+</li></li>AEM 6.1 SP2 CFP7+</li></ul>     |
+| 1.7     | 1.7.0.3 (Mac and Win)  | Jan 10, 2018 | Compatible AEM versions: <ul><li>AEM 6.3 SP1</li></li>AEM 6.2 SP1 CFP2+</li></li>AEM 6.1 SP2 CFP7+</li></ul>             |
