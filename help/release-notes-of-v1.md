@@ -128,14 +128,14 @@ AEM Desktop App 1.8.1 fast-follow release added improvements when opening multip
   * define maximum cache size before a notification is send
   * Cache size is checked on Desktop App start only, and a notification is shown if it is reaching the configured limit
   * clearing cache button is now available in the new UI
-* Login: [Win] Fixed login to AEM instance configured to use SAML and SSL (CQ-4216353)
+* Login: (Win) Fixed login to AEM instance configured to use SAML and SSL (CQ-4216353)
 * Network:
   * when an AEM session expires, user is now notified and can click on the notification to log in again (CQ-4202028)
-  * [Mac] Add support for connecting to AEM via using .pac proxy configuration (CQ-4233430)
-  * [Win] fix issues with Advanced -&amp;gt; Login URL dialog (CQ-4236061)
+  * (Mac) Add support for connecting to AEM via using .pac proxy configuration (CQ-4233430)
+  * (Win) fix issues with Advanced -&amp;gt; Login URL dialog (CQ-4236061)
 * Bugfixes:
   * More Asset Info dialog * sometimes action bar was not visible (CQ-4208540)
-  * [Win] File can now be synchronized after reverting to a previous version from AEM Assets UI (CQ-4216411)
+  * (Win) File can now be synchronized after reverting to a previous version from AEM Assets UI (CQ-4216411)
 
 ### Enhancements Available Since AEM Desktop App 1.7{#Enhancements-Available-Since-AEM-Desktop-App-17}
 
@@ -149,17 +149,17 @@ AEM Desktop App 1.8.1 fast-follow release added improvements when opening multip
 * Login: Allow for connecting with strictSSL disabled for special configurations (like locally-issued certificates) (CQ-4223949)
 * Networking: Improved support for connecting over network proxy (CQ-4223477, CQ-4221280, CQ-4206854)
 * Installation and uninstallation:
-  * [Windows] Cleaner uninstallation (CQ-4220906)
+  * (Win) Cleaner uninstallation (CQ-4220906)
   * [Windows 32bit] Installer fails attempting to install Microsoft .NET Framework v. 4.5 (CQ-4218084)
-  * [Mac] Manual script for removing Desktop App files completely (CQ-4216489)
+  * (Mac) Manual script for removing Desktop App files completely (CQ-4216489)
 
 >[!NOTE]
 >
 >Issues found in AEM Desktop App 1.7 beta loads (that weren’t present in the 1.6 release are not reported in the release notes). Beta testers can review status of these issues in the AEM Desktop App prerelease program.
 
 ### Enhancements Available Since AEM Desktop App 1.6{#Enhancements-Available-Since-AEM-Desktop-App-16}
- 
-* Documentation: New [Best Practices](https://helpx.adobe.com/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html) documentation.
+
+* Documentation: New [Best practices for v1.x app](https://helpx.adobe.com/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html) documentation.
 * Improved login process to AEM:
   * Improve SAML handling * relax rules (CQ-4202781).
   * Add capability to configure separate login URL in Preferences (CQ-4214052, CQ-4214051).
@@ -268,7 +268,7 @@ Since the /Volumes folder no longer requires administrative rights, this change 
 
 >[!NOTE]
 >
->On Mac OS X, the change of local network drive protocol from WebDAV to SMB1 results in a different local path to the same asset in the repository. This might impact links to files placed in CC applications via "Place" command. See the [documentation](use-app-v1.md) for more information.
+>On Mac OS X, the change of local network drive protocol from WebDAV to SMB1 results in a different local path to the same asset in the repository. This might impact links to files placed in CC applications via "Place" command. See the [Use AEM Desktop app](use-app-v1.md) for more information.
 
 ### File handling (since 1.3) {#file-handling-since}
 
@@ -299,10 +299,10 @@ Since the /Volumes folder no longer requires administrative rights, this change 
 ## Known issues {#known-issues}
 
 * General:
-  * Server URLs are required to point to the server without a path (e.g. *http://server*, *https://server*, *http://server:port*, or *https://server:port*). Context paths and sub-folders other than /content/dam are not supported (CQ-89343, CQ-87272)
+  * Server URLs are required to point to the server without a path (e.g. `http://server`, `https://server`, `http://server:port`, or `https://server:port`). Context paths and sub-folders other than /content/dam are not supported (CQ-89343, CQ-87272)
 * File names / localization:
   * File and folder names with reserved characters are not properly handled. Make sure to use file and folder names that fit AEM requirements (CQ-93361, CQ-93308, CQ-89276, CQ-4217183)
-  * Some applications like Adobe Illustrator might create files with names not supported in AEM * e.g., adding "[Converted]" after converting a file, which stops it from being uploaded (CQ-4216985)
+  * Some applications like Adobe Illustrator might create files with names not supported in AEM. For example, adding `Converted` after converting a file, which stops it from being uploaded (CQ-4216985)
   * Assets with international names may appear and disappear every few seconds
 * Checkin/Checkout:
   * An asset checked out by one user is not possible to open for another user, either by Open action from Touch UI, or directly on the desktop. Some applications might report it as locked, but also corrupted or even hang while trying to open. (CQ-4199234)  
@@ -310,16 +310,16 @@ Since the /Volumes folder no longer requires administrative rights, this change 
   * Certain applications don't support the read-only flag properly which allows a user to save a file that's checked out by another user. The modified file is not transferred until the other user checks in the file. Both modifications are available in AEM as different versions of the asset (CQ-89551, CQ-87572, CQ-89615)
   * The checked-out and read-only status are reported independently in Finder. This results in 2 lock icons when a user checks out an asset (CQ-89507)
 * Finder integration:
-  * When dragging/dropping large files, Finder might time out while files are being transferred in the background. This results in an "Error -36." The workaround is to drag/drop or open the asset again (CQ-4219628)
+  * When dragging/dropping large files, Finder might time out while files are being transferred in the background. This results in an `Error - 36`. The workaround is to drag/drop or open the asset again (CQ-4219628)
   * Manual folder reload does not always work. Workaround:  wait   30s  for the folder to be automatically updated. (CQ-97389)
   * More Asset Info... is limited to single file selections (CQ-89542, CQ-87656)
   * Open in AEM Assets... is limited to single file and folder selections (CQ-83382)
   * Error when renaming assets that have no extension (CQ-4218971)
 * Copy/Paste functionality: Paste is available when no asset has been copied to the clipboard
 * Windows:
-  * Files with Alternate Data Streams (ADS) are only fully supported on NTFS. Copying such files to the WebDAV share provided by the Desktop App will result in a caution dialog warning the user that the file has properties that can't be copied to the new location. This is usually fine since the properties are only relevant to a particular application on the user's desktop and have nothing to do with the actual file contents (CQ-103770) [win]
-  * Desktop App on Windows needs to be installed by the user that will be using it (CQ-4216389) [win]
-  * The app can crash when clicking the Retry button on a failed upload under certain circumstances * after having resumed batch upload when disconnected (CQ-4251884) [win]
+  * Files with Alternate Data Streams (ADS) are only fully supported on NTFS. Copying such files to the WebDAV share provided by the Desktop App will result in a caution dialog warning the user that the file has properties that can't be copied to the new location. This is usually fine since the properties are only relevant to a particular application on the user's desktop and have nothing to do with the actual file contents (CQ-103770) (Win)
+  * Desktop App on Windows needs to be installed by the user that will be using it (CQ-4216389) (win)
+  * The app can crash when clicking the Retry button on a failed upload under certain circumstances after having resumed batch upload when disconnected (CQ-4251884) (Win)
 
 ## Helpful resources {#helpful-resources}
 

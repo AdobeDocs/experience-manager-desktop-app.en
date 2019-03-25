@@ -41,7 +41,7 @@ AEM Desktop App provides a convenient way of accessing (opening) and editing (sa
 The following example use case illustrates how AEM Desktop should be used:
 
 * A user logs in to AEM and uses the web UI to locate an asset.
-* Using the desktop action capabilities of the AEM web UI, the user either opens, displays, or edits the asset on desktop as necessary. 
+* Using the desktop action capabilities of the AEM web UI, the user either opens, displays, or edits the asset on desktop as necessary.
 * AEM Desktop opens the asset in the default editor for the asset's file type.
 * The user makes the desired changes to the asset.
 * After a file is modified, the user can view the sync status of the file using AEM Desktop's background sync status window.
@@ -125,7 +125,7 @@ If the WebDAV/SMB performance degrades drastically when multiple users work simu
 
 You can improve the performance at the AEM side by enabling transient workflows for the DAM Update Asset workflow. Enabling transient workflows reduces the processing power required to update assets when they are created or modified in AEM.
 
-1. Navigate to */miscadmin* in the AEM instance to be configured (for example, *http://&lt;Server&gt;: &lt;Port&gt;/miscadmin*).
+1. Navigate to `/miscadmin` in the AEM instance to be configured (for example, `http://[Server]:[Port]/miscadmin`).
 1. From the navigation tree, expand **Tools** &gt; **Workflow** &gt; **Models** &gt; **dam**.
 1. Double-click **DAM Update Asset**.
 1. From the floating tools panel, switch to the **Page** tab and then click **Page Properties**.
@@ -175,7 +175,7 @@ After you install Desktop App, the Desktop App menu icon appears in the menu bar
 1. Type the following command at the command prompt, and then press Enter:
 
    ```shell
-    cd ../Library/Caches. 
+    cd ../Library/Caches.
    ```
 
 1. Type the following command, and press Enter:
@@ -216,14 +216,16 @@ You can clear the cache by deleting the application's cache directory at the fol
 
 Mac: ~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/
 
-However, the location can change depending on AEM Desktop's configured AEM endpoint. The value is an encoded version of the targeted URL. For example, if the application is targeting <http://localhost:4502>, the directory name is http%3A%2F%2Flocalhost%3A4502%2F.
+However, the location can change depending on AEM Desktop's configured AEM endpoint. The value is an encoded version of the targeted URL. For example, if the application is targeting `http://localhost:4502`, the directory name is `http%3A%2F%2Flocalhost%3A4502%2F`.
 
 To clear the cache, delete the &lt;Encoded AEM Endpoint&gt; directory.
 
 >[!NOTE]
+>
 >If you clear AEM Desktop cache, local file changes that are not synced to AEM are lost.
 
 >[!NOTE]
+>
 >Starting with AEM Desktop App version 1.5, there will be an option in the Desktop App UI to clear the cache.
 
 ## Finding the AEM Desktop version {#finding-the-aem-desktop-version}
@@ -257,7 +259,7 @@ Regardless of the behavior, the file remains unchanged when you check it in. Eve
 
 ## Troubleshooting problems around moving files {#troubleshooting-problems-around-moving-files}
 
-The server API requires additional headers, X-Destination, X-Depth, and X-Overwrite, to be passed for the move and copy operations to work. The dispatcher does not pass these headers by default, which causes these operations to fail. For more information, see [Connecting to AEM Behind a Dispatcher](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/aem-desktop-app.html#Connecting to AEM Behind a Dispatcher).
+The server API requires additional headers, X-Destination, X-Depth, and X-Overwrite, to be passed for the move and copy operations to work. The dispatcher does not pass these headers by default, which causes these operations to fail. For more information, see [Connecting to AEM Behind a Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
 
 ## Troubleshooting AEM Desktop connection issues {#troubleshooting-aem-desktop-connection-issues}
 
@@ -266,11 +268,11 @@ The server API requires additional headers, X-Destination, X-Depth, and X-Overwr
 The most common reason for issues with AEM Desktop connecting to your SSO-enabled (SAML) AEM instance is that the SAML process does not redirect back to the originally requested path. Alternatively, the connection may be redirected to a host that not configured in AEM desktop. Perform these steps to verify the login process:
 
 1. Open a web browser.
-1. In the address bar, specify the URL */content/dam.json*.
-1. Replace the URL with the target AEM instance, for example <http://localhost:4502/content/dam.json>.
+1. In the address bar, specify the URL `/content/dam.json`.
+1. Replace the URL with the target AEM instance, for example `http://localhost:4502/content/dam.json`.
 1. Log on to AEM.
 1. After logging in, check the browser's current address in the address bar. It should match the URL that you initially entered.
-1. Verify that everything before */content/dam.json* matches the target AEM value configured in AEM Desktop.
+1. Verify that everything before `/content/dam.json` matches the target AEM value configured in AEM Desktop.
 
 ### SSL configuration issue {#ssl-configuration-issue}
 
@@ -278,11 +280,11 @@ The libraries that AEM Desktop App uses for HTTP communication utilizes strict S
 
 ## Using AEM Desktop with dispatcher {#using-aem-desktop-with-dispatcher}
 
-AEM Desktop works with AEM deployments behind a dispatcher, which is a default and recommended configuration for AEM servers. AEM dispatchers in front of AEM authoring environments are typically configured to skip caching DAM assets. Therefore, dispatchers do not provide additional caching from the AEM Desktop standpoint. Ensure that the dispatcher configuration is adjusted to work for AEM Desktop. For additional details, see [Connecting to AEM behind a dispatcher](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/aem-desktop-app.html#Connecting to AEM Behind a Dispatcher).
+AEM Desktop works with AEM deployments behind a dispatcher, which is a default and recommended configuration for AEM servers. AEM dispatchers in front of AEM authoring environments are typically configured to skip caching DAM assets. Therefore, dispatchers do not provide additional caching from the AEM Desktop standpoint. Ensure that the dispatcher configuration is adjusted to work for AEM Desktop. For additional details, see [Connecting to AEM behind a dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
 
 ## Checking for log files {#checking-for-log-files}
 
 Depending upon your operating system, you can find the log files for AEM Desktop at the following locations:
 
-* Windows: %LocalAppData%\Adobe\AssetsCompanion\Logs
-* Mac: ~/Library/Logs/Adobe\ Experience\ Manager\ Desktop
+* Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
+* Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
