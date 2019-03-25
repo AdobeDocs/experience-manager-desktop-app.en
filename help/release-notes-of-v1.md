@@ -1,8 +1,8 @@
 ---
-title: AEM Desktop App Release Notes
-seo-title: AEM Desktop App Release Notes
-description: Release notes specific to Desktop App Adobe Experience Manager 6.3 Assets.
-seo-description: Release notes specific to Desktop App Adobe Experience Manager 6.3 Assets.
+title: AEM Desktop App Release Notes for v1.x
+seo-title: AEM Desktop App Release Notes for v1.x
+description: Release details, enhancements, new features, compatibility, and download links for AEM Desktop App v1.x.
+seo-description: Release details, enhancements, new features, compatibility, and download links for AEM Desktop App v1.x.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: asgupta
 topic-tags: release-notes
@@ -23,8 +23,8 @@ snippet: y
 | Version       | 1.10 (1.10.0.3 on Mac and Windows)                                                                                                                                                                                                                     |
 | Type          | Minor release                                                                                                                                                                                                                                          |
 | Date          | August 31, 2018                                                                                                                                                                                                                                        |
-| Download URLs |  <ul><li>Mac OS X 64 bit</li><li>Windows 32 bit</li><li>Windows 64 bit</li></ul> **Note:** If you downloaded the installer before September 5, 2018, ensure that you are using the v1.10 of the pap. Double check the binary's version and re-download if needed. The links on this page were stale before.  |
-| Compatibility | <ul><li>AEM 6.4 SP1</li><li>AEM 6.3 SP2</li><li>AEM 6.2 SP1 CFP2+</li><li>AEM 6.1 SP2 CFP7+</li></ul>                                                                                                                                                                                   |
+| Download URLs |  Following are the download links: <ul><li>Mac OS X 64 bit</li><li>Windows 32 bit</li><li>Windows 64 bit</li></ul> **Note:** If you downloaded the installer before September 5, 2018, ensure that you are using the v1.10 of the app. Double check the binary's version and re-download if needed. The links on this page were stale before.  |
+| Compatibility | Works with these AEM versions: <ul><li>AEM 6.4 SP1</li><li>AEM 6.3 SP2</li><li>AEM 6.2 SP1 CFP2+</li><li>AEM 6.1 SP2 CFP7+</li></ul>                                                                                                                                                                                   |
 
 >[!NOTE]
 >
@@ -333,7 +333,7 @@ AEM Desktop App works with various verisons of AEM. See the compatibility matrix
 
 | Version | Revision               | Release Date | Compatibility                                               |
 |---------|------------------------|--------------|-------------------------------------------------------------|
-| 1.10    | 1.10.0.3 (Mac and Win) | Aug 31, 2018 | <ul><li>AEM 6.4 SP1</li><li>AEM 6.3 SP2</li><li>AEM 6.2 SP1 CFP2+</li><li>AEM 6.1 SP2 CFP7+</li></ul> |
-| 1.9     | 1.9.1.1 (Mac and Win)  | Jun 21, 2018 | <ul><li>AEM 6.4</li><li>AEM 6.3 SP1</li><li>AEM 6.2 SP1 CFP2+</li></li>AEM 6.1 SP2 CFP7+</li></ul>     |
-| 1.8     | 1.8.1.0 (Mac and Win)  | Mar 28, 2018 | <ul><li>AEM 6.4</li></li>AEM 6.3 SP1</li></li>AEM 6.2 SP1 CFP2+</li></li>AEM 6.1 SP2 CFP7+</li></ul>     |
-| 1.7     | 1.7.0.3 (Mac and Win)  | Jan 10, 2018 | <ul><li>AEM 6.3 SP1</li></li>AEM 6.2 SP1 CFP2+</li></li>AEM 6.1 SP2 CFP7+</li></ul>             |
+| 1.10    | 1.10.0.3 (Mac and Win) | Aug 31, 2018 | Compatible AEM versions: <ul><li>AEM 6.4 SP1</li><li>AEM 6.3 SP2</li><li>AEM 6.2 SP1 CFP2+</li><li>AEM 6.1 SP2 CFP7+</li></ul> |
+| 1.9     | 1.9.1.1 (Mac and Win)  | Jun 21, 2018 | Compatible AEM versions: <ul><li>AEM 6.4</li><li>AEM 6.3 SP1</li><li>AEM 6.2 SP1 CFP2+</li></li>AEM 6.1 SP2 CFP7+</li></ul>     |
+| 1.8     | 1.8.1.0 (Mac and Win)  | Mar 28, 2018 | Compatible AEM versions: <ul><li>AEM 6.4</li></li>AEM 6.3 SP1</li></li>AEM 6.2 SP1 CFP2+</li></li>AEM 6.1 SP2 CFP7+</li></ul>     |
+| 1.7     | 1.7.0.3 (Mac and Win)  | Jan 10, 2018 | Compatible AEM versions: <ul><li>AEM 6.3 SP1</li></li>AEM 6.2 SP1 CFP2+</li></li>AEM 6.1 SP2 CFP7+</li></ul>             |
