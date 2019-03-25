@@ -1,8 +1,8 @@
 ---
-title: AEM Desktop App Release Notes
-seo-title: AEM Desktop App Release Notes
-description: Release notes specific to Desktop App Adobe Experience Manager 6.3 Assets.
-seo-description: Release notes specific to Desktop App Adobe Experience Manager 6.3 Assets.
+title: AEM Desktop App Release Notes for v1.x
+seo-title: AEM Desktop App Release Notes for v1.x
+description: Release details, enhancements, new features, compatibility, and download links for AEM Desktop App v1.x.
+seo-description: Release details, enhancements, new features, compatibility, and download links for AEM Desktop App v1.x.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: asgupta
 topic-tags: release-notes
