@@ -22,14 +22,14 @@ Adobe Experience Manager (AEM) Desktop App includes utilities that assist you in
 
 ![Desktop App diagram](assets/aem-desktopapp-architecture.png)
 
-With this architecture, Desktop App intercepts file system calls (open, close, read, write, and so on) to the mounted network share, and translates them into native AEM HTTP calls to the AEM server. Files are cached locally. For more details, see [AEM Desktop App documentation](aem-desktop-app.md).
+With this architecture, Desktop App intercepts file system calls (open, close, read, write, and so on) to the mounted network share, and translates them into native AEM HTTP calls to the AEM server. Files are cached locally. For more details, see [Use AEM Desktop App v1.x](use-app-v1.md).
 
 ## Desktop&nbsp;App component overview {#desktop-nbsp-app-component-overview}
 
 Desktop App includes the following components:
 
 * **The Desktop application**: Mounts/unmounts DAM as a remote file system, and translates file system calls between the locally mounted network share and the remote AEM instance to which it connects.
-* **Operating system WebDAV/SMB client**: Handles communication between Windows Explorer/Finder and Desktop App. If a file is retrieved, created, modified, deleted, moved, or copied, the operating system (OS) WebDAV/SMB client communicates this operation to Desktop App. After receiving the communication, Desktop App translates it into native AEM remote API calls. For example, if a user creates a file in the mounted directory, the WebDAV/SMB client initiates a request, which the Desktop App translates into an HTTP request that creates the file in DAM. The WebDAV/SMB client is a built-in component of the OS. It is not affiliated with Desktop App, AEM, or Adobe in any way. 
+* **Operating system WebDAV/SMB client**: Handles communication between Windows Explorer/Finder and Desktop App. If a file is retrieved, created, modified, deleted, moved, or copied, the operating system (OS) WebDAV/SMB client communicates this operation to Desktop App. After receiving the communication, Desktop App translates it into native AEM remote API calls. For example, if a user creates a file in the mounted directory, the WebDAV/SMB client initiates a request, which the Desktop App translates into an HTTP request that creates the file in DAM. The WebDAV/SMB client is a built-in component of the OS. It is not affiliated with Desktop App, AEM, or Adobe in any way.
 * **Adobe Experience Manager instance**: Provides access to assets stored in the AEM Assets DAM repository. In addition, it performs actions requested by Desktop App on behalf of the local desktop applications interacting with the mounted network share. The target AEM instance should run AEM version 6.1 or higher. AEM instances running previous AEM versions might require extra feature packs and hot fixes installed to become fully functional.
 
 ## Intended use cases for AEM Desktop App {#intended-use-cases-for-aem-desktop-app}
@@ -135,7 +135,7 @@ You can improve the performance at the AEM side by enabling transient workflows 
 
 Another method for improving AEM performance is to configure the value of the maximum parallel jobs for the Granite Transient Workflow Queue job. The recommended value is roughly half the number of the CPUs available with the server. To adjust the value, perform these steps:
 
-1. Navigate to */system/console/configMgr* in the AEM instance to be configured (for example, *http://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr*).
+1. Navigate to */system/console/configMgr* in the AEM instance to be configured (for example, <http://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr>).
 1. Search for **QueueConfiguration**, and click to open each job until you locate the **Granite Transient Workflow Queue** job. Click the Edit icon beside it.
 1. Change the **Maximum Parallel Jobs** value, and click **Save**.
 
@@ -216,18 +216,15 @@ You can clear the cache by deleting the application's cache directory at the fol
 
 Mac: ~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/
 
-However, the location can change depending on AEM Desktop's configured AEM endpoint. The value is an encoded version of the targeted URL. For example, if the application is targeting http://localhost:4502, the directory name is http%3A%2F%2Flocalhost%3A4502%2F.
+However, the location can change depending on AEM Desktop's configured AEM endpoint. The value is an encoded version of the targeted URL. For example, if the application is targeting <http://localhost:4502>, the directory name is http%3A%2F%2Flocalhost%3A4502%2F.
 
 To clear the cache, delete the &lt;Encoded AEM Endpoint&gt; directory.
 
 >[!NOTE]
->
 >If you clear AEM Desktop cache, local file changes that are not synced to AEM are lost.
 
 >[!NOTE]
->
->Starting with AEM Desktop App version 1.5, there will be an option in the Desktop App UI  
->to clear the cache.
+>Starting with AEM Desktop App version 1.5, there will be an option in the Desktop App UI to clear the cache.
 
 ## Finding the AEM Desktop version {#finding-the-aem-desktop-version}
 
@@ -245,7 +242,7 @@ Prior to executing the steps below, drag the "Adobe Experience Manager Desktop" 
 sudo rm -rf ~/Library/Application\ Support/com.adobe.aem.desktop
 sudo rm -rf ~/Library/Preferences/com.adobe.aem.desktop.plist
 sudo rm -rf ~/Library/Logs/Adobe\ Experience\ Manager\ Desktop
- 
+
 sudo find /var/folders -type d -name "com.adobe.aem.desktop" | xargs rm -rf
 sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-plugin" | xargs rm -rf
 ```
@@ -270,7 +267,7 @@ The most common reason for issues with AEM Desktop connecting to your SSO-enable
 
 1. Open a web browser.
 1. In the address bar, specify the URL */content/dam.json*.
-1. Replace the URL with the target AEM instance, for example *http://localhost:4502/content/dam.json*.
+1. Replace the URL with the target AEM instance, for example <http://localhost:4502/content/dam.json>.
 1. Log on to AEM.
 1. After logging in, check the browser's current address in the address bar. It should match the URL that you initially entered.
 1. Verify that everything before */content/dam.json* matches the target AEM value configured in AEM Desktop.
@@ -289,4 +286,3 @@ Depending upon your operating system, you can find the log files for AEM Desktop
 
 * Windows: %LocalAppData%\Adobe\AssetsCompanion\Logs
 * Mac: ~/Library/Logs/Adobe\ Experience\ Manager\ Desktop
-

@@ -26,13 +26,13 @@ Desktop App mounts the AEM Assets repository as a network share on  desktop . Th
 
 >[!NOTE]
 >
->Before reading this document, you can review the overall [AEM and Creative Cloud integration best practices](/content/help/en/experience-manager/6-4/assets/using/aem-cc-integration-best-practices) for a higher-level overview of the topic.
+>Before reading this document, you can review the overall [AEM and Creative Cloud integration best practices](https://helpx.adobe.com/experience-manager/6-4/assets/using/aem-cc-integration-best-practices.html) for a higher-level overview of the topic.
 
 ## AEM Desktop App architecture {#aem-desktop-app-architecture}
 
 AEM Desktop App uses WebDAV (Windows) or SMB (Mac) network shares to mount network shares. The mounted network share is local only. AEM Desktop App intercepts the calls (open, read, write) and provides additional local caching. It translates remote calls to the AEM Assets server to optimized AEM HTTP requests. The following diagram depicts the AEM Desktop App architecture.
 
-![](assets/chlimage_1.png)
+![AEM Desktop app architecture](assets/chlimage_1.png)
 
 The additional caching on write when a file is saved causes the file to be saved locally first (so that the user doesn’t wait for the network transfer). Then, after a predefined delay (  30s ) the file is uploaded to AEM in the background, and then asset is uploaded to AEM. AEM Desktop App provides a UI for monitoring the status of background file uploads.
 
@@ -51,13 +51,12 @@ Key capabilities of AEM Desktop App include:
 ## Inappropriate use of AEM Desktop App {#inappropriate-use-of-aem-desktop-app}
 
 * Do not use AEM Desktop App to manage assets from the desktop. AEM Desktop App was not built as a replacement for network drives. Use the following capabilities instead:
-
-    * AEM Assets web UI for digital asset management (finding / sharing assets, metadata, copy/move, etc)
-    * AEM Desktop App Folder Upload to upload large, hierarchical folders
+  * AEM Assets web UI for digital asset management (finding / sharing assets, metadata, copy/move, etc.)
+  * AEM Desktop App Folder Upload to upload large, hierarchical folders
 
 * Do not treat AEM Desktop App as a “desktop sync” client for AEM Assets. The key benefit of AEM Desktop App here is that it provides "virtual" access to the whole repository, and desktop sync applications typically synchronize just assets belonging to one user. AEM Desktop App provides some level of caching and background upload; still, it works very differently from typical “Sync” applications, such as Adobe CC Desktop App or Microsoft OneDrive.
 * Do not use AEM Desktop App network drives to save assets frequently. All save operations are transmitted to AEM Assets. Therefore, it is impractical to perform intensive edit operations directly in the mounted AEM Assets repository. Editing an asset directly in the mounted repository crams the asset's timeline with irrelevant versions and imposes additional overheads on the server.
-* Do not use AEM Desktop App for migration of large amounts of data from one AEM instance to another. Please refer to the [Migration Guide](/content/help/en/experience-manager/6-4/assets/using/assets-migration-guide) to plan and execute asset migrations. In contrast, Desktop App [supports bulk uploading](aem-desktop-app.md#bulkupload) large number of assets for the first time in AEM.
+* Do not use AEM Desktop App for migration of large amounts of data from one AEM instance to another. Please refer to the [Migration Guide](https://helpx.adobe.com/experience-manager/6-4/assets/using/assets-migration-guide.html) to plan and execute asset migrations. In contrast, Desktop App [supports bulk uploading](use-app-v1.md#bulkupload) large number of assets for the first time in AEM.
 
 ## Recommendations for selected use cases {#recommendations-for-selected-use-cases}
 
@@ -68,9 +67,9 @@ AEM Desktop App provides virtual access to the whole DAM repository - and it mig
 * Use collaboration features in AEM Assets Web UI to provide more direct access to the right assets for the creative user. Sharing folders or collections, providing Smart Collections (saved searches), or sending notifications with pointers to the right assets are some of them. Creative user can then use desktop acions in the web UI to quickly get access to these assets on their destkop.
 * Consider the right permissions for assets (access control) to simplify the view into the DAM repository for the creative users, basically limiting their access to only assets they need / are interested in:
 
-    * Certain areas not relevant to the creative users might be denied for their user group(s), to remove them from their view, also on desktop
-    * Most assets in DAM are final and not intended for changing - these should be read-only for the creative users
-    * Only assets that require changes / retouching should be write-enabled for the creative users. Some organizations use AEM Projects and the folders they create to host assets that are still subject to changes.
+  * Certain areas not relevant to the creative users might be denied for their user group(s), to remove them from their view, also on desktop
+  * Most assets in DAM are final and not intended for changing - these should be read-only for the creative users
+  * Only assets that require changes / retouching should be write-enabled for the creative users. Some organizations use AEM Projects and the folders they create to host assets that are still subject to changes.
 
 ### Searching assets {#searching-assets}
 
@@ -87,16 +86,16 @@ If an asset stored in AEM needs an update:
 
 * For **minor updates**, such as minor retouching requests in the approval process:
 
-    * Check the file out and open it on desktop
-    * Update the file
-    * Save the updated version. The asset is updated, and the timeline displays the original version for comparison
+  * Check the file out and open it on desktop
+  * Update the file
+  * Save the updated version. The asset is updated, and the timeline displays the original version for comparison
 
 * For **major updates**, such as a change request that requires a small creative WIP cycle:
 
-    * Use the Reveal option to open the appropriate folder on desktop
-    * Copy the file to a WIP folder **outside** of the mapped AEM Assets share (for example, copy the file into a folder synced with CC Desktop App)
-    * Work on the file and save it intermittently. The changes are not saved to AEM Assets
-    * After the edits are complete, move, copy, or save the file mapped from AEM to upload it as a new version
+  * Use the Reveal option to open the appropriate folder on desktop
+  * Copy the file to a WIP folder **outside** of the mapped AEM Assets share (for example, copy the file into a folder synced with CC Desktop App)
+  * Work on the file and save it intermittently. The changes are not saved to AEM Assets
+  * After the edits are complete, move, copy, or save the file mapped from AEM to upload it as a new version
 
 ## Network performance {#network-performance}
 
@@ -104,19 +103,18 @@ Good experience for users using the AEM Desktop App greatly depends on good, sta
 
 ### Network considerations {#network-considerations}
 
-To understand best practices around AEM Assets network configuration, please refer to [AEM Assets Network Considerations](/content/help/en/experience-manager/6-4/assets/using/assets-network-considerations) document. Some of the important aspects that help optimize AEM Desktop App experience for the users include:
+To understand best practices around AEM Assets network configuration, please refer to [AEM Assets Network Considerations](https://helpx.adobe.com/experience-manager/6-4/assets/using/assets-network-considerations.html) document. Some of the important aspects that help optimize AEM Desktop App experience for the users include:
 
-* **Use properly configured Dispatcher:** Use AEM Dispatcher for additional security and ensure that it is configured for [AEM Desktop App connection to AEM behind a dispatcher](/content/help/en/experience-manager/6-4/assets/using/aem-desktop-app#main-pars_title_640370945)
+* **Use properly configured Dispatcher:** Use AEM Dispatcher for additional security and ensure that it is configured for [AEM Desktop App connection to AEM behind a dispatcher](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html#ConnectingtoAEMBehindaDispatcher)
 
 * **Save bandwidth:** Consider turning off icon preview in Finder on Mac - when browsing the mounted repository using Finder. Finder requests each file to generate a preview and causes desktop app to download & cache the asset locally. Please note that while saving bandwidth it would also decrease user experinece for the users on desktop, so it should be done when working with repositories with large assets and/or limited bandwidth.
 
-**Note:** to turn off icon previews, in Finder go to View, select View Options, and then uncheck the "Show icon preview" option. This only works for the current folder - to make it a default, click the "Use as default" button in the same window.
+**Note:** To turn off icon previews, in Finder go to View, select View Options, and then uncheck the "Show icon preview" option. This only works for the current folder - to make it a default, click the "Use as default" button in the same window.
 
 ### Optimizing server performance {#optimizing-server-performance}
 
-To understand, how AEM Assets server should be optimized for performance, please refer to [AEM Assets Performance Tuning Guide](/content/help/en/experience-manager/6-4/assets/using/performance-tuning-guidelines). Some of the important aspects of the server performance for AEM Desktop App are around optimizing workflow configuration so that it performs well for asset uploads:
+To understand, how AEM Assets server should be optimized for performance, please refer to [AEM Assets Performance Tuning Guide](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/performance-tuning-guidelines.html). Some of the important aspects of the server performance for AEM Desktop App are around optimizing workflow configuration so that it performs well for asset uploads:
 
-* **More performant asset upload:** Configure the [AEM Asset Update workflow model to be transient](/content/help/en/experience-manager/6-4/assets/using/performance-tuning-guidelines#main-pars_title_750109196)
+* **More performant asset upload:** Configure the [AEM Asset Update workflow model to be transient](https://helpx.adobe.com/experience-manager/6-4/assets/using/performance-tuning-guidelines.html#Workflows).
 
-* **Limit server CPU for uploads:** Ensure that the [maximum parallel workflow jobs parameter is set  correctly ](/content#contentbody_title_1140613658)  ,  so that uploads do not exhaust all the CPU
-
+* **Limit server CPU for uploads:** Ensure that the maximum parallel workflow jobs parameter is set  correctly,  so that uploads do not exhaust all the CPU.

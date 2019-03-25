@@ -25,16 +25,16 @@ Install and configure AEM Desktop App to work with AEM Assets servers and map th
 To use AEM Desktop App,
 
 * Download and install the application.
-* Ensure that your AEM server version is supported by AEM Desktop App. See the [compatibility matrix](release-notes.md#compatibilitymatrix).
-* Test the connection using a few assets. See [Access and open assets on your desktop](aem-desktop-app.md#openondesktop).
+* Ensure that your AEM server version is supported by AEM Desktop App. See the [compatibility matrix](release-notes-of-v1.md#compatibilitymatrix).
+* Test the connection using a few assets. See [Access and open assets on your desktop](use-app-v1.md#openondesktop).
 
 ## System requirements, prerequisites, and download links {#system-requirements-prerequisites-and-download-links}
 
-For detailed information, see the [AEM Desktop App release notes](release-notes.md).
+For detailed information, see the [AEM Desktop App release notes](release-notes-of-v1.md).
 
 ## Install and connect AEM Desktop App to AEM server {#install-and-connect-aem-desktop-app-to-aem-server}
 
-For details, see [Install and connect AEM Desktop App to AEM server](aem-desktop-app.md#installandconnect).
+For details, see [Install and connect AEM Desktop App to AEM server](use-app-v1.md#installandconnect).
 
 >[!NOTE]
 >
@@ -71,9 +71,9 @@ The Copy and Move methods in the Assets API require the following additional hea
 * X-Depth
 * X-Overwrite
 
-AEM Desktop connects to AEM using a URL that includes the default port. Therefore, the *virtualhosts* setting in the dispatcher configuration should include the default port number. For more information around virtualhosts configuration, see [Identifying Virtual Hosts](/content/help/en/experience-manager/dispatcher/using/dispatcher-configuration#IdentifyingVirtualHostsvirtualhosts).
+AEM Desktop connects to AEM using a URL that includes the default port. Therefore, the *virtualhosts* setting in the dispatcher configuration should include the default port number. For more information around virtualhosts configuration, see [Identifying Virtual Hosts](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
 
-For additional information on configuring the dispatcher to pass through these additional headers, see [Specifying the HTTP Headers](/content/help/en/experience-manager/dispatcher/using/dispatcher-configuration#SpecifyingtheHTTPHeaderstoPassThroughclientheaders).
+For additional information on configuring the dispatcher to pass through these additional headers, see [Specifying the HTTP Headers](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders).
 
 ## Customize the Asset Info dialog {#customize-the-asset-info-dialog}
 
@@ -83,36 +83,6 @@ You can customize the Asset Info dialog by overlaying one or both of these compo
 * The HTL `/css/javascript` component at `/libs/dam/gui/components/admin/moreinfo`
 
 Which component is overlaid, depends on the nature of the customization. To change which components are displayed as part of the Asset Info dialog, overlay the Granite user interface page. To change the HTML/CSS/Javascript content of the dialog, overlay the HTL component.
-
-<!--
-Comment Type: draft
-
-<h2>Link the asset versions edited using WebDAV</h2>
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: asgupta
-Last Modified Date: 2018-07-12T09:08:48.417-0400
-WebDAV is not applicable anymore. The app uses HTTPS.
--->
-
-<!--
-Comment Type: draft
-
-<p>To link the version history for the assets edited through WebDAV, configure the DAM WebDAV version linking job from Configuration Manager.</p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>Visit <span class="code">https://[<em>AEM Server</em>]:[<em>Port</em>]/system/console/configMgr</span> URL and open the Configuration Manager.</p> </li>
-<li><p>Open the <strong>DAM WebDAV version linking job</strong> configuration.</p> </li>
-<li><p>Select <strong>Enable Version Linking</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-1.png" /></li>
-<li><p>Specify the time interval for the scheduler to run the job and the staging timeout time, and save the settings.</p> </li>
-</ol>
--->
 
 ## Manage cache {#manage-cache}
 
@@ -153,9 +123,8 @@ To point the application to a different folder or a different drive, edit the ap
 ## Additional resources {#additional-resources}
 
 * [Introduction to AEM Desktop App](https://helpx.adobe.com/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
-* [Use AEM Desktop App](aem-desktop-app.md)  
+* [Use AEM Desktop App](use-app-v1.md)  
 
 * [Understand Check-in/Check-out with AEM Desktop App](https://helpx.adobe.com/experience-manager/kt/assets/using/aem-desktop-app-checkin-checkout-technical-video-understand.html)
-* [Using Desktop App with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/aem-desktop-app-sync-status-technical-video-use.html)
-* [Troubleshooting AEM Desktop App](https://helpx.adobe.com/experience-manager/kb/troubleshooting-companion-app.html)
-
+* [Using Desktop App with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [Troubleshooting AEM Desktop App](troubleshoot-app-v1.md)

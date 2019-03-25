@@ -18,43 +18,13 @@ snippet: y
 
 ## Release Information {#release-information}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>Products</td> 
-   <td><strong>Adobe Experience Manager (AEM) Desktop App</strong></td> 
-  </tr> 
-  <tr> 
-   <td>Version</td> 
-   <td>1.10 (1.10.0.3 on Mac &amp; Windows)</td> 
-  </tr> 
-  <tr> 
-   <td>Type</td> 
-   <td>Minor Release</td> 
-  </tr> 
-  <tr> 
-   <td>Date</td> 
-   <td>August 31, 2018</td> 
-  </tr> 
-  <tr> 
-   <td>Download URL</td> 
-   <td> 
-    <ul> 
-     <li><a href="http://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.10.0.3.dmg">Mac OS X 64 bit</a></li> 
-    </ul> 
-    <ul> 
-     <li><a href="http://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.10.0.3.exe">Windows 32 bit</a></li> 
-    </ul> 
-    <ul> 
-     <li><a href="http://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.10.0.3.exe">Windows 64 bit</a></li> 
-    </ul> <p><em><strong>NOTE:</strong> if you downloaded binaries before 5th September, 2018, please double check the binary's version and download the 1.10 binaries again if needed. The links on this page were stale before. </em></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Compatibility</td> 
-   <td><p>AEM 6.4 SP1</p> <p>AEM 6.3 SP2</p> <p>AEM 6.2 SP1 CFP2+ </p> <p>AEM 6.1 SP2 CFP7+</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Products      |  Adobe Experience Manager (AEM) Desktop App                                                                                                                                                                                                            |
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Version       | 1.10 (1.10.0.3 on Mac and Windows)                                                                                                                                                                                                                     |
+| Type          | Minor release                                                                                                                                                                                                                                          |
+| Date          | August 31, 2018                                                                                                                                                                                                                                        |
+| Download URLs |  <ul><li>Mac OS X 64 bit</li><li>Windows 32 bit</li><li>Windows 64 bit</li></ul> **Note:** If you downloaded the installer before September 5, 2018, ensure that you are using the v1.10 of the pap. Double check the binary's version and re-download if needed. The links on this page were stale before.  |
+| Compatibility | <ul><li>AEM 6.4 SP1</li><li>AEM 6.3 SP2</li><li>AEM 6.2 SP1 CFP2+</li><li>AEM 6.1 SP2 CFP7+</li></ul>                                                                                                                                                                                   |
 
 >[!NOTE]
 >
@@ -65,7 +35,7 @@ snippet: y
 AEM Desktop is compatible with the following operating systems:
 
 * Mac OS X 10.10 or later, with latest bug fixes.
-* Windows** **7 and Windows 10 with the latest service packs and bug fixes.
+* Windows 7 and Windows 10 with the latest service packs and bug fixes.
 
 Adobe strongly recommends using the latest version of AEM Desktop to avail the latest functionality, the most recent bug fixes, and the best possible performance.
 
@@ -99,7 +69,7 @@ Bulk uploads will be paused if there is a connection loss, and the user will be 
 
 ## Installation instructions {#installation-instructions}
 
-For detailed instructions, see [Install and configure AEM Desktop App](install-configure-aem-desktop-app.md).
+For detailed instructions, see [Install and configure AEM Desktop App](install-configure-app-v1.md).
 
 ## Enhancements in the previous versions {#enhancements-in-the-previous-versions}
 
@@ -123,9 +93,9 @@ This release extends and replaces the previous versions of the Experience Manage
  <summary>Enhancements Available Since AEM Desktop App 1.9.x</summary> 
  <p>Adobe Experience Manager (AEM) Desktop App 1.9.1 was a patch release to addresses a few key customer issues around asset checkout and copying files from network share to a local directory. </p> 
  <ul> 
-  <li>Assets checked out by one users should not be available for modification for other users (CQ-4246009)</li> 
-  <li>Support copy from mapped folder to a local folder when user folder is on a separate disk partition (CQ-4243978)</li> 
- </ul> 
+  <li>Assets checked out by one users should not be available for modification for other users (CQ-4246009)</li>
+  <li>Support copy from mapped folder to a local folder when user folder is on a separate disk partition (CQ-4243978)</li>
+ </ul>
  <p>AEM Desktop App 1.9 focused on improving user experience around large uploads, information about the background operations, and optimized experience when opening assets with linked files (like InDesign).</p> 
  <p><strong>Resumable Uploads</strong></p> 
  <p>For uploads, especially around large files, there is an option to pause/resume them in the new Asset Status window.</p> 
@@ -133,34 +103,34 @@ This release extends and replaces the previous versions of the Experience Manage
  <p>An improved asset status window provides information about assets that are:</p> 
  <p>Changes</p> 
  <ul> 
-  <li>Displays currently queued changes</li> 
-  <li>Shows in-progress uploads, including a progress bar, transfer rate, total file size, and size transferred so far</li> 
-  <li>Completed uploads shown with total transferred and final rate</li> 
-  <li>Failed uploads display along with an error message and transfer information, if available</li> 
-  <li>Uploads that have failed 3 times will show an error message</li> 
+  <li>Displays currently queued changes</li>
+  <li>Shows in-progress uploads, including a progress bar, transfer rate, total file size, and size transferred so far</li>
+  <li>Completed uploads shown with total transferred and final rate</li>
+  <li>Failed uploads display along with an error message and transfer information, if available</li>
+  <li>Uploads that have failed 3 times will show an error message</li>
   <li>Conflicting files shown with an icon that the user can click. Clicking the icon shows a dialog with an explanation and two options: 
    <ul> 
-    <li>"Keep Mine": immediately uploads the file to the server</li> 
-    <li>"Overwrite Mine": immediately deletes the local file and downloads a new copy from the server</li> 
-   </ul> </li> 
- </ul> 
+    <li>"Keep Mine": immediately uploads the file to the server</li>
+    <li>"Overwrite Mine": immediately deletes the local file and downloads a new copy from the server</li>
+   </ul></li>
+ </ul>
  <p>Downloads</p> 
  <ul> 
-  <li>Displays in-progress downloads, including a transfer rate and size transferred so far</li> 
-  <li>Completed downloads shown with total transferred, final rate, and an icon that will open the file when clicked (only available for single files)</li> 
-  <li>Failed downloads displayed with an error message and transfer information, if available</li> 
-  <li>Footer shows total number of files downloaded and average transfer rate</li> 
-  <li>If a user chooses to open or edit multiple files from the AEM Assets Web UI, they will be grouped together, showing up as e.g. "myasset.jpeg and 4 more file(s)"</li> 
-  <li>When downloading InDesign Documents including linked assets that are stored in AEM Assets, the Desktop App will download all of the linked Assets first, before opening the InDesign Document and indicate the download of linked assets as e.g. (5 of 24)</li> 
- </ul> 
+  <li>Displays in-progress downloads, including a transfer rate and size transferred so far</li>
+  <li>Completed downloads shown with total transferred, final rate, and an icon that will open the file when clicked (only available for single files)</li>
+  <li>Failed downloads displayed with an error message and transfer information, if available</li>
+  <li>Footer shows total number of files downloaded and average transfer rate</li>
+  <li>If a user chooses to open or edit multiple files from the AEM Assets Web UI, they will be grouped together, showing up as e.g. "myasset.jpeg and 4 more file(s)"</li>
+  <li>When downloading InDesign Documents including linked assets that are stored in AEM Assets, the Desktop App will download all of the linked Assets first, before opening the InDesign Document and indicate the download of linked assets as e.g. (5 of 24)</li>
+ </ul>
  <p>Bulk Uploads</p> 
  <p>uploading large folder hierarchies via Create &amp;gt; Upload Folder in AEM web UI or copying and selecting "Paste Assets" in Finder/Explorer in the Desktop App context menu will trigger usage of this dialog</p> 
  <ul> 
-  <li>Displays in-progress uploads, including a progress bar and the name of the file currently being transferred</li> 
-  <li>In-progress uploads include an icon that will cancel the upload when clicked. The transfer will stop after the currently transferring file completes</li> 
-  <li>Failed transfer processes are displayed with an error message (only if the entire transfer fails)</li> 
-  <li>If an individual file fails to transfer, it will show up on the tab as an error. Otherwise, individual files will not show on the tab - only a single entry for the entire upload.</li> 
- </ul> 
+  <li>Displays in-progress uploads, including a progress bar and the name of the file currently being transferred</li>
+  <li>In-progress uploads include an icon that will cancel the upload when clicked. The transfer will stop after the currently transferring file completes</li>
+  <li>Failed transfer processes are displayed with an error message (only if the entire transfer fails)</li>
+  <li>If an individual file fails to transfer, it will show up on the tab as an error. Otherwise, individual files will not show on the tab - only a single entry for the entire upload.</li>
+ </ul>
  <p><strong>Icons to Indicate Status of Background Operations</strong></p> 
  <p>The application icon will indicate the state of background operations to provide better visual cue to the users. E.g., when the application is not connected to AEM the icon will be grayed out, when there is an active upload it will show a "sync" overlay, etc.</p> 
  <p><strong>Pre-fetching of Linked Assets</strong></p> 
@@ -177,28 +147,28 @@ This release extends and replaces the previous versions of the Experience Manage
    <ul> 
     <li>new UI for managing AEM Desktop App cache (CQ-4208690), including 
      <ul> 
-      <li>view current cache size</li> 
-      <li>define maximum cache size before a notification is send</li> 
-      <li>Cache size is checked on Desktop App start only, and a notification is shown if it is reaching the configured limit</li> 
-      <li>clearing cache button is now available in the new UI</li> 
-     </ul> </li> 
-   </ul> </li> 
+      <li>view current cache size</li>
+      <li>define maximum cache size before a notification is send</li>
+      <li>Cache size is checked on Desktop App start only, and a notification is shown if it is reaching the configured limit</li>
+      <li>clearing cache button is now available in the new UI</li>
+     </ul></li>
+   </ul></li>
   <li>Login 
    <ul> 
-    <li>[Win] Fixed login to AEM instance configured to use SAML and SSL (CQ-4216353)</li> 
-   </ul> </li> 
+    <li>[Win] Fixed login to AEM instance configured to use SAML and SSL (CQ-4216353)</li>
+   </ul></li>
   <li>Network 
    <ul> 
-    <li>when an AEM session expires, user is now notified and can click on the notification to log in again (CQ-4202028)</li> 
-    <li>[Mac] Add support for connecting to AEM via using .pac proxy configuration (CQ-4233430)</li> 
-    <li>[Win] fix issues with Advanced -&amp;gt; Login URL dialog (CQ-4236061)</li> 
-   </ul> </li> 
+    <li>when an AEM session expires, user is now notified and can click on the notification to log in again (CQ-4202028)</li>
+    <li>[Mac] Add support for connecting to AEM via using .pac proxy configuration (CQ-4233430)</li>
+    <li>[Win] fix issues with Advanced -&amp;gt; Login URL dialog (CQ-4236061)</li>
+   </ul></li>
   <li>Bugfixes 
    <ul> 
-    <li>More Asset Info dialog - sometimes action bar was not visible (CQ-4208540)</li> 
-    <li>[Win] File can now be synchronized after reverting to a previous version from AEM Assets UI (CQ-4216411)</li> 
-   </ul> </li> 
- </ul> 
+    <li>More Asset Info dialog - sometimes action bar was not visible (CQ-4208540)</li>
+    <li>[Win] File can now be synchronized after reverting to a previous version from AEM Assets UI (CQ-4216411)</li>
+   </ul></li>
+ </ul>
 </details>
 
 <details> 
@@ -206,30 +176,30 @@ This release extends and replaces the previous versions of the Experience Manage
  <ul> 
   <li>Stability 
    <ul> 
-    <li>Improved stability when AEM Desktop App connects to an overloaded AEM server (CQ-4224803)</li> 
-    <li>Improved stability when many files are requested (CQ-4224212)</li> 
-    <li>Improved asset update with additional check (CQ-4228291)</li> 
-   </ul> </li> 
+    <li>Improved stability when AEM Desktop App connects to an overloaded AEM server (CQ-4224803)</li>
+    <li>Improved stability when many files are requested (CQ-4224212)</li>
+    <li>Improved asset update with additional check (CQ-4228291)</li>
+   </ul></li>
   <li>Caching 
    <ul> 
-    <li>Fix disk errors and opening problems when opening files in Photoshop, InDesign, Finder (CQ-4223993, CQ-4217603, CQ-4223717)</li> 
-    <li>Improved caching to avoid zero-size binaries (CQ-4216599)</li> 
-   </ul> </li> 
+    <li>Fix disk errors and opening problems when opening files in Photoshop, InDesign, Finder (CQ-4223993, CQ-4217603, CQ-4223717)</li>
+    <li>Improved caching to avoid zero-size binaries (CQ-4216599)</li>
+   </ul></li>
   <li>Login 
    <ul> 
-    <li>Allow for connecting with strictSSL disabled for special configurations (like locally-issued certificates) (CQ-4223949)</li> 
-   </ul> </li> 
+    <li>Allow for connecting with strictSSL disabled for special configurations (like locally-issued certificates) (CQ-4223949)</li>
+   </ul></li>
   <li>Networking 
    <ul> 
-    <li>Improved support for connecting over network proxy (CQ-4223477, CQ-4221280, CQ-4206854)</li> 
-   </ul> </li> 
+    <li>Improved support for connecting over network proxy (CQ-4223477, CQ-4221280, CQ-4206854)</li>
+   </ul></li>
   <li>Installation / uninstallation 
    <ul> 
-    <li>[Windows] Cleaner uninstallation (CQ-4220906)</li> 
-    <li>[Windows 32bit] Installer fails attempting to install Microsoft .NET Framework v. 4.5 (CQ-4218084)</li> 
-    <li>[Mac] Manual script for removing Desktop App files completely (CQ-4216489)</li> 
-   </ul> </li> 
- </ul> 
+    <li>[Windows] Cleaner uninstallation (CQ-4220906)</li>
+    <li>[Windows 32bit] Installer fails attempting to install Microsoft .NET Framework v. 4.5 (CQ-4218084)</li>
+    <li>[Mac] Manual script for removing Desktop App files completely (CQ-4216489)</li>
+   </ul></li>
+ </ul>
  <note type="note"> 
   <p>Issues found in AEM Desktop App 1.7 beta loads (that weren’t present in the 1.6 release are not reported in the release notes). Beta testers can review status of these issues in the AEM Desktop App prerelease program.</p> 
  </note> 
@@ -240,42 +210,42 @@ This release extends and replaces the previous versions of the Experience Manage
  <ul> 
   <li>Documentation 
    <ul> 
-    <li>New <a href="https://helpx.adobe.com/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html">AEM Desktop App Best Practices</a> documentation</li> 
-   </ul> </li> 
+    <li>New <a href="https://helpx.adobe.com/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html">AEM Desktop App Best Practices</a> documentation</li>
+   </ul></li>
   <li>Improved login process to AEM: 
    <ul> 
-    <li>Improve SAML handling - relax rules (CQ-4202781)</li> 
-    <li>Add capability to configure separate login URL in Preferences (CQ-4214052, CQ-4214051)</li> 
-   </ul> </li> 
+    <li>Improve SAML handling - relax rules (CQ-4202781)</li>
+    <li>Add capability to configure separate login URL in Preferences (CQ-4214052, CQ-4214051)</li>
+   </ul></li>
   <li>Usability 
    <ul> 
-    <li>Notify user when asset is still downloading for larger assets (CQ-4216284)</li> 
-   </ul> </li> 
+    <li>Notify user when asset is still downloading for larger assets (CQ-4216284)</li>
+   </ul></li>
   <li>Networking 
    <ul> 
-    <li>DNS caching (CQ-4210176)</li> 
-    <li>Support connection via proxy on Windows (CQ-4206854)</li> 
-   </ul> </li> 
+    <li>DNS caching (CQ-4210176)</li>
+    <li>Support connection via proxy on Windows (CQ-4206854)</li>
+   </ul></li>
   <li>Caching &amp; access to network share in Finder / Explorer 
    <ul> 
-    <li>Lock icon now visible for checked out assets on Windows 10 (CQ-90957)</li> 
-    <li>Folder content might disappear/reappear in network share (CQ-4209160, CQ-4210180)</li> 
-    <li>Error on file upload due to a conflict reported in the Upload Queue Status (CQ-4215727)</li> 
-    <li>While opening multiple files from desktop app folder in PS, file truncated or incomplete messages might be shown (CQ-4216276)</li> 
-   </ul> </li> 
+    <li>Lock icon now visible for checked out assets on Windows 10 (CQ-90957)</li>
+    <li>Folder content might disappear/reappear in network share (CQ-4209160, CQ-4210180)</li>
+    <li>Error on file upload due to a conflict reported in the Upload Queue Status (CQ-4215727)</li>
+    <li>While opening multiple files from desktop app folder in PS, file truncated or incomplete messages might be shown (CQ-4216276)</li>
+   </ul></li>
   <li>Fixes in stability &amp; performance 
    <ul> 
-    <li>Improved performance while browsing folders with many assets (CQ-4214933)</li> 
-    <li>Desktop App 1.5 can slow down desktop machine over time (CQ-4209159)</li> 
-    <li>Show queue status feature only work for the user who installed the app (CQ-4212199)</li> 
-    <li>(Windows) Ensure that 32-bit installer does not contain 64-bit code (CQ-4217406)</li> 
-   </ul> </li> 
+    <li>Improved performance while browsing folders with many assets (CQ-4214933)</li>
+    <li>Desktop App 1.5 can slow down desktop machine over time (CQ-4209159)</li>
+    <li>Show queue status feature only work for the user who installed the app (CQ-4212199)</li>
+    <li>(Windows) Ensure that 32-bit installer does not contain 64-bit code (CQ-4217406)</li>
+   </ul></li>
   <li>Selected issues found &amp; fixed in 1.6 Beta 
    <ul> 
-    <li>High CPU usage (CQ-4218070)</li> 
-    <li>Drag and Drop files yielding error when uploading to AEM (CQ-4217006)</li> 
-   </ul> </li> 
- </ul> 
+    <li>High CPU usage (CQ-4218070)</li>
+    <li>Drag and Drop files yielding error when uploading to AEM (CQ-4217006)</li>
+   </ul></li>
+ </ul>
 </details>
 
 <details> 
@@ -285,83 +255,83 @@ This release extends and replaces the previous versions of the Experience Manage
  <ul> 
   <li>New features and enhancements: 
    <ul> 
-    <li>Add Copy/Paste functionality to Finder integration to allow for direct transfer from Desktop to AEM (CQ-4208158)</li> 
-   </ul> </li> 
+    <li>Add Copy/Paste functionality to Finder integration to allow for direct transfer from Desktop to AEM (CQ-4208158)</li>
+   </ul></li>
   <li>Bugfixes: 
    <ul> 
-    <li>Fixed error 43 issue that occurred sometimes during asset renaming (CQ-4207900)</li> 
-    <li>Reverting to an older version from the timeline in AEM does not update the asset in Finder (CQ-4205194) </li> 
-    <li>Desktop App crashes when browsing large nested directories (CQ-4208539)</li> 
-    <li>Desktop App mount point is now /Volumes/DAM so it’s consistent for all users (CQ-4208159)</li> 
-    <li>Placing file into InDesign for the first time initiates an update warning (CQ-4207454)</li> 
-   </ul> </li> 
- </ul> 
+    <li>Fixed error 43 issue that occurred sometimes during asset renaming (CQ-4207900)</li>
+    <li>Reverting to an older version from the timeline in AEM does not update the asset in Finder (CQ-4205194) </li>
+    <li>Desktop App crashes when browsing large nested directories (CQ-4208539)</li>
+    <li>Desktop App mount point is now /Volumes/DAM so it’s consistent for all users (CQ-4208159)</li>
+    <li>Placing file into InDesign for the first time initiates an update warning (CQ-4207454)</li>
+   </ul></li>
+ </ul>
  <p><em>Note on Link Warnings</em></p> 
  <p>Creative Cloud applications (such as InDesign) take a "snapshot" of the item's last-modified time at the time it is placed. If that date changes at a later point, the CC app will report that the links are out-of-date. This is reported in a couple of ways:</p> 
  <ul> 
-  <li>When the CC app is launched, it will display a dialog informing the user that the linked assets are out of date, and prompt the user to take action</li> 
-  <li>If the CC app is already running, it will show a yellow triangle warning icon on the linked asset</li> 
- </ul> 
+  <li>When the CC app is launched, it will display a dialog informing the user that the linked assets are out of date, and prompt the user to take action</li>
+  <li>If the CC app is already running, it will show a yellow triangle warning icon on the linked asset</li>
+ </ul>
  <p>This behavior is the same for assets on local disk and assets in an AEM Desktop mounted directory, with the following exceptions:</p> 
  <ul> 
-  <li>If a placed asset is modified by a different user, then the warning icon will show up the first time that other users open a document containing the placed asset. This will only happen if the placed asset has already been locally cached</li> 
-  <li>If a user modifies a placed asset through AEM desktop's mounted directory and then clears their local cache, then the placed asset will be reported as out-of-date</li> 
- </ul> 
+  <li>If a placed asset is modified by a different user, then the warning icon will show up the first time that other users open a document containing the placed asset. This will only happen if the placed asset has already been locally cached</li>
+  <li>If a user modifies a placed asset through AEM desktop's mounted directory and then clears their local cache, then the placed asset will be reported as out-of-date</li>
+ </ul>
  <p>Both of these cases are expected and are side effects of the "delayed sync" architecture of AEM Desktop. </p> 
  <p><strong>Version 1.5.0.x for Mac OS X and Windows:</strong></p> 
  <p>This release of AEM Desktop App provides the following benefits:</p> 
  <ul> 
   <li>Better stability &amp; resilience against networking issues 
    <ul> 
-    <li>More stable mapping of AEM Assets folders (CQ-103276, CQ-4204669, CQ-4203957)</li> 
-    <li>Better handling of cached files (CQ-4204336, CQ-4206263)</li> 
-    <li>Improved handling of downloading/uploading of large files &amp;gt;2GB (CQ-4206438)</li> 
-    <li>Fixed "Error 36" when moving or renaming a larger number of files in Finder (CQ-4204640)</li> 
-   </ul> </li> 
-  <li>Optimizations in network communication with AEM Server (CQ-4204974, CQ-100903)</li> 
-  <li>Improved reliability of opening, placing, and saving AEM assets in Creative Cloud apps (CQ-4203968, CQ-4205511, CQ-103543, CQ-4207141, CQ-90980)<br /> </li> 
-  <li>Improved supportability: option to clear cache (CQ-4202541), easy access to logs (CQ-4202340, CQ-4204673)</li> 
+    <li>More stable mapping of AEM Assets folders (CQ-103276, CQ-4204669, CQ-4203957)</li>
+    <li>Better handling of cached files (CQ-4204336, CQ-4206263)</li>
+    <li>Improved handling of downloading/uploading of large files &amp;gt;2GB (CQ-4206438)</li>
+    <li>Fixed "Error 36" when moving or renaming a larger number of files in Finder (CQ-4204640)</li>
+   </ul></li>
+  <li>Optimizations in network communication with AEM Server (CQ-4204974, CQ-100903)</li>
+  <li>Improved reliability of opening, placing, and saving AEM assets in Creative Cloud apps (CQ-4203968, CQ-4205511, CQ-103543, CQ-4207141, CQ-90980)<br /> </li>
+  <li>Improved supportability: option to clear cache (CQ-4202541), easy access to logs (CQ-4202340, CQ-4204673)</li>
   <li>Other fixes 
    <ul> 
-    <li>Better support for assets &amp; folders having Japanese characters in name / non-English language settings (CQ-4195433, CQ-4205793, CQ-4199446)</li> 
-    <li>Better handling of login with SSL (CQ-4200217)</li> 
-    <li>More reliable share mounting (CQ-4200793)</li> 
-    <li>Various improvements in stability (CQ-4207539, CQ-4200378)</li> 
-    <li>Better handling of AEM Assets URL in Preferences (CQ-97388)</li> 
-   </ul> </li> 
- </ul> 
+    <li>Better support for assets &amp; folders having Japanese characters in name / non-English language settings (CQ-4195433, CQ-4205793, CQ-4199446)</li>
+    <li>Better handling of login with SSL (CQ-4200217)</li>
+    <li>More reliable share mounting (CQ-4200793)</li>
+    <li>Various improvements in stability (CQ-4207539, CQ-4200378)</li>
+    <li>Better handling of AEM Assets URL in Preferences (CQ-97388)</li>
+   </ul></li>
+ </ul>
 </details>
 
 <details> 
  <summary>Enhancements Available Since AEM Desktop App 1.4</summary> 
  <ul> 
-  <li>Simplified upload of hierarchical folders through the new Create &amp;gt; Upload Folder action in Touch UI 
-   <ul> 
-    <li>Action initiates a folder upload operation carried out by the Desktop App</li> 
-    <li>Desktop app traverses the given folder hierarchy on desktop in the background and uploads the files to AEM Assets</li> 
-    <li>User can monitor progress in the new Upload Queue Status window with progress bar for ongoing operations</li> 
-    <li>The Upload Queue Status also provides better troubleshooting information (e.g., no connection to server)</li> 
-   </ul> </li> 
-  <li>New Edit action in Touch UI, that combines Check out and Open operations into one</li> 
-  <li>Optimized grouping of desktop-related actions in Touch UI (AEM 6.3)</li> 
-  <li>Improved compatibility with the latest OS releases</li> 
-  <li>Customer reported fixes</li> 
- </ul> 
+  <li>Simplified upload of hierarchical folders through the new Create &amp;gt; Upload Folder action in Touch UI
+   <ul>
+    <li>Action initiates a folder upload operation carried out by the Desktop App</li>
+    <li>Desktop app traverses the given folder hierarchy on desktop in the background and uploads the files to AEM Assets</li>
+    <li>User can monitor progress in the new Upload Queue Status window with progress bar for ongoing operations</li>
+    <li>The Upload Queue Status also provides better troubleshooting information (e.g., no connection to server)</li>
+   </ul></li>
+  <li>New Edit action in Touch UI, that combines Check out and Open operations into one</li>
+  <li>Optimized grouping of desktop-related actions in Touch UI (AEM 6.3)</li>
+  <li>Improved compatibility with the latest OS releases</li>
+  <li>Customer reported fixes</li>
+ </ul>
 </details>
 
 <details> 
- <summary>Enhancements Available Since AEM Desktop App 1.3</summary> 
- <ul> 
-  <li>Increased efficiency. Users spend less time waiting for network operations to complete.</li> 
-  <li>Improved Finder integration, which provides more stability and access to features, such as thumbnails.</li> 
-  <li>Caching and performance improvements.</li> 
-  <li>Better support for saving directly from desktop apps (PS, ID, AI, and so on).</li> 
-  <li>Improved integration with Mac OS (local network drive protocol changed from WebDAV to more stable SMB1)</li> 
-  <li>Desktop app connects with the AEM server using AEM native HTTP RESTful protocol</li> 
-  <li>Files are saved locally first and then uploaded back to AEM in the background after a predefined time (30 sec). This reduces the time to save files.</li> 
-  <li>Better handling of desktop applications that use intermediate file operations to save a file (partial saves and temporary files), which enables the AEM Asset timeline to display correct version and asset upload information.</li> 
-  <li>Dialog provided to track the status of background upload tasks.</li> 
- </ul> 
+ <summary>Enhancements Available Since AEM Desktop App 1.3</summary>
+ <ul>
+  <li>Increased efficiency. Users spend less time waiting for network operations to complete.</li>
+  <li>Improved Finder integration, which provides more stability and access to features, such as thumbnails.</li>
+  <li>Caching and performance improvements.</li>
+  <li>Better support for saving directly from desktop apps (PS, ID, AI, and so on).</li>
+  <li>Improved integration with Mac OS (local network drive protocol changed from WebDAV to more stable SMB1)</li>
+  <li>Desktop app connects with the AEM server using AEM native HTTP RESTful protocol</li>
+  <li>Files are saved locally first and then uploaded back to AEM in the background after a predefined time (30 sec). This reduces the time to save files.</li>
+  <li>Better handling of desktop applications that use intermediate file operations to save a file (partial saves and temporary files), which enables the AEM Asset timeline to display correct version and asset upload information.</li>
+  <li>Dialog provided to track the status of background upload tasks.</li>
+ </ul>
 </details>
 
 ## List of changes {#list-of-changes}
@@ -378,20 +348,20 @@ Since the /Volumes folder no longer requires administrative rights, this change 
 
 * Mac OS X
 
-    * The local network drive protocol for OS X desktop integration changed to SMB1 from WebDAV.
-    * The AEM repository mounted with Desktop App will be visible as an “  smb ” network drive in Finder, instead of a WebDAV drive.
+  * The local network drive protocol for OS X desktop integration changed to SMB1 from WebDAV.
+  * The AEM repository mounted with Desktop App will be visible as an “  smb ” network drive in Finder, instead of a WebDAV drive.
 
 * Windows
 
-    * The local network drive protocol for Windows desktop integrations stays; AEM will be mounted as a WebDAV share
+  * The local network drive protocol for Windows desktop integrations stays; AEM will be mounted as a WebDAV share
 
 * For both platforms (Windows and Mac)
 
-    * The protocol to access/download assets and to upload changes to AEM has been changed to the native AEM protocol, which is an HTTP-based RESTful protocol. It provides greater control over network operations and is more compatible with the network infrastructure.
+  * The protocol to access/download assets and to upload changes to AEM has been changed to the native AEM protocol, which is an HTTP-based RESTful protocol. It provides greater control over network operations and is more compatible with the network infrastructure.
 
 >[!NOTE]
 >
->On Mac OS X: The change of local network drive protocol from WebDAV to SMB1 results in a different local path to the same asset in the repository. This might impact links to files placed in CC applications via "Place" command. See the [documentation](/content/help/en/experience-manager/6-3/sites/administering/using/aem-desktop-app) for more information.
+>On Mac OS X, the change of local network drive protocol from WebDAV to SMB1 results in a different local path to the same asset in the repository. This might impact links to files placed in CC applications via "Place" command. See the [documentation](use-app-v1.md) for more information.
 
 ### File handling (since 1.3) {#file-handling-since}
 
@@ -466,14 +436,22 @@ Update for 1.5 - GK - done - cleaned up resolved issues, added 1.5.1 relevant op
 
 ## Helpful resources {#helpful-resources}
 
-* [AEM Documentation](/content/help/en/support/experience-manager/6-3)
-* [AEM Desktop App Documentation](aem-desktop-app.md)
-* [AEM Desktop App Best Practices](aem-desktop-app-best-practices.md)
+* [AEM Documentation](https://helpx.adobe.com/support/experience-manager/6-4.html)
+* [Use AEM Desktop App v1.x](use-app-v1.md)
+* [AEM Desktop App v1.x best practices](best-practices-for-v1.md)
 
 ## Compatibility matrix and prequisites {#compatibilitymatrix}
 
 AEM Desktop App works with various verisons of AEM. See the compatibility matrix for the supported versions.
 
+| Version | Revision               | Release Date | Compatibility                                               |
+|---------|------------------------|--------------|-------------------------------------------------------------|
+| 1.10    | 1.10.0.3 (Mac and Win) | Aug 31, 2018 | <ul><li>AEM 6.4 SP1</li><li>AEM 6.3 SP2</li><li>AEM 6.2 SP1 CFP2+</li><li>AEM 6.1 SP2 CFP7+</li></ul> |
+| 1.9     | 1.9.1.1 (Mac and Win)  | Jun 21, 2018 | <ul><li>AEM 6.4</li><li>AEM 6.3 SP1</li><li>AEM 6.2 SP1 CFP2+</li><li>AEM 6.1 SP2 CFP7+</li></ul>     |
+| 1.8     | 1.8.1.0 (Mac and Win)  | Mar 28, 2018 | <ul><li>AEM 6.4</li><li>AEM 6.3 SP1</li><li>AEM 6.2 SP1 CFP2+</li><li>AEM 6.1 SP2 CFP7+</li></ul>     |
+| 1.7     | 1.7.0.3 (Mac and Win)  | Jan 10, 2018 | <ul><li>AEM 6.3 SP1</li><li>AEM 6.2 SP1 CFP2+</li><li>AEM 6.1 SP2 CFP7+</li></ul>             |
+
+<!-->
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
   <tr> 
@@ -529,7 +507,7 @@ AEM Desktop App works with various verisons of AEM. See the compatibility matrix
    <td><p>1.3.1.17 (Mac)</p> <p>1.3.13 (Win)</p> </td> 
    <td><p>September 16, 2016</p> <p>November 14, 2016</p> </td> 
    <td><p>AEM 6.2 (with <a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/hotfix/cq-6.2.0-hotfix-11099">Hot Fix 11099</a> applied)</p> <p><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/servicepack/AEM-6.1-Service-Pack-2">AEM 6.1 SP2</a> (with <a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-6658">Feature Pack 6658</a> and <a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/hotfix/cq-6.1.0-hotfix-8723">Hot Fix 8723</a> applied)</p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
-
+<--!>
