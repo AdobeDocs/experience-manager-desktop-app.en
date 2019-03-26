@@ -87,7 +87,7 @@ Every operation is not cached locally. The following are transmitted to the AEM 
 
 ## Individual operations {#individual-operations}
 
-When troubleshooting suboptimized performance for individual users, first review [Limitations](/content/help/en/experience-manager/kb/troubleshooting-companion-app#limitations). The subsequent sections include suggestions to improve performance for individual users.
+When troubleshooting suboptimized performance for individual users, first review [Limitations](https://helpx.adobe.com/experience-manager/desktop-app/troubleshooting-desktop-app.html#limitations). The subsequent sections include suggestions to improve performance for individual users.
 
 ## Bandwidth recommendations {#bandwidth-recommendations}
 
