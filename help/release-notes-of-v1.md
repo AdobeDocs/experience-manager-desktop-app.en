@@ -115,6 +115,7 @@ Bulk Uploads: Uploading large folder hierarchies via Create &amp;gt; Upload Fold
 
 **Icons to Indicate Status of Background Operations**
 The application icon will indicate the state of background operations to provide better visual cue to the users. E.g., when the application is not connected to AEM the icon will be grayed out, when there is an active upload it will show a "sync" overlay, etc.
+
 **Pre-fetching of Linked Assets**
 To improve user expereince when working with InDesign documents which include linked assets stored in AEM, desktop app will try and pre-fetch these linked files to local cache before it downloads and opens the InDesign document. That way the user will have the linked files available locally, and won't have to wait longer when accessing these in InDesign (in the Links panel).
 Please note that prefetching only works if AEM recognizes the links on the server side. An asset with recognized links will have a list of "References" listed in the Properties view of the InDesign asset.
