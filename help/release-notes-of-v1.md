@@ -23,7 +23,7 @@ snippet: y
 | Version       | 1.10 (1.10.0.3 on Mac and Windows)                                                                                                                                                                                                                     |
 | Type          | Minor release                                                                                                                                                                                                                                          |
 | Date          | August 31, 2018                                                                                                                                                                                                                                        |
-| Download URLs |  [Mac OS X 64 bit](http://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.10.0.3.dmg); [Windows 32 bit](http://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.10.0.3.exe); [Windows 64 bit](http://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.10.0.3.exe) |
+| Download URLs |  [Mac OS X 64 bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.10.0.3.dmg); [Windows 32 bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.10.0.3.exe); [Windows 64 bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.10.0.3.exe) |
 | Compatibility | AEM 6.4 SP1; AEM 6.3 SP2; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
 
 >[!NOTE]
