@@ -23,8 +23,8 @@ snippet: y
 | Version       | 1.10 (1.10.0.3 on Mac and Windows)                                                                                                                                                                                                                     |
 | Type          | Minor release                                                                                                                                                                                                                                          |
 | Date          | August 31, 2018                                                                                                                                                                                                                                        |
-| Download URLs |  Following are the download links: <ul><li> Mac OS X 64 bit</li><li> Windows 32 bit</li><li> Windows 64 bit</li></ul> **Note:** If you downloaded the installer before September 5, 2018, ensure that you are using the v1.10 of the app. Double check the binary's version and re-download if needed. The links on this page were stale before.  |
-| Compatibility | Works with these AEM versions: <ul><li> AEM 6.4 SP1</li><li> AEM 6.3 SP2</li><li> AEM 6.2 SP1 CFP2+</li><li> AEM 6.1 SP2 CFP7+</li></ul>   |
+| Download URLs |  * Mac OS X 64 bit <br> * Windows 32 bit <br> * Windows 64 bit <br> **Note:** If you downloaded the installer before September 5, 2018, ensure that you are using the v1.10 of the app. Double check the binary's version and re-download if needed. The links on this page were stale before.  |
+| Compatibility | * AEM 6.4 SP1 <br> * AEM 6.3 SP2 <br> * AEM 6.2 SP1 CFP2+ <br> * AEM 6.1 SP2 CFP7+ <br> |
 
 >[!NOTE]
 >
