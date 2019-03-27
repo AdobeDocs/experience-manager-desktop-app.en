@@ -1,5 +1,5 @@
 ---
-title: AEM Desktop App Introduction
+title: Introduction to AEM Desktop App
 seo-title: Adobe Experience Manager Desktop App Overview
 description: Know how AEM Desktop App can optimize the workflow of creative users when using enterprise assets directly from their desktop.
 seo-description: Know how AEM Desktop App can optimize the workflow of creative users when using enterprise assets directly from their desktop.
