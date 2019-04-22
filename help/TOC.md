@@ -1,14 +1,14 @@
 ---
 cloud: experience-cloud
-product: adobe
+product: Adobe Experience Manager Desktop App
 archtype: end-user
-user-guide: null
+user-guide: Desktop App User Guide
 ---
 
 + [Overview of Desktop App](introduction.md)
 + [AEM Desktop App Release Notes](release-notes.md)
 + [Use AEM Desktop App](using.md)
-+ [Help of previous version]{#archive}
++ Help of previous version {#archive}
   + [AEM Desktop App Release Notes](release-notes-of-v1.md)
   + [Install and configure AEM Desktop App](install-configure-app-v1.md)
   + [Use AEM Desktop App](use-app-v1.md)
