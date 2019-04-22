@@ -1,8 +1,7 @@
 ---
-cloud: experience-cloud
 product: Adobe Experience Manager Desktop App
-archtype: end-user
-user-guide: Desktop App User Guide
+audience: end-user
+user-guide-title: Desktop App Help
 ---
 
 # Adobe Desktop App User Guide {#using}
