@@ -5,6 +5,8 @@ archtype: end-user
 user-guide: Desktop App User Guide
 ---
 
+# Adobe Desktop App User Guide {#using}
+
 + [Overview of Desktop App](introduction.md)
 + [AEM Desktop App Release Notes](release-notes.md)
 + [Use AEM Desktop App](using.md)
