@@ -18,25 +18,21 @@ internal: n
 snippet: y
 ---
 
-# Use AEM Desktop App v1.x {#use-aem-desktop-app-v1x}
+# Use AEM Desktop App {#use-aem-desktop-app}
 
 Using the App, the assets within AEM are easily accessible on your local desktop and can be used in any desktop applications. Assets can be easily revealed in Mac Finder or Windows Explorer, opened in desktop applications, and changed locally - the changes are saved back to AEM with a new version created in the repository.
 
 Such an integration allows various roles in the organization to manage the assets centrally in AEM Assets and to access them in the Creative Cloud and other applications, while making it easy to adhere to the various standards including branding.
 
-The key tasks you do using the AEM Desktop App v1 include:
+The key tasks you do using the AEM Desktop App include:
 
-* [Connect with an AEM server](#installandconnect)  
+* Install app and connect with an AEM server
+* Browse and search for assets
+* Check-out, edit, and check-in the assets
+* Operate on multiple files and do bulk operations
+* Ensure smooth collaboration and resolve conflicts
 
-* [Open assets directly on desktop](#openondesktop)
-* [Edit and check out assets from desktop](#workonassets)  
-
-* [Upload assets and folders in bulk](#bulkupload)
-
-For the various recommended dos and don'ts, see the [best practices for using app](best-practices-for-v1.md). If you face issues using the App, see how to [troubleshoot AEM Desktop](troubleshoot-app-v1.md).
-
->[!NOTE]
->AEM Desktop App was introduced in AEM 6.1 release and was called AEM Assets Companion App.
+<!--For the various recommended dos and don'ts, see the [best practices for using app](best-practices-for-v1.md). If you face issues using the App, see how to [troubleshoot AEM Desktop](troubleshoot-app-v1.md).
 
 ## AEM Desktop app touch-points in the creative workflow {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
@@ -44,9 +40,9 @@ AEM Desktop app, along with AEM Assets, integrates in your creative workflow and
 
 ![AEM Desktop app touch-points the creative workflow](assets/aem_desktopapp_workflow.png)
 
-AEM Desktop app touch-points the creative workflow
+AEM Desktop app touch-points the creative workflow-->
 
-## Install and connect AEM Desktop App to AEM server {#installandconnect}
+## Install AEM Desktop App {#install-aem-desktop-app}
 
 Before you can begin creating or editing the creative assets, connect the desktop application with the AEM Assets server to download and upload assets in the repository. Perform the following tasks:
 
@@ -104,7 +100,7 @@ The app supports proxy configuration on Mac and Windows. The configuration is re
 
 From within the Assets UI in a browser, you can explore the asset locations or check-out and open the asset for editing in your desktop application. These options are called Desktop Actions and are not enabled by default. Follow these steps to enable it.
 
-1. In the Assets console, click/tap the **User** icon from the toolbar. 
+1. In the Assets console, click/tap the **User** icon from the toolbar.
 1. Click/tap the **[!UICONTROL My Preferences]** to display the **[!UICONTROL Preferences]**dialog.
 1. In the User Preferences dialog, select **[!UICONTROL Show Desktop Actions For Assets]**. Click/tap **[!UICONTROL Accept]**.
 
@@ -169,7 +165,7 @@ There are two ways of checking out assets from the AEM web interface. For detail
 
    ![Properties option in Card View](assets/chlimage_1-4.png)
 
-   These desktop actions are also available when you click/tap the Desktop Actions icon in the toolbar after selecting the asset or from the toolbar in the asset page. 
+   These desktop actions are also available when you click/tap the Desktop Actions icon in the toolbar after selecting the asset or from the toolbar in the asset page.
 
 1. To open the asset, click/tap the Open on desktop quick action ![Open on Desktop icon](assets/aemassets_icon_openondesktop.png).
 
@@ -182,7 +178,7 @@ There are two ways of checking out assets from the AEM web interface. For detail
 
    Alternatively, choose Edit from the Desktop Actions menu in the toolbar.
 
-1. Select the Open menu option. The selected assets are opened in preview mode. 
+1. Select the Open menu option. The selected assets are opened in preview mode.
 1. To edit the assets, select the Edit option. The assets are opened in edit mode.
 
 ### Check out assets on Mac {#check-out-assets-on-mac}
@@ -211,7 +207,7 @@ The app lets you check out asset files to prevent other users from modifying the
 The app lets you check out asset files to prevent other users from modifying the files that you’re working on.
 
 1. From the Context menu, select the Explore Assets to open Explorer.
-1. In Explorer, navigate to the location of the asset you want to check out. 
+1. In Explorer, navigate to the location of the asset you want to check out.
 
    ![Checkout icon toggles](assets/chlimage_1-7.png)
 
@@ -257,11 +253,3 @@ Using AEM Desktop, you can upload an entire folder containing assets from your l
 Please note that it is *not recommended* to copy & paste or drag & drop larger number of files / nested folders from your local disk in Finder or Explorer into the network share area that is mapped by AEM Desktop App. It is much less reliable than the Upload Folder capability described above.
 
 Another alternative if you prefer to work on the desktop is to select files/folders you want to upload to AEM in Finder or Explorer, copy them to system clipboard, then navigate to the target folder in the network share area, and from the AEM Desktop App context menu select "Paste Assets". This way, AEM Desktop App starts uploading the pasted assets similar to the Upload Folder described above.
-
-## Additional resources {#additional-resources}
-
-Help and knowledgebase articles related to Desktop App are:
-
-* [Introduction to AEM Desktop App](https://helpx.adobe.com/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
-* [Understand Check-in/Check-out with AEM Desktop App](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
-* [Troubleshoot AEM Desktop application](troubleshoot-app-v1.md)

@@ -104,7 +104,7 @@ The app supports proxy configuration on Mac and Windows. The configuration is re
 
 From within the Assets UI in a browser, you can explore the asset locations or check-out and open the asset for editing in your desktop application. These options are called Desktop Actions and are not enabled by default. Follow these steps to enable it.
 
-1. In the Assets console, click/tap the **User** icon from the toolbar. 
+1. In the Assets console, click/tap the **User** icon from the toolbar.
 1. Click/tap the **[!UICONTROL My Preferences]** to display the **[!UICONTROL Preferences]**dialog.
 1. In the User Preferences dialog, select **[!UICONTROL Show Desktop Actions For Assets]**. Click/tap **[!UICONTROL Accept]**.
 
@@ -169,7 +169,7 @@ There are two ways of checking out assets from the AEM web interface. For detail
 
    ![Properties option in Card View](assets/chlimage_1-4.png)
 
-   These desktop actions are also available when you click/tap the Desktop Actions icon in the toolbar after selecting the asset or from the toolbar in the asset page. 
+   These desktop actions are also available when you click/tap the Desktop Actions icon in the toolbar after selecting the asset or from the toolbar in the asset page.
 
 1. To open the asset, click/tap the Open on desktop quick action ![Open on Desktop icon](assets/aemassets_icon_openondesktop.png).
 
@@ -182,7 +182,7 @@ There are two ways of checking out assets from the AEM web interface. For detail
 
    Alternatively, choose Edit from the Desktop Actions menu in the toolbar.
 
-1. Select the Open menu option. The selected assets are opened in preview mode. 
+1. Select the Open menu option. The selected assets are opened in preview mode.
 1. To edit the assets, select the Edit option. The assets are opened in edit mode.
 
 ### Check out assets on Mac {#check-out-assets-on-mac}
@@ -211,7 +211,7 @@ The app lets you check out asset files to prevent other users from modifying the
 The app lets you check out asset files to prevent other users from modifying the files that you’re working on.
 
 1. From the Context menu, select the Explore Assets to open Explorer.
-1. In Explorer, navigate to the location of the asset you want to check out. 
+1. In Explorer, navigate to the location of the asset you want to check out.
 
    ![Checkout icon toggles](assets/chlimage_1-7.png)
 
