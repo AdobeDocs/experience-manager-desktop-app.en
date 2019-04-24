@@ -19,11 +19,7 @@ snippet: y
 
 # AEM Desktop App Overview {#aem-desktop-app-overview}
 
-Learn how to use Adobe Experience Manager Desktop App and optimize your work with assets on desktop.
-
 Adobe offers connected workflows across its solutions to allow next-level productivity for your creative professionals. The AEM Desktop App connects AEM repositories and desktop applications, including Adobe and third-party ones, to provide faster access to resources and streamlined workflows. This saving of time and reduction in effort improves efficiency of users, who work with assets from AEM in their desktop workflows.
-
-## About the AEM Desktop application {#about-the-aem-desktop-application}
 
 Using the App, the assets within AEM are easily accessible on your local desktop and can be used in any desktop applications. Assets can be easily revealed in Mac Finder or Windows Explorer, opened in desktop applications, and changed locally - the changes are saved back to AEM with a new version created in the repository.
 
@@ -33,14 +29,23 @@ Such an integration allows various roles in the organization to manage the asset
 >
 >AEM Desktop App was introduced in AEM 6.1 release and was previously called AEM Assets Companion App.
 
-## AEM Desktop app touch-points in the creative workflow {#aem-desktop-app-touch-points-in-the-creative-workflow}
+<!-- ## AEM Desktop app touch-points in the creative workflow {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
 AEM Desktop app, along with AEM Assets, integrates in your creative workflow and offers the following touchpoints.
 
 ![AEM Desktop app touch-points the creative workflow](assets/aem_desktopapp_workflow.png)
 
-AEM Desktop app touch-points the creative workflow
+AEM Desktop app touch-points the creative workflow -->
 
-## AEM Desktop App version 1.x documentation {#aem-desktop-app-version-1x-documentation}
+## What's New in the App {#whats-new-in-app}
 
-If you are using v1.x of the app, refer the specific help articles in the TOC in the left sidebar. Adobe strongly recommends that you upgrade to v2.
+The new App simplifies access to assets from AEM Assets repository for desktop applications, and provides a way to discover assets, open, edit and upload changes, as well as upload new assets – without requiring the user to use the AEM interface. The new app brings substantial improvements to the user experience, while catering to the same use cases as before. The following are the top-level improvements.
+
+* Users discover assets by browsing and searching within the app in a built-in browser, instead of relying on Mac Finder or Windows Explorer to display a virtual network share.
+* Clear guidance on the actions available to users.
+* Performance is improved by reducing bandwidth usage. The original binary files are downloaded only when required. For browsing and searching assets, only small thumbnails are transferred.
+* Optimized for bulk operations, such as bulk upload.
+
+![What's New in AEM Desktop App](assets/whats-new-desktop-app-v2.png)
+
+If you are using v1.x of the app, refer the specific help articles in the TOC in the left sidebar. Adobe strongly recommends that you upgrade to the latest version.
