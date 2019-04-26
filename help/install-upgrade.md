@@ -40,8 +40,7 @@ Only one instance of the AEM Desktop App can be installed and be active at a tim
 
 Adobe strongly recommends that you use the latest version of the desktop app. Upgrade using the following instructions, if you are using v1.x.
 
-1. Before upgrading, sync all your assets. 
-**Caution:** Upload your changes, else you will lose the changes during upgrade.
+1. Before upgrading, sync all your assets. Upload your changes, else you will lose the changes during upgrade.
 
 1. Uninstall the previous version of the app.
 
