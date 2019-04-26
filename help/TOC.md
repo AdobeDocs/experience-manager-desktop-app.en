@@ -6,12 +6,14 @@ user-guide-title: Desktop App Help
 
 # Adobe Desktop App User Guide {#using}
 
-+ [Overview of Desktop App](introduction.md)
-+ [AEM Desktop App Release Notes](release-notes.md)
-+ [Use AEM Desktop App](using.md)
++ [Overview](introduction.md)
++ [Release Notes](release-notes.md)
++ [Install or upgrade](install-upgrade.md)
++ [Use app](using.md)
++ [Troubleshoot](troubleshoot.md)
 + Help of previous version {#archive}
-  + [AEM Desktop App Release Notes](release-notes-of-v1.md)
-  + [Install and configure AEM Desktop App](install-configure-app-v1.md)
-  + [Use AEM Desktop App](use-app-v1.md)
-  + [AEM Desktop App Best Practices](best-practices-for-v1.md)
-  + [Troubleshoot AEM Desktop App](troubleshoot-app-v1.md)
+  + [Release Notes v1](release-notes-of-v1.md)
+  + [Install and configure v1](install-configure-app-v1.md)
+  + [Use app v1](use-app-v1.md)
+  + [Best Practices v1](best-practices-for-v1.md)
+  + [Troubleshoot v1](troubleshoot-app-v1.md)
