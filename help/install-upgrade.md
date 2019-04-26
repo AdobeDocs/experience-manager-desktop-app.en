@@ -18,7 +18,7 @@ internal: n
 snippet: y
 ---
 
-# Install AEM desktop app{#install-app}
+# Install AEM desktop app{#install-app-v2}
 
 Install and configure AEM Desktop App to work with AEM Assets servers and map the assets to mount as a drive on your desktop.
 
@@ -32,11 +32,11 @@ To use AEM Desktop App,
 
 For detailed information, see the [AEM Desktop App release notes](release-notes.md).
 
-## Install app {#install-app}
+## Install app {#install-app-v2}
 
 Only one instance of the AEM Desktop App can be installed and be active at a time.
 
-## Upgrade from previous version
+## Upgrade from previous version {#upgrade-from-previous-version}
 
 Adobe strongly recommends that you use the latest version of the desktop app. Upgrade using the following instructions, if you are using v1.x.
 
@@ -48,7 +48,7 @@ Adobe strongly recommends that you use the latest version of the desktop app. Up
 
 1. Install the latest version of the application.
 
-## Proxy support {#proxy-supportv2}
+## Proxy support {#proxy-support-v2}
 
 AEM Desktop App uses system's pre-defined proxy to connect to the Internet over HTTPS. The app can only connect using a network proxy that does not require extra authentication.
 
