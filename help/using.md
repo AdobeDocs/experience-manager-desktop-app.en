@@ -1,8 +1,8 @@
 ---
-title: Use AEM Desktop App
-seo-title: Use Adobe Experience Manager Desktop App
-description: Learn how to install and use Adobe Experience Manager Desktop App, to work on AEM assets right from your Win or Mac desktop. Know best practices and troubleshooting information.
-seo-description: Learn how to install and use Adobe Experience Manager Desktop App, to work on AEM assets right from your Win or Mac desktop. Know best practices and troubleshooting information.
+title: Use AEM desktop app
+seo-title: Use Adobe Experience Manager desktop app
+description: Learn how to install and use Adobe Experience Manager desktop app, to work on AEM assets right from your Win or Mac desktop. Know best practices and troubleshooting information.
+seo-description: Learn how to install and use Adobe Experience Manager desktop app, to work on AEM assets right from your Win or Mac desktop. Know best practices and troubleshooting information.
 uuid: 55057617-89de-43cd-8419-1252a42ab2fb
 contentOwner: asgupta
 content-type: reference
@@ -18,13 +18,13 @@ internal: n
 snippet: y
 ---
 
-# Use AEM Desktop App {#use-aem-desktop-app}
+# Use AEM desktop app {#use-aem-desktop-app}
 
 Using the App, the assets within AEM are easily accessible on your local desktop and can be used in any desktop applications. Assets can be easily revealed in Mac Finder or Windows Explorer, opened in desktop applications, and changed locally - the changes are saved back to AEM with a new version created in the repository.
 
 Such an integration allows various roles in the organization to manage the assets centrally in AEM Assets and to access them in the Creative Cloud and other applications, while making it easy to adhere to the various standards including branding.
 
-The key tasks you do using the AEM Desktop App include:
+The key tasks you do using the AEM desktop app include:
 
 * Install app and connect with an AEM server
 * Browse and search for assets
@@ -42,7 +42,7 @@ AEM Desktop app, along with AEM Assets, integrates in your creative workflow and
 
 AEM Desktop app touch-points the creative workflow-->
 
-## Install AEM Desktop App {#install-aem-desktop-app}
+## Install AEM desktop app {#install-aem-desktop-app}
 
 Before you can begin creating or editing the creative assets, connect the desktop application with the AEM Assets server to download and upload assets in the repository. Perform the following tasks:
 
@@ -51,14 +51,14 @@ Before you can begin creating or editing the creative assets, connect the deskto
 1. [Connect to an AEM server](#connect) and mount assets repository as local drive.
 1. [Enable desktop actions](#desktopactions) on AEM server.
 
-AEM Desktop App uses an HTTPS connection to connect to AEM server to robustly and securely transfer your assets.
+AEM desktop app uses an HTTPS connection to connect to AEM server to robustly and securely transfer your assets.
 
 >[!NOTE]
 >For part of or all of the installation and configuration steps, you may need help from your AEM administrator or system administrator.
 
 ### Install the application {#installapp}
 
-To use AEM Desktop App, ensure that your AEM server version is supported by AEM Desktop app. Download the appropriate installation file (binary) for your operating system (Mac or Windows) and install the app.
+To use AEM desktop app, ensure that your AEM server version is supported by AEM Desktop app. Download the appropriate installation file (binary) for your operating system (Mac or Windows) and install the app.
 
 Detailed configuration may be required depending on your network and system preferences. See [Install and configure AEM Desktop app](install-configure-app-v1.md) for more details.
 
@@ -66,7 +66,7 @@ Detailed configuration may be required depending on your network and system pref
 1. Launch the downloaded installation file and follow the on-screen instructions to install the app.
 
    >[!NOTE]
-   >Only one instance of the AEM Desktop App can be installed and be active at a time.
+   >Only one instance of the AEM desktop app can be installed and be active at a time.
 
 ### Understand the in-app options and preferences {#inapppref}
 
@@ -111,7 +111,7 @@ From within the Assets UI in a browser, you can explore the asset locations or c
 ## Access and open assets on your desktop {#openondesktop}
 
 >[!NOTE]
->On Windows, the [default Windows 7 setting](https://support.microsoft.com/en-us/kb/2668751) prevents AEM Desktop App from handling assets that are larger than 50 MB.
+>On Windows, the [default Windows 7 setting](https://support.microsoft.com/en-us/kb/2668751) prevents AEM desktop app from handling assets that are larger than 50 MB.
 
 ### Reveal the location of mapped assets from AEM web interface {#reveal-the-location-of-mapped-assets-from-aem-web-interface}
 
@@ -250,6 +250,6 @@ Using AEM Desktop, you can upload an entire folder containing assets from your l
 
 1. After the folder uploads, close the dialog and navigate to the Assets UI. The uploaded folder is displayed in the web interface.
 
-Please note that it is *not recommended* to copy & paste or drag & drop larger number of files / nested folders from your local disk in Finder or Explorer into the network share area that is mapped by AEM Desktop App. It is much less reliable than the Upload Folder capability described above.
+Please note that it is *not recommended* to copy & paste or drag & drop larger number of files / nested folders from your local disk in Finder or Explorer into the network share area that is mapped by AEM desktop app. It is much less reliable than the Upload Folder capability described above.
 
-Another alternative if you prefer to work on the desktop is to select files/folders you want to upload to AEM in Finder or Explorer, copy them to system clipboard, then navigate to the target folder in the network share area, and from the AEM Desktop App context menu select "Paste Assets". This way, AEM Desktop App starts uploading the pasted assets similar to the Upload Folder described above.
+Another alternative if you prefer to work on the desktop is to select files/folders you want to upload to AEM in Finder or Explorer, copy them to system clipboard, then navigate to the target folder in the network share area, and from the AEM desktop app context menu select "Paste Assets". This way, AEM desktop app starts uploading the pasted assets similar to the Upload Folder described above.

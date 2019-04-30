@@ -1,8 +1,8 @@
 ---
-title: AEM Desktop App Release Notes
-seo-title: AEM Desktop App Release Notes
-description: Release details, enhancements, new features, compatibility, and download links for AEM Desktop App v1.x.
-seo-description: Release details, enhancements, new features, compatibility, and download links for AEM Desktop App v1.x.
+title: AEM desktop app Release Notes
+seo-title: AEM desktop app Release Notes
+description: Release details, enhancements, new features, compatibility, and download links for AEM desktop app v1.x.
+seo-description: Release details, enhancements, new features, compatibility, and download links for AEM desktop app v1.x.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: asgupta
 topic-tags: release-notes
@@ -14,11 +14,11 @@ internal: n
 snippet: y
 ---
 
-# AEM Desktop App Release Notes {#aem-desktop-app-release-notes-v2}
+# AEM desktop app Release Notes {#aem-desktop-app-release-notes-v2}
 
 ## Release information {#release-information-v2}
 
-| Products      |  Adobe Experience Manager (AEM) Desktop App                                                                                                                                                                                                            |
+| Products      |  Adobe Experience Manager (AEM) desktop app                                                                                                                                                                                                            |
 |---------------|--------------------------------------------------------------------|
 | Version       | 2.0                                                                                                                                                                                                                     |
 | Type          | Major release                                                                                                                                                                                                                                          |
@@ -41,7 +41,7 @@ The version of AEM Destkop App you are planning to install on your local machine
 
 ## Installation instructions {#installation-instructions-v2}
 
-For detailed instructions, see [Install AEM Desktop App](using.md).
+For detailed instructions, see [Install AEM desktop app](using.md).
 
 ## Known issues {#known-issues-v2}
 
@@ -55,11 +55,11 @@ For detailed instructions, see [Install AEM Desktop App](using.md).
 * You cannot undo or revert the changes made to an asset by editing it locally.
 * The list of assets shown by the application is based on the status of the AEM Assets repository. Any files downloaded locally and then renamed in the local files or cache folder are not displayed or managed by the application.
 * You cannot select multiple folders in the pre-release build.
-* AEM Desktop App is not a ‘sync client’ that synchronizes assets across your desktop and AEM.
+* AEM desktop app is not a ‘sync client’ that synchronizes assets across your desktop and AEM.
 * Manually refresh the display after asset upload or some operations. The display does not update automatically.
 
 ## Helpful resources {#helpful-resources-v2}
 
 * [AEM Documentation](https://helpx.adobe.com/support/experience-manager/6-4.html)
-* [Use AEM Desktop App v1.x](use-app-v1.md)
-* [AEM Desktop App v1.x best practices](best-practices-for-v1.md)
+* [Use AEM desktop app v1.x](use-app-v1.md)
+* [AEM desktop app v1.x best practices](best-practices-for-v1.md)

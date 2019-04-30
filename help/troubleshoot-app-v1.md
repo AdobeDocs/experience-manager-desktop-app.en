@@ -1,8 +1,8 @@
 ---
-title: Troubleshoot AEM Desktop App
-seo-title: "AEM Assets: Troubleshoot AEM Desktop App"
-description: Troubleshoot AEM Desktop App to resolve the occasional issues related to installation, upgrade, configuration, and so on.
-seo-description: Troubleshoot AEM Desktop App to resolve the occasional issues related to installation, upgrade, configuration, and so on.
+title: Troubleshoot AEM desktop app
+seo-title: "AEM Assets: Troubleshoot AEM desktop app"
+description: Troubleshoot AEM desktop app to resolve the occasional issues related to installation, upgrade, configuration, and so on.
+seo-description: Troubleshoot AEM desktop app to resolve the occasional issues related to installation, upgrade, configuration, and so on.
 uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
 contentOwner: asgupta
 content-strategy: redirect-pointer
@@ -14,29 +14,29 @@ internal: n
 snippet: y
 ---
 
-# Troubleshoot AEM Desktop App{#troubleshoot-aem-desktop-app}
+# Troubleshoot AEM desktop app{#troubleshoot-aem-desktop-app}
 
-Troubleshoot AEM Desktop App to resolve the occasional issues related to installation, upgrade, configuration, and so on.
+Troubleshoot AEM desktop app to resolve the occasional issues related to installation, upgrade, configuration, and so on.
 
-Adobe Experience Manager (AEM) Desktop App includes utilities that assist you in mapping the AEM Assets repository as a network share on desktop (SMB share on Mac OS). Network share is an operating system technology that enables remote sources to be treated as if they were part of a computer's local file system. In the case of Desktop App, a remote AEM instance's digital asset management (DAM) repository structure is targeted as the remote file source. The following diagram describes the Desktop App topology:
+Adobe Experience Manager (AEM) desktop app includes utilities that assist you in mapping the AEM Assets repository as a network share on desktop (SMB share on Mac OS). Network share is an operating system technology that enables remote sources to be treated as if they were part of a computer's local file system. In the case of desktop app, a remote AEM instance's digital asset management (DAM) repository structure is targeted as the remote file source. The following diagram describes the desktop app topology:
 
-![Desktop App diagram](assets/aem-desktopapp-architecture.png)
+![desktop app diagram](assets/aem-desktopapp-architecture.png)
 
-With this architecture, Desktop App intercepts file system calls (open, close, read, write, and so on) to the mounted network share, and translates them into native AEM HTTP calls to the AEM server. Files are cached locally. For more details, see [Use AEM Desktop App v1.x](use-app-v1.md).
+With this architecture, desktop app intercepts file system calls (open, close, read, write, and so on) to the mounted network share, and translates them into native AEM HTTP calls to the AEM server. Files are cached locally. For more details, see [Use AEM desktop app v1.x](use-app-v1.md).
 
 ## Desktop&nbsp;App component overview {#desktop-nbsp-app-component-overview}
 
-Desktop App includes the following components:
+desktop app includes the following components:
 
 * **The Desktop application**: Mounts/unmounts DAM as a remote file system, and translates file system calls between the locally mounted network share and the remote AEM instance to which it connects.
-* **Operating system WebDAV/SMB client**: Handles communication between Windows Explorer/Finder and Desktop App. If a file is retrieved, created, modified, deleted, moved, or copied, the operating system (OS) WebDAV/SMB client communicates this operation to Desktop App. After receiving the communication, Desktop App translates it into native AEM remote API calls. For example, if a user creates a file in the mounted directory, the WebDAV/SMB client initiates a request, which the Desktop App translates into an HTTP request that creates the file in DAM. The WebDAV/SMB client is a built-in component of the OS. It is not affiliated with Desktop App, AEM, or Adobe in any way.
-* **Adobe Experience Manager instance**: Provides access to assets stored in the AEM Assets DAM repository. In addition, it performs actions requested by Desktop App on behalf of the local desktop applications interacting with the mounted network share. The target AEM instance should run AEM version 6.1 or higher. AEM instances running previous AEM versions might require extra feature packs and hot fixes installed to become fully functional.
+* **Operating system WebDAV/SMB client**: Handles communication between Windows Explorer/Finder and desktop app. If a file is retrieved, created, modified, deleted, moved, or copied, the operating system (OS) WebDAV/SMB client communicates this operation to desktop app. After receiving the communication, desktop app translates it into native AEM remote API calls. For example, if a user creates a file in the mounted directory, the WebDAV/SMB client initiates a request, which the desktop app translates into an HTTP request that creates the file in DAM. The WebDAV/SMB client is a built-in component of the OS. It is not affiliated with desktop app, AEM, or Adobe in any way.
+* **Adobe Experience Manager instance**: Provides access to assets stored in the AEM Assets DAM repository. In addition, it performs actions requested by desktop app on behalf of the local desktop applications interacting with the mounted network share. The target AEM instance should run AEM version 6.1 or higher. AEM instances running previous AEM versions might require extra feature packs and hot fixes installed to become fully functional.
 
-## Intended use cases for AEM Desktop App {#intended-use-cases-for-aem-desktop-app}
+## Intended use cases for AEM desktop app {#intended-use-cases-for-aem-desktop-app}
 
-AEM Desktop App uses the network share technology to map a remote AEM repository to a local desktop. However, it is not intended as a replacement for a network share holding assets, where users perform digital asset management operations directly from their local desktop. These include moving or copying multiple files, or dragging large folder structures to the AEM Assets network share directly in Finder/Explorer.
+AEM desktop app uses the network share technology to map a remote AEM repository to a local desktop. However, it is not intended as a replacement for a network share holding assets, where users perform digital asset management operations directly from their local desktop. These include moving or copying multiple files, or dragging large folder structures to the AEM Assets network share directly in Finder/Explorer.
 
-AEM Desktop App provides a convenient way of accessing (opening) and editing (saving) DAM assets between the AEM Assets Touch UI and the local desktop. It links assets in the AEM Assets server with your desktop-based workflows.
+AEM desktop app provides a convenient way of accessing (opening) and editing (saving) DAM assets between the AEM Assets Touch UI and the local desktop. It links assets in the AEM Assets server with your desktop-based workflows.
 
 The following example use case illustrates how AEM Desktop should be used:
 
@@ -69,16 +69,16 @@ Due to limitations in the operating system, Windows has a file size limitation o
 
 ## Caching and communication with AEM {#caching-and-communication-with-aem}
 
-AEM Desktop App provides internal caching and background upload capabilities to improve end user experience. When you save a large file, it is first saved locally to let you continue working. After sometime (currently 30 seconds), the file is then sent to the AEM server in the background.
+AEM desktop app provides internal caching and background upload capabilities to improve end user experience. When you save a large file, it is first saved locally to let you continue working. After sometime (currently 30 seconds), the file is then sent to the AEM server in the background.
 
-Unlike Creative Cloud Desktop or other file sync solutions, such Microsoft One Drive, AEM Desktop App is not a full Desktop Sync client. The reason for this is that it provides access to the entire AEM Assets repository, which can be extremely large (hundreds of gigabytes or terabytes) for a full synchronization.
+Unlike Creative Cloud Desktop or other file sync solutions, such Microsoft One Drive, AEM desktop app is not a full Desktop Sync client. The reason for this is that it provides access to the entire AEM Assets repository, which can be extremely large (hundreds of gigabytes or terabytes) for a full synchronization.
 
 Caching provides the ability to limit the network/storage overhead to only a subset of assets that are relevant to the user.
 
-Here is how AEM Desktop App performs caching:
+Here is how AEM desktop app performs caching:
 
-* When you open a folder in Finder and thumbnails/previews of files are displayed, or when you open a file in an application, Desktop App caches the file binary.
-* When you store files via Finder or other desktop applications, the file is stored locally first (cached) and the operating system is notified. The file is then queued for upload to server in the background, and eventually uploaded over network. In case of a network error, Desktop App retries uploading of the whole file for a maximum of three times. If the fails to upload after three retries, the file is marked as a conflicting file, and the status is displayed via the Background Upload Queue Status window. Desktop App does not attempt to update the file any more. The user should update the file and re-upload it after the connectivity is restored
+* When you open a folder in Finder and thumbnails/previews of files are displayed, or when you open a file in an application, desktop app caches the file binary.
+* When you store files via Finder or other desktop applications, the file is stored locally first (cached) and the operating system is notified. The file is then queued for upload to server in the background, and eventually uploaded over network. In case of a network error, desktop app retries uploading of the whole file for a maximum of three times. If the fails to upload after three retries, the file is marked as a conflicting file, and the status is displayed via the Background Upload Queue Status window. desktop app does not attempt to update the file any more. The user should update the file and re-upload it after the connectivity is restored
 
 Every operation is not cached locally. The following are transmitted to the AEM Server immediately without local caching:
 
@@ -155,7 +155,7 @@ There are a few known limitations in the way you can interact with checked-out f
 
 ### General {#general}
 
-When writing to a checked-out file, the lock is only enforced within AEM's WebDAV implementation. Consequently, the lock is only enforced by clients that use WebDAV, such as Desktop App. The lock is not enforced through AEM's web interface. The AEM interface merely displays a lock icon in the card view for assets that are checked out. The icon is cosmetic and has no effect on the behavior of AEM.
+When writing to a checked-out file, the lock is only enforced within AEM's WebDAV implementation. Consequently, the lock is only enforced by clients that use WebDAV, such as desktop app. The lock is not enforced through AEM's web interface. The AEM interface merely displays a lock icon in the card view for assets that are checked out. The icon is cosmetic and has no effect on the behavior of AEM.
 
 In general, the WebDAV clients don't always behave as expected. There may be additional issues. However, refreshing or checking the asset in AEM is a sound way to verify that an asset isn't being modified. This behavior is typical of the OS WebDAV clients, which isn't under Adobe's control.
 
@@ -167,9 +167,9 @@ Deleting a file appears to succeed because the file disappears from the file exp
 
 Replacing a file doesn't display a warning or error, but checking the asset in AEM reveals that it remains unchanged. Refresh or check the asset in AEM to verify that it isn't being modified.
 
-## Troubleshooting Desktop App icon issues (Mac OS X) {#troubleshooting-desktop-app-icon-issues-mac-os-x}
+## Troubleshooting desktop app icon issues (Mac OS X) {#troubleshooting-desktop-app-icon-issues-mac-os-x}
 
-After you install Desktop App, the Desktop App menu icon appears in the menu bar. If the icon doesn't appear, perform these steps to resolve the issue:
+After you install desktop app, the desktop app menu icon appears in the menu bar. If the icon doesn't appear, perform these steps to resolve the issue:
 
 1. Open the operating system terminal window.
 1. Type the following command at the command prompt, and then press Enter:
@@ -226,7 +226,7 @@ To clear the cache, delete the &lt;Encoded AEM Endpoint&gt; directory.
 
 >[!NOTE]
 >
->Starting with AEM Desktop App version 1.5, there will be an option in the Desktop App UI to clear the cache.
+>Starting with AEM desktop app version 1.5, there will be an option in the desktop app UI to clear the cache.
 
 ## Finding the AEM Desktop version {#finding-the-aem-desktop-version}
 
@@ -234,9 +234,9 @@ The procedure to ascertain the AEM Desktop version is the same for both Windows 
 
 Click the AEM Desktop icon, and then choose **About**. The version number is displayed on the screen.
 
-## Upgrading AEM Desktop App on macOS {#upgrading-aem-desktop-app-on-macos}
+## Upgrading AEM desktop app on macOS {#upgrading-aem-desktop-app-on-macos}
 
-Occasionally issues may occur when upgrading AEM Desktop App on macOS. This is caused by legacy system folder for AEM Desktop App preventing new versions of AEM Desktop to load correctly. To remedy this issue, the following folders and files can be manually removed.
+Occasionally issues may occur when upgrading AEM desktop app on macOS. This is caused by legacy system folder for AEM desktop app preventing new versions of AEM Desktop to load correctly. To remedy this issue, the following folders and files can be manually removed.
 
 Prior to executing the steps below, drag the "Adobe Experience Manager Desktop" application from the macOS Applications folder to the Trash. Then open terminal, and exeucte the following command, providing your password when prompted.
 
@@ -276,7 +276,7 @@ The most common reason for issues with AEM Desktop connecting to your SSO-enable
 
 ### SSL configuration issue {#ssl-configuration-issue}
 
-The libraries that AEM Desktop App uses for HTTP communication utilizes strict SSL enforcement. At times, a connection may succeed using a browser but fails using AEM Desktop App. To configure SSL appropriately, install the missing intermediate certificate in Apache. See [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575).
+The libraries that AEM desktop app uses for HTTP communication utilizes strict SSL enforcement. At times, a connection may succeed using a browser but fails using AEM desktop app. To configure SSL appropriately, install the missing intermediate certificate in Apache. See [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575).
 
 ## Using AEM Desktop with dispatcher {#using-aem-desktop-with-dispatcher}
 

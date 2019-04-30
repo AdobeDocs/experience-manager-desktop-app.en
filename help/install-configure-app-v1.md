@@ -1,8 +1,8 @@
 ---
-title: Install and configure AEM Desktop App
-seo-title: Install and configure AEM Desktop App
-description: Install and configure AEM Desktop App to work with AEM Assets servers and map the assets to mount as a drive on your desktop.
-seo-description: Install and configure AEM Desktop App to work with AEM Assets servers and map the assets to mount as a drive on your desktop.
+title: Install and configure AEM desktop app
+seo-title: Install and configure AEM desktop app
+description: Install and configure AEM desktop app to work with AEM Assets servers and map the assets to mount as a drive on your desktop.
+seo-description: Install and configure AEM desktop app to work with AEM Assets servers and map the assets to mount as a drive on your desktop.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
 contentOwner: asgupta
 content-type: reference
@@ -18,50 +18,50 @@ internal: n
 snippet: y
 ---
 
-# Install and configure AEM Desktop App{#install-and-configure-aem-desktop-app}
+# Install and configure AEM desktop app {#install-and-configure-aem-desktop-app}
 
-Install and configure AEM Desktop App to work with AEM Assets servers and map the assets to mount as a drive on your desktop.
+Install and configure AEM desktop app to work with AEM Assets servers and map the assets to mount as a drive on your desktop.
 
-To use AEM Desktop App,
+To use AEM desktop app,
 
 * Download and install the application.
-* Ensure that your AEM server version is supported by AEM Desktop App. See the [compatibility matrix](release-notes-of-v1.md#compatibilitymatrix).
+* Ensure that your AEM server version is supported by AEM desktop app. See the [compatibility matrix](release-notes-of-v1.md#compatibilitymatrix).
 * Test the connection using a few assets. See [Access and open assets on your desktop](use-app-v1.md#openondesktop).
 
 ## System requirements, prerequisites, and download links {#system-requirements-prerequisites-and-download-links}
 
-For detailed information, see the [AEM Desktop App release notes](release-notes-of-v1.md).
+For detailed information, see the [AEM desktop app release notes](release-notes-of-v1.md).
 
-## Install and connect AEM Desktop App to AEM server {#install-and-connect-aem-desktop-app-to-aem-server}
+## Install and connect AEM desktop app to AEM server {#install-and-connect-aem-desktop-app-to-aem-server}
 
-For details, see [Install and connect AEM Desktop App to AEM server](use-app-v1.md#installandconnect).
+For details, see [Install and connect AEM desktop app to AEM server](use-app-v1.md#installandconnect).
 
 >[!NOTE]
 >
->Only one instance of the AEM Desktop App can be installed and be active at a time.
+>Only one instance of the AEM desktop app can be installed and be active at a time.
 
 ## Proxy support {#proxy-support}
 
-AEM Desktop App uses system's pre-defined proxy to connect to the Internet over HTTPS. The app can only connect using a network proxy that does not require extra authentication.
+AEM desktop app uses system's pre-defined proxy to connect to the Internet over HTTPS. The app can only connect using a network proxy that does not require extra authentication.
 
-If you configure or modify proxy server settings for Windows (Internet Options &gt; LAN Settings), restart the AEM Desktop App for the changes to take effect.
+If you configure or modify proxy server settings for Windows (Internet Options &gt; LAN Settings), restart the AEM desktop app for the changes to take effect.
 
 If your proxy requires authentication, the IT team can whitelist the AEM Assets URL in the proxy server settings to allow the application traffic to pass through.
 
 ## File handling {#file-handling}
 
-When changing a file from a network share location mounted by the Desktop App, files are saved to that location in two phases. In the first phase, a file is saved locally. A user can save the file and continue working on the file, without waiting for the transfer to complete.
+When changing a file from a network share location mounted by the desktop app, files are saved to that location in two phases. In the first phase, a file is saved locally. A user can save the file and continue working on the file, without waiting for the transfer to complete.
 
-In the second phase, Desktop App uploads the updated file to AEM server after a predefined delay (for example, 30s). This operation occurs in the background. Use the View Asset Status option to view the status of the upload operation.
+In the second phase, desktop app uploads the updated file to AEM server after a predefined delay (for example, 30s). This operation occurs in the background. Use the View Asset Status option to view the status of the upload operation.
 
 1. Upload an asset to AEM Assets.
-1. Click/tap the AEM Desktop App icon from the toolbar.
+1. Click/tap the AEM desktop app icon from the toolbar.
 1. From the menu, select the View Asset Status option.
 1. From the dialog, review the status of the upload operation.
 
 >[!NOTE]
 >
->AEM Desktop App can handle assets up to 40 GB.
+>AEM desktop app can handle assets up to 40 GB.
 
 ## Connect to an AEM instance behind a dispatcher {#connect-to-an-aem-instance-behind-a-dispatcher}
 
@@ -86,7 +86,7 @@ Which component is overlaid, depends on the nature of the customization. To chan
 
 ## Manage cache {#manage-cache}
 
-On Windows, the cache is at `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\`, where is an encoded version of the AEM host configured in the Desktop App. For example, `http://localhost:4502` appears as `http%3A%2F%2Flocalhost%3A4502%2F`.
+On Windows, the cache is at `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\`, where is an encoded version of the AEM host configured in the desktop app. For example, `http://localhost:4502` appears as `http%3A%2F%2Flocalhost%3A4502%2F`.
 
 On Mac OS X, a similar directory is at `~/Library/Group Containers/group.com.adobe.aem.desktop/cache`.
 
@@ -100,12 +100,12 @@ You can control the amount of disk space made available for local caching purpos
 
 ### Change location of cache on Windows {#change-location-of-cache-on-windows}
 
-The default location of the cache for the AEM Desktop App is:
+The default location of the cache for the AEM desktop app is:
 
 * Windows: `%LocalAppData%\Adobe\AssetsCompanion\Cache\EncodedAEMEndpoint`
 * Mac: `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`
 
-`EncodedAEMEndpoint` is AEM Desktop App's configured AEM endpoint URL. The value is an encoded version of the targeting URL of the AEM server. For example, if the application is targeting `http://localhost:4502`, the directory name is `http%3A%2F%2Flocalhost%3A4502`. The Windows path to the cache directory in this example is %LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502.
+`EncodedAEMEndpoint` is AEM desktop app's configured AEM endpoint URL. The value is an encoded version of the targeting URL of the AEM server. For example, if the application is targeting `http://localhost:4502`, the directory name is `http%3A%2F%2Flocalhost%3A4502`. The Windows path to the cache directory in this example is %LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502.
 
 To point the application to a different folder or a different drive, edit the application's configuration file.
 
@@ -122,9 +122,9 @@ To point the application to a different folder or a different drive, edit the ap
 
 ## Additional resources {#additional-resources}
 
-* [Introduction to AEM Desktop App](https://helpx.adobe.com/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
-* [Use AEM Desktop App](use-app-v1.md)  
+* [Introduction to AEM desktop app](https://helpx.adobe.com/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
+* [Use AEM desktop app](use-app-v1.md)  
 
-* [Understand Check-in/Check-out with AEM Desktop App](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
-* [Using Desktop App with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
-* [Troubleshooting AEM Desktop App](troubleshoot-app-v1.md)
+* [Understand Check-in/Check-out with AEM desktop app](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [Using desktop app with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [Troubleshooting AEM desktop app](troubleshoot-app-v1.md)
