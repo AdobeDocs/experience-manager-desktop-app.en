@@ -1,10 +1,10 @@
 ---
-product: Adobe Experience Manager Desktop App
+product: Adobe Experience Manager desktop app
 audience: end-user
-user-guide-title: Desktop App Help
+user-guide-title: desktop app Help
 ---
 
-# Adobe Desktop App User Guide {#using}
+# Adobe desktop app User Guide {#using}
 
 + [Overview](introduction.md)
 + [Release Notes](release-notes.md)
