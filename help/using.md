@@ -57,7 +57,7 @@ AEM desktop app uses an HTTPS connection to connect to AEM server to robustly an
 >
 >For part of or all of the installation and configuration steps, you may need help from your AEM administrator or system administrator.
 
-### Install the application {#installapp}
+### Install the application {#installapp-v2}
 
 To use AEM desktop app, ensure that your AEM server version is supported by AEM Desktop app. Download the appropriate installation file (binary) for your operating system (Mac or Windows) and install the app.
 
@@ -101,6 +101,7 @@ From within the Assets UI in a browser, you can explore the asset locations or c
 ## Access and open assets on your desktop {#openondesktop-v2}
 
 >[!NOTE]
+>
 >On Windows, the [default Windows 7 setting](https://support.microsoft.com/en-us/kb/2668751) prevents AEM desktop app from handling assets that are larger than 50 MB.
 
 ### Reveal the location of mapped assets from AEM web interface {#reveal-the-location-of-mapped-assets-from-aem-web-interface-v2}

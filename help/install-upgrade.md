@@ -18,7 +18,7 @@ internal: n
 snippet: y
 ---
 
-# Install AEM desktop app{#install-app-v2}
+# Install AEM desktop app {#install-app-v2}
 
 Install and configure AEM desktop app to work with AEM Assets servers and map the assets to mount as a drive on your desktop.
 
@@ -28,13 +28,11 @@ To use AEM desktop app,
 * Ensure that your AEM server version is supported by AEM desktop app. See the compatibility matrix in release notes.
 * Test the connection using a few assets.
 
+Only one instance of the AEM desktop app can be installed and be active at a time.
+
 ## System requirements {#tech-specs-v2}
 
 For detailed information, see the [AEM desktop app release notes](release-notes.md).
-
-## Install app {#install-app-v2}
-
-Only one instance of the AEM desktop app can be installed and be active at a time.
 
 ## Upgrade from previous version {#upgrade-from-previous-version-v2}
 
