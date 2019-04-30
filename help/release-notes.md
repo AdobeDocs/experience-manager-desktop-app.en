@@ -14,9 +14,7 @@ internal: n
 snippet: y
 ---
 
-# AEM desktop app Release Notes {#aem-desktop-app-release-notes-v2}
-
-## Release information {#release-information-v2}
+# AEM desktop app Release Notes {#release-notes-v2}
 
 | Products      |  Adobe Experience Manager (AEM) desktop app                                                                                                                                                                                                            |
 |---------------|--------------------------------------------------------------------|
@@ -41,7 +39,7 @@ The version of AEM Destkop App you are planning to install on your local machine
 
 ## Installation instructions {#installation-instructions-v2}
 
-For detailed instructions, see [Install AEM desktop app](using.md).
+For detailed instructions, see [Install AEM desktop app](install-upgrade.md).
 
 ## Known issues {#known-issues-v2}
 
@@ -60,6 +58,5 @@ For detailed instructions, see [Install AEM desktop app](using.md).
 
 ## Helpful resources {#helpful-resources-v2}
 
-* [AEM Documentation](https://helpx.adobe.com/support/experience-manager/6-4.html)
-* [Use AEM desktop app v1.x](use-app-v1.md)
-* [AEM desktop app v1.x best practices](best-practices-for-v1.md)
+* [AEM documentation](https://helpx.adobe.com/support/experience-manager/6-4.html)
+* [Use AEM desktop app](using.md)
