@@ -17,7 +17,7 @@ internal: n
 snippet: y
 ---
 
-# AEM desktop app Overview {#aem-desktop-app-overview}
+# AEM desktop app Overview {#overview-v2}
 
 Adobe offers connected workflows across its solutions to allow next-level productivity for your creative professionals. The AEM desktop app connects AEM repositories and desktop applications, including Adobe and third-party ones, to provide faster access to resources and streamlined workflows. This saving of time and reduction in effort improves efficiency of users, who work with assets from AEM in their desktop workflows.
 
@@ -37,7 +37,7 @@ AEM Desktop app, along with AEM Assets, integrates in your creative workflow and
 
 AEM Desktop app touch-points the creative workflow -->
 
-## What's New in the App {#whats-new-in-app}
+## What's New in the App {#whats-new-v2}
 
 The new App simplifies access to assets from AEM Assets repository for desktop applications, and provides a way to discover assets, open, edit and upload changes, as well as upload new assets – without requiring the user to use the AEM interface. The new app brings substantial improvements to the user experience, while catering to the same use cases as before. The following are the top-level improvements.
 

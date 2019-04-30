@@ -28,7 +28,7 @@ To use AEM desktop app,
 * Ensure that your AEM server version is supported by AEM desktop app. See the compatibility matrix in release notes.
 * Test the connection using a few assets.
 
-## System requirements {#tech-specs}
+## System requirements {#tech-specs-v2}
 
 For detailed information, see the [AEM desktop app release notes](release-notes.md).
 
@@ -36,7 +36,7 @@ For detailed information, see the [AEM desktop app release notes](release-notes.
 
 Only one instance of the AEM desktop app can be installed and be active at a time.
 
-## Upgrade from previous version {#upgrade-from-previous-version}
+## Upgrade from previous version {#upgrade-from-previous-version-v2}
 
 Adobe strongly recommends that you use the latest version of the desktop app. Upgrade using the following instructions, if you are using v1.x.
 
@@ -60,7 +60,7 @@ If your proxy requires authentication, the IT team can whitelist the AEM Assets 
 >
 >AEM desktop app can handle assets up to 40 GB.
 
-## Additional resources {#additional-resources}
+## Additional resources {#additional-resources-v2}
 
 * [Introduction to AEM desktop app](https://helpx.adobe.com/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
 * [Use AEM desktop app](use-app-v1.md)  
