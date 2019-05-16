@@ -20,49 +20,50 @@ snippet: y
 
 # Install AEM desktop app {#install-app-v2}
 
-Install and configure AEM desktop app to work with AEM Assets servers and map the assets to mount as a drive on your desktop.
-
-To use AEM desktop app,
-
-* Download and install the application. Upgrade if you are already using v1.x.
-* Ensure that your AEM server version is supported by AEM desktop app. See the compatibility matrix in release notes.
-* Test the connection using a few assets.
-
-Only one instance of the AEM desktop app can be installed and be active at a time.
-
 ## System requirements {#tech-specs-v2}
 
 For detailed information, see the [AEM desktop app release notes](release-notes.md).
 
-## Upgrade from previous version {#upgrade-from-previous-version-v2}
+## Upgrade from app v1.x to app v2 {#upgrade-from-previous-version}
 
-Adobe strongly recommends that you use the latest version of the desktop app. Upgrade using the following instructions, if you are using v1.x.
+If you are an existing user of the app v1.x, then understand the differences and similarities between both versions. Also, follow the below guidelines, to transition from desktop app v1.x to v2.0.
 
-1. Before upgrading, sync all your assets. Upload your changes, else you will lose the changes during upgrade.
+To upgrade from v1.x to v2.x of the app, follow these instructions:
 
-1. Uninstall the previous version of the app.
+1. Before upgrading, sync all your assets. Upload all the changes using app v1.x. This is to avoid losing any changes when uninstalling the app v1.x.
+1. Uninstall app v1.x. When uninstalling v1.x, clear the cache.
+1. Reboot your machine.
+1. Download and install the latest app. Follow the instructions below.
 
-1. Remove cache and logs of app v1.x if you do not need these. If in doubt, leave the cache and logs intact.
+## Install {#install-v2}
 
-1. Install the latest version of the application.
+To install the desktop app, follow these steps. Uninstall any existing Adobe Experience Manager desktop app v1.x before installing v2.0 pre-release build. For more info, see above.
 
-## Proxy support {#proxy-support-v2}
+1. Keep the URL and credentials of your AEM deployment handy.
+1. Ensure that your setup meets the compatibility requirements mentioned in the release notes. Download the applicable [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) and install it using the AEM Package Manager. To install a package, see [How to work with Packages](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html). Skip this step if you are using AEM 6.4.4/AEM 6.5.0 or later.
+1. Execute the installer binary and follow the on-screen instructions to install.
+1. Restart the machine as prompted. Launch the desktop app to configure.
+1. To connect the app with an AEM repository, click on the app icon in the tray to launch the app. Provide the address of the AEM instance. Click Connect and provide the credentials.
 
-AEM desktop app uses system's pre-defined proxy to connect to the Internet over HTTPS. The app can only connect using a network proxy that does not require extra authentication.
+![Connection screen of desktop app to input server address](assets/connect_da2.png "Connection screen to input server address")
 
-If you configure or modify proxy server settings for Windows (Internet Options &gt; LAN Settings), restart the AEM desktop app for the changes to take effect.
-
-If your proxy requires authentication, the IT team can whitelist the AEM Assets URL in the proxy server settings to allow the application traffic to pass through.
-
->[!NOTE]
+>[!Caution]
 >
->AEM desktop app can handle assets up to 40 GB.
+>Ensure there are not leading or trailing spaces before the address of the your AEM server. Otherwise you cannot connect to the AEM server.
 
-## Additional resources {#additional-resources-v2}
+1. Upon successful connection, you can view the list of folders and assets available in the root folder of the AEM DAM. You can browse the folders from within the app.
 
-* [Introduction to AEM desktop app](https://helpx.adobe.com/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
-* [Use AEM desktop app](use-app-v1.md)  
+![Upon login the app displays the DAM contents](assets/firstview_da2.png "Upon login the app displays the DAM contents")
 
-* [Understand Check-in/Check-out with AEM desktop app](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
-* [Using desktop app with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
-* [Troubleshooting AEM desktop app](troubleshoot-app-v1.md)
+## Set preferences {#set-preferences}
+
+To change preferences, click ![More options icon](assets/do-not-localize/more_options_da2.png) and Preference ![Preferences icon](assets/do-not-localize/preferences_da2.png). In the Preferences window, adjust the values of the following:
+
+* Launch application on login.
+* Show window when application starts.
+* **Cache Directory**: Location of local cache of the app (it contains the locally downloaded assets).
+* **Network Drive Letter**: The drive letter used to locally mount AEM Assets DAM. Do not change this if you are not sure. You may stop seeing the placed assets.
+* **Maximum Cache Size**: Allowed cache on hard disk in GB that is used towards storing locally downloaded assets.
+* **Current cache size**: Amount of assets downloaded locally.
+* **Automatically download linked assets**: The assets that are placed in the supported native Creative Cloud apps are fetched automatically if you download the original file.
+* **Maximum number of downloads**: When downloading assets for the first time (via Reveal, Open, Edit, Download, or similar option), the assets are downloaded only if the batch contains less than this number. Default value is 50. Do not change if you are unsure. Increasing the value may lead to longer wait times and decreasing the value may not allow you to download required assets or folders in one go.

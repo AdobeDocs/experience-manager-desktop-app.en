@@ -35,7 +35,7 @@ The desktop app documentation contains information for the following roles and u
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | Want a quick glimpse of new features and enhancements in the latest version?                          | [What's New in the App](#whats-new-v2)                     |
 | Want to know the prerequisites and technical specifications? Want download links?                     | [Release Notes](release-notes.md)                          |
-| Not new to desktop app? Upgrading and want to transition smoothly?                                    | [Upgrade from previous version](install-upgrade.md#upgrade-from-previous-version-v2)|
+| Not new to desktop app? Upgrading and want to transition smoothly?                                    | [Upgrade from previous version](install-upgrade.md#upgrade-from-previous-version)|
 | Get up and running. Want to tweak default preferences?                                                | [Install and configure the app](install-upgrade.md)        |
 | Learn how to use to browse, discover, edit, upload, resolve conflicts, do bulk operations, and so on. | [Use AEM desktop app](using.md)                            |
 | Ran into an issue? Need help to troubleshoot?                                                         | [Troubleshoot the AEM desktop app](troubleshoot.md)        |
@@ -63,4 +63,4 @@ The primary use cases and enhancements of the new app are mapped with the custom
 
 ![What's New in AEM desktop app](assets/whats-new-desktop-app-v2.png)
 
-In its new avatar, while the desktop app allows you to accomplish all the above-mentioned use cases right from your desktop, you can choose to do asset discovery in the web interface and then initiate Open, Reveal, Edit, and Toggle check-out/check-in flags from the web interface.
+The desktop app allows you to accomplish all the above-mentioned use cases right from its user interface, allowing for a desktop-only experience. If needed, you can also choose to do asset discovery in the web interface and then initiate Open, Reveal, Edit, and Toggle check-out/check-in flags from the web interface.
