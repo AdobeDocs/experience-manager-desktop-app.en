@@ -63,4 +63,4 @@ The primary use cases and enhancements of the new app are mapped with the custom
 
 ![What's New in AEM desktop app](assets/whats-new-desktop-app-v2.png)
 
-In its new avatar, while the desktop app allows you to accomplish all the above-mentioned use cases right from your desktop, you can choose to do asset discovery in the web interface and then initiate Open, Reveal, Edit, and Toggle check-out/check-in flags from the web interface.
+The desktop app allows you to accomplish all the above-mentioned use cases right from its user interface, allowing for a desktop-only experience. If needed, you can also choose to do asset discovery in the web interface and then initiate Open, Reveal, Edit, and Toggle check-out/check-in flags from the web interface.
