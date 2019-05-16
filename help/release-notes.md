@@ -24,6 +24,7 @@ snippet: y
 | Download URLs |  [Mac OS X 64 bit](https://example.com); [Windows 32 bit](https://example.com); [Windows 64 bit](https://example.com) |
 
 ## Compatibility {#compatibility-v2}
+
 The app works with the following AEM versions, whether deployed on-premise or on Adobe Managed Services (AMS):
 
 * [AEM 6.5.0](https://helpx.adobe.com/experience-manager/6-5/release-notes.html) or later
