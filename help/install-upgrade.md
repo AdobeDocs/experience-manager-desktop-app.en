@@ -77,7 +77,7 @@ To update the grayed-out preferences, log out of the AEM server. After updating 
 To uninstall the application, follow these steps:
 
 1. Upload all your changes to AEM to avoid losing any edits. See Edit assets and upload updated assets to AEM. Log off and Exit the app.
-2. Remove the app like you’d remove any other OS application. Move to Trash on Mac and uninstall it from Add and remove programs on Windows.
-3. You can select the required checkbox to remove the cache and logs
+1. Remove the app like you’d remove any other OS application. Move to Trash on Mac and uninstall it from Add and remove programs on Windows.
+1. You can select the required checkbox to remove the cache and logs
 ![Uninstallation dialog to remove logs and cache](assets/uninstall_da2.png "Uninstallation dialog to remove logs and cache")
 1. Follow the on-screen instructions. When completed, reboot the machine.
