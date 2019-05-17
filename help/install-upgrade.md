@@ -67,3 +67,17 @@ To change preferences, click ![More options icon](assets/do-not-localize/more_op
 * **Current cache size**: Amount of assets downloaded locally.
 * **Automatically download linked assets**: The assets that are placed in the supported native Creative Cloud apps are fetched automatically if you download the original file.
 * **Maximum number of downloads**: When downloading assets for the first time (via Reveal, Open, Edit, Download, or similar option), the assets are downloaded only if the batch contains less than this number. Default value is 50. Do not change if you are unsure. Increasing the value may lead to longer wait times and decreasing the value may not allow you to download required assets or folders in one go.
+
+To update the grayed-out preferences, log out of the AEM server. After updating the preferences, click ![](assets/do-not-localize/save_preferences_da2.png) to save the changes.
+
+![AEM desktop app preferences and settings](assets/preferences_da2.png "Desktop app preferences")
+
+## Uninstall the app {#uninstall-the-app}
+
+To uninstall the application, follow these steps:
+
+1. Upload all your changes to AEM to avoid losing any edits. See Edit assets and upload updated assets to AEM. Log off and Exit the app.
+2. Remove the app like you’d remove any other OS application. Move to Trash on Mac and uninstall it from Add and remove programs on Windows.
+3. You can select the required checkbox to remove the cache and logs
+![Uninstallation dialog to remove logs and cache](assets/uninstall_da2.png "Uninstallation dialog to remove logs and cache")
+1. Follow the on-screen instructions. When completed, reboot the machine.
