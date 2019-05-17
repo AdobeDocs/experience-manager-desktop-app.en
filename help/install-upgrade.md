@@ -45,15 +45,15 @@ To install the desktop app, follow these steps. Uninstall any existing Adobe Exp
 1. Restart the machine as prompted. Launch the desktop app to configure.
 1. To connect the app with an AEM repository, click on the app icon in the tray to launch the app. Provide the address of the AEM instance. Click Connect and provide the credentials.
 
-![Connection screen of desktop app to input server address](assets/connect_da2.png "Connection screen to input server address")
+   ![Connection screen of desktop app to input server address](assets/connect_da2.png "Connection screen to input server address")
 
->[!Caution]
->
->Ensure there are not leading or trailing spaces before the address of the your AEM server. Otherwise you cannot connect to the AEM server.
+   >[!Caution]
+   >
+   >Ensure there are not leading or trailing spaces before the address of the your AEM server. Otherwise you cannot connect to the AEM server.
 
 1. Upon successful connection, you can view the list of folders and assets available in the root folder of the AEM DAM. You can browse the folders from within the app.
 
-![Upon login the app displays the DAM contents](assets/firstview_da2.png "Upon login the app displays the DAM contents")
+   ![Upon login the app displays the DAM contents](assets/firstview_da2.png "Upon login the app displays the DAM contents")
 
 ## Set preferences {#set-preferences}
 
@@ -79,5 +79,5 @@ To uninstall the application, follow these steps:
 1. Upload all your changes to AEM to avoid losing any edits. See Edit assets and upload updated assets to AEM. Log off and Exit the app.
 1. Remove the app like you’d remove any other OS application. Move to Trash on Mac and uninstall it from Add and remove programs on Windows.
 1. You can select the required checkbox to remove the cache and logs
-![Uninstallation dialog to remove logs and cache](assets/uninstall_da2.png "Uninstallation dialog to remove logs and cache")
+   ![Uninstallation dialog to remove logs and cache](assets/uninstall_da2.png "Uninstallation dialog to remove logs and cache")
 1. Follow the on-screen instructions. When completed, reboot the machine.
