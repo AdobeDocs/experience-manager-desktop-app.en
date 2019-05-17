@@ -73,7 +73,7 @@ You can browse to, search for, and preview the assets available in the AEM repos
 
 You can download the assets on your local filesystem. The app fetches the assets from AEM server and saves the same copy on your local filesystem.
 
-Click ![More options icon](assets/do-not-localize/more2_icon.png) for options and click ![Download icon](assets/do-not-localize/download_cloud_da2.png) to download.
+Click ![More options icon](assets/do-not-localize/more2_da2.png) for options and click ![Download icon](assets/do-not-localize/download_cloud_da2.png) to download.
 
 ![Download option for an asset](assets/download_option_da2.png "Download option for an asset")
 
