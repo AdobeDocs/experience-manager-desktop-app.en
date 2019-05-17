@@ -149,7 +149,7 @@ For best practices around collaborative editing, see [Advanced workflow: collabo
 
 ### List of transferred assets {#list-of-transferred-assets}
 
-## Advanced workflow: start from the AEM Assets web interface {#adv-workflow-start from-aem-ui}
+## Advanced workflow: start from the AEM Assets web interface {#adv-workflow-start-from-aem-ui}
 
 ## Advanced workflow: collaborate on same files and avoid editing conflicts {#adv-workflow-collaborate-avoid-conflicts}
 
