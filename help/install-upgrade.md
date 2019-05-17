@@ -45,15 +45,15 @@ To install the desktop app, follow these steps. Uninstall any existing Adobe Exp
 1. Restart the machine as prompted. Launch the desktop app to configure.
 1. To connect the app with an AEM repository, click on the app icon in the tray to launch the app. Provide the address of the AEM instance. Click Connect and provide the credentials.
 
-![Connection screen of desktop app to input server address](assets/connect_da2.png "Connection screen to input server address")
+   ![Connection screen of desktop app to input server address](assets/connect_da2.png "Connection screen to input server address")
 
->[!Caution]
->
->Ensure there are not leading or trailing spaces before the address of the your AEM server. Otherwise you cannot connect to the AEM server.
+   >[!Caution]
+   >
+   >Ensure there are not leading or trailing spaces before the address of the your AEM server. Otherwise you cannot connect to the AEM server.
 
 1. Upon successful connection, you can view the list of folders and assets available in the root folder of the AEM DAM. You can browse the folders from within the app.
 
-![Upon login the app displays the DAM contents](assets/firstview_da2.png "Upon login the app displays the DAM contents")
+   ![Upon login the app displays the DAM contents](assets/firstview_da2.png "Upon login the app displays the DAM contents")
 
 ## Set preferences {#set-preferences}
 
@@ -67,3 +67,17 @@ To change preferences, click ![More options icon](assets/do-not-localize/more_op
 * **Current cache size**: Amount of assets downloaded locally.
 * **Automatically download linked assets**: The assets that are placed in the supported native Creative Cloud apps are fetched automatically if you download the original file.
 * **Maximum number of downloads**: When downloading assets for the first time (via Reveal, Open, Edit, Download, or similar option), the assets are downloaded only if the batch contains less than this number. Default value is 50. Do not change if you are unsure. Increasing the value may lead to longer wait times and decreasing the value may not allow you to download required assets or folders in one go.
+
+To update the grayed-out preferences, log out of the AEM server. After updating the preferences, click ![](assets/do-not-localize/save_preferences_da2.png) to save the changes.
+
+![AEM desktop app preferences and settings](assets/preferences_da2.png "Desktop app preferences")
+
+## Uninstall the app {#uninstall-the-app}
+
+To uninstall the application, follow these steps:
+
+1. Upload all your changes to AEM to avoid losing any edits. See Edit assets and upload updated assets to AEM. Log off and Exit the app.
+1. Remove the app like you’d remove any other OS application. Move to Trash on Mac and uninstall it from Add and remove programs on Windows.
+1. You can select the required checkbox to remove the cache and logs
+   ![Uninstallation dialog to remove logs and cache](assets/uninstall_da2.png "Uninstallation dialog to remove logs and cache")
+1. Follow the on-screen instructions. When completed, reboot the machine.

@@ -20,221 +20,139 @@ snippet: y
 
 # Use AEM desktop app {#use-aem-desktop-app-v2}
 
-Using the App, the assets within AEM are easily accessible on your local desktop and can be used in any desktop applications. Assets can be easily revealed in Mac Finder or Windows Explorer, opened in desktop applications, and changed locally - the changes are saved back to AEM with a new version created in the repository.
+Use the Adobe Experience Manager (AEM) desktop app, to easily access the AEM assets on your local desktop and use these assets in any desktop applications. You can open the assets in desktop applications and edit the assets locally – upload the changes back to AEM with version control, to share the updates with other users. You can also upload new files and folder hierarchies to AEM, create folders, and delete assets or folders from AEM.
 
-Such an integration allows various roles in the organization to manage the assets centrally in AEM Assets and to access them in the Creative Cloud and other applications, while making it easy to adhere to the various standards including branding.
+The integration allows various roles in the organization to manage the assets centrally in AEM Assets and to access the assets on local desktop in the native applications on Windows or Mac OS.
 
-The key tasks you do using the AEM desktop app include:
+When you open the application after logging out or for the first time, provide the URL of your AEM server. Click Connect. Provide your credentials to connect the app with the server.
 
-* Install app and connect with an AEM server
-* Browse and search for assets
-* Check-out, edit, and check-in the assets
-* Operate on multiple files and do bulk operations
-* Ensure smooth collaboration and resolve conflicts
+The key tasks you do using the AEM desktop app are:
 
-<!--For the various recommended dos and don'ts, see the [best practices for using app](best-practices-for-v1.md). If you face issues using the App, see how to [troubleshoot AEM Desktop](troubleshoot-app-v1.md).
+![Workflows and tasks you can accomplish using AEM desktop app](assets/whats-new-desktop-app-v2.png "Workflows and tasks you can accomplish using AEM desktop app")
 
-## AEM Desktop app touch-points in the creative workflow {#aem-desktop-app-touch-points-in-the-creative-workflow}
+## How desktop app works {#how-app-works2}
 
-AEM Desktop app, along with AEM Assets, integrates in your creative workflow and offers the following touchpoints.
+Before you start using the application, understand [How the app works](release-notes.md#how-app-works).
 
-![AEM Desktop app touch-points the creative workflow](assets/aem_desktopapp_workflow.png)
-
-AEM Desktop app touch-points the creative workflow-->
-
-## Install AEM desktop app {#install-aem-desktop-app}
-
-Before you can begin creating or editing the creative assets, connect the desktop application with the Adobe Experience Manager (AEM) Assets server to download and upload assets in the repository. Perform the following tasks:
-
-1. [Install the app](install-upgrade.md).
-1. Set your preferencesand connection details.
-1. Connect to an AEM server and mount assets repository as local drive.
-1. Enable desktop actions on AEM server.
-
-AEM desktop app uses an HTTPS connection to connect to AEM server to robustly and securely transfer your assets.
-
->[!NOTE]
->
->For part of or all of the installation and configuration steps, you may need help from your AEM administrator or system administrator.
-
-### Install the application {#installapp-v2}
-
-To use AEM desktop app, ensure that your AEM server version is supported by AEM Desktop app. Download the appropriate installation file (binary) for your operating system (Mac or Windows) and install the app.
-
-Detailed configuration may be required depending on your network and system preferences. See [Install and configure AEM Desktop app](install-upgrade.md) for more details.
-
-1. Go to the [AEM Desktop app download page](release-notes.md) and download the appropriate binary for your operating system.
-1. Launch the downloaded installation file and follow the on-screen instructions to install the app.
-
-   >[!NOTE]
-   >
-   >Only one instance of the AEM desktop app can be installed and be active at a time.
-
-### Understand the in-app options and preferences {#inapppref}
-
-The application allows for settings to connect and disconnect from AEM servers, view status of uploads, manage local cache, and so on. The default settings work for a typical user of the application. You can tweak the settings to get more out of the application and out of the integration with AEM server. The various settings are described below in details.
-
-**Explore Assets** Open the local drive in which the AEM Assets repository is mounted. In other words, explore the assets that are now made available on your local machine.
-
-**View asset status** When changed assets are uploaded or new assets are added to the AEM Assets repository, the application uploads the assets in the background. The background upload allows for smooth operations, without you having to wait for the upload to finish, especially for large-sized assets. You can save your changes locally and forget it. The application takes some time to send these assets to the server, depending on the available bandwidth. You can check the status of the upload, along with some more basic information.
-
-**Options** Click/tap Options from the AEM Desktop app tray to access settings to launch the application when your system starts; to connect to the AEM server when the app is launched; and to change the local drive letter where AEM Assets is available after mounting.
-
-**Advanced > Manage cache** You can control the amount of disk space made available for local caching purposes. The artifacts from the AEM Assets server are cached locally for a smoother experience. You can change the defaults to suit your requirements. Also, you can clear the cache to fetch all assets afresh. When you clear the cache, it preserves your unsaved changes. Any assets not checked into AEM server are retained and not deleted.
-
-### Connect to an AEM server {#connect-v2}
-
-Provide AEM server credentials on the login screen on AEM desktop app.
-
-### Enable desktop actions in AEM web interface {#desktopactions-v2}
+## Enable desktop actions in AEM web interface {#desktopactions-v2}
 
 From within the Assets UI in a browser, you can explore the asset locations or check-out and open the asset for editing in your desktop application. These options are called Desktop Actions and are not enabled by default. Follow these steps to enable it.
 
 1. In the Assets console, click/tap the **User** icon from the toolbar.
-1. Click/tap the **[!UICONTROL My Preferences]** to display the **[!UICONTROL Preferences]**dialog.
+1. Click/tap the **[!UICONTROL My Preferences]** to display the **[!UICONTROL Preferences]** dialog.
 1. In the User Preferences dialog, select **[!UICONTROL Show Desktop Actions For Assets]**. Click/tap **[!UICONTROL Accept]**.
 
    ![Check Show Desktop Actions For Assets to enable desktop actions](assets/chlimage_1-3.png)
 
    Check Show Desktop Actions For Assets to enable desktop actions
 
-## Access and open assets on your desktop {#openondesktop-v2}
+## Browse, search, and preview assets {#browse-search-preview-assets}
+
+You can browse to, search for, and preview the assets available in the AEM repository, all from within the desktop application. Try the following in the app:
+
+1. Browse to a folder and see some basic info of the assets available in the folder, along with small thumbnails of all assets.
+
+   ![Browse the DAM files and folders](assets/browse_folder_da2.png "Browse the DAM files and folders")
+
+1. To view more information and a larger thumbnail of an individual asset, click the file name.
+
+   ![See a larger preview of an asset and actions](assets/large_preview_actions_da2.png "See a larger preview of an asset and actions")
+
+1. Click Open or Edit to download the file locally and just view it or edit it in the native application, respectively.
+1. Search using keywords to find a related asset in the AEM repository. Use ‘?’ and ‘*’ with keyword as wildcards to substitute for a single character or for multiple characters. Filter and sort the results as required.
+
+   ![Sample search using asterisk wildcard](assets/search_wildcard_da2.png "Sample search using asterisk wildcard")
+
+   ![Another sample search using asterisk wildcard](assets/search_wildcard2_da2.png "Another search - be cautious of creating queries using wildcard")
 
 >[!NOTE]
 >
->On Windows, the [default Windows 7 setting](https://support.microsoft.com/en-us/kb/2668751) prevents AEM desktop app from handling assets that are larger than 50 MB.
+>The app displays the assets by matching the search criteria across multiple metadata fields and not just the asset’s title or the file name.
 
-### Reveal the location of mapped assets from AEM web interface {#reveal-the-location-of-mapped-assets-from-aem-web-interface-v2}
+## Download assets {#download-assets}
 
-After you map the AEM Assets repository to your local drive, you can enable additional icons and the Folder Upload feature to appear for the mapped assets and folders.
+You can download the assets on your local filesystem. The app fetches the assets from AEM server and saves the same copy on your local filesystem.
 
-1. Open the AEM Assets interface and hover the pointer over a folder or an asset, to display the desktop actions as quick actions in the Card view.
+Click ![More options icon](assets/do-not-localize/more2_da2.png) for options and click ![Download icon](assets/do-not-localize/download_cloud_da2.png) to download.
 
-   ![In Assets UI, open quick actions menu to see desktop actions](assets/chlimage_1-4.png)
+![Download option for an asset](assets/download_option_da2.png "Download option for an asset")
 
-   In Assets UI, open quick actions menu to see desktop actions
+>[!NOTE]
+>
+>When downloading or uploading a larger number of files, the application might turn off the actions on assets and folders. The actions are available when the download operation completes.
 
-   These desktop actions are also available when you click/tap the **Desktop Actions** icon in the toolbar after selecting the asset or from the toolbar in the asset page.
+Downloading multiple assets may lead to poor performance if queue size is large or if you face some network issue. Also, you may unknowingly queue many assets for download when you download a folder. To avoid long wait times, the app restricts the number of assets downloaded in one go. To know how to configure it, see [Set preferences](install-upgrade.md#set-preferences). Even below this limit, the app may at times seek a confirmation before downloading an apparently large folder.
 
-1. To open the asset in the desktop application that is associated with the specific file extension, click/tap the **Open on desktop** quick action ![Open on Desktop icon](assets/aemassets_icon_openondesktop.png).
+![App confirms download of relatively large number of assets to avoid long wait times](assets/download_confirmation_da2.png "App confirms download of relatively large number of assets to avoid long wait times")
 
-   Alternatively, choose **Open** from the **Desktop Actions** menu in the toolbar.
+## Open assets on your desktop {#openondesktop-v2}
 
-1. Click/tap the **Reveal **quick action ![Reveal icon](assets/aemassets_reveal_icon.png) to locate the particular asset on your local file system.
+You can open the remote assets for viewing in the native application. The assets are downloaded to a local folder and launched in the native application associated with the file format.
 
-   Alternatively, choose **Reveal** from the **Desktop Actions** menu in the toolbar.
+Access the Open option in the more menu by clicking  . The asset is downloaded locally and opened in the native application. Check the download progress and transfer speed of large assets in the status bar.
+![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
 
-### Open AEM assets from the Finder or the Explorer {#open-aem-assets-from-the-finder-or-the-explorer-v2}
+>[!NOTE]
+>
+>Clicking ![Close icon](assets/do-not-localize/close_da2.png) in the status bar does not stop or cancel the download. If the expected changes are not reflected in the app, click refresh icon  . Also note that the actions are not available while larger downloads or uploads are in progress.
 
-On Mac, select Open from the context menu to open an asset through AEM Desktop.
+To open the local download folder of an asset, click ![More actions icon](assets/do-not-localize/more2_da2.png) and click ![Reveal icon](assets/do-not-localize/reveal_action2_da2.png) Reveal action.
 
-For Adobe InDesign (INDD) files, select **[!UICONTROL Open]** from the context menu. When you click this option, the App downloads the linked assets to your local filesystem and then opens the INDD file in Adobe InDesign. This method ensures that the required assets are locally available when editing the INDD file.
+## Use or place assets into native documents {#place-assets-in-native-documents}
 
-On Windows, select Open on Web from the context menu to open the asset. From the Asset Status window, click/tap ![Open on Desktop icon](assets/aemassets_icon_openondesktop.png) to open the asset.
+To directly see the filesystem location of the locally downloaded files, use the ![Reveal icon](assets/do-not-localize/reveal_action2_da2.png) Reveal File option.
 
-![Context menu options to access and open assets using AEM desktop app](assets/aem_desktopapp_mac_context_menu.png)
+![Reveal File action for an asset](assets/revealfile_action_da2.png "Reveal File action for an asset")
 
-Context menu options to access and open assets using AEM desktop app.
+Click Reveal File, or Reveal on a folder, to open Windows Explorer or Mac Finder with the file or folder preselected on your local machine. The option is useful to, say place the AEM files in the native applications that support placing or linking local files. To see how to place files in Adobe InDesign, see [Placing graphics](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 
-## Work on your assets {#workonassets-v2}
+The “Reveal” location shows a local network share, showing only the files that are available locally – that is, it will only show files that were revealed, downloaded, or opened/edited using the AEM desktop app actions. The network share will also not automatically upload any changes – you need to use “Upload Changes” or “Upload” actions in the AEM desktop app to do that.
 
-You can work on your assets in the following scenarios using the app.
+>[!NOTE]
+>
+>For backwards compatibility with AEM desktop app v1.x, the files revealed are served from a local network share, exposing locally available files only. The desktop paths of the revealed files are the same as the paths created by app v1.x. If required, customize the drive letter, from the [app Preferences](install-upgrade.md#set-preferences).
 
-### Check out assets from the AEM web interface {#check-out-assets-from-the-aem-web-interface-v2}
+>[!CAUTION]
+>
+>Do not use Reveal File option to edit assets in native applications. Instead, use the Edit actions. To know more, see Advanced workflow: collaborate on same files and avoid editing conflicts.
 
-AEM Assets lets you check out assets for editing and check them back in after you complete making the changes. After you check out an asset, only you can edit, annotate, publish, move, or delete the asset. Checking out an asset locks the asset and prevents other users from performing any of these operations. To be able to check out/in assets, you require Write access on them.
+## Edit assets and upload updated assets to AEM {#edit-assets-upload-updated-assets}
 
-There are two ways of checking out assets from the AEM web interface. For detailed information on the first method, see [check in and checkout files from Assets UI](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/check-out-and-submit-assets.html). Follow these steps, for the second methods to check out and open the asset when AEM Desktop app is installed.
+Open assets for editing when you want to make changes and upload the updated assets to AEM server. To avoid conflicts with edits of other users, use the app to initiate an editing session. Click the Edit option that will open the asset in the native application associated with the asset. Ensure that the asset you start editing does not have a lock icon on it, that is, the asset is not being edited by another user.
 
-1. Open the AEM Assets interface and hover the pointer over a folder or an asset, to display the desktop actions as quick actions in the Card view.
+To edit an asset, search for the asset or browse to the asset’s location. Click ![More icon](assets/do-not-localize/more2_da2.png) and click Edit.
 
-   ![Properties option in Card View](assets/chlimage_1-4.png)
+<!-- ![](assets/.png "Edit action in preview")
+!-->
 
-   These desktop actions are also available when you click/tap the Desktop Actions icon in the toolbar after selecting the asset or from the toolbar in the asset page.
+If you start editing an asset without checking it out (say by just opening it), use Toggle check-out option to lock the asset to prevent conflicts with edits of other users. You can use Toggle check-out option on an asset that you intend to start editing soon and do not want others to edit.
 
-1. To open the asset, click/tap the Open on desktop quick action ![Open on Desktop icon](assets/aemassets_icon_openondesktop.png).
+Once you’re done making the edits, the app displays the Edited Locally status for the changed assets. All the changes saved to the assets are local-only until you upload the changes to AEM. To upload an individual or a few assets one-by-one, click Upload Changes from the options for an asset. It creates a version of the asset in AEM. Using the web interface of AEM Assets, you can see asset history in the [Timeline view](https://helpx.adobe.com/experience-manager/6-4/assets/using/activity-stream.html).
 
-   Alternatively, choose Open from the Desktop Actions menu in the toolbar.
+![Upload changes option in the app](assets/upload_changes_single1_da2.png "Upload changes option in the app")
 
-   >[!NOTE]
-   >When you edit a file that is just opened and not checked-out, other users do not get to know that an asset is being updated by you.
+![Upload changes option when viewing a large preview of an asset](assets/upload_changes_single2_da2.png "Upload changes option when viewing a large preview of an asset")
 
-1. To open an asset for editing in an Adobe Creative Cloud application, click/tap the Edit desktop quick action ![Edit Desktop icon](assets/aemassets_icon_editdesktop.png). This also checks out the asset for editing. After you finish editing, check in the asset, to update the changes in AEM Assets.
+For best practices around collaborative editing, see [Advanced workflow: collaborate on same files and avoid editing conflicts](#adv-workflow-collaborate-avoid-conflicts).
 
-   Alternatively, choose Edit from the Desktop Actions menu in the toolbar.
+## Upload and add new assets to AEM {#upload-and-add-new-assets-to-aem}
 
-1. Select the Open menu option. The selected assets are opened in preview mode.
-1. To edit the assets, select the Edit option. The assets are opened in edit mode.
+## Work with multiple assets {#work-with-multiple-assets}
 
-### Check out assets on Mac {#check-out-assets-on-mac-v2}
+### Browse large folders {#browse-large-folders}
 
-The app lets you check out asset files to prevent other users from modifying the files that you’re working on.
+### Quick actions for selected assets {#quick-actions-for-selected-assets}
 
-1. From the Mac context menu, select the Open AEM Assets Folder to open Finder.
+### Find all edited images {#find-all-edited-images}
 
-   ![Context menu options to access and open assets using AEM Desktop app](assets/aem_desktopapp_mac_context_menu.png)
+### Bulk upload assets {#bulk-upload-assets}
 
-   Context menu options to access and open assets using AEM Desktop app
+### List of transferred assets {#list-of-transferred-assets}
 
-1. Navigate to the asset you want to check out.
+## Advanced workflow: start from the AEM Assets web interface {#adv-workflow-start-from-aem-ui}
 
-   ![Open in AEM Assets context menu on Mac](assets/chlimage_1-5.png)
+## Advanced workflow: collaborate on same files and avoid editing conflicts {#adv-workflow-collaborate-avoid-conflicts}
 
-1. Right-click the asset, and select More Assets Info from the context menu.
-1. In the Asset Info dialog, click/tap the Checkout icon to check out the asset. The Checkout icon toggles to the Checkin icon after you click/tap it.
+## Advanced workflow: place and link assets in InDesign file {#adv-workflow-place-assets-indesign}
 
-   ![Browse to asset to checkout](assets/chlimage_1-6.png)
-
-1. To check in the asset so it is available to other users, click/tap the Checkin icon in the Asset Info dialog.
-
-### Check out assets on Windows {#check-out-assets-on-windows-v2}
-
-The app lets you check out asset files to prevent other users from modifying the files that you’re working on.
-
-1. From the Context menu, select the Explore Assets to open Explorer.
-1. In Explorer, navigate to the location of the asset you want to check out.
-
-   ![Checkout icon toggles](assets/chlimage_1-7.png)
-
-1. Right-click the asset and select Open on Web from the context menu.
-1. In the Asset Info dialog, click/tap the Checkout icon. The Checkout icon toggles to Checkin icon.
-
-   ![Checkout icon toggles](assets/chlimage_1-8.png)
-
-1. Review the asset in Explorer. The lock icon on the asset ![Asset lock icon](assets/aemassets_icon_lockcheckout.png) indicates that you have checked out the asset.
-
-   >[!NOTE]
-   >The lock icon may appear after a few minutes of delay. AEM Desktop app caches the assets for quick access so it may take a few moments to update the locked status.
-
-1. To check in the asset so it is available to other users, click/tap the Checkin icon in the **Asset Info** dialog.
-
-### Check in an asset using Finder or Explorer and using web interface {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface-v2}
-
-When you've finished editing the assets, save the assets in your desktop application. From the context menu, select More Assets Info and click/tap Checkin.
-
-The assets are uploaded to AEM server. Optionally, you can check the status of the upload by selecting View Asset Status from the tray icon.
-
-![AEM Desktop app file transfer and upload status window](assets/aem_desktopapp_upload_status.png)
-
-Alternatively, you can check in an asset from the AEM web interface. Click/tap the checked out assets or select it. From the toolbar, click/tap the check in icon ![Checkin icon](assets/aemassets_icon_checkin.png).
-
-### Bulk upload assets and folders to AEM server {#bulkupload-v2}
-
-Using AEM Desktop, you can upload an entire folder containing assets from your local file directory to AEM Assets. This way, all assets within the folder are uploaded in bulk instead of having to upload them one at a time.
-
-1. From the Assets UI, click/tap **Create** from the toolbar, and the choose **Upload Folder** from the menu.
-1. Browse to the folder you want to upload and select it.
-1. Click/tap OK. The Assets Status dialog displays the status of the upload.
-
-   ![See status of the upload in the Asset Status window](assets/aem_desktopapp_bulkupload_status.png)
-
-   See status of the upload in the Asset Status window
-
-   >[!NOTE]
-   >You can manually pause or cancel the upload by clicking/tapping the appropriate icon.
-
-1. After the folder uploads, close the dialog and navigate to the Assets UI. The uploaded folder is displayed in the web interface.
-
-Please note that it is *not recommended* to copy & paste or drag & drop larger number of files / nested folders from your local disk in Finder or Explorer into the network share area that is mapped by AEM desktop app. It is much less reliable than the Upload Folder capability described above.
-
-Another alternative if you prefer to work on the desktop is to select files/folders you want to upload to AEM in Finder or Explorer, copy them to system clipboard, then navigate to the target folder in the network share area, and from the AEM desktop app context menu select "Paste Assets". This way, AEM desktop app starts uploading the pasted assets similar to the Upload Folder described above.
+## Advanced workflow: download the assets locally {#adv-workflow-download-assets-locally}
