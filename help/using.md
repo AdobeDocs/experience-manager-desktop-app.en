@@ -94,7 +94,7 @@ Access the Open option in the more menu by clicking  . The asset is downloaded l
 
 >[!NOTE]
 >
->Clicking ![Close icon](assets/do-not-localize/close_da2.png) in the status bar does not stop or cancel the download. If the expected changes are not reflected in the app, click refresh icon  . Also note that the actions are not available while larger downloads or uploads are in progress.
+>Clicking ![Close icon](assets/do-not-localize/close_da2.png) in the status bar does not stop or cancel the download. If the expected changes are not reflected in the app, click refresh icon ![Refresh icon](assets/do-not-localize/refresh.png) . Also note that the actions are not available while larger downloads or uploads are in progress.
 
 To open the local download folder of an asset, click ![More actions icon](assets/do-not-localize/more2_da2.png) and click ![Reveal icon](assets/do-not-localize/reveal_action2_da2.png) Reveal action.
 
@@ -137,22 +137,134 @@ For best practices around collaborative editing, see [Advanced workflow: collabo
 
 ## Upload and add new assets to AEM {#upload-and-add-new-assets-to-aem}
 
+You may be required to add new assets to the repository. For example, you may be an agency photographer or contractor who must add a large number of photos from a photoshoot to the AEM repository. To upload assets in bulk to add fresh content to AEM, click ![Upload to cloud icon](assets/do-not-localize/upload_to_cloud_da2.png) in the top-bar of the app. Browse to the asset files in the local filesystem and click Select. The app starts uploading the asset and displays a progress bar at the bottom if the asset takes longer to upload.
+
+![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
+
+You can upload folders or individual files from your local filesystem. A folder’s hierarchy is preserved when it is uploaded.
+
+To view the list of assets transferred in a given session, click View > Assets transfer. The list allows you to quickly verify the file transfers of the current session.
+
+![List of transferred assets in a particular session](assets/assets_transfered_da2.png "List of transferred assets in a particular session")
+
+>[!NOTE]
+>
+>The transfer list is not persistent and is not available if you exit the app and re-open it.
+
 ## Work with multiple assets {#work-with-multiple-assets}
+
+Users can easily work with and manage multiple assets using actions like uploading all edits in one go or uploading nested folders in a few clicks.
 
 ### Browse large folders {#browse-large-folders}
 
+When working with folders containing many assets, scroll to view more assets. To scroll using the keyboard, press tab a few times to select the asset at the top. Notice the highlighted asset to know when it is selected. Now use the Down arrow key to move through the list of assets.
+
 ### Quick actions for selected assets {#quick-actions-for-selected-assets}
+
+Click on the thumbnail of a few assets to select. To select all assets, click the checkbox in the top-bar of the app. The set of actions that are applicable to all the selected assets collectively are displayed in a toolbar at the bottom of the app.
+
+![Toolbar at the bottom shows actions relevant to the selected assets](assets/actions_bottom_toolbar1_da2.png "Toolbar at the bottom shows common actions for the selected assets")
+
+![No actions in toolbar when no common actions for the selection](assets/actions_bottom_toolbar2_da2.png "No actions in toolbar when no common actions for the selection")
+
+Actions available in the toolbar at the bottom depend on the status of selected files. For example, if you only select **Edited Locally** files, you see **Upload Changes** icon. If you select a mix of **Edited locally** and **Cloud only**, the **Upload Changes** action is not available.
 
 ### Find all edited images {#find-all-edited-images}
 
+The application provides a view, called ‘Edited locally’, to give you quick access to all the files that you downloaded locally (via Open or Edit action) and then modified as files on your local system. The app allows to select all locally edited assets and upload the changes in a few clicks. This view also includes the locally edited images that have an editing conflict.
+
+![Filter to see all the locally edited assets](assets/edited_locally_filter_da2.png "Filter to see all the locally edited assets, say for bulk upload of edits")
+
 ### Bulk upload assets {#bulk-upload-assets}
+
+Users or organization, such as photographers or creative agencies, who create a lot of local assets can now upload large local folders to AEM Assets directly from the desktop app. The folder hierarchies are preserved and all the nested sub-folders and included assets are uploaded. The uploaded assets are immediately available to other users of the same server for consumption as well.
+
+![Bulk upload multiple local folders from your desktop into AEM](assets/upload_local_folders_da2.png "Bulk upload multiple local folders from your desktop into AEM")
+
+After uploading, if the expected changes are not reflected in the app, click the refresh icon ![Refresh icon](assets/do-not-localize/refresh.png).
 
 ### List of transferred assets {#list-of-transferred-assets}
 
+To view the list of assets transferred in a given session, see [Upload assets to AEM](#upload-and-add-new-assets-to-aem).
+
 ## Advanced workflow: start from the AEM Assets web interface {#adv-workflow-start-from-aem-ui}
+
+You can initiate your workflow from the AEM Assets web interface. The desktop app not only supports all workflows but also integrates with the Assets UI to simplify your workflows.
+
+A special case of starting workflow from the web interface is asset discovery. The Omnisearch bar in Assets UI offers a rich and advanced search experience. You may want to first locate a desired asset on the web and then initiate the workflow in the app, using Desktop Actions. Some sample cases include filtering search results using facets, locating a specific asset licensed from Adobe Stock, or a customization implemented by your organization that allows you better discovery from the web interface.
+
+One or more desktop app functionalities are invoked when you attempt these actions on the web:
+
+* The Desktop Actions Open, Edit, and Reveal 
+* Upload folder
+* Check-out or check-in
+
+For example, the actions on the web interface that are available for an asset that is checked out in the app are Open, Reveal, and Check-in.
+
+![Desktop Actions in the AEM web interface](assets/assets_web_actions_da2.png "Desktop Actions in the AEM web interface")
+
+>[!NOTE]
+>
+>The browser may prompt you to permit the launch of Adobe Experience Manager Desktop. To enjoy uninterrupted transfer from the browser to the app, select the appropriate checkbox to always allow the app to take over.
+
+You cannot find the following information or workflow using the web interface. Use the desktop app as the web interface is not completely aware of the local changes and hence of the following:
+
+* Files edited locally.
+* Files that have an editing conflict and way to resolve it.
+* Upload local changes to AEM.
+* Various statuses of the locally available files.
 
 ## Advanced workflow: collaborate on same files and avoid editing conflicts {#adv-workflow-collaborate-avoid-conflicts}
 
+In collaborative environments, multiple users may work on same set of assets that can lead to versioning conflicts. To prevent conflicts, follow these best practices:
+
+* Do not edit any assets by clicking Open. Do not edit the locally downloaded assets by opening from your filesystem folder. Other users do not know that the asset is being edited.
+* To edit an asset, always click Edit. It opens the asset in the native application and adds a lock icon on the asset, so the other users know that the asset is being edited.
+* Click Toggle check-in if you accidentally start editing without click Edit. It will add a lock icon to the asset. Even if you plan to edit an asset later but want to avoid others editing it, click Toggle check-in to lock the asset.
+* Before editing an asset, ensure that other users are not editing it. Look for the lock icon on the asset.
+* After completing the edits, upload all the changes, and then check-in the asset
+
+![Statuses of editing conflicts](assets/edits_conflicts_status_da2.png "Statuses of editing conflicts")
+
+If a locally downloaded asset is updated on the AEM server, the app displays a **Modified remotely** status. You can either remove your local copy or refresh your local copy, by clicking Remove or Update respectively. Links on the dialog allow you to view both versions of the asset.
+
+![Options to resolve the conflict when the asset is remotely modified](assets/modified_remotely_dialog_da2.png "Options to resolve the conflict when the asset is remotely modified")
+
+If an asset you are editing locally is also updated on the server without your knowledge, the app displays an ‘Editing Conflict’ status. You can retain one set of the changes – either retain your updates (click **Keep Mine**) and delete the other user’s edit or respect the other user’s updates and delete yours (**Overwrite Mine**).
+
+![Options to resolve an editing conflict](assets/editing_conflict_dialog_da2.png "Options to resolve an editing conflict")
+
 ## Advanced workflow: place and link assets in InDesign file {#adv-workflow-place-assets-indesign}
 
+When you use AEM desktop app to open files with linked assets, the assets are pre-downloaded and appear placed in the native applications. For this workflow to work, your native application must support placing links to local assets and AEM must support resolving these links in the binary files to server-side references.
+
+AEM desktop app supports this workflow with a few select Adobe Creative Cloud desktop applications and file formats – InDesign, Illustrator, and Photoshop. The workflow allows you to work efficiently with the supported Creative Cloud files. So if user A places a few assets in an InDesign file and checks it into AEM, user B sees the assets in the InDesign file even though the assets are not part of the file. The assets are locally downloaded on the machine of user B.
+
+>[!NOTE]
+>
+>The desktop app can map to any drive. However, for smooth operations, do not change the default drive mapping. You may not be able to see the placed assets if you change the drive letter. However, the assets are not removed and continue to be placed in the file.
+
+To know the limitations of this workflow, see the [System requirements and supported versions](release-notes.md#system-requirements-and-prerequisites-v2).
+
+To try this workflow with an image asset and InDesign, follow these steps:
+
+1. Keep handy an INDD file with placed assets in AEM. To know how to create such an INDD file, see [Placing Graphics](https://helpx.adobe.com/indesign/using/placing-graphics.html).
+1. From within desktop app, Edit the INDD file with placed assets in AEM.
+1. Note that the desktop app downloads both, the InDesign file and the linked assets. When InDesign opens the document, the links are resolved, assets are downloaded, and the assets are displayed in the InDesign document.
+1. To place a new graphic in the InDesign file, use Reveal File action on the asset. The action downloads the asset locally and opens the local network share location in Windows Explorer or Mac Finder.
+1. Place the revealed asset in the InDesign document. This creates a new link in the document.
+1. Once you complete your edits in the InDesign document, save it and upload it to AEM using the desktop app.
+
 ## Advanced workflow: download the assets locally {#adv-workflow-download-assets-locally}
+
+The app downloads the assets from AEM server locally on your filesystem in many scenarios that you should be aware of. The downloads consume bandwidth and disk space. Knowing the scenarios will help you optimize your wait time for the downloads to complete.
+
+You download the assets from within the app on-demand. See [Download assets](#download-assets).
+
+When you use the Open action to open an asset in a native desktop application, the asset is downloaded locally if not already available locally. See [Open assets](#openondesktop-v2).
+
+When you reveal the location of an asset or a folder from within the app, the asset or the folder is first downloaded locally and then opened on your machine in the local network share. See [Open assets](#openondesktop-v2).
+
+When you use the edit action to edit an asset in a native desktop application, the asset is downloaded locally if not already available locally. See [Edit assets and upload updated assets to AEM](#edit-assets-upload-updated-assets).
+
+When you use Desktop Actions from AEM web interface, the actions are completed by the app if the app is installed and is permitted to complete the actions. The asset is first downloaded by the app and then the action is completed.
