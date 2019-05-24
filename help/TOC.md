@@ -11,7 +11,7 @@ user-guide-title: Desktop App Help
 + [Release Notes](release-notes.md)
 + [Install or upgrade](install-upgrade.md)
 + [Use app](using.md)
-+ [Troubleshooting](troubleshoot.md)
++ [Troubleshoot](troubleshoot.md)
 + Help of previous version {#archive}
   + [Release Notes v1](release-notes-of-v1.md)
   + [Install and configure v1](install-configure-app-v1.md)
