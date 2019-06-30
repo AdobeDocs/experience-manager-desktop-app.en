@@ -199,7 +199,7 @@ After you install desktop app, the desktop app menu icon appears in the menu bar
 1. Type the following command, and press Enter:
 
    ```shell
-   rm ~/Library/Group\ Containers/group.com.adobe.aem.desktop/cache/*
+   rm ~/Library/Group\ Containers/group.com.adobe.aem.desktop/*
    ```
 
 1. Restart the system.

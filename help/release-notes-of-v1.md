@@ -73,7 +73,7 @@ This release extends and replaces the previous versions of the Experience Manage
 * **Version 1.4**: the ability to upload hierarchical folders in the background with the progress monitoring.
 * **Version 1.3**: performance enhancements and stability of accessing files and saving changes to AEM, especially from Creative Cloud desktop applications, such as InDesign, Illustrator, or Photoshop. It aimed to provide users with a more local desktop-like experience when working with files, while simultaneously handling network data transfer operations in the background.
 
-### Enhancements Available Since AEM desktop app 1.9.{Enhancements-Available-Since-AEM-Desktop-App-19x}
+### Enhancements available since AEM desktop app 1.9 {#Enhancements-Available-Since-AEM-Desktop-App-19x}
 
 Adobe Experience Manager (AEM) desktop app 1.9.1 was a patch release to addresses a few key customer issues around asset checkout and copying files from network share to a local directory.
 
@@ -194,10 +194,10 @@ AEM desktop app 1.8.1 fast-follow release added improvements when opening multip
   * desktop app mount point is now /Volumes/DAM so it’s consistent for all users (CQ-4208159)
   * Placing file into InDesign for the first time initiates an update warning (CQ-4207454)
 
-Note on Link Warnings: Creative Cloud applications (such as InDesign) take a "snapshot" of the item's last-modified time at the time it is placed. If that date changes at a later point, the CC app will report that the links are out-of-date. This is reported in a couple of ways:
+Note on Link Warnings: Creative Cloud applications (such as InDesign) take a "snapshot" of the item's last-modified time at the time it is placed. If that date changes at a later point, the Adobe Creative Cloud app will report that the links are out-of-date. This is reported in a couple of ways:
 
-* When the CC app is launched, it will display a dialog informing the user that the linked assets are out of date, and prompt the user to take action.
-* If the CC app is already running, it will show a yellow triangle warning icon on the linked asset.
+* When the Adobe Creative Cloud app is launched, it will display a dialog informing the user that the linked assets are out of date, and prompt the user to take action.
+* If the Adobe Creative Cloud app is already running, it will show a yellow triangle warning icon on the linked asset.
 
 This behavior is the same for assets on local disk and assets in an AEM Desktop mounted directory, with the following exceptions:
 
@@ -269,7 +269,7 @@ Since the /Volumes folder no longer requires administrative rights, this change 
 
 >[!NOTE]
 >
->On Mac OS X, the change of local network drive protocol from WebDAV to SMB1 results in a different local path to the same asset in the repository. This might impact links to files placed in CC applications via "Place" command. See the [Use AEM Desktop app](use-app-v1.md) for more information.
+>On Mac OS X, the change of local network drive protocol from WebDAV to SMB1 results in a different local path to the same asset in the repository. This might impact links to files placed in Adobe Creative Cloud applications via "Place" command. See the [Use AEM Desktop app](use-app-v1.md) for more information.
 
 ### File handling (since 1.3) {#file-handling-since}
 

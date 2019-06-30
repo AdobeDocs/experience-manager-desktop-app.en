@@ -54,7 +54,7 @@ Key capabilities of AEM desktop app include:
   * AEM Assets web UI for digital asset management (finding / sharing assets, metadata, copy/move, etc.)
   * AEM desktop app Folder Upload to upload large, hierarchical folders
 
-* Do not treat AEM desktop app as a “desktop sync” client for AEM Assets. The key benefit of AEM desktop app here is that it provides "virtual" access to the whole repository, and desktop sync applications typically synchronize just assets belonging to one user. AEM desktop app provides some level of caching and background upload; still, it works very differently from typical “Sync” applications, such as Adobe CC desktop app or Microsoft OneDrive.
+* Do not treat AEM desktop app as a “desktop sync” client for AEM Assets. The key benefit of AEM desktop app here is that it provides "virtual" access to the whole repository, and desktop sync applications typically synchronize just assets belonging to one user. AEM desktop app provides some level of caching and background upload; still, it works very differently from typical “Sync” applications, such as Adobe Creative Cloud desktop app or Microsoft OneDrive.
 * Do not use AEM desktop app network drives to save assets frequently. All save operations are transmitted to AEM Assets. Therefore, it is impractical to perform intensive edit operations directly in the mounted AEM Assets repository. Editing an asset directly in the mounted repository crams the asset's timeline with irrelevant versions and imposes additional overheads on the server.
 * Do not use AEM desktop app for migration of large amounts of data from one AEM instance to another. Please refer to the [Migration Guide](https://helpx.adobe.com/experience-manager/6-4/assets/using/assets-migration-guide.html) to plan and execute asset migrations. In contrast, desktop app [supports bulk uploading](use-app-v1.md#bulkupload) large number of assets for the first time in AEM.
 
@@ -93,7 +93,7 @@ If an asset stored in AEM needs an update:
 * For **major updates**, such as a change request that requires a small creative WIP cycle:
 
   * Use the Reveal option to open the appropriate folder on desktop
-  * Copy the file to a WIP folder **outside** of the mapped AEM Assets share (for example, copy the file into a folder synced with CC desktop app)
+  * Copy the file to a WIP folder outside of the mapped AEM Assets share (for example, copy the file into a folder synced with Adobe Creative Cloud desktop app)
   * Work on the file and save it intermittently. The changes are not saved to AEM Assets
   * After the edits are complete, move, copy, or save the file mapped from AEM to upload it as a new version
 
