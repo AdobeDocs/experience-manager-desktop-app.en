@@ -73,7 +73,7 @@ This release extends and replaces the previous versions of the Experience Manage
 * **Version 1.4**: the ability to upload hierarchical folders in the background with the progress monitoring.
 * **Version 1.3**: performance enhancements and stability of accessing files and saving changes to AEM, especially from Creative Cloud desktop applications, such as InDesign, Illustrator, or Photoshop. It aimed to provide users with a more local desktop-like experience when working with files, while simultaneously handling network data transfer operations in the background.
 
-### Enhancements Available Since AEM desktop app 1.9.{Enhancements-Available-Since-AEM-Desktop-App-19x}
+### Enhancements available since AEM desktop app 1.9 {#Enhancements-Available-Since-AEM-Desktop-App-19x}
 
 Adobe Experience Manager (AEM) desktop app 1.9.1 was a patch release to addresses a few key customer issues around asset checkout and copying files from network share to a local directory.
 
