@@ -8,14 +8,15 @@ contentOwner: asgupta
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/6.3
-products: SG_EXPERIENCEMANAGER/6.2
-products: SG_EXPERIENCEMANAGER/6.0
+products: SG_EXPERIENCEMANAGER/6.3/ASSETS
+products: SG_EXPERIENCEMANAGER/6.2/ASSETS
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS
 topic-tags: aem-desktop-app
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 index: y
 internal: n
 snippet: y
+mini-toc-levels: 1
 ---
 
 # Use AEM desktop app {#use-aem-desktop-app-v2}
