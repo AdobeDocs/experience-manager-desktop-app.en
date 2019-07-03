@@ -26,24 +26,6 @@ Desktop app includes the following components:
 * **Operating system WebDAV/SMB client**: Handles communication between Windows Explorer/Finder and desktop app. If a file is retrieved, created, modified, deleted, moved, or copied, the operating system (OS) WebDAV/SMB client communicates this operation to desktop app. After receiving the communication, desktop app translates it into native AEM remote API calls. For example, if a user creates a file in the mounted directory, the WebDAV/SMB client initiates a request, which the desktop app translates into an HTTP request that creates the file in DAM. The WebDAV/SMB client is a built-in component of the OS. It is not affiliated with desktop app, AEM, or Adobe in any way.
 * **Adobe Experience Manager instance**: Provides access to assets stored in the AEM Assets DAM repository. In addition, it performs actions requested by desktop app on behalf of the local desktop applications interacting with the mounted network share. The target AEM instance should run AEM version 6.1 or higher. AEM instances running previous AEM versions might require extra feature packs and hot fixes installed to become fully functional.
 
-<!--## Intended use cases for AEM desktop app {#intended-use-cases-for-aem-desktop-app}
-
-AEM desktop app uses the network share technology to map a remote AEM repository to a local desktop. However, it is not intended as a replacement for a network share holding assets, where users perform digital asset management operations directly from their local desktop. These include moving or copying multiple files, or dragging large folder structures to the AEM Assets network share directly in Finder/Explorer.
-
-AEM desktop app provides a convenient way of accessing (opening) and editing (saving) DAM assets between the AEM Assets Touch UI and the local desktop. It links assets in the AEM Assets server with your desktop-based workflows.
-
-The following example use case illustrates how AEM Desktop should be used:
-
-* A user logs in to AEM and uses the web UI to locate an asset.
-* Using the desktop action capabilities of the AEM web UI, the user either opens, displays, or edits the asset on desktop as necessary.
-* AEM Desktop opens the asset in the default editor for the asset's file type.
-* The user makes the desired changes to the asset.
-* After a file is modified, the user can view the sync status of the file using AEM Desktop's background sync status window.
-* Using the context menu of AEM Desktop, the user checks in/out the asset, or returns to the DAM user interface.
-* After completing the changes to the file, the user returns to the AEM web UI
-
-This is not the only use case. However, it illustrates how AEM Desktop is a convenient mechanism to access/edit assets locally. You are encouraged to use the DAM web UI as much as possible because it provides a better experience. It provides Adobe more flexibility to meet customer requirements. -->
-
 ## Limitations {#limitations-v2}
 
 Review the following limitations.
@@ -109,17 +91,15 @@ In this case, closing and reopening the file may reveal that the contents are un
 
 Regardless of the behavior, the file remains unchanged when you check it in. Even if a different version of the file is displayed, the changes are not synced to AEM.
 
-## Move files across folders {#move-files-across-folders-v2}
-
-**How do we want to document this use case?**
-
 ## SSL configuration issue {#ssl-config-v2}
 
 The libraries that AEM desktop app uses for HTTP communication utilizes strict SSL enforcement. At times, a connection may succeed using a browser but fails using AEM desktop app. To configure SSL appropriately, install the missing intermediate certificate in Apache. See [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575).
 
 ## Check log files {#check-log-files-v2}
 
-Depending upon your operating system, you can find the log files for AEM Desktop at the following locations:
+Depending upon your operating system, you can find the log files for AEM desktop app at the following locations:
 
-* Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
-* Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+* **Windows**: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
+* **Mac**: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+
+When uploading many assets, if some files fail to upload, see the following logs to identify the failed uploads in `backend.log` file at the above location.
