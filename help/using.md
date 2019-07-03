@@ -6,11 +6,11 @@ seo-description: Learn how to install and use Adobe Experience Manager desktop a
 uuid: 55057617-89de-43cd-8419-1252a42ab2fb
 contentOwner: asgupta
 content-type: reference
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 products: SG_EXPERIENCEMANAGER/6.2/ASSETS
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
+products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: aem-desktop-app
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 index: y
@@ -80,7 +80,7 @@ Click ![More options icon](assets/do-not-localize/more2_da2.png) for options and
 
 >[!NOTE]
 >
->When downloading or uploading a larger number of files, the application might turn off the actions on assets and folders. The actions are available when the download operation completes.
+>When downloading or uploading a larger number of files, the application might turn off the actions on assets and folders. The actions are available when the download or upload operation is complete.
 
 Downloading multiple assets may lead to poor performance if queue size is large or if you face some network issue. Also, you may unknowingly queue many assets for download when you download a folder. To avoid long wait times, the app restricts the number of assets downloaded in one go. To know how to configure it, see [Set preferences](install-upgrade.md#set-preferences). Even below this limit, the app may at times seek a confirmation before downloading an apparently large folder.
 
