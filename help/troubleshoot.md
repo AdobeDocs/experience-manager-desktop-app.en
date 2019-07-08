@@ -32,20 +32,16 @@ Adhering to the following best practices will help you prevent some of the issue
 
 * **Mind the network**: Network performance is critical to AEM desktop app's performance. If you face slowed response to file transfers or bulk operations, turn off the features or apps that might cause lots of network traffic (like thumbnails in Finder) for the mapped network share.
 
-* **Unsupported use cases for desktop app**: Do not use the app in the following ways:
-
-  * Asset migration: Needs planning and other tools.
-
-  * Replacement for network file share: Heavy-duty DAM operations like moving large folders, large uploads, finding files are better done from the Web UI.
-  
-  * The app is not a sync client: Design principles and usage patterns are different than in-sync clients like Microsoft OneDrive or Adobe Creative Cloud desktop sync.
+* **Unsupported use cases for desktop app**: Do not use the app for Assets' migration (it needs planning and other tools); for heavy-duty DAM operations (like moving large folders, large uploads, finding files using advanced metadata searches); and as a sync client (design principles and usage patterns are different than in-sync clients like Microsoft OneDrive or Adobe Creative Cloud desktop sync).
 
 ## Desktop App component overview {#desktop-app-components-v2}
 
-Desktop app includes the following components:
+The desktop app includes the following components:
 
 * **The Desktop application**: Mounts/unmounts DAM as a remote file system, and translates file system calls between the locally mounted network share and the remote AEM instance to which it connects.
+
 * **Operating system WebDAV/SMB client**: Handles communication between Windows Explorer/Finder and desktop app. If a file is retrieved, created, modified, deleted, moved, or copied, the operating system (OS) WebDAV/SMB client communicates this operation to desktop app. After receiving the communication, desktop app translates it into native AEM remote API calls. For example, if a user creates a file in the mounted directory, the WebDAV/SMB client initiates a request, which the desktop app translates into an HTTP request that creates the file in DAM. The WebDAV/SMB client is a built-in component of the OS. It is not affiliated with desktop app, AEM, or Adobe in any way.
+
 * **Adobe Experience Manager instance**: Provides access to assets stored in the AEM Assets DAM repository. In addition, it performs actions requested by desktop app on behalf of the local desktop applications interacting with the mounted network share. The target AEM instance should run a supported AEM version. AEM instances may require extra feature packs and hot fixes installed to become fully functional and secure.
 
 ## Limitations {#limitations-v2}
@@ -70,11 +66,11 @@ Replacing a file doesn't display a warning or error, but checking the asset in A
 
 ## Clear cache {#clear-cache-v2}
 
-Clearing AEM Desktop's cache is a preliminary troubleshooting task that can resolve several AEM Desktop issues.
+Clearing AEM Desktop's cache is a preliminary troubleshooting task that can resolve several AEM desktop issues.
 
-You can clear the cache by deleting the application's cache directory at the following locations: Windows: %LocalAppData%\Adobe\AssetsCompanion\Cache\
+You can clear the cache by deleting the application's cache directory at the following locations: Windows: `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
 
-Mac: ~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/
+Mac: `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
 
 However, the location can change depending on AEM Desktop's configured AEM endpoint. The value is an encoded version of the targeted URL. For example, if the application is targeting `http://localhost:4502`, the directory name is `http%3A%2F%2Flocalhost%3A4502%2F`.
 
@@ -82,7 +78,7 @@ To clear the cache, delete the &lt;Encoded AEM Endpoint&gt; directory.
 
 >[!NOTE]
 >
->If you clear AEM Desktop cache, local file changes that are not synced to AEM are lost.
+>If you clear AEM desktop cache, local file changes that are not synced to AEM are lost.
 
 ## Know the AEM desktop app version {#know-app-version-v2}
 
