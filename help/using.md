@@ -138,11 +138,11 @@ For best practices around collaborative editing, see [Advanced workflow: collabo
 
 ## Upload and add new assets to AEM {#upload-and-add-new-assets-to-aem}
 
-You may be required to add new assets to the repository. For example, you may be an agency photographer or contractor who must add a large number of photos from a photoshoot to the AEM repository. To upload assets in bulk to add fresh content to AEM, click ![Upload to cloud icon](assets/do-not-localize/upload_to_cloud_da2.png) in the top-bar of the app. Browse to the asset files in the local filesystem and click Select. The app starts uploading the asset and displays a progress bar at the bottom if the asset takes longer to upload.
+You may be required to add new assets to the repository. For example, you may be an agency photographer or contractor who must add a large number of photos from a photoshoot to the AEM repository. To add fresh content to AEM, click ![Upload to cloud icon](assets/do-not-localize/upload_to_cloud_da2.png) in the top-bar of the app. Browse to the asset files in the local filesystem and click Select. The app starts uploading the asset and displays a progress bar at the bottom if the asset takes longer to upload.
 
 ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 
-You can upload folders or individual files from your local filesystem. A folder’s hierarchy is preserved when it is uploaded.
+You can upload folders or individual files from your local filesystem. A folder’s hierarchy is preserved when it is uploaded. Before uploading assets in bulk, see [Bulk uploads](#bulk-upload-assets).
 
 To view the list of assets transferred in a given session, click View > Assets transfer. The list allows you to quickly verify the file transfers of the current session.
 
@@ -178,11 +178,15 @@ The application provides a view, called ‘Edited locally’, to give you quick 
 
 ### Bulk upload assets {#bulk-upload-assets}
 
-Users or organization, such as photographers or creative agencies, who create a lot of local assets can now upload large local folders to AEM Assets directly from the desktop app. The folder hierarchies are preserved and all the nested sub-folders and included assets are uploaded. The uploaded assets are immediately available to other users of the same server for consumption as well.
+Users or organization, such as photographers or creative agencies, can create a lot of local assets in scenarios, such as photoshoots, retouching, or selection from a larger set done outside of AEM. They can upload these large local folders to AEM Assets directly from the desktop app. The folder hierarchies are preserved and all the nested sub-folders and included assets are uploaded. The uploaded assets are immediately available to other users of the same server for consumption as well. Assets are uploaded in background, so the operation is not tied to a web browser session.
 
 ![Bulk upload multiple local folders from your desktop into AEM](assets/upload_local_folders_da2.png "Bulk upload multiple local folders from your desktop into AEM")
 
 After uploading, if the expected changes are not reflected in the app, click the refresh icon ![Refresh icon](assets/do-not-localize/refresh.png).
+
+>[!NOTE]
+>
+>Do not use upload functionality to migrate a large number of assets across two AEM instances. Instead, see the [migration guide](https://helpx.adobe.com/experience-manager/6-4/assets/using/assets-migration-guide.html).
 
 ### List of transferred assets {#list-of-transferred-assets}
 
