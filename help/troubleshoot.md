@@ -18,13 +18,32 @@ snippet: y
 
 Adobe Experience Manager (AEM) desktop app connects to a remote AEM deployment's Digital Asset Management (DAM) repository. The app fetches repository information and search results on your machine, downloads and uploads files and folders, and includes capabilities to manage conflicts with AEM Assets UI.
 
+## Best practices {#best-practices-to-prevent-troubles}
+
+Adhering to the following best practices will help you prevent some of the issues and their troubleshooting.
+
+* **Understand how the desktop app works**: Before starting to use the application, spend a few minutes knowing how the app works. Know about linking between Web UI and desktop, repository mapping, asset caching, saving locally and uploading in background. See [how it works](release-notes.md/#how-app-works).
+
+* **Best practices to avoid conflicts**: To avoid potential conflicts when collaborating on multiple assets, see [avoid editing conflicts](using.md#adv-workflow-collaborate-avoid-conflicts).
+
+* **Use folder upload for large, hierarchical folders**: Instead of using the Assets web interface or other methods, use AEM desktop app to upload large folders. The app uploads the assets in background with logging and monitoring. See [bulk upload assets](using.md#bulk-upload-assets).
+
+* **Use the latest version**: Use the latest app version and always check for compatbility before installing either a new app version or before upgrading to a newer AEM version. See [release notes](release-notes.md).
+
+* **Mind the network**: Network performance is critical to AEM desktop app's performance. If you face slowed response to file transfers or bulk operations, turn off the features or apps that might cause lots of network traffic (like thumbnails in Finder) for the mapped network share.
+
+* **Unsupported use cases for desktop app**: Do not use the app in the following ways:
+    * Asset migration: Needs planning and other tools.
+    * Replacement for network file share: Heavy-duty DAM operations like moving large folders, large uploads, finding files are better done from the Web UI.
+    * The app is not a sync client: Design principles and usage patterns are different than in-sync clients like Microsoft OneDrive or Adobe Creative Cloud desktop sync.
+
 ## Desktop App component overview {#desktop-app-components-v2}
 
 Desktop app includes the following components:
 
 * **The Desktop application**: Mounts/unmounts DAM as a remote file system, and translates file system calls between the locally mounted network share and the remote AEM instance to which it connects.
 * **Operating system WebDAV/SMB client**: Handles communication between Windows Explorer/Finder and desktop app. If a file is retrieved, created, modified, deleted, moved, or copied, the operating system (OS) WebDAV/SMB client communicates this operation to desktop app. After receiving the communication, desktop app translates it into native AEM remote API calls. For example, if a user creates a file in the mounted directory, the WebDAV/SMB client initiates a request, which the desktop app translates into an HTTP request that creates the file in DAM. The WebDAV/SMB client is a built-in component of the OS. It is not affiliated with desktop app, AEM, or Adobe in any way.
-* **Adobe Experience Manager instance**: Provides access to assets stored in the AEM Assets DAM repository. In addition, it performs actions requested by desktop app on behalf of the local desktop applications interacting with the mounted network share. The target AEM instance should run AEM version 6.1 or higher. AEM instances running previous AEM versions might require extra feature packs and hot fixes installed to become fully functional.
+* **Adobe Experience Manager instance**: Provides access to assets stored in the AEM Assets DAM repository. In addition, it performs actions requested by desktop app on behalf of the local desktop applications interacting with the mounted network share. The target AEM instance should run a supported AEM version. AEM instances may require extra feature packs and hot fixes installed to become fully functional and secure.
 
 ## Limitations {#limitations-v2}
 
@@ -68,7 +87,7 @@ The procedure to ascertain the AEM Desktop version is the same for both Windows 
 
 Click the AEM Desktop icon, and then choose **About**. The version number is displayed on the screen.
 
-## Upgrading AEM desktop app on macOS {#upgrading-aem-desktop-app-on-macos-v2}
+## Upgrade AEM desktop app on macOS {#upgrade-aem-desktop-app-on-macos-v2}
 
 Occasionally issues may occur when upgrading AEM desktop app on macOS. This is caused by legacy system folder for AEM desktop app preventing new versions of AEM Desktop to load correctly. To remedy this issue, the following folders and files can be manually removed.
 
@@ -83,7 +102,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop" | xargs rm -rf
 sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-plugin" | xargs rm -rf
 ```
 
-## Saving a file checked out by others {#saving-a-file-checked-out-by-others-v2}
+## Save a file checked out by others {#save-a-file-checked-out-by-others-v2}
 
 Technical limitations of the operating system prevent users from having a consistent experience when attempting to overwrite a file that is checked out by others. The experience varies depending on the application used to edit the checked out file. Sometimes, the application displays an error message indicating a disk write failure or displays a seemingly unrelated or generic error. On other occasions, no error message is displayed and the operation appears to succeed.
 
