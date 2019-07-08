@@ -33,9 +33,12 @@ Adhering to the following best practices will help you prevent some of the issue
 * **Mind the network**: Network performance is critical to AEM desktop app's performance. If you face slowed response to file transfers or bulk operations, turn off the features or apps that might cause lots of network traffic (like thumbnails in Finder) for the mapped network share.
 
 * **Unsupported use cases for desktop app**: Do not use the app in the following ways:
-    * Asset migration: Needs planning and other tools.
-    * Replacement for network file share: Heavy-duty DAM operations like moving large folders, large uploads, finding files are better done from the Web UI.
-    * The app is not a sync client: Design principles and usage patterns are different than in-sync clients like Microsoft OneDrive or Adobe Creative Cloud desktop sync.
+
+  * Asset migration: Needs planning and other tools.
+
+  * Replacement for network file share: Heavy-duty DAM operations like moving large folders, large uploads, finding files are better done from the Web UI.
+  
+  * The app is not a sync client: Design principles and usage patterns are different than in-sync clients like Microsoft OneDrive or Adobe Creative Cloud desktop sync.
 
 ## Desktop App component overview {#desktop-app-components-v2}
 
