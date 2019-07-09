@@ -123,12 +123,9 @@ Open assets for editing when you want to make changes and upload the updated ass
 
 To edit an asset, search for the asset or browse to the asset’s location. Click ![More icon](assets/do-not-localize/more2_da2.png) and click Edit.
 
-<!-- ![](assets/.png "Edit action in preview")
-!-->
-
 If you start editing an asset without checking it out (say by just opening it), use Toggle check-out option to lock the asset to prevent conflicts with edits of other users. You can use Toggle check-out option on an asset that you intend to start editing soon and do not want others to edit.
 
-Once you’re done making the edits, the app displays the Edited Locally status for the changed assets. All the changes saved to the assets are local-only until you upload the changes to AEM. To upload an individual or a few assets one-by-one, click Upload Changes from the options for an asset. It creates a version of the asset in AEM. Using the web interface of AEM Assets, you can see asset history in the [Timeline view](https://helpx.adobe.com/experience-manager/6-4/assets/using/activity-stream.html).
+Once you’re done making the edits, the app displays the Edited Locally status for the changed assets. All the changes saved to the assets are local-only until you upload the changes to AEM. To upload an individual or a few assets one-by-one, click Upload Changes from the options for an asset. It creates a version of the asset in AEM. Using the web interface of AEM Assets, you can see asset history in the [Timeline view](https://helpx.adobe.com/experience-manager/6-5/assets/using/activity-stream.html).
 
 ![Upload changes option in the app](assets/upload_changes_single1_da2.png "Upload changes option in the app")
 
@@ -186,7 +183,7 @@ After uploading, if the expected changes are not reflected in the app, click the
 
 >[!NOTE]
 >
->Do not use upload functionality to migrate a large number of assets across two AEM instances. Instead, see the [migration guide](https://helpx.adobe.com/experience-manager/6-4/assets/using/assets-migration-guide.html).
+>Do not use upload functionality to migrate a large number of assets across two AEM instances. Instead, see the [migration guide](https://helpx.adobe.com/experience-manager/6-5/assets/using/assets-migration-guide.html).
 
 ### List of transferred assets {#list-of-transferred-assets}
 

@@ -1,13 +1,13 @@
 ---
 title: Troubleshoot AEM desktop app
-seo-title: "AEM Assets: Troubleshoot AEM desktop app"
+seo-title: Troubleshoot AEM desktop app for AEM Assets
 description: Troubleshoot AEM desktop app to resolve the occasional issues related to installation, upgrade, configuration, and so on.
 seo-description: Troubleshoot AEM desktop app to resolve the occasional issues related to installation, upgrade, configuration, and so on.
 uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
 contentOwner: asgupta
 content-strategy: redirect-pointer
 content-type: troubleshooting
-products: SG_EXPERIENCEMANAGER
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS
 discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
@@ -20,9 +20,9 @@ Adobe Experience Manager (AEM) desktop app connects to a remote AEM deployment's
 
 ## Best practices {#best-practices-to-prevent-troubles}
 
-Adhering to the following best practices will help you prevent some of the issues and their troubleshooting.
+Adher to the following best practices to prevent some common issues and troubleshooting.
 
-* **Understand how the desktop app works**: Before starting to use the application, spend a few minutes knowing how the app works. Know about linking between Web UI and desktop, repository mapping, asset caching, saving locally and uploading in background. See [how it works](release-notes.md/#how-app-works).
+* **Understand how the desktop app works**: Before starting to use the application, spend a few minutes knowing how the app works. Know about linking between Web UI and desktop, repository mapping, asset caching, saving locally and uploading in background. See [how it works](release-notes.md#how-app-works).
 
 * **Best practices to avoid conflicts**: To avoid potential conflicts when collaborating on multiple assets, see [avoid editing conflicts](using.md#adv-workflow-collaborate-avoid-conflicts).
 
@@ -34,11 +34,11 @@ Adhering to the following best practices will help you prevent some of the issue
 
 * **Unsupported use cases for desktop app**: Do not use the app for Assets' migration (it needs planning and other tools); for heavy-duty DAM operations (like moving large folders, large uploads, finding files using advanced metadata searches); and as a sync client (design principles and usage patterns are different than in-sync clients like Microsoft OneDrive or Adobe Creative Cloud desktop sync).
 
-## Desktop App component overview {#desktop-app-components-v2}
+## Desktop app component overview {#desktop-app-components-v2}
 
 The desktop app includes the following components:
 
-* **The Desktop application**: Mounts/unmounts DAM as a remote file system, and translates file system calls between the locally mounted network share and the remote AEM instance to which it connects.
+* **The desktop application**: Mounts/unmounts DAM as a remote file system, and translates file system calls between the locally mounted network share and the remote AEM instance to which it connects.
 
 * **Operating system WebDAV/SMB client**: Handles communication between Windows Explorer/Finder and desktop app. If a file is retrieved, created, modified, deleted, moved, or copied, the operating system (OS) WebDAV/SMB client communicates this operation to desktop app. After receiving the communication, desktop app translates it into native AEM remote API calls. For example, if a user creates a file in the mounted directory, the WebDAV/SMB client initiates a request, which the desktop app translates into an HTTP request that creates the file in DAM. The WebDAV/SMB client is a built-in component of the OS. It is not affiliated with desktop app, AEM, or Adobe in any way.
 
@@ -66,31 +66,27 @@ Replacing a file doesn't display a warning or error, but checking the asset in A
 
 ## Clear cache {#clear-cache-v2}
 
-Clearing AEM Desktop's cache is a preliminary troubleshooting task that can resolve several AEM desktop issues.
+Clearing AEM desktop app's cache is a preliminary troubleshooting task that can resolve several issues. You can clear the cache by deleting the application's cache directory at the following locations:
 
-You can clear the cache by deleting the application's cache directory at the following locations: Windows: `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
+* On Windows: `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
 
-Mac: `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
+* On Mac: `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
 
-However, the location can change depending on AEM Desktop's configured AEM endpoint. The value is an encoded version of the targeted URL. For example, if the application is targeting `http://localhost:4502`, the directory name is `http%3A%2F%2Flocalhost%3A4502%2F`.
+However, the location can change depending on AEM desktop's configured AEM endpoint. The value is an encoded version of the targeted URL. For example, if the application is targeting `http://localhost:4502`, the directory name is `http%3A%2F%2Flocalhost%3A4502%2F`. To clear the cache, delete the encoded AEM endpoint directory.
 
-To clear the cache, delete the &lt;Encoded AEM Endpoint&gt; directory.
-
->[!NOTE]
+>[!CAUTION]
 >
->If you clear AEM desktop cache, local file changes that are not synced to AEM are lost.
+>If you clear AEM desktop cache, local asset modifications that are not synced to AEM server, are irrevocably lost.
 
 ## Know the AEM desktop app version {#know-app-version-v2}
 
-The procedure to ascertain the AEM Desktop version is the same for both Windows and Mac OS.
-
-Click the AEM Desktop icon, and then choose **About**. The version number is displayed on the screen.
+The procedure to ascertain the AEM desktop app version is the same for both Windows and Mac OS. Click the AEM desktop icon, and then choose [!UICONTROL About]. The version number is displayed on the screen.
 
 ## Upgrade AEM desktop app on macOS {#upgrade-aem-desktop-app-on-macos-v2}
 
-Occasionally issues may occur when upgrading AEM desktop app on macOS. This is caused by legacy system folder for AEM desktop app preventing new versions of AEM Desktop to load correctly. To remedy this issue, the following folders and files can be manually removed.
+Occasionally issues may occur when upgrading AEM desktop app on macOS. This is caused by legacy system folder for AEM desktop app preventing new versions of AEM desktop app to load correctly. To remedy this issue, the following folders and files can be manually removed.
 
-Prior to executing the steps below, drag the "Adobe Experience Manager Desktop" application from the macOS Applications folder to the Trash. Then open terminal, and exeucte the following command, providing your password when prompted.
+Prior to executing the steps below, drag the `Adobe Experience Manager Desktop` application from the macOS Applications folder to the Trash. Then open terminal, and exeucte the following command, providing your password when prompted.
 
 ```shell
 sudo rm -rf ~/Library/Application\ Support/com.adobe.aem.desktop
@@ -115,9 +111,8 @@ The libraries that AEM desktop app uses for HTTP communication utilizes strict S
 
 ## Check log files {#check-log-files-v2}
 
-Depending upon your operating system, you can find the log files for AEM desktop app at the following locations:
+You can find the log files for AEM desktop app at the following locations. When uploading many assets, if some files fail to upload, see `backend.log` file at the above location to identify the failed uploads.
 
-* **Windows**: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
-* **Mac**: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+* On Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
 
-When uploading many assets, if some files fail to upload, see the following logs to identify the failed uploads in `backend.log` file at the above location.
+* On Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
