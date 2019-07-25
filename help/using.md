@@ -30,6 +30,7 @@ When you open the application after logging out or for the first time, provide t
 The key tasks you do using the AEM desktop app are:
 
 ![Workflows and tasks you can accomplish using AEM desktop app](assets/whats-new-desktop-app-v2.png "Workflows and tasks you can accomplish using AEM desktop app")
+Download [this](assets/do-not-localize/aem_desktop_app_usecases_print.pdf) print-ready PDF file.
 
 ## How desktop app works {#how-app-works2}
 
@@ -64,7 +65,7 @@ You can browse to, search for, and preview the assets available in the AEM repos
 
    ![Sample search using asterisk wildcard](assets/search_wildcard_da2.png "Sample search using asterisk wildcard")
 
-   ![Another sample search using asterisk wildcard](assets/search_wildcard2_da2.png "Another search - be cautious of creating queries using wildcard")
+   ![Another sample search using asterisk wildcard](assets/search_wildcard2_da2.png "Another sample search with different placement of the asterisk wildcard")
 
 >[!NOTE]
 >
