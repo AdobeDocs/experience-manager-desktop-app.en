@@ -57,7 +57,7 @@ To install the desktop app, follow these steps. Uninstall any existing Adobe Exp
 
 ## Set preferences {#set-preferences}
 
-To change preferences, click ![More options icon](assets/do-not-localize/more_options_da2.png) and Preference ![Preferences icon](assets/do-not-localize/preferences_da2.png). In the Preferences window, adjust the values of the following:
+To change preferences, click ![More options icon](assets/do-not-localize/more_options_da2.png) and Preference ![Preferences icon](assets/do-not-localize/preferences_icon_da2.png). In the Preferences window, adjust the values of the following:
 
 * Launch application on login.
 * Show window when application starts.
