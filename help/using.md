@@ -30,7 +30,7 @@ When you open the application after logging out or for the first time, provide t
 The key tasks you do using the AEM desktop app are:
 
 ![Workflows and tasks you can accomplish using AEM desktop app](assets/whats-new-desktop-app-v2.png "Workflows and tasks you can accomplish using AEM desktop app")
-Download [this](assets/do-not-localize/aem_desktop_app_usecases_print.pdf) print-ready PDF file.
+Download [this](assets/aem_desktop_app_usecases_print.pdf) print-ready PDF file.
 
 ## How desktop app works {#how-app-works2}
 
