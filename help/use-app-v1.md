@@ -88,17 +88,17 @@ The application allows for settings to connect and disconnect from AEM servers, 
 
 The app supports proxy configuration on Mac and Windows. The configuration is read when the app starts. If you modify proxy settings, restart the app for the changes to take effect.
 
-1. Launch AEM Desktop app. To map your AEM instance with the app, specify your AEM server in this format: `https://[aem-server-url]:[port]`.
+>[!NOTE]
+>
+>If you modify the proxy settings, restart the app for the changes to take effect. Otherwise, the app continues to use the previously configured proxy server.
+
+1. Launch AEM Desktop app. To map your AEM instance with the app, specify your AEM server in the format `https://[aem-server-url]:[port]`.
 
    ![Authenticate on Mac and provide AEM server URL](assets/aem_desktop_app_server_url.png)
-
-   Authenticate on Mac and provide AEM server URL
 
 1. In the login screen, specify the user name and password for your instance. To specify an alternate AEM instance, select the **[!UICONTROL Alternate Login URL]** option.
 
    ![Provide AEM server credentials on the login screen on AEM Desktop](assets/chlimage_1-2.png)
-
-   Provide AEM server credentials on the login screen on AEM Desktop
 
 ### Enable desktop actions in AEM web interface {#desktopactions}
 
@@ -258,10 +258,8 @@ Please note that it is *not recommended* to copy & paste or drag & drop larger n
 
 Another alternative if you prefer to work on the desktop is to select files/folders you want to upload to AEM in Finder or Explorer, copy them to system clipboard, then navigate to the target folder in the network share area, and from the AEM desktop app context menu select "Paste Assets". This way, AEM desktop app starts uploading the pasted assets similar to the Upload Folder described above.
 
-## Additional resources {#additional-resources}
-
-Help and knowledgebase articles related to desktop app are:
-
-* [Introduction to AEM desktop app](https://helpx.adobe.com/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
-* [Understand Check-in/Check-out with AEM desktop app](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
-* [Troubleshoot AEM Desktop application](troubleshoot-app-v1.md)
+>[!MORELIKETHIS]
+>
+>* [Introduction to AEM desktop app](https://helpx.adobe.com/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
+>* [Understand Check-in/Check-out with AEM desktop app](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+>* [Troubleshoot AEM Desktop application](troubleshoot-app-v1.md)
