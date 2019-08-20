@@ -8,8 +8,6 @@ contentOwner: asgupta
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS
 topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-products: SG_EXPERIENCEMANAGER/6.2/ASSETS
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: aem-desktop-app
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
@@ -91,7 +89,7 @@ Downloading multiple assets may lead to poor performance if queue size is large 
 
 You can open the remote assets for viewing in the native application. The assets are downloaded to a local folder and launched in the native application associated with the file format.
 
-Access the Open option in the more menu by clicking  . The asset is downloaded locally and opened in the native application. Check the download progress and transfer speed of large assets in the status bar.
+Access the Open option in the more menu by clicking ![more icon](assets/do-not-localize/more2_da2.png). The asset is downloaded locally and opened in the native application. Check the download progress and transfer speed of large assets in the status bar.
 ![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
 
 >[!NOTE]
@@ -241,11 +239,11 @@ If an asset you are editing locally is also updated on the server without your k
 
 When you use AEM desktop app to open files with linked assets, the assets are pre-downloaded and appear placed in the native applications. For this workflow to work, your native application must support placing links to local assets and AEM must support resolving these links in the binary files to server-side references.
 
-AEM desktop app supports this workflow with a few select Adobe Creative Cloud desktop applications and file formats – InDesign, Illustrator, and Photoshop. The workflow allows you to work efficiently with the supported Creative Cloud files. So if user A places a few assets in an InDesign file and checks it into AEM, user B sees the assets in the InDesign file even though the assets are not part of the file. The assets are locally downloaded on the machine of user B.
+AEM desktop app supports this workflow with a few select Adobe Creative Cloud desktop applications and file formats – Adobe InDesign, Adobe Illustrator, and Adobe Photoshop. The workflow allows you to work efficiently with the supported Creative Cloud files. So if user A places a few assets in an InDesign file and checks it into AEM, user B sees the assets in the InDesign file even though the assets are not part of the file. The assets are locally downloaded on the machine of user B.
 
 >[!NOTE]
 >
->The desktop app can map to any drive. However, for smooth operations, do not change the default drive mapping. You may not be able to see the placed assets if you change the drive letter. However, the assets are not removed and continue to be placed in the file.
+>The desktop app can map to any drive on Windows. However, for smooth operations, do not change the default drive mapping. You may not be able to see the placed assets if you change the drive letter. However, the assets are not removed and continue to be placed in the file.
 
 To know the limitations of this workflow, see the [System requirements and supported versions](release-notes.md#system-requirements-and-prerequisites-v2).
 
