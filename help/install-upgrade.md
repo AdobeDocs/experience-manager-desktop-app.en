@@ -74,10 +74,16 @@ To update the grayed-out preferences, log out of the AEM server. After updating 
 
 ## Uninstall the app {#uninstall-the-app}
 
-To uninstall the application, follow these steps:
+To uninstall the application on Windows, follow these steps:
 
 1. Upload all your changes to AEM to avoid losing any edits. See Edit assets and upload updated assets to AEM. Log off and Exit the app.
-1. Remove the app like you’d remove any other OS application. Move to Trash on Mac and uninstall it from Add and remove programs on Windows.
+1. Remove the app like you’d remove any other OS application. Uninstall it from Add and remove programs on Windows.
 1. You can select the required checkbox to remove the cache and logs
    ![Uninstallation dialog to remove logs and cache](assets/uninstall_da2.png "Uninstallation dialog to remove logs and cache")
 1. Follow the on-screen instructions. When completed, reboot the machine.
+
+To uninstall the application on Mac, follow these steps:
+
+1. Upload all your changes to AEM to avoid losing any edits. See Edit assets and upload updated assets to AEM. Log off and Exit the app.
+1. Execute the following command:
+`/Applications/Adobe Experience Manager Desktop/Contents/Resources/uninstall-osx/uninstall.sh`
