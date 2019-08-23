@@ -1,8 +1,8 @@
 ---
-title: Troubleshoot AEM desktop app
-seo-title: Troubleshoot AEM desktop app for AEM Assets
-description: Troubleshoot AEM desktop app to resolve the occasional issues related to installation, upgrade, configuration, and so on.
-seo-description: Troubleshoot AEM desktop app to resolve the occasional issues related to installation, upgrade, configuration, and so on.
+title: Best practices for and troubleshooting AEM desktop app
+seo-title: AEM desktop app troubleshooting and best practices
+description: Follow best practices and troubleshoot to resolve the occasional issues related to installation, upgrade, configuration, and so on.
+seo-description: Follow best practices and troubleshoot to resolve the occasional issues related to installation, upgrade, configuration, and so on.
 uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
 contentOwner: asgupta
 content-strategy: redirect-pointer
@@ -32,11 +32,17 @@ Adher to the following best practices to prevent some common issues and troubles
 
 * **Use the latest version**: Use the latest app version and always check for compatbility before installing either a new app version or before upgrading to a newer AEM version. See [release notes](release-notes.md).
 
+* **Use the same drive letter**: Use the same drive letter across an organization to map to the AEM DAM. To see assets placed by other users, the paths must be the same. Using the same drive letter ensures a constant path to DAM assets. The assets continue to remain placed and are not removed even if different drive letters are used by different users.
+
 * **Mind the network**: Network performance is critical to AEM desktop app's performance. If you face slowed response to file transfers or bulk operations, turn off the features or apps that might cause lots of network traffic.
 
 * **Unsupported use cases for desktop app**: Do not use the app for Assets' migration (it needs planning and other tools); for heavy-duty DAM operations (like moving large folders, large uploads, finding files using advanced metadata searches); and as a sync client (design principles and usage patterns are different than in-sync clients like Microsoft OneDrive or Adobe Creative Cloud desktop sync).
 
-## Enable debug mode {#enable-debug-mode}
+## How to troubleshoot {#troubleshooting-prep}
+
+To troubleshoot desktop app issues, be aware of the following information. Also, it prepares you to better convey the issues to Adobe customer care if you choose to seek support.
+
+### Enable debug mode {#enable-debug-mode}
 
 To troubleshoot, you can enable the debug mode and get more information in the logs. To run the app in debug mode, use the following command line options in a terminal or at the command prompt.
 
@@ -44,7 +50,7 @@ To troubleshoot, you can enable the debug mode and get more information in the l
 
 * On Mac: `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`
 
-## Check log files {#check-log-files-v2}
+### Location of log files {#check-log-files-v2}
 
 You can find the log files for AEM desktop app at the following locations. When uploading many assets, if some files fail to upload, see `backend.log` file at the above location to identify the failed uploads.
 
@@ -56,7 +62,7 @@ You can find the log files for AEM desktop app at the following locations. When 
 >
 >When working with Adobe Customer Care on a support request/ticket, you may be asked to share the log files to help the support team understand the issue. Archive the entire `Logs` folder and share it with the customer care.
 
-## Clear cache {#clear-cache-v2}
+### Clear cache {#clear-cache-v2}
 
 Clearing AEM desktop app's cache is a preliminary troubleshooting task that can resolve several issues. Clear the cache from the app preferences. See [set preferences](install-upgrade.md#set-preferences). The default location of the cache folder is:
 
@@ -70,9 +76,18 @@ However, the location can change depending on AEM desktop's configured AEM endpo
 >
 >If you clear AEM desktop cache, local asset modifications that are not synced to AEM server, are irrevocably lost.
 
-## Know the AEM desktop app version {#know-app-version-v2}
+### Know the AEM desktop app version {#know-app-version-v2}
 
 Click ![App menu](assets/do-not-localize/more_options_da2.png) to open the app's menu and click **[!UICONTROL Help]** > **[!UICONTROL About]**.
+
+## Cannot see placed assets {#placed-assets-missing}
+
+If you cannot see the assets that you or other creative professionals placed in the support files (say, INDD files), check the following:
+
+* Connection to the server. Flaky network connectivity can stall asset downloads.
+* File size. Large assets take longer to download and display.
+* Drive letter consistency. If you or another collaborator placed the assets while mapping the AEM DAM to a different drive letter, the placed assets do not display.
+* Permissions. Contact your AEM administrator to check if you have permissions to fetch the placed assets.
 
 ## Issues when upgrading on macOS {#issues-when-upgrading-on-macos}
 

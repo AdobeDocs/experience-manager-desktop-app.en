@@ -110,7 +110,7 @@ The “Reveal” location shows a local network share, showing only the files th
 
 >[!NOTE]
 >
->For backwards compatibility with AEM desktop app v1.x, the files revealed are served from a local network share, exposing locally available files only. The desktop paths of the revealed files are the same as the paths created by app v1.x. If required, customize the drive letter, from the [app Preferences](install-upgrade.md#set-preferences).
+>For backwards compatibility with AEM desktop app v1.x, the files revealed are served from a local network share, exposing locally available files only. The desktop paths of the revealed files are the same as the paths created by app v1.x.
 
 >[!CAUTION]
 >
@@ -243,7 +243,7 @@ AEM desktop app supports this workflow with a few select Adobe Creative Cloud de
 
 >[!NOTE]
 >
->The desktop app can map to any drive on Windows. However, for smooth operations, do not change the default drive mapping. You may not be able to see the placed assets if you change the drive letter. However, the assets are not removed and continue to be placed in the file.
+>The desktop app can map to any drive on Windows. However, for smooth operations, do not change the default drive letter. If users of the same organization use different drive letters, they cannot see the assets placed by others. The placed assets are not fetched as the path changes. The placed assets continue to remain placed in the binary file (say INDD) and are not removed.
 
 To know the limitations of this workflow, see the [System requirements and supported versions](release-notes.md#system-requirements-and-prerequisites-v2).
 

@@ -1,8 +1,8 @@
 ---
 title: Install and configure AEM desktop app
 seo-title: Install and configure AEM desktop app
-description: Install and configure AEM desktop app to work with AEM Assets servers and map the assets to mount as a drive on your desktop.
-seo-description: Install and configure AEM desktop app to work with AEM Assets servers and map the assets to mount as a drive on your desktop.
+description: Install and configure AEM desktop app to work with AEM Assets servers and download the assets on your local filesystem.
+seo-description: Install and configure AEM desktop app to work with AEM Assets servers and download the assets on your local filesystem.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
 contentOwner: asgupta
 content-type: reference
@@ -26,9 +26,9 @@ For detailed information, see the [AEM desktop app release notes](release-notes.
 
 ## Upgrade from app v1.x to app v2 {#upgrade-from-previous-version}
 
-If you are an existing user of the app v1.x, then understand the differences and similarities between both versions. Also, follow the below guidelines, to transition from desktop app v1.x to v2.0.
+If you are an existing user of the app, then understand the differences and similarities between the previous and the latest version of the app. Also, follow the below guidelines, to transition from v1.x to the latest version.
 
-To upgrade from v1.x to v2.x of the app, follow these instructions:
+To upgrade from v1.x to the latest version of the app, follow these instructions:
 
 1. Before upgrading, sync all your assets. Upload all the changes using app v1.x. This is to avoid losing any changes when uninstalling the app v1.x.
 1. Uninstall app v1.x. When uninstalling v1.x, clear the cache.
@@ -37,7 +37,7 @@ To upgrade from v1.x to v2.x of the app, follow these instructions:
 
 ## Install {#install-v2}
 
-To install the desktop app, follow these steps. Uninstall any existing Adobe Experience Manager desktop app v1.x before installing v2.0 pre-release build. For more info, see above.
+To install the desktop app, follow these steps. Uninstall any existing Adobe Experience Manager desktop app v1.x before installing the latest app. For more info, see above.
 
 1. Keep the URL and credentials of your AEM deployment handy.
 1. Ensure that your setup meets the compatibility requirements mentioned in the release notes. Download the applicable [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) and install it using the AEM Package Manager. To install a package, see [How to work with Packages](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html). Skip this step if you are using AEM 6.4.4/AEM 6.5.0 or later.
@@ -62,7 +62,7 @@ To change preferences, click ![More options icon](assets/do-not-localize/more_op
 * Launch application on login.
 * Show window when application starts.
 * **Cache Directory**: Location of local cache of the app (it contains the locally downloaded assets).
-* **Network Drive Letter**: The drive letter used to locally mount AEM Assets DAM. Do not change this if you are not sure. You may stop seeing the placed assets.
+* **Network Drive Letter**: The drive letter used to map to the AEM DAM. Do not change this if you are not sure. The app can map to any drive letter on Windows. If two users place assets from different drive letters, they cannot see the assets placed by each other. The path of the assets change. The assets continue to remain placed in the binary file (say INDD) and are not removed. The app lists all the available drive letters and by default uses the last-available letter that is typically `Z`.
 * **Maximum Cache Size**: Allowed cache on hard disk in GB that is used towards storing locally downloaded assets.
 * **Current cache size**: Amount of assets downloaded locally.
 * **Automatically download linked assets**: The assets that are placed in the supported native Creative Cloud apps are fetched automatically if you download the original file.
