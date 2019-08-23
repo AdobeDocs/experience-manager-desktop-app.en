@@ -156,7 +156,7 @@ AEM desktop app 1.8.1 fast-follow release added improvements when opening multip
 
 >[!NOTE]
 >
->Issues found in AEM desktop app 1.7 beta loads (that weren’t present in the 1.6 release are not reported in the release notes). Beta testers can review status of these issues in the AEM desktop app prerelease program.
+>Issues found in AEM desktop app 1.7 beta loads (that weren’t present in the 1.6 release are not reported in the release notes).
 
 ### Enhancements Available Since AEM desktop app 1.6{#Enhancements-Available-Since-AEM-Desktop-App-16}
 
