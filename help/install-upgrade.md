@@ -41,9 +41,9 @@ To install the desktop app, follow these steps. Uninstall any existing Adobe Exp
 
 1. Keep the URL and credentials of your AEM deployment handy.
 1. Ensure that your setup meets the compatibility requirements mentioned in the release notes. Download the applicable [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) and install it using the AEM Package Manager. To install a package, see [How to work with Packages](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html). Skip this step if you are using AEM 6.4.4/AEM 6.5.0 or later.
-1. Execute the installer binary and follow the on-screen instructions to install.
+1. Execute the installer binary and follow the onscreen instructions to install.
 1. Restart the machine as prompted. Launch the desktop app to configure.
-1. To connect the app with an AEM repository, click on the app icon in the tray to launch the app. Provide the address of the AEM instance. Click Connect and provide the credentials.
+1. To connect the app with an AEM repository, click the app icon in the tray to launch the app. Provide the address of the AEM instance. Click Connect and provide the credentials.
 
    ![Connection screen of desktop app to input server address](assets/connect_da2.png "Connection screen to input server address")
 
@@ -63,12 +63,12 @@ To change preferences, click ![More options icon](assets/do-not-localize/more_op
 * Show window when application starts.
 * **Cache Directory**: Location of local cache of the app (it contains the locally downloaded assets).
 * **Network Drive Letter**: The drive letter used to map to the AEM DAM. Do not change this if you are not sure. The app can map to any drive letter on Windows. If two users place assets from different drive letters, they cannot see the assets placed by each other. The path of the assets change. The assets continue to remain placed in the binary file (say INDD) and are not removed. The app lists all the available drive letters and by default uses the last-available letter that is typically `Z`.
-* **Maximum Cache Size**: Allowed cache on hard disk in GB that is used towards storing locally downloaded assets.
-* **Current cache size**: Amount of assets downloaded locally.
+* **Maximum Cache Size**: Allowed cache on hard disk in GB that is used toward storing locally downloaded assets.
+* **Current cache size**: Number of assets downloaded locally.
 * **Automatically download linked assets**: The assets that are placed in the supported native Creative Cloud apps are fetched automatically if you download the original file.
 * **Maximum number of downloads**: When downloading assets for the first time (via Reveal, Open, Edit, Download, or similar option), the assets are downloaded only if the batch contains less than this number. Default value is 50. Do not change if you are unsure. Increasing the value may lead to longer wait times and decreasing the value may not allow you to download required assets or folders in one go.
 
-To update the grayed-out preferences, log out of the AEM server. After updating the preferences, click ![](assets/do-not-localize/save_preferences_da2.png) to save the changes.
+To update the unavailable preferences, log out of the AEM server. After updating the preferences, click ![](assets/do-not-localize/save_preferences_da2.png) to save the changes.
 
 ![AEM desktop app preferences and settings](assets/preferences_da2.png "Desktop app preferences")
 
@@ -78,9 +78,9 @@ To uninstall the application on Windows, follow these steps:
 
 1. Upload all your changes to AEM to avoid losing any edits. See Edit assets and upload updated assets to AEM. Log off and Exit the app.
 1. Remove the app like you’d remove any other OS application. Uninstall it from Add and remove programs on Windows.
-1. You can select the required checkbox to remove the cache and logs
+1. You can select the required check box to remove the cache and logs.
    ![Uninstallation dialog to remove logs and cache](assets/uninstall_da2.png "Uninstallation dialog to remove logs and cache")
-1. Follow the on-screen instructions. When completed, reboot the machine.
+1. Follow the onscreen instructions. When completed, restart the machine.
 
 To uninstall the application on Mac, follow these steps:
 
