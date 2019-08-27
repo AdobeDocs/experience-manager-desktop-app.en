@@ -204,7 +204,7 @@ After you install desktop app, the desktop app menu icon appears in the menu bar
 
 1. Restart the system.
 
-AEM Desktop attempts to sync any given file three times. If the file fails to sync after the third attempt, AEM Desktop considers the file to be in conflict and notifies you via the background upload status window. A conflict state indicates that your latest changes are still available to you locally, but they are not synced back to AEM. AEM Desktop will no longer attempt to perform the sync.
+AEM Desktop attempts to sync any given file three times. If the file fails to sync after the third attempt, AEM Desktop considers the file to be in conflict and notifies you via the background upload status window. A conflict state indicates that your latest changes are still available to you locally, but they are not synced back to AEM. AEM desktop app no longer attempts to sync.
 
 The simplest way to fix this situation is to open the conflicting file and save it again. It forces AEM Desktop to attempt synchronization for an additional three occasions. If the file still fails to sync, see the sections below for more help.
 
@@ -226,7 +226,7 @@ To clear the cache, delete the &lt;Encoded AEM Endpoint&gt; directory.
 
 >[!NOTE]
 >
->Starting with AEM desktop app version 1.5, there will be an option in the desktop app UI to clear the cache.
+>Starting with AEM desktop app version 1.5, there is an option in the desktop app UI to clear the cache.
 
 ## Finding the AEM Desktop version {#finding-the-aem-desktop-version}
 

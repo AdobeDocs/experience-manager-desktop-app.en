@@ -21,17 +21,17 @@ snippet: y
 
 Adobe offers connected workflows across its solutions to allow next-level productivity for your creative professionals. The Adobe Experience Manager desktop app connects repositories and desktop applications, including Adobe and third-party ones, to provide faster access to resources and streamlined workflows. This saving of time and reduction in effort improves efficiency of users, who work with assets from Adobe Experience Manager in their desktop workflows.
 
-Using the App, the assets within AEM Assets are easily accessible on your local desktop and can be used in any desktop applications. Assets can be easily revealed in Mac Finder or Windows Explorer, opened in desktop applications, and changed locally - the changes are saved back to AEM with a new version created in the repository.
+Using the app, the assets within AEM Assets are easily accessible on your local desktop and can be used in any desktop applications. You can open and edit the assets in desktop applications of your choice. The local edits are made available in AEM as a new version of the asset (not a new asset) only when you choose to upload the changes.
 
-Such an integration allows various roles in the organization to manage the assets centrally in AEM Assets and to access them in the Creative Cloud and other applications, while making it easy to adhere to the various standards including branding.
+Such an integration allows various roles in the organization to manage the assets centrally in AEM Assets. Creative users access assets on the desktop in the Creative Cloud and other native applications. Marketers and business users can ensure compliance to the various standards including branding and licensing.
 
 >[!NOTE]
 >
->Adobe Experience Manager desktop app was introduced in AEM 6.1 release and was previously called AEM Assets Companion App. If you are using v1.x of the app, Adobe strongly recommends that you upgrade to the latest version. For specific help articles of version 1.x of the app, see the TOC in the left sidebar.
+>Adobe Experience Manager desktop app was introduced in AEM 6.1 release and was previously called AEM Assets Companion App. Application versions 1.x are deprecated and Adobe strongly recommends that you upgrade to the latest version. For help of app v1.x, see the TOC in the left sidebar.
 
 The desktop app documentation contains information for the following roles and use cases.
 
-|                                          Information required                                         |                     See this section                       |
+|                                          Information required                                         |                     Help content                       |
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | Want a quick glimpse of new features and enhancements in the latest version?                          | [What's New in the App](#whats-new-v2)                     |
 | Want to know the prerequisites and technical specifications? Want download links?                     | [Release Notes](release-notes.md)                          |
@@ -40,27 +40,19 @@ The desktop app documentation contains information for the following roles and u
 | Learn how to use to browse, discover, edit, upload, resolve conflicts, do bulk operations, and so on. | [Use AEM desktop app](using.md)                            |
 | Ran into an issue? Need help to troubleshoot?                                                         | [Troubleshoot the AEM desktop app](troubleshoot.md)        |
 
-<!-- ## AEM Desktop app touch-points in the creative workflow {#aem-desktop-app-touch-points-in-the-creative-workflow}
-
-AEM Desktop app, along with AEM Assets, integrates in your creative workflow and offers the following touchpoints.
-
-![AEM Desktop app touch-points the creative workflow](assets/aem_desktopapp_workflow.png)
-
-AEM Desktop app touch-points the creative workflow -->
-
 ## What's New in the App {#whats-new-v2}
 
-Version 2.0 of the app is created from grounds-up to provide many improvements over the previous versions. The new app simplifies access to assets from AEM Assets repository for desktop applications, and provides a way to discover assets, open, edit and upload changes, as well as upload new assets – without requiring the user to use the AEM interface.
+Version 2.0 of the app is created from grounds-up to provide many improvements over the previous versions. The new app is much more user-friendly and offers a desktop-only experience. Users can discover assets, open, edit, and upload changes, as well as upload new assets – without requiring the user to use the AEM interface.
 
 The new app brings substantial improvements to the user experience, while catering to the same use cases as before. The following are the top-level improvements.
 
 * Users discover assets by browsing and searching within the app in a built-in browser, instead of relying on Mac Finder or Windows Explorer to display a virtual network share.
 * Clear guidance on the actions available to users.
-* Performance is improved by reducing bandwidth usage. The original binary files are downloaded only when required. For browsing and searching assets, only small thumbnails are transferred.
+* Performance is improved by reducing bandwidth usage. The original binary files are downloaded only when necessary. For browsing and searching assets, only small thumbnails are transferred.
 * Optimized for bulk operations, such as bulk upload.
 
-The primary use cases and enhancements of the new app are mapped with the customer journey in the following illustration
+The primary use cases and enhancements of the new app are mapped with the customer journey in the following illustration.
 
 ![What's New in AEM desktop app](assets/whats-new-desktop-app-v2.png)
 
-The desktop app allows you to accomplish all the above-mentioned use cases right from its user interface, allowing for a desktop-only experience. If needed, you can also choose to do asset discovery in the web interface and then initiate Open, Reveal, Edit, and Toggle check-out/check-in flags from the web interface.
+The desktop app allows its users to accomplish all the above-mentioned use cases right from within the app. If necessary, you can also choose to do asset discovery in the web interface and then pass control to the app to open and edit the assets.

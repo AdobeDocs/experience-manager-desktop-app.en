@@ -36,7 +36,7 @@ Before you start using the application, understand [How the app works](release-n
 
 ## Enable desktop actions in AEM web interface {#desktopactions-v2}
 
-From within the Assets user interface in a browser, you can explore the asset locations or check-out and open the asset for editing in your desktop application. These options are called [!UICONTROL Desktop Actions] and are not enabled by default. Follow these steps to enable it.
+From within the Assets user interface in a browser, you can explore the asset locations or check-out and open the asset for editing in your desktop application. These options are called [!UICONTROL Desktop Actions] and are not enabled by default. To enable it, follow these steps.
 
 1. In the Assets console, click/tap the **[!UICONTROL User]** icon from the toolbar.
 1. Click/tap the **[!UICONTROL My Preferences]** to display the **[!UICONTROL Preferences]** dialog.
@@ -54,12 +54,12 @@ You can browse to, search for, and preview the assets available in the AEM repos
 
    ![Browse the DAM files and folders](assets/browse_folder_da2.png "Browse the DAM files and folders")
 
-1. To view more information and a larger thumbnail of an individual asset, click the file name.
+1. To view more information and a larger thumbnail of an individual asset, click the filename.
 
    ![See a larger preview of an asset and actions](assets/large_preview_actions_da2.png "See a larger preview of an asset and actions")
 
 1. Click **[!UICONTROL Open]** or **[!UICONTROL Edit]** to download the file locally and just view it or edit it in the native application, respectively.
-1. Search using keywords to find a related asset in the AEM repository. Use `?` and `*` as wildcards. These wildcards substitute for a single character or for multiple characters, respectively. Filter and sort the results as required.
+1. Search using keywords to find a related asset in the AEM repository. Use `?` and `*` as wildcards. These wildcards substitute for a single character or for multiple characters, respectively. Filter and sort the results as necessary.
 
    ![Sample search using asterisk wildcard](assets/search_wildcard_da2.png "Sample search using asterisk wildcard")
 
@@ -67,11 +67,11 @@ You can browse to, search for, and preview the assets available in the AEM repos
 
 >[!NOTE]
 >
->The app displays the assets by matching the search criteria across multiple metadata fields and not just the asset’s title or the file name.
+>The app displays the assets by matching the search criteria across multiple metadata fields and not just the asset’s title or the filename.
 
 ## Download assets {#download-assets}
 
-You can download the assets on your local filesystem. The app fetches the assets from AEM server and saves the same copy on your local filesystem.
+You can download the assets on your local file system. The app fetches the assets from AEM server and saves the same copy on your local file system.
 
 Click ![More options icon](assets/do-not-localize/more2_da2.png) for options and click ![Download icon](assets/do-not-localize/download_cloud_da2.png) to download.
 
@@ -79,7 +79,7 @@ Click ![More options icon](assets/do-not-localize/more2_da2.png) for options and
 
 >[!NOTE]
 >
->When downloading or uploading a larger file or a large number of files, the application turns off the actions on assets and folders. The actions are available when the download or upload is complete.
+>When downloading or uploading a large file or many files, the application turns off the actions on assets and folders. The actions are available when the download or upload is complete.
 
 Downloading multiple assets may lead to poor performance if queue size is large or if you face some network issue. Also, you may unknowingly queue many assets for download when you download a folder. To avoid long wait times, the app restricts the number of assets downloaded in one go. To know how to configure it, see [Set preferences](install-upgrade.md#set-preferences). Even below this limit, the app may at times seek a confirmation before downloading an apparently large folder.
 
@@ -102,13 +102,13 @@ To open the local download folder of an asset, click ![More actions icon](assets
 
 ## Use or place assets into native documents {#place-assets-in-native-documents}
 
-To directly see the filesystem location of the locally downloaded files, use the ![Reveal icon](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]** option.
+To directly see the file system location of the locally downloaded files, use the ![Reveal icon](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]** option.
 
 ![Reveal File action for an asset](assets/revealfile_action_da2.png "Reveal File action for an asset")
 
 Click **[!UICONTROL Reveal File]**, or **[!UICONTROL Reveal]** on a folder, to open Windows Explorer or Mac Finder with the file or folder preselected on your local machine. The option is useful to, say place the AEM files in the native applications that support placing or linking local files. To see how to place files in Adobe InDesign, see [Placing graphics](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 
-The **[!UICONTROL Reveal File]** action opens a local network share, that displays only the assets that are available locally – that is, it will only show assets that were revealed, downloaded, or opened/edited using the AEM desktop app actions. The local network share does not upload any changes to AEM. To upload the changes, you need to explicitly use **[!UICONTROL Upload Changes]** or **[!UICONTROL Upload]** actions in the app.
+The **[!UICONTROL Reveal File]** action opens a local network share, that displays only the assets that are available locally – that is, it displays assets that were revealed, downloaded, or opened/edited using the AEM desktop app actions. The local network share does not upload any changes to AEM. To upload the changes, explicitly use **[!UICONTROL Upload Changes]** or **[!UICONTROL Upload]** actions in the app.
 
 >[!NOTE]
 >
@@ -120,11 +120,11 @@ The **[!UICONTROL Reveal File]** action opens a local network share, that displa
 
 ## Edit assets and upload updated assets to AEM {#edit-assets-upload-updated-assets}
 
-Open assets for editing when you want to make changes and upload the updated assets to AEM server. To avoid conflicts with edits of other users, use the app to initiate an editing session. Before you start editing, ensure that the asset does not have a lock icon on it, that is, the asset is not being edited by another user.
+Open assets for editing when you want to make changes and upload the updated assets to AEM server. To avoid conflicts with edits of other users, use the app to initiate an editing session. Before you start editing, ensure that the asset does not have a lock icon on it, that is, another user is not editing the asset.
 
 To edit an asset, search for the asset or browse to the asset’s location. Click ![More icon](assets/do-not-localize/more2_da2.png) and click **[!UICONTROL Edit]**.
 
-Use **[!UICONTROL Toggle Check-out]** option to lock the asset to prevent conflicts with edits of other users in both the following situations:
+Use **[!UICONTROL Toggle Check-out]** to lock the asset to prevent conflicts with edits of other users in both the following situations:
 
 * You've started editing an asset without checking it out first (say by just opening it).
 * You intend to start editing an asset soon and do not want others to edit.
@@ -139,12 +139,12 @@ For best practices around collaborative editing, see [Advanced workflow: collabo
 
 ## Upload and add new assets to AEM {#upload-and-add-new-assets-to-aem}
 
-You may be required to add new assets to the repository. For example, you may be an agency photographer or contractor who must add a large number of photos from a photoshoot to the AEM repository. To add fresh content to AEM, click ![Upload to cloud icon](assets/do-not-localize/upload_to_cloud_da2.png) in the top-bar of the app. Browse to the asset files in the local filesystem and click **[!UICONTROL Select]**. The app starts uploading the asset and displays a progress bar at the bottom if the asset takes longer to upload.
+It may be necessary to add new assets to the repository. For example, you may be an agency photographer or contractor who must add a large number of photos from a photoshoot to the AEM repository. To add fresh content to AEM, click ![Upload to cloud icon](assets/do-not-localize/upload_to_cloud_da2.png) in the top-bar of the app. Browse to the asset files in the local file system and click **[!UICONTROL Select]**. The app starts uploading the asset and displays a progress bar at the bottom if the asset takes longer to upload.
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
 
-You can upload folders or individual files from your local filesystem. A folder’s hierarchy is preserved when it is uploaded. Before uploading assets in bulk, see [Bulk uploads](#bulk-upload-assets).
+You can upload folders or individual files from your local file system. A folder’s hierarchy is preserved when it is uploaded. Before uploading assets in bulk, see [Bulk uploads](#bulk-upload-assets).
 
 To view the list of assets transferred in a given session, click **[!UICONTROL View]** > **[!UICONTROL Assets transfers]**. The list allows you to view and quickly verify the file transfers of the current session.
 
@@ -152,7 +152,7 @@ To view the list of assets transferred in a given session, click **[!UICONTROL V
 
 >[!NOTE]
 >
->The transfer list is not persistent and is not available if you exit the app and re-open it.
+>The transfer list is not persistent and is not available if you exit the app and reopen it.
 
 ## Work with multiple assets {#work-with-multiple-assets}
 
@@ -160,11 +160,11 @@ Users can easily work with and manage multiple assets using actions like uploadi
 
 ### Browse large folders {#browse-large-folders}
 
-When working with folders containing many assets, scroll to view more assets. To scroll using the keyboard, press tab a few times to select the asset at the top. Notice the highlighted asset to know when it is selected. Now use the Down arrow key to move through the list of assets.
+When working with folders containing many assets, scroll to view more assets. To scroll using the keyboard, press tab a few times to select the asset at the top. Notice the highlighted asset to know when it is selected. Now use the Down Arrow key to move through the list of assets.
 
 ### Quick actions for selected assets {#quick-actions-for-selected-assets}
 
-Click on the thumbnail of a few assets to select. To select all assets, click the checkbox in the top-bar of the app. The set of actions that are applicable to all the selected assets collectively are displayed in a toolbar at the bottom of the app.
+Click the thumbnail of a few assets to select the assets. To select all assets, click the check box in the top-bar of the app. The set of actions that are applicable to all the selected assets collectively are displayed in a toolbar at the bottom of the app.
 
 ![Toolbar at the bottom shows actions relevant to the selected assets](assets/actions_bottom_toolbar1_da2.png "Toolbar at the bottom shows common actions for the selected assets")
 
@@ -180,7 +180,7 @@ The application provides a view, called **[!UICONTROL Edited locally]**, to give
 
 ### Bulk upload assets {#bulk-upload-assets}
 
-Users or organization, such as photographers or creative agencies, can create a lot of local assets in scenarios, such as photoshoots, retouching, or selection from a larger set done outside of AEM. They can upload these large local folders to AEM Assets directly from the desktop app. The folder hierarchies are preserved and all the nested sub-folders and included assets are uploaded. The uploaded assets are immediately available to other users of the same server for consumption as well. Assets are uploaded in background, so the operation is not tied to a web browser session.
+Users or organization, such as photographers or creative agencies, can create numerous local assets in scenarios, such as photoshoots, retouching, or selection from a larger set done outside AEM. They can upload these large local folders to AEM Assets directly from the desktop app. The folder hierarchies are preserved and all the nested subfolders and included assets are uploaded. The uploaded assets are immediately available to other users of the same server for consumption as well. Assets are uploaded in background, so the operation is not tied to a web browser session.
 
 ![Bulk upload multiple local folders from your desktop into AEM](assets/upload_local_folders_da2.png "Bulk upload multiple local folders from your desktop into AEM")
 
@@ -188,7 +188,7 @@ After uploading, if the expected changes are not reflected in the app, click the
 
 >[!NOTE]
 >
->Do not use upload functionality to migrate a large number of assets across two AEM instances. Instead, see the [migration guide](https://helpx.adobe.com/experience-manager/6-5/assets/using/assets-migration-guide.html).
+>Do not use upload functionality to migrate assets across two AEM deployments. Instead, see the [migration guide](https://helpx.adobe.com/experience-manager/6-5/assets/using/assets-migration-guide.html).
 
 ### List of transferred assets {#list-of-transferred-assets}
 
@@ -200,11 +200,11 @@ You can initiate your workflow from the AEM Assets web interface. The desktop ap
 
 A special case of starting workflow from the web interface is asset discovery. The Omnisearch bar in Assets user interface offers a rich and advanced search experience. You may want to first locate a desired asset on the web and then initiate the workflow in the app, using [!UICONTROL Desktop Actions]. Some sample cases include filtering search results using facets, locating a specific asset licensed from Adobe Stock, or a customization implemented by your organization that allows you better discovery from the web interface.
 
-One or more desktop app functionalities are invoked when you attempt these actions on the web:
+One or more desktop app functionalities are called when you attempt these actions on the web:
 
 * The [!UICONTROL Desktop Actions] that allows [!UICONTROL Open], [!UICONTROL Edit], and [!UICONTROL Reveal]
-* Upload folder
-* Check-out or check-in
+* [!UICONTROL Upload folder]
+* [!UICONTROL Check-out] or [!UICONTROL check-in]
 
 For example, the actions on the web interface that are available for an asset that is checked out in the app are [!UICONTROL Open], [!UICONTROL Reveal], and [!UICONTROL Check-in].
 
@@ -212,9 +212,9 @@ For example, the actions on the web interface that are available for an asset th
 
 >[!NOTE]
 >
->The browser may prompt you to permit the launch of Adobe Experience Manager Desktop. To enjoy uninterrupted transfer from the browser to the app, select the appropriate checkbox to always allow the app to take over.
+>The browser may prompt you to permit the launch of Adobe Experience Manager Desktop. To enjoy uninterrupted transfer from the browser to the app, select the appropriate check box to always allow the app to take over.
 
-You cannot find the following information or workflow using the web interface. Use the desktop app as the web interface is not completely aware of the local changes and hence of the following:
+You cannot find the following information or workflow using the web interface. Use the desktop app as the web interface does not track local changes and is not aware of the following:
 
 * Files edited locally.
 * Files that have an editing conflict and way to resolve it.
@@ -225,7 +225,7 @@ You cannot find the following information or workflow using the web interface. U
 
 In collaborative environments, multiple users may work on same set of assets that can lead to versioning conflicts. To prevent conflicts, follow these best practices:
 
-* Do not edit any assets by clicking [!UICONTROL Open]. Do not edit the locally downloaded assets by opening from your filesystem folder. Other users do not know that the asset is being edited.
+* Do not edit any assets by clicking [!UICONTROL Open]. Do not edit the locally downloaded assets by opening from your file system folder. Other users do not know that the asset is being edited.
 * To edit an asset, always click [!UICONTROL Edit]. It opens the asset in the native application and adds a lock icon on the asset, so the other users know that the asset is being edited.
 * Click [!UICONTROL Toggle Check-in] if you accidentally start editing without clicking [!UICONTROL Edit]. This adds a lock icon to the asset. Even if you plan to edit an asset later but want to avoid others editing it, click [!UICONTROL Toggle Check-in] to lock the asset.
 * Before editing an asset, ensure that other users are not editing it. Look for the lock icon on the asset.
@@ -257,14 +257,14 @@ To try this workflow with an image asset and InDesign, follow these steps:
 
 1. Keep handy an INDD file with placed assets in AEM. To know how to create such an INDD file, see [Placing Graphics](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 1. From within desktop app, **[!UICONTROL Edit]** the INDD file with placed assets in AEM.
-1. Note that the desktop app downloads both, the InDesign file and the linked assets. When InDesign opens the document, the links are resolved, assets are downloaded, and the assets are displayed in the InDesign document.
+1. The app downloads both, the InDesign file and the linked assets. When InDesign opens the document, the links are resolved, assets are downloaded, and the assets are displayed in the InDesign document.
 1. To place a new graphic in the InDesign file, use **[!UICONTROL Reveal File]** action on the asset. The action downloads the asset locally and opens the local network share location in Windows Explorer or Mac Finder.
-1. Place the revealed asset in the InDesign document. This creates a new link in the document.
+1. Place the revealed asset in the InDesign document. This creates a link in the document.
 1. Once you complete your edits in the InDesign document, save it and upload it to AEM using the desktop app.
 
 ## Advanced workflow: download the assets locally {#adv-workflow-download-assets-locally}
 
-The app downloads the assets from AEM server locally on your filesystem in many scenarios that you should be aware of. The downloads consume bandwidth and disk space. Knowing the scenarios help you optimize your wait time for the downloads to complete.
+The app downloads the assets from AEM server locally on your file system in many scenarios. The downloads consume bandwidth and disk space. Knowing the scenarios help you optimize your wait time for the downloads to complete.
 
 You download the assets from within the app on-demand. See [Download assets](#download-assets).
 
@@ -274,4 +274,4 @@ When you reveal the location of an asset or a folder from within the app, the as
 
 When you use the [!UICONTROL Edit] action to edit an asset in a native desktop application, the asset is downloaded locally if not already available locally. See [Edit assets and upload updated assets to AEM](#edit-assets-upload-updated-assets).
 
-When you use [!UICONTROL Desktop Actions] from AEM web interface, the actions are completed by the app if the app is installed and is permitted to complete the actions. The asset is first downloaded by the app and then the action is completed.
+If the app is installed and permitted to, it completes the actions when you use [!UICONTROL Desktop Actions] from AEM web interface. The app downloads the asset first and then completes the action.
