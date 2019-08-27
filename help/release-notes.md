@@ -21,7 +21,7 @@ snippet: y
 | Version       | 2.0                                                                                                                                                                                                                     |
 | Type          | Major release                                                                                                                                                                                                                                          |
 | Date          | May 2019                                                                                                                                                                                                                                        |
-| Download URLs |  [Mac OS X 64 bit](https://example.com); [Windows 32 bit](https://example.com); [Windows 64 bit](https://example.com) |
+| Download URLs |  [Mac OS X 64-bit](https://example.com); [Windows 32-bit](https://example.com); [Windows 64-bit](https://example.com) |
 
 ## Compatibility {#compatibility-v2}
 
@@ -32,11 +32,11 @@ The app works with the following AEM versions, whether deployed on-premise or on
 * AEM 6.4.0 - 6.4.3 with [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 * AEM 6.3.3.1 and later with [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
-For AEM 6.3, no [service packs are planned])(https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html). Adobe Experience Manager desktop app v2.x releases might not support all new features for AEM 6.3 deployments. It is highly recommended to update to a later AEM version.
+For AEM 6.3, no [service packs are planned])(https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html). Adobe recommends to upgrade to a later AEM version.
 
 ## System requirements and prerequisites {#system-requirements-and-prerequisites-v2}
 
-AEM Desktop is compatible with the following operating systems:
+AEM desktop app is compatible with the following operating systems:
 
 * Mac OS X 10.10 or later, with latest bug fixes.
 * Windows 7 and Windows 10 with the latest service packs and bug fixes.
@@ -78,29 +78,29 @@ If you are upgrading from a previous AEM desktop app, you must follow these best
 
 It is important to understand the following about the application and how it works.
 
-* The application provides full control over operations that require full transfer of asset binaries from and to AEM (open, edit, upload changes, upload)
-  * If you want to work with the asset on desktop, you need to explicitly Open, Edit, or Download to your desktop, either individually, in a folder, or via multi-selection
-  * If you want to get local changes to assets uploaded to AEM, you need to select Upload Changes, either individually or via multi-selection
-  * The application is not a “sync client” that synchronizes assets across the desktop and AEM
-  * The application does not provide a network share that maps the AEM repository as a virtual folder structure
-* The list of assets shown by the application is based on the status of the AEM Assets repository.
-  * Any files downloaded locally and then renamed in the local files or cache folder are not displayed or managed by the application.
-* Manually refresh the display after asset upload or some operations. The display does not always update automatically
-* The local network share, shown when you use “Reveal” action, only shows files (and folders) that are available locally. Reveal and Reveal folder pre-downloads assets to help get the right assets showing in the local network share.
+* The application provides full control over operations that require full transfer of asset binaries from and to AEM (open, edit, upload changes, and upload assets).
+  * If you want to work with the asset on desktop, you need to explicitly Open, Edit, or Download to your desktop, either individually, in a folder, or via multi-selection.
+  * If you want to get local changes to assets uploaded to AEM, you need to select [!UICONTROL Upload Changes], either individually or via multi-selection.
+  * The application is not a 'sync client' that synchronizes assets across the desktop and AEM.
+  * The application does not provide a network share that maps the AEM repository as a virtual folder structure.
+* The list of assets shown by the application is based on the status of the AEM Assets repository. Any files downloaded locally and then renamed in the local files or cache folder are not displayed or managed by the application.
+* Manually refresh the display after asset upload or some operations. The display does not always update automatically.
+* The local network share, shown when you use [!UICONTROL Reveal] action, only shows files (and folders) that are available locally. [!UICONTROL Reveal] and [!UICONTROL Reveal folder] pre-downloads assets to help get the right assets showing in the local network share.
 * SMB/WebDAV is used when an Adobe Creative Cloud app reads the asset files linked/placed in a native file of the Creative Cloud app.
 
 ## Known issues {#known-issues-v2}
 
-* Sometimes, the UI of the desktop app gets blank. Use the right-click and “reload” to enforce loading the embedded application again. Note it would reset the state of the app and get you to the main screen
+* Sometimes, the interface of the desktop app gets blank. Right-click and click Refresh to load the application again. Note it would reset the state of the app and get you to the welcome screen.
 * Infrequently, the progress bar does not display correctly when the uploading asset changes.
-* At times, on Windows, an asset's status may immediately change to ‘Edited Locally’ after opening it, even though you may not have edited it.
-* After you click the Refresh button, the controls to page and sort assets are reset.
+* At times, on Windows, an asset's status may immediately change to [!UICONTROL Edited Locally] after opening it, even though you may not have edited it.
 * After applying and removing the filter to find all locally edited assets, the app does not take users to their search results or folder view that the users started with.
-* If you Upload Changes in the Locally Edited view, the status of the files does not refresh automatically (use Refresh button)
+* If you upload changes in the [!UICONTROL Locally Edited] view, the status of the files does not refresh automatically. Refresh the app view.
 * Sometimes, when you connect to a URL that doesn’t have AEM server running, the connect screen can get stuck. Exit the application and start it again.
-* When uploading changes to an asset with a comment, the comment will be stored with the asset in AEM but will not be visible as a versioning comment until the next action of uploading changes. This is a result of the AEM versioning model and should be improved to show the latest comment in future releases of AEM service packs.
+* When uploading changes to an asset with comments, the comments are stored with the asset in AEM but are not visible as versioning comments.
 
-## Helpful resources {#helpful-resources-v2}
-
-* [AEM documentation](https://helpx.adobe.com/support/experience-manager/6-5.html)
-* [Use AEM desktop app](using.md)
+>[!MORELIKETHIS]
+>
+>* [AEM documentation](https://helpx.adobe.com/support/experience-manager/6-5.html)
+>* [Use AEM desktop app](using.md)
+>* [Install and upgrade desktop app](install-upgrade.md)
+>* [Best pracitces, troubleshooting tips](troubleshoot.md)

@@ -64,7 +64,7 @@ AEM desktop app uses an HTTPS connection to connect to AEM server to robustly an
 
 To use AEM desktop app, ensure that your AEM server version is supported by AEM Desktop app. Download the appropriate installation file (binary) for your operating system (Mac or Windows) and install the app.
 
-Detailed configuration may be required depending on your network and system preferences. See [Install and configure AEM Desktop app](install-configure-app-v1.md) for more details.
+Detailed configuration can be necessary depending on your network and system preferences. See [Install and configure AEM Desktop app](install-configure-app-v1.md) for more details.
 
 1. Go to the [AEM Desktop app download page](https://helpx.adobe.com/experience-manager/kb/download-companion-app.html) and download the appropriate binary for your operating system.
 1. Launch the downloaded installation file and follow the on-screen instructions to install the app.
@@ -141,7 +141,7 @@ After you map the AEM Assets repository to your local drive, you can enable addi
 
 On Mac, select Open from the context menu to open an asset through AEM Desktop.
 
-For Adobe InDesign (INDD) files, select **[!UICONTROL Open]** from the context menu. When you click this option, the App downloads the linked assets to your local filesystem and then opens the INDD file in Adobe InDesign. This method ensures that the required assets are locally available when editing the INDD file.
+For Adobe InDesign (INDD) files, select **[!UICONTROL Open]** from the context menu. When you click this option, the App downloads the linked assets to your local file system and then opens the INDD file in Adobe InDesign. This method ensures that the necessary assets are locally available when editing the INDD file.
 
 On Windows, select Open on Web from the context menu to open the asset. From the Asset Status window, click/tap ![Open on Desktop icon](assets/aemassets_icon_openondesktop.png) to open the asset.
 

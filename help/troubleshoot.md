@@ -22,7 +22,7 @@ Read on to troubleshoot the app, learn the best practices, and find out the limi
 
 ## Best practices {#best-practices-to-prevent-troubles}
 
-Adher to the following best practices to prevent some common issues and troubleshooting.
+Adhere to the following best practices to prevent some common issues and troubleshooting.
 
 * **Understand how the desktop app works**: Before starting to use the application, spend a few minutes knowing how the app works. Know about linking between Web UI and desktop, repository mapping, asset caching, saving locally and uploading in background. See [how it works](release-notes.md#how-app-works).
 
@@ -30,17 +30,17 @@ Adher to the following best practices to prevent some common issues and troubles
 
 * **Use folder upload for large, hierarchical folders**: Instead of using the Assets web interface or other methods, use AEM desktop app to upload large folders. The app uploads the assets in background with logging and monitoring. See [bulk upload assets](using.md#bulk-upload-assets).
 
-* **Use the latest version**: Use the latest app version and always check for compatbility before installing either a new app version or before upgrading to a newer AEM version. See [release notes](release-notes.md).
+* **Use the latest version**: Use the latest app version and always check for compatibility before installing either a new app version or before upgrading to a newer AEM version. See [release notes](release-notes.md).
 
-* **Use the same drive letter**: Use the same drive letter across an organization to map to the AEM DAM. To see assets placed by other users, the paths must be the same. Using the same drive letter ensures a constant path to DAM assets. The assets continue to remain placed and are not removed even if different drive letters are used by different users.
+* **Use the same drive letter**: Use the same drive letter across an organization to map to the AEM DAM. To see assets placed by other users, the paths must be the same. Using the same drive letter ensures a constant path to DAM assets. The assets remain placed and are not removed even if different drive letters are used by different users.
 
 * **Mind the network**: Network performance is critical to AEM desktop app's performance. If you face slowed response to file transfers or bulk operations, turn off the features or apps that might cause lots of network traffic.
 
-* **Unsupported use cases for desktop app**: Do not use the app for Assets' migration (it needs planning and other tools); for heavy-duty DAM operations (like moving large folders, large uploads, finding files using advanced metadata searches); and as a sync client (design principles and usage patterns are different than in-sync clients like Microsoft OneDrive or Adobe Creative Cloud desktop sync).
+* **Unsupported use cases for desktop app**: Do not use the app for Assets' migration (it needs planning and other tools); for heavy-duty DAM operations (like moving large folders, large uploads, finding files using advanced metadata searches); and as a sync client (design principles and usage patterns are different from in-sync clients like Microsoft OneDrive or Adobe Creative Cloud desktop sync).
 
 ## How to troubleshoot {#troubleshooting-prep}
 
-To troubleshoot desktop app issues, be aware of the following information. Also, it prepares you to better convey the issues to Adobe customer care if you choose to seek support.
+To troubleshoot desktop app issues, be aware of the following information. Also, it prepares you to better convey the issues to Adobe Customer Care if you choose to seek support.
 
 ### Enable debug mode {#enable-debug-mode}
 
@@ -87,13 +87,13 @@ If you cannot see the assets that you or other creative professionals placed in 
 * Connection to the server. Flaky network connectivity can stall asset downloads.
 * File size. Large assets take longer to download and display.
 * Drive letter consistency. If you or another collaborator placed the assets while mapping the AEM DAM to a different drive letter, the placed assets do not display.
-* Permissions. Contact your AEM administrator to check if you have permissions to fetch the placed assets.
+* Permissions. To check if you have permissions to fetch the placed assets, contact your AEM administrator.
 
 ## Issues when upgrading on macOS {#issues-when-upgrading-on-macos}
 
 Occasionally issues may occur when upgrading AEM desktop app on macOS. This is caused by legacy system folder for AEM desktop app preventing new versions of AEM desktop app to load correctly. To remedy this issue, the following folders and files can be manually removed.
 
-Prior to executing the steps below, drag the `Adobe Experience Manager Desktop` application from the macOS Applications folder to the Trash. Then open terminal, and exeucte the following command, providing your password when prompted.
+Before executing the following steps, drag the `Adobe Experience Manager Desktop` application from the macOS Applications folder to the Trash. Then open terminal, execute the following command, and provide your password when prompted.
 
 ```shell
 sudo rm -rf ~/Library/Application\ Support/com.adobe.aem.desktop
@@ -107,3 +107,8 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 ## SSL configuration issue {#ssl-config-v2}
 
 The libraries that AEM desktop app uses for HTTP communication utilizes strict SSL enforcement. At times, a connection may succeed using a browser but fails using AEM desktop app. To configure SSL appropriately, install the missing intermediate certificate in Apache. See [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575).
+
+>[!MORELIKETHIS]
+>
+>* [Known issues](release-notes.md#known-issues-v2)
+>* [Avoid editing conflicts](using.md#adv-workflow-collaborate-avoid-conflicts)
