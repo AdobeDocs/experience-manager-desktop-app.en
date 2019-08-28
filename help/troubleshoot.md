@@ -108,6 +108,15 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 The libraries that AEM desktop app uses for HTTP communication utilizes strict SSL enforcement. At times, a connection may succeed using a browser but fails using AEM desktop app. To configure SSL appropriately, install the missing intermediate certificate in Apache. See [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575).
 
+## App is unresponsive {#unresponsive}
+
+Rarely the application may become unresponsive, display just a white screen, or display an error at the bottom of the interface without any options on the interface. Try the following in the order:
+
+1. Right click on the application interface and click **[!UICONTROL Refresh]**.
+1. Exit the application and restart it.
+
+In both methods, the app starts at the root DAM folder.
+
 >[!MORELIKETHIS]
 >
 >* [Known issues](release-notes.md#known-issues-v2)

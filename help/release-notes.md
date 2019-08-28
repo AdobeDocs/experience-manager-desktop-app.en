@@ -84,18 +84,17 @@ It is important to understand the following about the application and how it wor
   * The application is not a 'sync client' that synchronizes assets across the desktop and AEM.
   * The application does not provide a network share that maps the AEM repository as a virtual folder structure.
 * The list of assets shown by the application is based on the status of the AEM Assets repository. Any files downloaded locally and then renamed in the local files or cache folder are not displayed or managed by the application.
-* Manually refresh the display after asset upload or some operations. The display does not always update automatically.
+* If the app does not display the expected results, click refresh icon in the top bar.
 * The local network share, shown when you use [!UICONTROL Reveal File] action, only shows files (and folders) that are available locally. [!UICONTROL Reveal File] and [!UICONTROL Reveal Folder] pre-downloads assets to help get the right assets showing in the local network share.
 * SMB/WebDAV is used when an Adobe Creative Cloud app reads the asset files linked/placed in a native file of the Creative Cloud app.
 
 ## Known issues {#known-issues-v2}
 
-* Sometimes, the interface of the desktop app gets blank. Right-click and click Refresh to load the application again. Note it would reset the state of the app and get you to the welcome screen.
+* At times, the interface of the desktop app gets blank. Right-click and click [!UICONTROL Refresh] to load the application again. Such a refresh resets the state of the app and you start at the welcome screen at the root of the DAM repository.
 * Infrequently, the progress bar does not display correctly when the uploading asset changes.
-* At times, on Windows, an asset's status may immediately change to [!UICONTROL Edited Locally] after opening it, even though you may not have edited it.
-* After applying and removing the filter to find all locally edited assets, the app does not take users to their search results or folder view that the users started with.
-* If you upload changes in the [!UICONTROL Locally Edited] view, the status of the files does not refresh automatically. Refresh the app view.
-* Sometimes, when you connect to a URL that doesn’t have AEM server running, the connect screen can get stuck. Exit the application and start it again.
+* At times, on Windows, an asset's status may immediately change to [!UICONTROL Edited Locally] after opening it, even though you may not have edited it. Click [!UICONTROL Refresh] to update.
+* After applying and removing the filter to find all locally edited assets, the app does not take users to their search results or folder view that the users started with. The app displays the root folder of the DAM repository.
+* At times, when you connect to a URL that doesn’t have AEM server running, the connect screen becomes unresponsive. Exit the application and start it again.
 * When uploading changes to an asset with comments, the comments are stored with the asset in AEM but are not visible as versioning comments.
 
 >[!MORELIKETHIS]

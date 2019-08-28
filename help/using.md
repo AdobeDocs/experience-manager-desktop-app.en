@@ -32,7 +32,37 @@ Download [this](assets/aem_desktop_app_usecases_print.pdf) print-ready PDF file.
 
 ## How desktop app works {#how-app-works2}
 
-Before you start using the application, understand [How the app works](release-notes.md#how-app-works).
+Before you start using the application, understand [How the app works](release-notes.md#how-app-works). Also, familiarize yourself with the following terms:
+
+* **[!UICONTROL Desktop Actions]**: From the Assets web interface, from within in a browser, you can explore the asset locations or check-out and open the asset for editing in your native desktop application. These actions are available from the web interface and use desktop app functionality. [!UICONTROL Desktop Actions] must first be enabled in **[!UICONTROL My Preferences]**. See [how to enable Desktop Actions](using.md#desktopactions-v2).
+
+* File status is **[!UICONTROL Cloud Only]**: Such assets are not downloaded on the local machine and are available on AEM server only.
+
+* File status is **[!UICONTROL Available locally]**: The assets are downloaded and available on the local machine as is. The assets are not changed.
+
+* File status is **[!UICONTROL Edited locally]**: Such assets are modified locally and the changes remain to the uploaded to AEM server. After you upload, the status changes to [!UICONTROL Available locally]. See [edit assets](using.md#edit-assets-upload-updated-assets).
+
+* File status is **[!UICONTROL Editing conflict]**: If an asset is modified by you and other users, the app indicates that an editing conflict has occured. The app also provides options to retain or discard your changes. See [how to avoid editing conflicts](using.md#adv-workflow-collaborate-avoid-conflicts).
+
+* File status is **[!UICONTROL Modified remotely]**: The app indicates if an asset that you have downloaded is changed on the AEM server. The app also provides the option to download the latest version and update your local copy. See [how to avoid editing conflicts](using.md#adv-workflow-collaborate-avoid-conflicts).
+
+* **Check-out**: If you are editing a file or intend to edit a file, you toggle the status to check out. It adds a lock icon on the asset in the app and AEM web interface. The lock icons indicates to other users to avoid simultaneously editing the same asset as it leads to an editing conflict.
+
+* **Check-in**: Mark the asset as safe for other users to edit without causing an editing conflict. When you upload your changes, the lock icon is automatically removed. Toggling the check-in status also removes the lock icon though it is recommended to not manually check in without uploading the changes. If you discard your changes, then manually toggle the check-in.
+
+* **[!UICONTROL Open]** action: Just open the asset to preview it in the native application. It is not recommended to edit the asset by using this action, as it does not check out the asset and other users can make edits leading to editing conflicts.
+
+* **[!UICONTROL Edit]** action: Use the action to modify the image. Clicking [!UICONTROL Edit] action automatically checks out the asset and adds a lock icon on the asset. After clicking Edit, if you do not want to edit the asset, then click [!UICONTROL Toggle check-in]. To delete, rename, or move assets in AEM DAM folder hierarchy, use the AEM web interface actions and not the edit action.
+
+* **[!UICONTROL Download]** action: Download the asset to your local machine. You can download the assets now and edit later; work offline and upload the changes later. Assets are downloaded in a cache folder on your filesystem.
+
+* **[!UICONTROL Reveal File]** or **[!UICONTROL Reveal Folder]** action: While the assets are downloaded to a local cache folder, the app mimics a local network drive and provides a local path for each asset. To know this path, use the appropriate reveal option in the app. Reveal action is required to place assets in the Creative Cloud application. See [place assets](using.md#place-assets-in-native-documents).
+
+* **[!UICONTROL Open In Web]** action: To view the asset in AEM web interface, open it in web. You can initiate more workflows from AEM interface like updating metadata or asset discovery.
+
+* **[!UICONTROL Delete]** action: Delete the asset from the AEM DAM repository. The action deletes the original copy of the asset on the AEM server. If you want to just discard modifications to the local asset, see [discard changes](using.md#edit-assets-upload-updated-assets).
+
+* **[!UICONTROL Upload Changes]**: Desktop app uploads the updated asset only when you explicitly upload to AEM server. When you save your edits, the changes are saved on your local machine only. When you upload, the asset is automatically checked in and lock icon is removed. See [edit assets](using.md#edit-assets-upload-updated-assets).
 
 ## Enable desktop actions in AEM web interface {#desktopactions-v2}
 
@@ -137,6 +167,14 @@ Once you’re done making the edits, the app displays the **[!UICONTROL Edited L
 
 For best practices around collaborative editing, see [Advanced workflow: collaborate on same files and avoid editing conflicts](#adv-workflow-collaborate-avoid-conflicts).
 
+In the following cases, you may want to discard your changes and edits to the local asset. Click **[!UICONTROL Discard Changes]**.
+
+* If you do not want to save your local changes in AEM.
+* Start making changes on the original asset after saving some changes.
+* Stop editing the asset as it is no longer needed.
+
+If necessary, toggle check-out. The updated asset is removed from the local cache folder and is downloaded again when you edit or open it.
+
 ## Upload and add new assets to AEM {#upload-and-add-new-assets-to-aem}
 
 It may be necessary to add new assets to the repository. For example, you may be an agency photographer or contractor who must add a large number of photos from a photoshoot to the AEM repository. To add fresh content to AEM, click ![Upload to cloud icon](assets/do-not-localize/upload_to_cloud_da2.png) in the top-bar of the app. Browse to the asset files in the local file system and click **[!UICONTROL Select]**. The app starts uploading the asset and displays a progress bar at the bottom if the asset takes longer to upload.
@@ -196,7 +234,7 @@ To view the list of assets transferred in a given session, see [Upload assets to
 
 ## Advanced workflow: start from the AEM Assets web interface {#adv-workflow-start-from-aem-ui}
 
-You can initiate your workflow from the AEM Assets web interface. The desktop app not only supports all workflows but also integrates with the Assets UI to simplify your workflows.
+If necessary, initiate your workflow from the AEM Assets web interface. The desktop app integrates with the AEM to take over when requested using Desktop Actions.
 
 A special case of starting workflow from the web interface is asset discovery. The Omnisearch bar in Assets user interface offers a rich and advanced search experience. You may want to first locate a desired asset on the web and then initiate the workflow in the app, using [!UICONTROL Desktop Actions]. Some sample cases include filtering search results using facets, locating a specific asset licensed from Adobe Stock, or a customization implemented by your organization that allows you better discovery from the web interface.
 
@@ -220,6 +258,8 @@ You cannot find the following information or workflow using the web interface. U
 * Files that have an editing conflict and way to resolve it.
 * Upload local changes to AEM.
 * Various statuses of the locally available files.
+
+On the contrary, you can open the asset in the web interface starting from the desktop app using the **[!UICONTROL Open In Web]** action.
 
 ## Advanced workflow: collaborate on same files and avoid editing conflicts {#adv-workflow-collaborate-avoid-conflicts}
 
