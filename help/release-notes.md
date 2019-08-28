@@ -85,7 +85,7 @@ It is important to understand the following about the application and how it wor
   * The application does not provide a network share that maps the AEM repository as a virtual folder structure.
 * The list of assets shown by the application is based on the status of the AEM Assets repository. Any files downloaded locally and then renamed in the local files or cache folder are not displayed or managed by the application.
 * Manually refresh the display after asset upload or some operations. The display does not always update automatically.
-* The local network share, shown when you use [!UICONTROL Reveal] action, only shows files (and folders) that are available locally. [!UICONTROL Reveal] and [!UICONTROL Reveal folder] pre-downloads assets to help get the right assets showing in the local network share.
+* The local network share, shown when you use [!UICONTROL Reveal File] action, only shows files (and folders) that are available locally. [!UICONTROL Reveal File] and [!UICONTROL Reveal Folder] pre-downloads assets to help get the right assets showing in the local network share.
 * SMB/WebDAV is used when an Adobe Creative Cloud app reads the asset files linked/placed in a native file of the Creative Cloud app.
 
 ## Known issues {#known-issues-v2}
