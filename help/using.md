@@ -98,7 +98,7 @@ Click **[!UICONTROL Open]** from the asset menu. The asset is downloaded locally
 >
 >If the expected changes are not reflected in the app, click refresh icon ![Refresh icon](assets/do-not-localize/refresh.png) or right click in the app interface and click **[!UICONTROL Refresh]**. The actions are not available while larger downloads or uploads are in progress.
 
-To open the local download folder of an asset, click ![More actions icon](assets/do-not-localize/more2_da2.png) and click ![Reveal icon](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal]** action.
+To open the local download folder of an asset, click ![More actions icon](assets/do-not-localize/more2_da2.png) and click ![Reveal icon](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]** action.
 
 ## Use or place assets into native documents {#place-assets-in-native-documents}
 
@@ -106,9 +106,9 @@ To directly see the file system location of the locally downloaded files, use th
 
 ![Reveal File action for an asset](assets/revealfile_action_da2.png "Reveal File action for an asset")
 
-Click **[!UICONTROL Reveal File]**, or **[!UICONTROL Reveal]** on a folder, to open Windows Explorer or Mac Finder with the file or folder preselected on your local machine. The option is useful to, say place the AEM files in the native applications that support placing or linking local files. To see how to place files in Adobe InDesign, see [Placing graphics](https://helpx.adobe.com/indesign/using/placing-graphics.html).
+Click **[!UICONTROL Reveal File]**, or **[!UICONTROL Reveal Folder]** on a folder, to open Windows Explorer or Mac Finder with the file or folder preselected on your local machine. The option is useful to, say place the AEM files in the native applications that support placing or linking local files. To see how to place files in Adobe InDesign, see [Placing graphics](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 
-The **[!UICONTROL Reveal File]** action opens a local network share, that displays only the assets that are available locally – that is, it displays assets that were revealed, downloaded, or opened/edited using the AEM desktop app actions. The local network share does not upload any changes to AEM. To upload the changes, explicitly use **[!UICONTROL Upload Changes]** or **[!UICONTROL Upload]** actions in the app.
+The **[!UICONTROL Reveal File]** action opens a local network share, that displays only the assets that are available locally – that is, it displays assets that were revealed, downloaded, or opened/edited using the app. The local network share does not upload any changes to AEM. To upload the changes, explicitly use **[!UICONTROL Upload Changes]** or **[!UICONTROL Upload]** actions in the app.
 
 >[!NOTE]
 >
@@ -200,7 +200,7 @@ You can initiate your workflow from the AEM Assets web interface. The desktop ap
 
 A special case of starting workflow from the web interface is asset discovery. The Omnisearch bar in Assets user interface offers a rich and advanced search experience. You may want to first locate a desired asset on the web and then initiate the workflow in the app, using [!UICONTROL Desktop Actions]. Some sample cases include filtering search results using facets, locating a specific asset licensed from Adobe Stock, or a customization implemented by your organization that allows you better discovery from the web interface.
 
-One or more desktop app functionalities are called when you attempt these actions on the web:
+Desktop app functionality is used when you attempt the following actions on the Assets web interface:
 
 * The [!UICONTROL Desktop Actions] that allows [!UICONTROL Open], [!UICONTROL Edit], and [!UICONTROL Reveal]
 * [!UICONTROL Upload folder]
