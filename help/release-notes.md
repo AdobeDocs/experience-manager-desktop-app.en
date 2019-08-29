@@ -21,7 +21,7 @@ snippet: y
 | Version       | 2.0                                                                                                                                                                                                                     |
 | Type          | Major release                                                                                                                                                                                                                                          |
 | Date          | May 2019                                                                                                                                                                                                                                        |
-| Download URLs |  [Mac OS X 64-bit](https://example.com); [Windows 32-bit](https://example.com); [Windows 64-bit](https://example.com) |
+| Download URLs (coming soon) |  Mac OS X 64-bit; Windows 32-bit; Windows 64-bit |
 
 ## Compatibility {#compatibility-v2}
 
@@ -32,7 +32,7 @@ The app works with the following AEM versions, whether deployed on-premise or on
 * AEM 6.4.0 - 6.4.3 with [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 * AEM 6.3.3.1 and later with [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
-For AEM 6.3, no [service packs are planned])(https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html). Adobe recommends to upgrade to a later AEM version.
+For AEM 6.3, no [service packs are planned](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html). Adobe recommends to upgrade to a later AEM version.
 
 ## System requirements and prerequisites {#system-requirements-and-prerequisites-v2}
 
@@ -45,7 +45,7 @@ The version of the app you are planning to install on your local machine require
 
 | Version | Revision               | Release Date | Compatibility                                               |
 |---------|------------------------|--------------|-------------------------------------------------------------|
-| 2.0    | Build numbers (Mac and Win) | May 2019 | Supported AEM versions |
+| 2.0    | Coming soon (Mac and Win) | Aug 2019 | AEM 6.5.0 or later; <br /> AEM 6.4.4 or later; <br /> AEM 6.4.0 - 6.4.3 with compatibility package; <br /> AEM 6.3.3.1 and later with compatibility package |
 
 ### Support for different asset and file types {#support-for-file-types}
 
