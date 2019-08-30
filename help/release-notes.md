@@ -18,11 +18,11 @@ snippet: y
 
 | Products      |  Adobe Experience Manager (AEM) desktop app                        |
 |---------------|--------------------------------------------------------------------|
-| App version (build)      | 2.0 (coming soon)                                       |
-| AEM version supported    | AEM 6.5, AEM 6.4, AEM 6.3 (with compatibility package)  |
+| App version   | 2.0 (2.0.0.4)                                                 |
+| AEM version supported | AEM 6.5, AEM 6.4, AEM 6.3 (with compatibility package)     |
 | Type          | Major release                                                      |
-| Date          | (coming soon)                                                      |
-| Download URLs (coming soon) |  Mac OS X 64-bit; Windows 32-bit; Windows 64-bit     |
+| Release date  | August 31, 2019                                                    |
+| Download URLs |  [Mac OS X 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.0.4.dmg); Windows 32-bit (coming soon); Windows 64-bit (coming soon)  |
 
 ## System requirements and prerequisites {#system-requirements-and-prerequisites-v2}
 
@@ -47,9 +47,9 @@ The application supports assets stored in AEM that represent binary file for its
 
 A few file types support placing linked assets in the binary. The application pre-downloads the linked assets if the asset is present in the AEM repository when such binary files are opened using the desktop app. Currently supported file types are:
 
-* Adobe InDesign files (INDD)
-* Adobe Illustrator files (AI)
-* Adobe Photoshop files (PS)
+* Adobe InDesign files (INDD format)
+* Adobe Illustrator files (AI format)
+* Adobe Photoshop files (PS format)
 
 The feature is supported with Adobe Creative Cloud 2018 and Creative Cloud 2019 versions of the above application. The app uses a heuristic, best-match approach to map the local desktop paths of linked assets to URLs on the AEM server. It relies on a few assumptions:
 
