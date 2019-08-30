@@ -27,7 +27,7 @@ Such an integration allows various roles in the organization to manage the asset
 
 >[!NOTE]
 >
->Adobe Experience Manager desktop app was introduced in AEM 6.1 release and was previously called AEM Assets Companion App. Application versions 1.x are deprecated and Adobe strongly recommends that you upgrade to the latest version. For help of app v1.x, see the TOC in the left sidebar.
+>Adobe Experience Manager desktop app was introduced in AEM 6.1 release and was previously called AEM Assets Companion App. For help of app version 1.x, see the TOC in the left sidebar. Adobe recommends upgrading to the latest version 2.
 
 The desktop app documentation contains information for the following roles and use cases.
 
