@@ -18,8 +18,8 @@ snippet: y
 
 | Products      |  Adobe Experience Manager (AEM) desktop app                        |
 |---------------|--------------------------------------------------------------------|
-| App version   | 2.0 (2.0.0.4)                                                 |
-| AEM version supported | AEM 6.5, AEM 6.4, AEM 6.3 (with compatibility package)     |
+| App version (Revision)   | 2.0 (2.0.0.4)                                           |
+| Supported AEM versions | AEM 6.5, AEM 6.4, AEM 6.3 (with compatibility package)    |
 | Type          | Major release                                                      |
 | Release date  | August 31, 2019                                                    |
 | Download URLs |  [Mac OS X 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.0.4.dmg); Windows 32-bit (coming soon); Windows 64-bit (coming soon)  |
