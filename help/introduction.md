@@ -19,11 +19,11 @@ snippet: y
 
 # AEM desktop app Overview {#overview-v2}
 
-Adobe offers connected workflows across its solutions to allow next-level productivity for your creative professionals. The Adobe Experience Manager desktop app connects repositories and desktop applications, including Adobe and third-party ones, to provide faster access to resources and streamlined workflows. This saving of time and reduction in effort improves efficiency of users, who work with assets from Adobe Experience Manager in their desktop workflows.
+Adobe offers connected workflows across its solutions to allow next-level productivity for your line-of-business users and creative professionals. The Adobe Experience Manager desktop app connects repositories and desktop applications, including Adobe and third-party ones, to provide faster access to resources and streamlined workflows. This saving of time and reduction in effort improves efficiency of users, who work with assets from Adobe Experience Manager in their desktop workflows.
 
-Using the app, the assets within AEM Assets are easily accessible on your local desktop and can be used in any desktop applications. You can open and edit the assets in desktop applications of your choice. The local edits are made available in AEM as a new version of the asset (not a new asset) only when you choose to upload the changes.
+Using the app, the assets within AEM Assets are easily accessible on your local desktop and can be used in any desktop applications. You can open and edit the assets in desktop applications of your choice. The local edits are made available in AEM as a new version of the asset only when you choose to upload the changes, which allows for handling work-in-progress editing of assets in an efficient manner on desktop. The app supports upload of assets and nested folders to AEM, simplifying adding new content to the repository.
 
-Such an integration allows various roles in the organization to manage the assets centrally in AEM Assets. Creative users access assets on the desktop in the Creative Cloud and other native applications. Marketers and business users can ensure compliance to the various standards including branding and licensing.
+Such an integration allows various roles in the organization to manage the assets centrally in AEM Assets. Marketers and business users can ensure compliance to the various standards including branding and licensing. Creative users, who also have a dedicated [Adobe Asset Link](https://www.adobe.com/marketing/experience-manager-assets/adobe-asset-link.html) tool for working with assets in Adobe Photoshop, Illustrator and InDesign, can also access assets on the desktop in the Creative Cloud and other native applications.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ The desktop app documentation contains information for the following roles and u
 
 ## What's New in the App {#whats-new-v2}
 
-Version 2.0 of the app is created from grounds-up to provide many improvements over the previous versions. The new app is much more user-friendly and offers a desktop-only experience. Users can discover assets, open, edit, and upload changes, as well as upload new assets – without requiring the user to use the AEM interface.
+Version 2.0 of the app is created from grounds-up to provide many improvements over the previous versions. The new app is more user-friendly and offers a dedicated desktop experience with a new application UI. Users can discover assets via search or browsing, open, edit, and upload changes, as well as upload new assets – without requiring the user to use the AEM interface. This version also supports opening files from the AEM interface.
 
 The new app brings substantial improvements to the user experience, while catering to the same use cases as before. The following are the top-level improvements.
 
