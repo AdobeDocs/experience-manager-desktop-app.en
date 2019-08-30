@@ -28,6 +28,10 @@ For detailed information, see the [AEM desktop app release notes](release-notes.
 
 If you are an existing user of the app, then understand the differences and similarities between the previous and the latest version of the app. Also, follow the below guidelines, to transition from v1.x to the latest version.
 
+>[!NOTE]
+>
+>Desktop app v1.x and v2 cannot co-exist on a machine. Before you install a version, uninstall the other version.
+
 To upgrade from v1.x to the latest version of the app, follow these instructions:
 
 1. Before upgrading, sync all your assets. Upload all the changes using app v1.x. This is to avoid losing any changes when uninstalling the app v1.x.

@@ -16,23 +16,13 @@ snippet: y
 
 # AEM desktop app Release Notes {#release-notes-v2}
 
-| Products      |  Adobe Experience Manager (AEM) desktop app                                                                                                                                                                                                            |
+| Products      |  Adobe Experience Manager (AEM) desktop app                        |
 |---------------|--------------------------------------------------------------------|
-| Version       | 2.0                                                                                                                                                                                                                     |
-| Type          | Major release                                                                                                                                                                                                                                          |
-| Date          | May 2019                                                                                                                                                                                                                                        |
-| Download URLs (coming soon) |  Mac OS X 64-bit; Windows 32-bit; Windows 64-bit |
-
-## Compatibility {#compatibility-v2}
-
-The app works with the following AEM versions, whether deployed on-premise or on Adobe Managed Services (AMS):
-
-* [AEM 6.5.0](https://helpx.adobe.com/experience-manager/6-5/release-notes.html) or later
-* [AEM 6.4.4](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) or later
-* AEM 6.4.0 - 6.4.3 with [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
-* AEM 6.3.3.1 and later with [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
-
-For AEM 6.3, no [service packs are planned](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html). Adobe recommends to upgrade to a later AEM version.
+| App version (build)      | 2.0 (coming soon)                                       |
+| AEM version supported    | AEM 6.5, AEM 6.4, AEM 6.3 (with compatibility package)  |
+| Type          | Major release                                                      |
+| Date          | (coming soon)                                                      |
+| Download URLs (coming soon) |  Mac OS X 64-bit; Windows 32-bit; Windows 64-bit     |
 
 ## System requirements and prerequisites {#system-requirements-and-prerequisites-v2}
 
@@ -41,11 +31,15 @@ AEM desktop app is compatible with the following operating systems:
 * Mac OS X 10.10 or later, with latest bug fixes.
 * Windows 7 and Windows 10 with the latest service packs and bug fixes.
 
-The version of the app you are planning to install on your local machine requires a specific Adobe Experience Manager server version/additional server-side components (service packs, hot fixes or feature packs). Ensure that the AEM server is properly configured before you connect to it for the first time. If you require help, contact your AEM administrator. See the compatibility matrix for the supported versions.
+The app works with the following AEM versions, whether deployed on-premise or on Adobe Managed Services (AMS):
 
-| Version | Revision               | Release Date | Compatibility                                               |
-|---------|------------------------|--------------|-------------------------------------------------------------|
-| 2.0    | Coming soon (Mac and Win) | Aug 2019 | AEM 6.5.0 or later; <br /> AEM 6.4.4 or later; <br /> AEM 6.4.0 - 6.4.3 with compatibility package; <br /> AEM 6.3.3.1 and later with compatibility package |
+* [AEM 6.5.0](https://helpx.adobe.com/experience-manager/6-5/release-notes.html) or later
+* [AEM 6.4.4](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) or later
+* AEM 6.4.0 - 6.4.3 with [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
+* AEM 6.3.3.1 and later with [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
+* For AEM 6.3, no [service packs are planned](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html). Adobe recommends to upgrade to a later AEM version.
+
+The version of the app you plan to install on your local machine requires a specific Adobe Experience Manager server version/additional server-side components (service packs, hot fixes, or feature packs). Contact your AEM administrator for help.
 
 ### Support for different asset and file types {#support-for-file-types}
 
@@ -64,7 +58,7 @@ The feature is supported with Adobe Creative Cloud 2018 and Creative Cloud 2019 
 * AEM has extracted the XMP record with the paths to the asset’s metadata record
 * The paths can be matched to assets in AEM (meaning, the placed files are also in AEM under a matching path)
 
-## What are the new features and enhancements added {#whats-new-added}
+## New features and enhancements {#whats-new-added}
 
 To know the details, see [What's New in the App](introduction.md#whats-new-v2).
 
