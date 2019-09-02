@@ -1,8 +1,8 @@
 ---
-title: Troubleshoot AEM desktop app
-seo-title: "AEM Assets: Troubleshoot AEM desktop app"
-description: Troubleshoot AEM desktop app to resolve the occasional issues related to installation, upgrade, configuration, and so on.
-seo-description: Troubleshoot AEM desktop app to resolve the occasional issues related to installation, upgrade, configuration, and so on.
+title: Troubleshoot AEM desktop app version 1.x
+seo-title: Troubleshoot AEM desktop app
+description: Troubleshoot AEM desktop app version 1.x to resolve the occasional issues related to installation, upgrade, configuration, and so on.
+seo-description: Troubleshoot AEM desktop app version 1.x to resolve the occasional issues related to installation, upgrade, configuration, and so on.
 uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
 contentOwner: asgupta
 content-strategy: redirect-pointer
