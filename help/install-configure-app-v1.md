@@ -1,8 +1,8 @@
 ---
-title: Install and configure AEM desktop app
-seo-title: Install and configure AEM desktop app
-description: Install and configure AEM desktop app to work with AEM Assets servers and map the assets to mount as a drive on your desktop.
-seo-description: Install and configure AEM desktop app to work with AEM Assets servers and map the assets to mount as a drive on your desktop.
+title: Install and configure AEM desktop app version 1.x
+seo-title: Install and configure AEM desktop app version 1.x
+description: Install and configure AEM desktop app version 1.x to work with AEM Assets servers and map the assets to mount as a drive on your desktop.
+seo-description: Install and configure AEM desktop app version 1.x to work with AEM Assets servers and map the assets to mount as a drive on your desktop.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
 contentOwner: asgupta
 content-type: reference

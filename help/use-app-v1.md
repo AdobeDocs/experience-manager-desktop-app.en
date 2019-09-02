@@ -1,8 +1,8 @@
 ---
-title: Use AEM desktop app
-seo-title: Use Adobe Experience Manager desktop app
-description: Learn how to use Adobe Experience Manager desktop app and optimize your work with assets on desktop.
-seo-description: Learn how to use Adobe Experience Manager desktop app and optimize your work with assets on desktop and creative workflows.
+title: Use AEM desktop app version 1.x
+seo-title: Use Adobe Experience Manager desktop app version 1.x
+description: Learn how to use Adobe Experience Manager desktop app version 1.x and optimize your work with assets on desktop.
+seo-description: Learn how to use Adobe Experience Manager desktop app version 1.x and optimize your work with assets on desktop and creative workflows.
 uuid: 55057617-89de-43cd-8419-1252a42ab2fb
 contentOwner: asgupta
 content-type: reference

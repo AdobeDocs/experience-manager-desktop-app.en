@@ -1,8 +1,8 @@
 ---
-title: AEM desktop app Release Notes for v1.x
-seo-title: AEM desktop app Release Notes for v1.x
-description: Release details, enhancements, new features, compatibility, and download links for AEM desktop app v1.x.
-seo-description: Release details, enhancements, new features, compatibility, and download links for AEM desktop app v1.x.
+title: AEM desktop app Release Notes for version 1.x
+seo-title: AEM desktop app Release Notes for version 1.x
+description: Release details, enhancements, new features, compatibility, and download links for AEM desktop app version 1.x.
+seo-description: Release details, enhancements, new features, compatibility, and download links for AEM desktop app version 1.x.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: asgupta
 topic-tags: release-notes
