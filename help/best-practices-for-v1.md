@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# AEM desktop app best practices {#aem-desktop-app-best-practices}
+# AEM desktop app v1.x best practices {#aem-desktop-app-best-practices}
 
 ## Overview {#overview}
 

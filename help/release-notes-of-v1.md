@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# AEM desktop app Release Notes{#aem-desktop-app-release-notes}
+# AEM desktop app v1.x release notes{#aem-desktop-app-release-notes}
 
 ## Release Information {#release-information}
 
