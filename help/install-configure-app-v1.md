@@ -18,7 +18,7 @@ internal: n
 snippet: y
 ---
 
-# Install and configure AEM desktop app {#install-and-configure-aem-desktop-app}
+# Install and configure AEM desktop app v1.x {#install-and-configure-aem-desktop-app}
 
 Install and configure AEM desktop app to work with AEM Assets servers and download the assets to your local file system. To use AEM desktop app,
 

@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Troubleshoot AEM desktop app{#troubleshoot-aem-desktop-app}
+# Troubleshoot AEM desktop app v1.x {#troubleshoot-aem-desktop-app}
 
 Troubleshoot AEM desktop app to resolve the occasional issues related to installation, upgrade, configuration, and so on.
 
