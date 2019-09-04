@@ -2,7 +2,7 @@
 cloud: experience-cloud
 product: Adobe Experience Manager desktop app
 audience: end-user
-user-guide-title: AEM Desktop App Help
+user-guide-title: AEM desktop app Help
 solution-title: AEM Assets
 solution-hub-url: https://helpx.adobe.com/experience-manager/6-5/assets/user-guide.html
 getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/introduction.html
