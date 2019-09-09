@@ -21,8 +21,8 @@ snippet: y
 | App version (Revision)   | 2.0 (2.0.0.4)                                           |
 | Supported AEM versions | AEM 6.5, AEM 6.4, AEM 6.3 (with compatibility package)    |
 | Type          | Major release                                                      |
-| Release date  | August 31, 2019                                                    |
-| Download URLs |  [Mac OS X 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.0.4.dmg); Windows 32-bit (coming soon); Windows 64-bit (coming soon)  |
+| Release date  | August 31, 2019 (Mac), September 9, 2019 (Win)                     |
+| Download URLs |  [MacOS 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.0.4.dmg); [Windows 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.0.4.exe); [Windows 32-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.0.4.exe)  |
 
 ## System requirements and prerequisites {#system-requirements-and-prerequisites-v2}
 
@@ -80,16 +80,19 @@ It is important to understand the following about the application and how it wor
 * The list of assets shown by the application is based on the status of the AEM Assets repository. Any files downloaded locally and then renamed in the local files or cache folder are not displayed or managed by the application.
 * If the app does not display the expected results, click refresh icon in the top bar.
 * The local network share, shown when you use [!UICONTROL Reveal File] action, only shows files (and folders) that are available locally. [!UICONTROL Reveal File] and [!UICONTROL Reveal Folder] pre-downloads assets to help get the right assets showing in the local network share.
-* SMB/WebDAV is used when an Adobe Creative Cloud app reads the asset files linked/placed in a native file of the Creative Cloud app.
+* SMB (Mac) /WebDAV (Win) local network share is used when an Adobe Creative Cloud app reads the asset files linked/placed in a native file of the Creative Cloud app.
 
 ## Known issues {#known-issues-v2}
 
-* At times, the interface of the desktop app gets blank. Right-click and click [!UICONTROL Refresh] to load the application again. Such a refresh resets the state of the app and you start at the welcome screen at the root of the DAM repository.
-* Infrequently, the progress bar does not display correctly when the uploading asset changes.
-* At times, on Windows, an asset's status may immediately change to [!UICONTROL Edited Locally] after opening it, even though you may not have edited it. Click [!UICONTROL Refresh] to update.
-* After applying and removing the filter to find all locally edited assets, the app does not take users to their search results or folder view that the users started with. The app displays the root folder of the DAM repository.
-* At times, when you connect to a URL that doesn’t have AEM server running, the connect screen becomes unresponsive. Exit the application and start it again.
-* When uploading changes to an asset with comments, the comments are stored with the asset in AEM but are not visible as versioning comments.
+* **UI** At times, the interface of the desktop app might get blank. Right-click and click [!UICONTROL Refresh] to load the application again. Such a refresh resets the state of the app and you start at the welcome screen at the root of the DAM repository. <!-- CQ-4270267 -->
+* **UI** Difficult to navigate folders/search results without a trackpad or mouse wheel. Scrollbar might not appear with mouse devices without mouse wheel. <!-- CQ-4269947 -->
+* **UI** Infrequently, the progress bar does not display correctly when the uploading asset changes.
+* **UI** After applying and removing the filter to find all locally edited assets, the app does not take users to their search results or folder view that the users started with. The app displays the root folder of the DAM repository.
+* **UI** At times, when you connect to a URL that doesn’t have AEM server running, the connect screen becomes unresponsive. Exit the application and start it again.
+* **Upload** Application tries to upload files even with invalid characters, might cause server-side upload failure. <!-- CQ-4273652 -->
+* **Upload** When uploading changes to an asset with comments, the comments are stored with the asset in AEM but are not visible as versioning comments (solved in AEM 6.4.5, 6.5.1). <!-- CQ-4268990 -->
+* **Upload, Download** Asset transfers cannot be canceled by the user. If you triggered an unintended large transfer, exit the application and start it again. <!-- CQ-4278940 -->
+* **Windows** At times, on Windows, an asset's status may immediately change to [!UICONTROL Edited Locally] after opening it, even though you may not have edited it. Click [!UICONTROL Refresh] to update.
 
 >[!MORELIKETHIS]
 >

@@ -113,9 +113,11 @@ Downloading multiple assets may lead to poor performance if queue size is large 
 
 ![App confirms download of relatively large number of assets](assets/download_confirmation_da2.png "App confirms download of relatively large number of assets")
 
+If folder(s) are selected and downloaded, the application only downloads assets stored directly in the folder(s) in AEM. It does not download assets from sub-folders automatically.
+
 ## Open assets on your desktop {#openondesktop-v2}
 
-You can open the remote assets for viewing in the native application. The assets are downloaded to a local folder and launched in the native application associated with the file format.
+You can open the remote assets for viewing in the native application. The assets are downloaded to a local folder and launched in the native application associated with the file format. You can change the native application to open specific file types (extensions) in your Mac or Windows.
 
 Click **[!UICONTROL Open]** from the asset menu. The asset is downloaded locally and opened in the native application. Check the download progress and transfer speed of large assets in the status bar.
 <!-- ![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
@@ -130,7 +132,7 @@ To open the local download folder of an asset, click ![More actions icon](assets
 
 ## Use or place assets into native documents {#place-assets-in-native-documents}
 
-To directly see the file system location of the locally downloaded files, use the ![Reveal icon](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]** option.
+In some cases, e.g., when placing an asset into a native document, you need access to a file in Windows Explorer or Mac Finder. To get to the file system location of the locally downloaded files, use the ![Reveal icon](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]** option. 
 
 ![Reveal File action for an asset](assets/revealfile_action_da2.png "Reveal File action for an asset")
 

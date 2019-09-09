@@ -51,6 +51,10 @@ To install the desktop app, follow these steps. Uninstall any existing Adobe Exp
    >
    >Ensure there are no leading or trailing spaces before or after the address of the AEM server. Otherwise the app cannot connect to the AEM server.
 
+   >[!NOTE]
+   >
+   > On Windows, if the installer shows a notification that "Visual Studio C++ Redistributable 2015" component needs to be installed, but fails to install it automatically, it needs to be installed manually. Go to [Microsoft download page](https://www.microsoft.com/en-us/download/details.aspx?id=52685) and install *both* `vc_redist.x64.exe` and `vc_redist.x86.exe` files, then install AEM desktop app again.
+
 1. Upon successful connection, you can view the list of folders and assets available in the root folder of the AEM DAM. You can browse the folders from within the app.
 
    ![Upon login the app displays the DAM contents](assets/firstview_da2.png "Upon login the app displays the DAM contents")
@@ -85,5 +89,9 @@ To uninstall the application on Windows, follow these steps:
 To uninstall the application on Mac, follow these steps:
 
 1. Upload all your changes to AEM to avoid losing any edits. See [Edit assets and upload updated assets to AEM](using.md#edit-assets-upload-updated-assets). Log off and [!UICONTROL Exit] the app.
-1. Execute the following command:
+1. Remove the `Adobe Experience Manager Desktop.app` from `/Applications`
+
+>[!NOTE]
+>
+> To clean internal application caches on Mac and uninstall the app, you can execute the following command in Terminal:
 `/Applications/Adobe Experience Manager Desktop/Contents/Resources/uninstall-osx/uninstall.sh`
