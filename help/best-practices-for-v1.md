@@ -5,9 +5,9 @@ description: Key capabilities and recommended use of Adobe Experience Manager de
 seo-description: Key capabilities and recommended use of Adobe Experience Manager desktop app version 1.x.
 uuid: ba8fbc74-e1ad-4085-a031-ffd317628ba6
 contentOwner: asgupta
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
+products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 57d5cd78-abce-4ede-a50e-7c161ddb43ae
 index: y
 internal: n

@@ -5,9 +5,9 @@ description: Release details, enhancements, new features, compatibility, and dow
 seo-description: Release details, enhancements, new features, compatibility, and download links for AEM desktop app version 1.x.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: asgupta
-topic-tags: release-notes
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.4
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS
+products: SG_EXPERIENCEMANAGER/6.4/ASSETS
+products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
