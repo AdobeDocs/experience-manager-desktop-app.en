@@ -5,11 +5,9 @@ description: Learn how to install and use Adobe Experience Manager desktop app, 
 seo-description: Learn how to install and use Adobe Experience Manager desktop app, to work on AEM assets right from your Win or Mac desktop. Know best practices and troubleshooting information.
 uuid: 55057617-89de-43cd-8419-1252a42ab2fb
 contentOwner: asgupta
-content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: aem-desktop-app
+products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 index: y
 internal: n

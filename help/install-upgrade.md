@@ -5,13 +5,9 @@ description: Install and configure AEM desktop app to work with AEM Assets serve
 seo-description: Install and configure AEM desktop app to work with AEM Assets servers and download the assets on your local file system.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
 contentOwner: asgupta
-content-type: reference
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: installing
-topic-tags: aem-desktop-app
-products: SG_EXPERIENCEMANAGER/6.3
-products: SG_EXPERIENCEMANAGER/6.2
-products: SG_EXPERIENCEMANAGER/6.1
+products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
