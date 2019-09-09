@@ -21,7 +21,7 @@ snippet: y
 | App version (Revision)   | 2.0 (2.0.0.4)                                           |
 | Supported AEM versions | AEM 6.5, AEM 6.4, AEM 6.3 (with compatibility package)    |
 | Type          | Major release                                                      |
-| Release date  | August 31, 2019 (Mac), September 9, 2019 (Win)                     |
+| Release date  | August 30, 2019 (Mac), September 9, 2019 (Win)                     |
 | Download URLs |  [MacOS 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.0.4.dmg); [Windows 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.0.4.exe); [Windows 32-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.0.4.exe)  |
 
 ## System requirements and prerequisites {#system-requirements-and-prerequisites-v2}
