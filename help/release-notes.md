@@ -99,4 +99,4 @@ It is important to understand the following about the application and how it wor
 >* [AEM documentation](https://helpx.adobe.com/support/experience-manager/6-5.html)
 >* [Use AEM desktop app](using.md)
 >* [Install and upgrade desktop app](install-upgrade.md)
->* [Best pracitces, troubleshooting tips](troubleshoot.md)
+>* [Best practices and troubleshooting tips](troubleshoot.md)
