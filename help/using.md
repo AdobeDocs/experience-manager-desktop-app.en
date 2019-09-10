@@ -132,7 +132,7 @@ To open the local download folder of an asset, click ![More actions icon](assets
 
 ## Use or place assets into native documents {#place-assets-in-native-documents}
 
-In some cases, e.g., when placing an asset into a native document, you need access to a file in Windows Explorer or Mac Finder. To get to the file system location of the locally downloaded files, use the ![Reveal icon](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]** option. 
+In some cases, say when placing an asset into a native document, you access a file in Windows Explorer or Mac Finder. To get to the file system location of the locally downloaded file, use the ![Reveal icon](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]** option.
 
 ![Reveal File action for an asset](assets/revealfile_action_da2.png "Reveal File action for an asset")
 
