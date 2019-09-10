@@ -84,19 +84,25 @@ It is important to understand the following about the application and how it wor
 
 ## Known issues {#known-issues-v2}
 
-* **UI** At times, the interface of the desktop app might get blank. Right-click and click [!UICONTROL Refresh] to load the application again. Such a refresh resets the state of the app and you start at the welcome screen at the root of the DAM repository. <!-- CQ-4270267 -->
-* **UI** Difficult to navigate folders/search results without a trackpad or mouse wheel. Scrollbar might not appear with mouse devices without mouse wheel. <!-- CQ-4269947 -->
-* **UI** Infrequently, the progress bar does not display correctly when the uploading asset changes.
-* **UI** After applying and removing the filter to find all locally edited assets, the app does not take users to their search results or folder view that the users started with. The app displays the root folder of the DAM repository.
-* **UI** At times, when you connect to a URL that doesn’t have AEM server running, the connect screen becomes unresponsive. Exit the application and start it again.
-* **Upload** Application tries to upload files even with invalid characters, might cause server-side upload failure. <!-- CQ-4273652 -->
-* **Upload** When uploading changes to an asset with comments, the comments are stored with the asset in AEM but are not visible as versioning comments (solved in AEM 6.4.5, 6.5.1). <!-- CQ-4268990 -->
-* **Upload, Download** Asset transfers cannot be canceled by the user. If you triggered an unintended large transfer, exit the application and start it again. <!-- CQ-4278940 -->
-* **Windows** At times, on Windows, an asset's status may immediately change to [!UICONTROL Edited Locally] after opening it, even though you may not have edited it. Click [!UICONTROL Refresh] to update.
+**User interface issues:**
+* At times, the interface of the desktop app might get blank. Right-click and click [!UICONTROL Refresh] to load the application again. Such a refresh resets the state of the app and you start at the welcome screen at the root of the DAM repository. <!-- CQ-4270267 -->
+* Difficult to navigate folders/search results without a trackpad or mouse wheel. Scrollbar might not appear with mouse devices without mouse wheel. <!-- CQ-4269947 -->
+* Infrequently, the progress bar does not display correctly when the uploading asset changes.
+* After applying and removing the filter to find all locally edited assets, the app does not take users to their search results or folder view that the users started with. The app displays the root folder of the DAM repository.
+* At times, when you connect to a URL that doesn’t have AEM server running, the connect screen becomes unresponsive. Exit the application and start it again.
+
+**CRUD (Create, Read, Update, and Delete) issues:**
+* Application tries to upload files even with invalid characters, might cause server-side upload failure. <!-- CQ-4273652 -->
+* When uploading changes to an asset with comments, the comments are stored with the asset in AEM but are not visible as versioning comments (solved in AEM 6.4.5, 6.5.1). <!-- CQ-4268990 -->
+* Asset transfers cannot be canceled by the user. If you triggered an unintended large transfer, exit the application and start it again. <!-- CQ-4278940 -->
+
+**Platform issues:**
+* At times, on Windows, an asset's status may immediately change to [!UICONTROL Edited Locally] after opening it, even though you may not have edited it. Click [!UICONTROL Refresh] to update.
 
 >[!MORELIKETHIS]
 >
->* [AEM documentation](https://helpx.adobe.com/support/experience-manager/6-5.html)
+>* [AEM 6.5 documentation](https://helpx.adobe.com/support/experience-manager/6-5.html)
+>* [AEM Assets 6.5 documentation](https://docs.adobe.com/content/help/en/experience-manager-64/assets/home.html)
 >* [Use AEM desktop app](using.md)
 >* [Install and upgrade desktop app](install-upgrade.md)
 >* [Best practices and troubleshooting tips](troubleshoot.md)

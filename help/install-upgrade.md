@@ -40,9 +40,10 @@ To upgrade from v1.x to the latest version of the app, follow these instructions
 To install the desktop app, follow these steps. Uninstall any existing Adobe Experience Manager desktop app v1.x before installing the latest app. For more info, see above.
 
 1. Keep the URL and credentials of your AEM deployment handy.
-1. _This step requires Admin access to AEM._ Ensure that your AEM setup meets the compatibility requirements mentioned in the release notes. If necessary, download the applicable [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) and install it using the AEM Package Manager. To install a package, see [How to work with Packages](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html). Skip this step if you are using AEM 6.4.4/AEM 6.5.0 or later.
+1. Skip this step if you are using AEM 6.4.4 and later or AEM 6.5.0 or later. Ensure that your AEM setup meets the compatibility requirements mentioned in the release notes. If necessary, download the applicable [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) and install it using the AEM Package Manager as an AEM administrator. To install a package, see [How to work with Packages](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html).
 1. Execute the installer binary and follow the onscreen instructions to install.
-1. Restart the machine as prompted. Launch the desktop app to configure.
+1. On Windows, the installer may prompt to install `Visual Studio C++ Redistributable 2015`. Follow on-screen instructions to install it. If the installation fails then install it manually. Download the installer from [here](https://www.microsoft.com/en-us/download/details.aspx?id=52685) and install both `vc_redist.x64.exe` and `vc_redist.x86.exe` files. Re-run the AEM desktop app installer.
+1. Restart the machine as prompted. Launch the desktop app to configure it.
 1. To connect the app with an AEM repository, click the app icon in the tray to launch the app. Provide the address of the AEM instance. Click **[!UICONTROL Connect]** and provide the credentials.
 
    ![Connection screen of desktop app to input server address](assets/connect_da2.png "Connection screen to input server address")
@@ -50,10 +51,6 @@ To install the desktop app, follow these steps. Uninstall any existing Adobe Exp
    >[!Caution]
    >
    >Ensure there are no leading or trailing spaces before or after the address of the AEM server. Otherwise the app cannot connect to the AEM server.
-
-   >[!NOTE]
-   >
-   > On Windows, if the installer shows a notification that "Visual Studio C++ Redistributable 2015" component needs to be installed, but fails to install it automatically, it needs to be installed manually. Go to [Microsoft download page](https://www.microsoft.com/en-us/download/details.aspx?id=52685) and install *both* `vc_redist.x64.exe` and `vc_redist.x86.exe` files, then install AEM desktop app again.
 
 1. Upon successful connection, you can view the list of folders and assets available in the root folder of the AEM DAM. You can browse the folders from within the app.
 
@@ -89,9 +86,7 @@ To uninstall the application on Windows, follow these steps:
 To uninstall the application on Mac, follow these steps:
 
 1. Upload all your changes to AEM to avoid losing any edits. See [Edit assets and upload updated assets to AEM](using.md#edit-assets-upload-updated-assets). Log off and [!UICONTROL Exit] the app.
-1. Remove the `Adobe Experience Manager Desktop.app` from `/Applications`
+1. Remove the `Adobe Experience Manager Desktop.app` from `/Applications`.
 
->[!NOTE]
->
-> To clean internal application caches on Mac and uninstall the app, you can execute the following command in Terminal:
+Alternatively, to clean internal application caches on Mac and uninstall the app, you can execute the following command in the terminal:
 `/Applications/Adobe Experience Manager Desktop/Contents/Resources/uninstall-osx/uninstall.sh`
