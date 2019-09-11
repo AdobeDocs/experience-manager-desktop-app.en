@@ -106,7 +106,7 @@ Downloads
 * If a user chooses to open or edit multiple files from the AEM Assets Web UI, they will be grouped together, showing up as e.g. "myasset.jpeg and 4 more file(s)"
 * When downloading InDesign Documents including linked assets that are stored in AEM Assets, the desktop app will download all of the linked Assets first, before opening the InDesign Document and indicate the download of linked assets as e.g. (5 of 24)
 
-Bulk Uploads: Uploading large folder hierarchies via Create &amp;gt; Upload Folder in AEM web UI or copying and selecting "Paste Assets" in Finder/Explorer in the desktop app context menu will trigger usage of this dialog:
+Bulk Uploads: Uploading large folder hierarchies via Create > Upload Folder in AEM web UI or copying and selecting "Paste Assets" in Finder/Explorer in the desktop app context menu will trigger usage of this dialog:
 
 * Displays in-progress uploads, including a progress bar and the name of the file currently being transferred
 * In-progress uploads include an icon that will cancel the upload when clicked. The transfer will stop after the currently transferring file completes
@@ -114,7 +114,7 @@ Bulk Uploads: Uploading large folder hierarchies via Create &amp;gt; Upload Fold
 * If an individual file fails to transfer, it will show up on the tab as an error. Otherwise, individual files will not show on the tab * only a single entry for the entire upload.
 
 **Icons to Indicate Status of Background Operations**
-The application icon will indicate the state of background operations to provide better visual cue to the users. E.g., when the application is not connected to AEM the icon will be grayed out, when there is an active upload it will show a "sync" overlay, etc.
+The application icon will indicate the state of background operations to provide better visual cue to the users. For example, when the application is not connected to AEM the icon will be grayed out, when there is an active upload it will show a "sync" overlay, etc.
 
 **Pre-fetching of Linked Assets**
 To improve user expereince when working with InDesign documents which include linked assets stored in AEM, desktop app will try and pre-fetch these linked files to local cache before it downloads and opens the InDesign document. That way the user will have the linked files available locally, and won't have to wait longer when accessing these in InDesign (in the Links panel).
@@ -133,7 +133,7 @@ AEM desktop app 1.8.1 fast-follow release added improvements when opening multip
 * Network:
   * when an AEM session expires, user is now notified and can click on the notification to log in again (CQ-4202028)
   * (Mac) Add support for connecting to AEM via using .pac proxy configuration (CQ-4233430)
-  * (Win) fix issues with Advanced -&amp;gt; Login URL dialog (CQ-4236061)
+  * (Win) fix issues with Advanced - Login URL dialog (CQ-4236061)
 * Bugfixes:
   * More Asset Info dialog * sometimes action bar was not visible (CQ-4208540)
   * (Win) File can now be synchronized after reverting to a previous version from AEM Assets UI (CQ-4216411)
@@ -211,7 +211,7 @@ Both of these cases are expected and are side effects of the "delayed sync" arch
 * Better stability and resilience against networking issues
   * More stable mapping of AEM Assets folders (CQ-103276, CQ-4204669, CQ-4203957)
   * Better handling of cached files (CQ-4204336, CQ-4206263)
-  * Improved handling of downloading/uploading of large files &amp;gt;2GB (CQ-4206438)
+  * Improved handling of downloading/uploading of large files more than 2 GB in size (CQ-4206438)
   * Fixed "Error 36" when moving or renaming a larger number of files in Finder (CQ-4204640)
 * Optimizations in network communication with AEM Server (CQ-4204974, CQ-100903)
 * Improved reliability of opening, placing, and saving AEM assets in Creative Cloud apps (CQ-4203968, CQ-4205511, CQ-103543, CQ-4207141, CQ-90980)
@@ -225,7 +225,7 @@ Both of these cases are expected and are side effects of the "delayed sync" arch
 
 ### Enhancements Available Since AEM desktop app 1.4{#Enhancements-Available-Since-AEM-Desktop-App-14}
 
-* Simplified upload of hierarchical folders through the new Create &amp;gt; Upload Folder action in Touch UI
+* Simplified upload of hierarchical folders through the new Create > Upload Folder action in Touch UI
   * Action initiates a folder upload operation carried out by the desktop app
   * Desktop app traverses the given folder hierarchy on desktop in the background and uploads the files to AEM Assets
   * User can monitor progress in the new Upload Queue Status window with progress bar for ongoing operations
