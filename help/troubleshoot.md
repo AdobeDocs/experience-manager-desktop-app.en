@@ -26,7 +26,7 @@ Adhere to the following best practices to prevent some common issues and trouble
 
 * **Understand how the desktop app works**: Before starting to use the application, spend a few minutes knowing how the app works. Know about linking between Web UI and desktop, repository mapping, asset caching, saving locally and uploading in background. See [how it works](release-notes.md#how-app-works).
 
-* **Avoid unsupported characters in folder names**: Some AEM use cases may be impacted by whitespaces or unsupported characters in the folder name. See a list of characters at [Create Folders in AEM Assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders). In addition, avoid using whitespaces in folder names.
+* **Avoid unsupported characters in folder names**: Do not use whitespaces and invalid characters when creating or uploading folders. See a list of characters at [Create folders in AEM Assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders). Some AEM use cases may be impacted by unsupported characters in the folder name.
 
 * **Best practices to avoid conflicts**: To avoid potential conflicts when collaborating on multiple assets, see [avoid editing conflicts](using.md#adv-workflow-collaborate-avoid-conflicts).
 
