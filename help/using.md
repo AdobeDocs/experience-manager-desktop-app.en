@@ -177,7 +177,7 @@ If necessary, toggle check-out. The updated asset is removed from the local cach
 
 ## Upload and add new assets to AEM {#upload-and-add-new-assets-to-aem}
 
-It may be necessary to add new assets to the repository. For example, you may be an agency photographer or contractor who must add a large number of photos from a photoshoot to the AEM repository. To add fresh content to AEM, click ![Upload to cloud icon](assets/do-not-localize/upload_to_cloud_da2.png) in the top-bar of the app. Browse to the asset files in the local file system and click **[!UICONTROL Select]**. The app starts uploading the asset and displays a progress bar at the bottom if the asset takes longer to upload.
+Users can add new assets to the DAM repository. For example, you may be an agency photographer or contractor who wants to add a large number of photos from a photoshoot to the AEM repository. To add fresh content to AEM, click ![Upload to cloud icon](assets/do-not-localize/upload_to_cloud_da2.png) in the top-bar of the app. Browse to the asset files in the local file system and click **[!UICONTROL Select]**. The app starts uploading the asset and displays a progress bar at the bottom if the asset takes longer to upload. Do not use whitespaces and invalid characters when creating or uploading folders. See a list of characters at [Create folders in AEM Assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
