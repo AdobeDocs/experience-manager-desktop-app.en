@@ -18,7 +18,7 @@ snippet: y
 
 ## Overview {#overview}
 
-"Adobe Experience Manager" (AEM) desktop app links your Digital Asset Management (DAM) solution with your desktop so you can open the files that are available in the AEM web UI directly on desktop. If you save an asset from desktop, it is uploaded to AEM at the appropriate location.
+@Adobe Experience Manager (AEM) desktop app links your Digital Asset Management (DAM) solution with your desktop so you can open the files that are available in the AEM web UI directly on desktop. If you save an asset from desktop, it is uploaded to AEM at the appropriate location.
 
 AEM desktop app eliminates chances of you updating incorrect local copies or updating a wrong asset in AEM. desktop app's easy-to-use workflow is enabled using network share technology that desktop operating systems provide.
 
