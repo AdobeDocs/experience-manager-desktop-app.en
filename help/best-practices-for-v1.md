@@ -18,7 +18,7 @@ snippet: y
 
 ## Overview {#overview}
 
-@Adobe Experience Manager (AEM) desktop app links your Digital Asset Management (DAM) solution with your desktop so you can open the files that are available in the AEM web UI directly on desktop. If you save an asset from desktop, it is uploaded to AEM at the appropriate location.
+Adobe Experience Manager (AEM) desktop app links your Digital Asset Management (DAM) solution with your desktop so you can open the files that are available in the AEM web UI directly on desktop. If you save an asset from desktop, it is uploaded to AEM at the appropriate location.
 
 AEM desktop app eliminates chances of you updating incorrect local copies or updating a wrong asset in AEM. desktop app's easy-to-use workflow is enabled using network share technology that desktop operating systems provide.
 
@@ -26,13 +26,13 @@ Desktop app mounts the AEM Assets repository as a network share on desktop. Ther
 
 >[!NOTE]
 >
->Before reading this document, you can review the overall [AEM and Creative Cloud integration best practices](https://helpx.adobe.com/experience-manager/6-4/assets/using/aem-cc-integration-best-practices.html) for a higher-level overview of the topic.
+>Before reading this document, you can review the overall [AEM and Creative Cloud integration best practices](https://docs.adobe.com/content/help/en/experience-manager-64/assets/administer/aem-cc-integration-best-practices.html) for a higher-level overview of the topic.
 
 ## AEM desktop app architecture {#aem-desktop-app-architecture}
 
 AEM desktop app uses WebDAV (Windows) or SMB (Mac) network shares to mount network shares. The mounted network share is local only. AEM desktop app intercepts the calls (open, read, write) and provides additional local caching. It translates remote calls to the AEM Assets server to optimized AEM HTTP requests. The following diagram depicts the AEM desktop app architecture.
 
-![AEM Desktop app architecture](assets/chlimage_1.png)
+![AEM desktop app architecture](assets/chlimage_1.png)
 
 The additional caching on write when a file is saved causes the file to be saved locally first (so that the user doesn’t wait for the network transfer). Then, after a predefined delay (30s) the file is uploaded to AEM in the background, and then asset is uploaded to AEM. AEM desktop app provides a UI for monitoring the status of background file uploads.
 
