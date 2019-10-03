@@ -192,6 +192,10 @@ To view the list of assets transferred in a given session, click **[!UICONTROL V
 >
 >The transfer list is not persistent and is not available if you exit the app and reopen it.
 
+>[!NOTE]
+>
+>If the files fail to upload and if you are connecting to AEM 6.5.1 or later deployment, see this [troubleshooting information](troubleshoot.md#upload-fails).
+
 ## Work with multiple assets {#work-with-multiple-assets}
 
 Users can easily work with and manage multiple assets using actions like uploading all edits in one go or uploading nested folders in a few clicks.
