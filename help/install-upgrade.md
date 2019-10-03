@@ -56,6 +56,10 @@ To install the desktop app, follow these steps. Uninstall any existing Adobe Exp
 
    ![Upon login the app displays the DAM contents](assets/firstview_da2.png "Upon login the app displays the DAM contents")
 
+1. (AEM 6.5.1 or above) If you are using desktop app with AEM 6.5.1 or later, upgrade S3 or Azure connector to version 1.10.4 or later. See [Azure connector](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html#AzureDataStore) or [S3 connector](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html#AmazonS3DataStore).
+
+   If you are an Adobe Managed Services (AMS) customer, contact Adobe Customer Care.
+
 ## Set preferences {#set-preferences}
 
 To change preferences, click ![More options icon](assets/do-not-localize/more_options_da2.png) and **[!UICONTROL Preference]** ![Preferences icon](assets/do-not-localize/preferences_icon_da2.png). In the **[!UICONTROL Preferences]** window, adjust the values of the following:
