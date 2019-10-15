@@ -10,7 +10,7 @@ tutorials-title: AEM Tutorials
 tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-tutorials.html
 ---
 
-# Adobe Desktop App User Guide {#using}
+# Adobe desktop app User Guide {#using}
 
 + [Overview](introduction.md)
 + [Release Notes](release-notes.md)
