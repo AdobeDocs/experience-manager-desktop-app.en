@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# AEM desktop app Overview {#overview-v2}
+# AEM desktop app overview {#overview-v2}
 
 Adobe offers connected workflows across its solutions to allow next-level productivity for your line-of-business users and creative professionals. The Adobe Experience Manager desktop app connects repositories and desktop applications, including Adobe and third-party ones, to provide faster access to resources and streamlined workflows. This saving of time and reduction in effort improves efficiency of users, who work with assets from Adobe Experience Manager in their desktop workflows.
 
