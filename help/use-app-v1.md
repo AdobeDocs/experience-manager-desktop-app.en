@@ -101,7 +101,7 @@ The app supports proxy configuration on Mac and Windows. The configuration is re
 From within the Assets UI in a browser, you can explore the asset locations or check-out and open the asset for editing in your desktop application. These options are called Desktop Actions and are not enabled by default. Follow these steps to enable it.
 
 1. In the Assets console, click/tap the **User** icon from the toolbar.
-1. Click/tap the **[!UICONTROL My Preferences]** to display the **[!UICONTROL Preferences]**dialog.
+1. Click/tap the **[!UICONTROL My Preferences]** to display the **[!UICONTROL Preferences]** dialog.
 1. In the User Preferences dialog, select **[!UICONTROL Show Desktop Actions For Assets]**. Click/tap **[!UICONTROL Accept]**.
 
    ![Check Show Desktop Actions For Assets to enable desktop actions](assets/chlimage_1-3.png)
@@ -129,7 +129,7 @@ After you map the AEM Assets repository to your local drive, you can enable addi
 
    Alternatively, choose **Open** from the **Desktop Actions** menu in the toolbar.
 
-1. Click/tap the **Reveal **quick action ![Reveal icon](assets/aemassets_reveal_icon.png) to locate the particular asset on your local file system.
+1. Click/tap the **Reveal** quick action ![Reveal icon](assets/aemassets_reveal_icon.png) to locate the particular asset on your local file system.
 
    Alternatively, choose **Reveal** from the **Desktop Actions** menu in the toolbar.
 

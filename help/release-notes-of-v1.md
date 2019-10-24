@@ -293,7 +293,7 @@ Since the /Volumes folder no longer requires administrative rights, this change 
 * Unselect "Show icon preview"
 * Click "Use as Defaults"
 
-**Clean cache when connecting to a new AEM server. **If desktop app connects to another AEM server with the same URL, cache is not cleared automatically. Clear cache manually to ensure proper operations. Note this would typically happen in testing, when AEM installations can be replaced while running on the same URL (CQ-4216982)
+**Clean cache when connecting to a new AEM server.** If desktop app connects to another AEM server with the same URL, cache is not cleared automatically. Clear cache manually to ensure proper operations. Note this would typically happen in testing, when AEM installations can be replaced while running on the same URL (CQ-4216982)
 
 **Use CA-signed SSL certificates.** Please note that AEM desktop app doesn't support self-signed SSL certificates when connecting to AEM via a HTTPS secure connection. A CA-signed certificate is required on the server for such connections. (CQ-87941)
 
