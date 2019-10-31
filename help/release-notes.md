@@ -82,6 +82,10 @@ It is important to understand the following about the application and how it wor
 * The local network share, shown when you use [!UICONTROL Reveal File] action, only shows files (and folders) that are available locally. [!UICONTROL Reveal File] and [!UICONTROL Reveal Folder] pre-downloads assets to help get the right assets showing in the local network share.
 * SMB (Mac) /WebDAV (Win) local network share is used when an Adobe Creative Cloud app reads the asset files linked/placed in a native file of the Creative Cloud app.
 
+The following diagram illustrates the flow of assets and files from cloud to local file system and vice versa, as initiated by user actions.
+
+![Flow of assets from AEM server to native desktop apps via desktop app](assets/do-not-localize/da20_flow_diagram.png)
+
 ## Known issues {#known-issues-v2}
 
 **User interface issues:**
