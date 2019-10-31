@@ -4,7 +4,7 @@ seo-title: Use Adobe Experience Manager desktop app
 description: Learn how to install and use Adobe Experience Manager desktop app, to work on AEM assets right from your Win or Mac desktop. Know best practices and troubleshooting information.
 seo-description: Learn how to install and use Adobe Experience Manager desktop app, to work on AEM assets right from your Win or Mac desktop. Know best practices and troubleshooting information.
 uuid: 55057617-89de-43cd-8419-1252a42ab2fb
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -25,8 +25,8 @@ When you open the application after logging out or for the first time, provide t
 
 The key tasks you do using the AEM desktop app are:
 
-![Workflows and tasks you can accomplish using AEM desktop app](assets/whats-new-desktop-app-v2.png "Workflows and tasks you can accomplish using AEM desktop app")
-Download [this](assets/aem_desktop_app_usecases_print.pdf) print-ready PDF file.
+![Workflows and tasks you can accomplish using AEM desktop app](assets/do-not-localize/whats-new-desktop-app-v2.png "Workflows and tasks you can accomplish using AEM desktop app")
+Download [this](assets/do-not-localize/aem_desktop_app_usecases_print.pdf) print-ready PDF file.
 
 ## How desktop app works {#how-app-works2}
 

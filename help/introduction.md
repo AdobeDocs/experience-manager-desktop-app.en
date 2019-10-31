@@ -49,6 +49,6 @@ The new app brings substantial improvements to the user experience, while cateri
 
 The primary use cases and enhancements of the new app are mapped with the customer journey in the following illustration.
 
-![What's New in AEM desktop app](assets/whats-new-desktop-app-v2.png)
+![What's New in AEM desktop app](assets/do-not-localize/whats-new-desktop-app-v2.png)
 
 The desktop app allows its users to accomplish all the above-mentioned use cases right from within the app. If necessary, you can also choose to do asset discovery in the web interface and then pass control to the app to open and edit the assets.
