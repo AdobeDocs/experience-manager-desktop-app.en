@@ -1,15 +1,11 @@
 ---
 title: Introduction to AEM desktop app
-seo-title: Adobe Experience Manager desktop app technical documentation and self help
-description: Technical documentation and self help to understand how AEM desktop app can optimize the workflow of creative users when using enterprise assets directly from their desktop.
-seo-description: Know how AEM desktop app can optimize the workflow of creative users when using enterprise assets directly from their desktop.
-contentOwner: asgupta
+description: Learn how to use AEM desktop app to optimize the asset management workflows for creative users when using AEM Assets directly from their desktop.
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
-index: y
-internal: n
 snippet: y
 ---
 
