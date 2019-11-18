@@ -1,10 +1,8 @@
 ---
 title: AEM desktop app version 1.x best practices
-seo-title: AEM desktop app version 1.x best practices
 description: Key capabilities and recommended use of Adobe Experience Manager desktop app version 1.x.
-seo-description: Key capabilities and recommended use of Adobe Experience Manager desktop app version 1.x.
 uuid: ba8fbc74-e1ad-4085-a031-ffd317628ba6
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS

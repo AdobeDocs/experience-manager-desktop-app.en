@@ -1,10 +1,8 @@
 ---
 title: Use AEM desktop app version 1.x
-seo-title: Use Adobe Experience Manager desktop app version 1.x
 description: Learn how to use Adobe Experience Manager desktop app version 1.x and optimize your work with assets on desktop.
-seo-description: Learn how to use Adobe Experience Manager desktop app version 1.x and optimize your work with assets on desktop and creative workflows.
 uuid: 55057617-89de-43cd-8419-1252a42ab2fb
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
