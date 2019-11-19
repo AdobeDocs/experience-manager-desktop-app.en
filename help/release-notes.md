@@ -82,7 +82,7 @@ It is important to understand the following about the application and how it wor
 
 The following diagram illustrates the flow of assets and files from cloud to local file system and vice versa, as initiated by user actions.
 
-![Flow of assets from AEM server to native desktop apps via desktop app](assets/do-not-localize/da20_flow_diagram.png)
+![Flow of assets from AEM server to native desktop apps via desktop app](assets/da20_flow_diagram.png)
 
 ## Known issues {#known-issues-v2}
 
