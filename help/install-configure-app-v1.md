@@ -57,13 +57,13 @@ In the second phase, desktop app uploads the updated file to AEM server after a 
 
 ## Connect to an AEM instance behind a dispatcher {#connect-to-an-aem-instance-behind-a-dispatcher}
 
-The Copy and Move methods in the Assets API require the following additional headers to be passed to AEM:
+The copy and move methods in the Assets API require the following additional headers to be passed to AEM:
 
 * X-Destination
 * X-Depth
 * X-Overwrite
 
-AEM Desktop connects to AEM using a URL that includes the default port. Therefore, the *virtualhosts* setting in the dispatcher configuration should include the default port number. For more information around virtualhosts configuration, see [Identifying Virtual Hosts](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
+AEM Desktop connects to AEM using a URL that includes the default port. Therefore, the `virtualhosts` setting in the dispatcher configuration should include the default port number. For more information around `virtualhosts` configuration, see [Identifying Virtual Hosts](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
 
 For additional information on configuring the dispatcher to pass through these additional headers, see [Specifying the HTTP Headers](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders).
 

@@ -39,9 +39,9 @@ Before you start using the application, understand [How the app works](release-n
 
 * File status is **[!UICONTROL Modified remotely]**: The app indicates if an asset that you have downloaded is changed on the AEM server. The app also provides the option to download the latest version and update your local copy. See [how to avoid editing conflicts](using.md#adv-workflow-collaborate-avoid-conflicts).
 
-* **Check-out**: If you are editing a file or intend to edit a file, you toggle the status to check out. It adds a lock icon on the asset in the app and AEM web interface. The lock icon indicates to other users to avoid simultaneously editing the same asset as it leads to an editing conflict.
+* **[!UICONTROL Check-out]**: If you are editing a file or intend to edit a file, you toggle the status to check out. It adds a lock icon on the asset in the app and AEM web interface. The lock icon indicates to other users to avoid simultaneously editing the same asset as it leads to an editing conflict.
 
-* **Check-in**: Mark the asset as safe for other users to edit without causing an editing conflict. When you upload your changes, the lock icon is automatically removed. Toggling the check-in status also removes the lock icon though it is recommended to not manually check in without uploading the changes. If you discard your changes, then manually toggle the check-in.
+* **[!UICONTROL Check-in]**: Mark the asset as safe for other users to edit without causing an editing conflict. When you upload your changes, the lock icon is automatically removed. Toggling the check-in status also removes the lock icon though it is recommended to not manually check in without uploading the changes. If you discard your changes, then manually toggle the check-in.
 
 * **[!UICONTROL Open]** action: Just open the asset to preview it in the native application. It is not recommended to edit the asset by using this action, as it does not check out the asset and other users can make edits leading to editing conflicts.
 
@@ -217,7 +217,7 @@ The application provides a view, called **[!UICONTROL Edited locally]**, to give
 
 ### Bulk upload assets {#bulk-upload-assets}
 
-Users or organization, such as photographers or creative agencies, can create numerous local assets in scenarios, such as photoshoots, retouching, or selection from a larger set done outside AEM. They can upload these large local folders to AEM Assets directly from the desktop app. The folder hierarchies are preserved and all the nested subfolders and included assets are uploaded. The uploaded assets are immediately available to other users of the same server for consumption as well. Assets are uploaded in background, so the operation is not tied to a web browser session.
+Users or organization, such as photographers or creative agencies, can create numerous local assets in scenarios, such as photoshoots, retouching, or selection from a larger set done outside AEM. They can upload these large local folders to AEM Assets directly from the desktop app. The folder hierarchies are preserved and all the nested sub-folders and included assets are uploaded. The uploaded assets are immediately available to other users of the same server for consumption as well. Assets are uploaded in background, so the operation is not tied to a web browser session.
 
 ![Bulk upload multiple local folders from your desktop into AEM](assets/upload_local_folders_da2.png "Bulk upload multiple local folders from your desktop into AEM")
 

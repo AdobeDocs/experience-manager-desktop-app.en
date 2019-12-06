@@ -14,7 +14,7 @@ snippet: y
 
 # AEM desktop app v1.x release notes{#aem-desktop-app-release-notes}
 
-## Release Information {#release-information}
+For desktop app v1.x release, the following are the download links and AEM compatibility information.
 
 | Products      |  Adobe Experience Manager (AEM) desktop app                        |
 |---------------|--------------------------------------------------------------------|
@@ -22,7 +22,7 @@ snippet: y
 | Type          | Minor release                                                                                                                                                                                                                                          |
 | Date          | August 31, 2018                                                                                                                                                                                                                                        |
 | Download URLs |  [Mac OS X 64 bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.10.0.3.dmg); [Windows 32 bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.10.0.3.exe); [Windows 64 bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.10.0.3.exe) |
-| Compatibility | AEM 6.4 SP1; AEM 6.3 SP2; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
+| Compatibility | AEM 6.5.x; AEM 6.4.x ; AEM 6.3 SP2; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
 
 >[!NOTE]
 >
@@ -35,9 +35,9 @@ AEM Desktop is compatible with the following operating systems:
 * Mac OS X 10.10 or later, with latest bug fixes.
 * Windows 7 and Windows 10 with the latest service packs and bug fixes.
 
-Adobe strongly recommends using the latest version of AEM Desktop to avail the latest functionality, the most recent bug fixes, and the best possible performance.
+Adobe strongly recommends using the latest version of AEM desktop app to avail the latest functionality, the most recent bug fixes, and the best possible performance.
 
-The version of AEM Destkop App you are planning to install on your local machine requires a specific AEM server version/additional server-side components (service packs, hot fixes or feature packs). Ensure that the AEM server is properly configured before you connect to it for the first time. If you require help, contact your AEM administrator.
+The version of AEM desktop app you are planning to install on your local machine requires a specific AEM server version/additional server-side components (service packs, hot fixes or feature packs). Ensure that the AEM server is properly configured before you connect to it for the first time. If you require help, contact your AEM administrator.
 
 See the [detailed compatibility matrix](#compatibilitymatrix) at the end of this document to evaluate the prerequisites for your setup.
 
@@ -53,7 +53,7 @@ AEM desktop app 1.10 focuses on improving user experience around large uploads, 
 
 **Notifications for Update Conflicts**: When the application detects a conflict when trying to update an asset, it will show a notification, so that the user can review that without the need to monitor the status window. When the application starts, it will check for all the conflicts, so that the user can resolve them.
 
-**Better Handling of Connection Losses**: Bulk uploads will be paused if there is a connection loss, and the user will be able to resume later. A Retry button is availble to retry a failed upload of an individual file.
+**Better Handling of Connection Losses**: Bulk uploads will be paused if there is a connection loss, and the user will be able to resume later. A Retry button is available to retry a failed upload of an individual file.
 
 ## Installation instructions {#installation-instructions}
 
@@ -115,8 +115,8 @@ Bulk Uploads: Uploading large folder hierarchies via Create > Upload Folder in A
 The application icon will indicate the state of background operations to provide better visual cue to the users. For example, when the application is not connected to AEM the icon will be grayed out, when there is an active upload it will show a "sync" overlay, etc.
 
 **Pre-fetching of Linked Assets**
-To improve user expereince when working with InDesign documents which include linked assets stored in AEM, desktop app will try and pre-fetch these linked files to local cache before it downloads and opens the InDesign document. That way the user will have the linked files available locally, and won't have to wait longer when accessing these in InDesign (in the Links panel).
-Please note that prefetching only works if AEM recognizes the links on the server side. An asset with recognized links will have a list of "References" listed in the Properties view of the InDesign asset.
+To improve user experience when working with InDesign documents which include linked assets stored in AEM, desktop app will try and pre-fetch these linked files to local cache before it downloads and opens the InDesign document. That way the user will have the linked files available locally, and won't have to wait longer when accessing these in InDesign (in the Links panel).
+Please note that pre-fetching only works if AEM recognizes the links on the server side. An asset with recognized links will have a list of "References" listed in the Properties view of the InDesign asset.
 
 ### Enhancements Available Since AEM desktop app 1.8.x{#enhancements-available-since-aem-desktop-app-18x}
 
@@ -132,8 +132,8 @@ AEM desktop app 1.8.1 fast-follow release added improvements when opening multip
   * when an AEM session expires, user is now notified and can click on the notification to log in again (CQ-4202028)
   * (Mac) Add support for connecting to AEM via using .pac proxy configuration (CQ-4233430)
   * (Win) fix issues with Advanced - Login URL dialog (CQ-4236061)
-* Bugfixes:
-  * More Asset Info dialog * sometimes action bar was not visible (CQ-4208540)
+* Bug fixes:
+  * More Asset Info dialog: sometimes action bar was not visible (CQ-4208540)
   * (Win) File can now be synchronized after reverting to a previous version from AEM Assets UI (CQ-4216411)
 
 ### Enhancements Available Since AEM desktop app 1.7{#Enhancements-Available-Since-AEM-Desktop-App-17}
@@ -251,7 +251,7 @@ Both of these cases are expected and are side effects of the "delayed sync" arch
 
 Since MacOS 10.12 (Sierra), Apple has changed the permissions on the /Volumes folder used to mount network drives and devices to more restrictive. Creating a new mount point there required administrative rights. This issue was fixed in MacOS 10.12.5.
 
-As AEM desktop app should run for users who do not have admin rights on the local machine, the mount point for AEM Assets repository was changed in 1.4 and 1.5 to a DAM subfolder in user's local folder on MacOS (CQ-104183).
+As AEM desktop app should run for users who do not have admin rights on the local machine, the mount point for AEM Assets repository was changed in 1.4 and 1.5 to a DAM sub-folder in user's local folder on MacOS (CQ-104183).
 
 Since the /Volumes folder no longer requires administrative rights, this change was reverted in 1.5.1. This also makes it possible to share InDesign documents that have placed AEM assets between MacOS users.
 
@@ -303,9 +303,9 @@ Since the /Volumes folder no longer requires administrative rights, this change 
   * File and folder names with reserved characters are not properly handled. Make sure to use file and folder names that fit AEM requirements (CQ-93361, CQ-93308, CQ-89276, CQ-4217183)
   * Some applications like Adobe Illustrator might create files with names not supported in AEM. For example, adding `Converted` after converting a file, which stops it from being uploaded (CQ-4216985)
   * Assets with international names may appear and disappear every few seconds
-* Checkin/Checkout:
+* Check-in and Check-out:
   * An asset checked out by one user is not possible to open for another user, either by Open action from Touch UI, or directly on the desktop. Some applications might report it as locked, but also corrupted or even hang while trying to open. (CQ-4199234)  
-  * Changing files simultaneously by multiple users may cause some modifications to get lost. The workaround is to use the  checkin /checkout functionality to prevent multiple users from changing the same file (CQ-97035)
+  * Changing files simultaneously by multiple users may cause some modifications to get lost. The workaround is to use the  check-in and check-out functionality to prevent multiple users from changing the same file (CQ-97035)
   * Certain applications don't support the read-only flag properly which allows a user to save a file that's checked out by another user. The modified file is not transferred until the other user checks in the file. Both modifications are available in AEM as different versions of the asset (CQ-89551, CQ-87572, CQ-89615)
   * The checked-out and read-only status are reported independently in Finder. This results in 2 lock icons when a user checks out an asset (CQ-89507)
 * Finder integration:
@@ -326,13 +326,13 @@ Since the /Volumes folder no longer requires administrative rights, this change 
 * [Use AEM desktop app v1.x](use-app-v1.md)
 * [AEM desktop app v1.x best practices](best-practices-for-v1.md)
 
-## Compatibility matrix and prequisites {#compatibilitymatrix}
+## Compatibility matrix and prerequisites {#compatibilitymatrix}
 
-AEM desktop app works with various verisons of AEM. See the compatibility matrix for the supported versions.
+AEM desktop app works with various versions of AEM. See the compatibility matrix for the supported versions.
 
 | Version | Revision               | Release Date | Compatibility                                               |
 |---------|------------------------|--------------|-------------------------------------------------------------|
-| 1.10    | 1.10.0.3 (Mac and Win) | Aug 31, 2018 | AEM 6.4 SP1; AEM 6.3 SP2; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
+| 1.10    | 1.10.0.3 (Mac and Win) | Aug 31, 2018 | AEM 6.5; AEM 6.4 SP1; AEM 6.3 SP2; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
 | 1.9     | 1.9.1.1 (Mac and Win)  | Jun 21, 2018 | AEM 6.4; AEM 6.3 SP1; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+     |
 | 1.8     | 1.8.1.0 (Mac and Win)  | Mar 28, 2018 | AEM 6.4; AEM 6.3 SP1; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+     |
 | 1.7     | 1.7.0.3 (Mac and Win)  | Jan 10, 2018 | AEM 6.3 SP1; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+             |
