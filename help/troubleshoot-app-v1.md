@@ -22,11 +22,11 @@ Adobe Experience Manager (AEM) desktop app includes utilities that assist you in
 
 With this architecture, desktop app intercepts file system calls (open, close, read, write, and so on) to the mounted network share, and translates them into native AEM HTTP calls to the AEM server. Files are cached locally. For more details, see [Use AEM desktop app v1.x](use-app-v1.md).
 
-## Desktop&nbsp;App component overview {#desktop-nbsp-app-component-overview}
+## AEM desktop app component overview {#desktop-app-component-overview}
 
 desktop app includes the following components:
 
-* **The Desktop application**: Mounts/unmounts DAM as a remote file system, and translates file system calls between the locally mounted network share and the remote AEM instance to which it connects.
+* **The desktop application**: The application mounts or unmounts DAM as a remote file system, and translates file system calls between the locally mounted network share and the remote AEM instance to which it connects.
 * **Operating system WebDAV/SMB client**: Handles communication between Windows Explorer/Finder and desktop app. If a file is retrieved, created, modified, deleted, moved, or copied, the operating system (OS) WebDAV/SMB client communicates this operation to desktop app. After receiving the communication, desktop app translates it into native AEM remote API calls. For example, if a user creates a file in the mounted directory, the WebDAV/SMB client initiates a request, which the desktop app translates into an HTTP request that creates the file in DAM. The WebDAV/SMB client is a built-in component of the OS. It is not affiliated with desktop app, AEM, or Adobe in any way.
 * **Adobe Experience Manager instance**: Provides access to assets stored in the AEM Assets DAM repository. In addition, it performs actions requested by desktop app on behalf of the local desktop applications interacting with the mounted network share. The target AEM instance should run AEM version 6.1 or higher. AEM instances running previous AEM versions might require extra feature packs and hot fixes installed to become fully functional.
 
@@ -85,7 +85,7 @@ Every operation is not cached locally. The following are transmitted to the AEM 
 
 ## Individual operations {#individual-operations}
 
-When troubleshooting suboptimized performance for individual users, first review [Limitations](https://helpx.adobe.com/experience-manager/desktop-app/troubleshooting-desktop-app.html#limitations). The subsequent sections include suggestions to improve performance for individual users.
+When troubleshooting sub-optimized performance for individual users, first review [Limitations](https://helpx.adobe.com/experience-manager/desktop-app/troubleshooting-desktop-app.html#limitations). The subsequent sections include suggestions to improve performance for individual users.
 
 ## Bandwidth recommendations {#bandwidth-recommendations}
 
@@ -131,7 +131,7 @@ You can improve the performance at the AEM side by enabling transient workflows 
 
 ### Adjust Granite Transient Workflow queue {#adjust-granite-transient-workflow-queue}
 
-Another method for improving AEM performance is to configure the value of the maximum parallel jobs for the Granite Transient Workflow Queue job. The recommended value is roughly half the number of the CPUs available with the server. To adjust the value, perform these steps:
+Another method for improving AEM performance is to configure the value of the maximum parallel jobs for the Granite Transient Workflow Queue job. The recommended value is roughly half the number of the CPU available with the server. To adjust the value, perform these steps:
 
 1. Navigate to */system/console/configMgr* in the AEM instance to be configured (for example, <http://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr>).
 1. Search for **QueueConfiguration**, and click to open each job until you locate the **Granite Transient Workflow Queue** job. Click the Edit icon beside it.
@@ -153,7 +153,7 @@ There are a few known limitations in the way you can interact with checked-out f
 
 ### General {#general}
 
-When writing to a checked-out file, the lock is only enforced within AEM's WebDAV implementation. Consequently, the lock is only enforced by clients that use WebDAV, such as desktop app. The lock is not enforced through AEM's web interface. The AEM interface merely displays a lock icon in the card view for assets that are checked out. The icon is cosmetic and has no effect on the behavior of AEM.
+When writing to a checked-out file, the lock is only enforced within AEM WebDAV implementation. Consequently, the lock is only enforced by clients that use WebDAV, such as desktop app. The lock is not enforced through AEM web interface. The AEM interface merely displays a lock icon in the card view for assets that are checked out. The icon is cosmetic and has no effect on the behavior of AEM.
 
 In general, the WebDAV clients don't always behave as expected. There may be additional issues. However, refreshing or checking the asset in AEM is a sound way to verify that an asset isn't being modified. This behavior is typical of the OS WebDAV clients, which isn't under Adobe's control.
 
@@ -236,7 +236,7 @@ Click the AEM Desktop icon, and then choose **About**. The version number is dis
 
 Occasionally issues may occur when upgrading AEM desktop app on macOS. This is caused by legacy system folder for AEM desktop app preventing new versions of AEM Desktop to load correctly. To remedy this issue, the following folders and files can be manually removed.
 
-Prior to executing the steps below, drag the "Adobe Experience Manager Desktop" application from the macOS Applications folder to the Trash. Then open terminal, and exeucte the following command, providing your password when prompted.
+Prior to executing the steps below, drag the "Adobe Experience Manager Desktop" application from the macOS Applications folder to the Trash. Then open terminal, and execute the following command, providing your password when prompted.
 
 ```shell
 sudo rm -rf ~/Library/Application\ Support/com.adobe.aem.desktop

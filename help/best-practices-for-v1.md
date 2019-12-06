@@ -62,7 +62,7 @@ Key capabilities of AEM desktop app include:
 
 AEM desktop app provides virtual access to the whole DAM repository - and it might be complicated for the creative users on desktop to find and access the right assets on their desktop. Use these best practices to simplify that for them.
 
-* Use collaboration features in AEM Assets Web UI to provide more direct access to the right assets for the creative user. Sharing folders or collections, providing Smart Collections (saved searches), or sending notifications with pointers to the right assets are some of them. Creative user can then use desktop acions in the web UI to quickly get access to these assets on their destkop.
+* Use collaboration features in AEM Assets Web UI to provide more direct access to the right assets for the creative user. Sharing folders or collections, providing Smart Collections (saved searches), or sending notifications with pointers to the right assets are some of them. Creative user can then use desktop actions in the web UI to quickly get access to these assets on their desktop.
 * Consider the right permissions for assets (access control) to simplify the view into the DAM repository for the creative users, basically limiting their access to only assets they need / are interested in:
 
   * Certain areas not relevant to the creative users might be denied for their user group(s), to remove them from their view, also on desktop
@@ -105,9 +105,11 @@ To understand best practices around AEM Assets network configuration, please ref
 
 * **Use properly configured Dispatcher:** Use AEM Dispatcher for additional security and ensure that it is configured for [AEM desktop app connection to AEM behind a dispatcher](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html#ConnectingtoAEMBehindaDispatcher)
 
-* **Save bandwidth:** Consider turning off icon preview in Finder on Mac - when browsing the mounted repository using Finder. Finder requests each file to generate a preview and causes desktop app to download & cache the asset locally. Please note that while saving bandwidth it would also decrease user experinece for the users on desktop, so it should be done when working with repositories with large assets and/or limited bandwidth.
+* **Save bandwidth:** Consider turning off icon preview in Finder on Mac - when browsing the mounted repository using Finder. Finder requests each file to generate a preview and causes desktop app to download & cache the asset locally. Please note that while saving bandwidth it would also decrease user experience for the users on desktop, so it should be done when working with repositories with large assets and/or limited bandwidth.
 
-**Note:** To turn off icon previews, in Finder go to View, select View Options, and then uncheck the "Show icon preview" option. This only works for the current folder - to make it a default, click the "Use as default" button in the same window.
+>[!NOTE]
+>
+>To turn off icon previews, in Finder go to View, select View Options, and then un-check the "Show icon preview" option. This only works for the current folder - to make it a default, click the "Use as default" button in the same window.
 
 ### Optimizing server performance {#optimizing-server-performance}
 

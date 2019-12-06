@@ -34,7 +34,7 @@ For the various recommended dos and don'ts, see the [best practices for using ap
 
 ## AEM Desktop app touch-points in the creative workflow {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
-AEM Desktop app, along with AEM Assets, integrates in your creative workflow and offers the following touchpoints.
+AEM Desktop app, along with AEM Assets, integrates in your creative workflow and offers the following touch-points.
 
 ![AEM Desktop app touch-points the creative workflow](assets/aem_desktopapp_workflow.png)
 
@@ -194,11 +194,11 @@ The app lets you check out asset files to prevent other users from modifying the
    ![Open in AEM Assets context menu on Mac](assets/chlimage_1-5.png)
 
 1. Right-click the asset, and select More Assets Info from the context menu.
-1. In the Asset Info dialog, click/tap the Checkout icon to check out the asset. The Checkout icon toggles to the Checkin icon after you click/tap it.
+1. In the Asset Info dialog, click/tap the Checkout icon to check out the asset. The Checkout icon toggles to the check-in icon after you click/tap it.
 
    ![Browse to asset to checkout](assets/chlimage_1-6.png)
 
-1. To check in the asset so it is available to other users, click/tap the Checkin icon in the Asset Info dialog.
+1. To check in the asset so it is available to other users, click/tap the check-in icon in the Asset Info dialog.
 
 ### Check out assets on Windows {#check-out-assets-on-windows}
 
@@ -210,7 +210,7 @@ The app lets you check out asset files to prevent other users from modifying the
    ![Checkout icon toggles](assets/chlimage_1-7.png)
 
 1. Right-click the asset and select Open on Web from the context menu.
-1. In the Asset Info dialog, click/tap the Checkout icon. The Checkout icon toggles to Checkin icon.
+1. In the Asset Info dialog, click/tap the Checkout icon. The Checkout icon toggles to check-in icon.
 
    ![Checkout icon toggles](assets/chlimage_1-8.png)
 
@@ -219,17 +219,17 @@ The app lets you check out asset files to prevent other users from modifying the
    >[!NOTE]
    >The lock icon may appear after a few minutes of delay. AEM Desktop app caches the assets for quick access so it may take a few moments to update the locked status.
 
-1. To check in the asset so it is available to other users, click/tap the Checkin icon in the **Asset Info** dialog.
+1. To check in the asset so it is available to other users, click/tap the check-in icon in the **Asset Info** dialog.
 
 ### Check in an asset using Finder or Explorer and using web interface {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
-When you've finished editing the assets, save the assets in your desktop application. From the context menu, select More Assets Info and click/tap Checkin.
+When you've finished editing the assets, save the assets in your desktop application. From the context menu, select More Assets Info and click/tap check-in.
 
 The assets are uploaded to AEM server. Optionally, you can check the status of the upload by selecting View Asset Status from the tray icon.
 
 ![AEM Desktop app file transfer and upload status window](assets/aem_desktopapp_upload_status.png)
 
-Alternatively, you can check in an asset from the AEM web interface. Click/tap the checked out assets or select it. From the toolbar, click/tap the check in icon ![Checkin icon](assets/aemassets_icon_checkin.png).
+Alternatively, you can check in an asset from the AEM web interface. Click/tap the checked out assets or select it. From the toolbar, click/tap the check in icon ![check-in icon](assets/aemassets_icon_checkin.png).
 
 ### Bulk upload assets and folders to AEM server {#bulkupload}
 
