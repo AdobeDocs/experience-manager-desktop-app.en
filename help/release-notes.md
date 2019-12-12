@@ -1,5 +1,5 @@
 ---
-title: AEM desktop app Release Notes
+title: AEM desktop app release notes
 description: Release details, enhancements, new features, compatibility, and download links for AEM desktop app.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: AG
@@ -10,17 +10,19 @@ discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
+mini-toc-levels: 1
+
 ---
 
-# AEM desktop app Release Notes {#release-notes-v2}
+# AEM desktop app release notes {#release-notes-v2}
 
 | Products      |  Adobe Experience Manager (AEM) desktop app                        |
 |---------------|--------------------------------------------------------------------|
-| App version (Revision)   | 2.0 (2.0.0.4)                                           |
+| App version (Revision)   | 2.0 (2.0.1.1)                                           |
 | Supported AEM versions | AEM 6.5, AEM 6.4, AEM 6.3 (with compatibility package)    |
-| Type          | Major release                                                      |
-| Release date  | August 30, 2019 (Mac), September 9, 2019 (Win)                     |
-| Download URLs |  [MacOS 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.0.4.dmg); [Windows 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.0.4.exe); [Windows 32-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.0.4.exe)  |
+| Type          | Minor release                                                      |
+| Release date  | Dec 12, 2019 (Mac and Win)                                         |
+| Download URLs |  [MacOS 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.1.1.dmg); [Windows 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.1.1.exe); [Windows 32-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.1.1.exe)  |
 
 ## System requirements and prerequisites {#system-requirements-and-prerequisites-v2}
 
@@ -34,12 +36,15 @@ The app works with the following AEM versions, whether deployed on-premise or on
 * [AEM 6.5.0](https://helpx.adobe.com/experience-manager/6-5/release-notes.html) or later
 * [AEM 6.4.4](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) or later
 * AEM 6.4.0 - 6.4.3 with [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
-* AEM 6.3.3.1 and later with [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
-* For AEM 6.3, no [service packs are planned](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html). Adobe recommends to upgrade to a later AEM version.
+
+>[!NOTE]
+>
+>Desktop app support for AEM 6.3 is deprecated. Adobe recommends upgrading to a newer and supported AEM version.
+>AEM 6.3.3.1 or later works with desktop app after installing the [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). No such package is available for AEM 6.3 as no [service packs are planned](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
 
 The version of the app you plan to install on your local machine requires a specific Adobe Experience Manager server version/additional server-side components (service packs, hot fixes, or feature packs). Contact your AEM administrator for help.
 
-### Support for different asset and file types {#support-for-file-types}
+### Support for different assets and file types {#support-for-file-types}
 
 The application supports assets stored in AEM that represent binary file for its basic operations. Opening files in the native desktop application relies on the operating system association of the specific file types like PNG or JPG to specific applications like Mac Preview or Adobe Photoshop.
 
@@ -49,16 +54,22 @@ A few file types support placing linked assets in the binary. The application pr
 * Adobe Illustrator files (AI format)
 * Adobe Photoshop files (PS format)
 
-The feature is supported with Adobe Creative Cloud 2018 and Creative Cloud 2019 versions of the above application. The app uses a heuristic, best-match approach to map the local desktop paths of linked assets to URLs on the AEM server. It relies on a few assumptions:
+The feature is supported with Adobe Creative Cloud 2018 and Adobe Creative Cloud 2019 versions of the above application. The app uses a heuristic, best-match approach to map the local desktop paths of linked assets to URLs on the AEM server. It relies on a few assumptions:
 
-* Paths to placed files in the native application use a global desktop path (placed from the local network share shown with “Reveal” option)
-* Paths are stored in the file’s XMP record by the native app
-* AEM has extracted the XMP record with the paths to the asset’s metadata record
-* The paths can be matched to assets in AEM (meaning, the placed files are also in AEM under a matching path)
+* Paths to placed files in the native application use a global desktop path (placed from the local network share shown with [!UICONTROL Reveal] option).
+* Paths are stored in the file’s XMP record by the native app.
+* AEM has extracted the XMP record with the paths to the asset’s metadata record.
+* The paths can be matched to assets in AEM, that is, the placed files are also in AEM under a matching path).
 
 ## New features and enhancements {#whats-new-added}
 
-To know the details, see [What's New in the App](introduction.md#whats-new-v2).
+To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
+
+Bug fixes and updates made in v 2.0.1 release are:
+
+* Allow option to configure `%Temp%` directory to match `%APPDATA%` path. <!-- CQ-4282665 -->
+* Allow users to log in on AEM Author via Okta SAML authentication. <!-- CQ-4278134 -->
+
 
 ## Installation instructions {#installation-instructions-v2}
 
@@ -87,6 +98,7 @@ The following diagram illustrates the flow of assets and files from cloud to loc
 ## Known issues {#known-issues-v2}
 
 **User interface issues:**
+
 * At times, the interface of the desktop app might become blank. Right-click and click [!UICONTROL Refresh] to re-load the application. After such a refresh, you start at the root of the DAM repository. Updates to or statuses of your assets are retained. <!-- CQ-4270267 -->
 * Difficult to navigate folders/search results without a track pad or mouse pointer. The scroll-bar might not appear with mouse devices without mouse wheel. <!-- CQ-4269947 -->
 * Infrequently, the progress bar does not display correctly when the uploading asset changes.
@@ -94,17 +106,19 @@ The following diagram illustrates the flow of assets and files from cloud to loc
 * At times, when you connect to a URL that doesn’t have AEM server running, the connect screen becomes unresponsive. Exit the application and start it again.
 
 **CRUD (Create, Read, Update, and Delete) issues:**
+
 * Application tries to upload files even with invalid characters, might cause server-side upload failure. <!-- CQ-4273652 -->
 * When uploading changes to an asset with comments, the comments are stored with the asset in AEM but are not visible as versioning comments. This issue is resolved in AEM 6.4.5 and AEM 6.5.1. Adobe strongly recommends installing the latest service packs. <!-- CQ-4268990 -->
 * Asset transfers cannot be canceled by the user. If you triggered an unintended large transfer, exit the application and start it again. <!-- CQ-4278940 -->
 
 **Platform issues:**
+
 * At times, on Windows, an asset's status may immediately change to [!UICONTROL Edited Locally] after opening it, even though you may not have edited it. Click [!UICONTROL Refresh] to update.
 
 >[!MORELIKETHIS]
 >
 >* [AEM 6.5 documentation](https://helpx.adobe.com/support/experience-manager/6-5.html)
->* [AEM Assets 6.5 documentation](https://docs.adobe.com/content/help/en/experience-manager-64/assets/home.html)
->* [Use AEM desktop app](using.md)
+>* [AEM Assets 6.5 documentation](https://docs.adobe.com/content/help/en/experience-manager-65/assets/home.html)
+>* [How to use AEM desktop app](using.md)
 >* [Install and upgrade desktop app](install-upgrade.md)
 >* [Best practices and troubleshooting tips](troubleshoot.md)
