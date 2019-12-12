@@ -1,5 +1,5 @@
 ---
-title: AEM desktop app Release Notes
+title: AEM desktop app release notes
 description: Release details, enhancements, new features, compatibility, and download links for AEM desktop app.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: AG
@@ -10,9 +10,11 @@ discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
+mini-toc-levels: 1
+
 ---
 
-# AEM desktop app Release Notes {#release-notes-v2}
+# AEM desktop app release notes {#release-notes-v2}
 
 | Products      |  Adobe Experience Manager (AEM) desktop app                        |
 |---------------|--------------------------------------------------------------------|
@@ -34,8 +36,11 @@ The app works with the following AEM versions, whether deployed on-premise or on
 * [AEM 6.5.0](https://helpx.adobe.com/experience-manager/6-5/release-notes.html) or later
 * [AEM 6.4.4](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) or later
 * AEM 6.4.0 - 6.4.3 with [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
-* AEM 6.3.3.1 and later with [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
-* For AEM 6.3, no [service packs are planned](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html). Adobe recommends to upgrade to a later AEM version.
+
+>[!NOTE]
+>
+>Desktop app support for AEM 6.3 is deprecated. Adobe recommends upgrading to a newer and supported AEM version.
+>AEM 6.3.3.1 or later works with desktop app after installing the [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). No such package is available for AEM 6.3 as no [service packs are planned](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
 
 The version of the app you plan to install on your local machine requires a specific Adobe Experience Manager server version/additional server-side components (service packs, hot fixes, or feature packs). Contact your AEM administrator for help.
 
