@@ -14,7 +14,17 @@ snippet: y
 
 # Install AEM desktop app {#install-app-v2}
 
-## System requirements {#tech-specs-v2}
+Using the AEM desktop app, the assets within AEM are easily accessible on your local desktop and can be used in any desktop applications. Assets can be easily revealed in Mac Finder or Windows Explorer, opened in desktop applications, and changed locally – the changes are saved back to AEM when you upload and a new version is created in the repository.
+
+Such an integration allows various roles in the organization to manage the assets centrally in AEM Assets and to access them in the Creative Cloud and other applications, while making it easy to adhere to the various standards including branding.
+
+To use AEM desktop app,
+
+* Ensure that your AEM server version is supported by AEM desktop app. See the [compatibility matrix](release-notes-of-v1.md#compatibilitymatrix).
+* Download and install the application.
+* Test the connection using a few assets. See [Access and open assets on your desktop](use-app-v1.md#openondesktop).
+
+## System requirements prerequisites, and download links {#tech-specs-v2}
 
 For detailed information, see the [AEM desktop app release notes](release-notes.md).
 
