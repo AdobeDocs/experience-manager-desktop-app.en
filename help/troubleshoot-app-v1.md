@@ -65,6 +65,8 @@ AEM Desktop is not suitable for performing intensive file system manipulation, i
 
 Due to limitations in the operating system, Windows has a file size limitation of 4,294,967,295 bytes (approximately 4.29 GB). It is due to a registry setting that defines how large a file on a network share can be. The value of the registry setting is a DWORD with a maximum size that equals the referenced number.
 
+Experience Manager desktop app does not have a configurable timeout value that disconnects the connection between Experience Manager server and desktop app after a fixed time interval. When uploading large assets, if the connection gets timeout after a while, the app retries to upload the asset a few times by increasing the upload timeout. There is no recommended way to change the default timeout settings.
+
 ## Caching and communication with AEM {#caching-and-communication-with-aem}
 
 AEM desktop app provides internal caching and background upload capabilities to improve end user experience. When you save a large file, it is first saved locally to let you continue working. After sometime (currently 30 seconds), the file is then sent to the AEM server in the background.

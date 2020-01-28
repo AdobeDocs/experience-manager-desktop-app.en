@@ -1,5 +1,5 @@
 ---
-title: Best practices for and troubleshooting AEM desktop app
+title: Best practices for and troubleshooting Adobe Experience Manager desktop app
 description: Follow best practices and troubleshoot to resolve the occasional issues related to installation, upgrade, configuration, and so on.
 uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
 contentOwner: AG
@@ -12,9 +12,9 @@ internal: n
 snippet: y
 ---
 
-# Troubleshoot AEM desktop app {#troubleshoot-v2}
+# Troubleshoot Adobe Experience Manager desktop app {#troubleshoot-v2}
 
-Adobe Experience Manager (AEM) desktop app connects to a remote AEM deployment's Digital Asset Management (DAM) repository. The app fetches repository information and search results on your machine, downloads and uploads files and folders, and includes capabilities to manage conflicts with AEM Assets user interface.
+Adobe Experience Manager (AEM) desktop app connects to a remote Experience Manager deployment's Digital Asset Management (DAM) repository. The app fetches repository information and search results on your machine, downloads and uploads files and folders, and includes capabilities to manage conflicts with AEM Assets user interface.
 
 Read on to troubleshoot the app, learn the best practices, and find out the limitations.
 
@@ -37,6 +37,8 @@ Adhere to the following best practices to prevent some common issues and trouble
 * **Mind the network**: Network performance is critical to AEM desktop app's performance. If you face slowed response to file transfers or bulk operations, turn off the features or apps that might cause lots of network traffic.
 
 * **Unsupported use cases for desktop app**: Do not use the app for Assets' migration (it needs planning and other tools); for heavy-duty DAM operations (like moving large folders, large uploads, finding files using advanced metadata searches); and as a sync client (design principles and usage patterns are different from in-sync clients like Microsoft OneDrive or Adobe Creative Cloud desktop sync).
+
+* **Timeout**: Currently, desktop app does not have a configurable timeout value that disconnects the connection between Experience Manager server and desktop app after a fixed time interval. When uploading large assets, if the connection gets timeout after a while, the app retries to upload the asset a few times by increasing the upload timeout. There is no recommended way to change the default timeout settings.
 
 ## How to troubleshoot {#troubleshooting-prep}
 

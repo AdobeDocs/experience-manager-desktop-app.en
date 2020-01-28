@@ -70,7 +70,6 @@ Bug fixes and updates made in v 2.0.1 release are:
 * Allow option to configure `%Temp%` directory to match `%APPDATA%` path. <!-- CQ-4282665 -->
 * Allow users to log in on AEM Author via Okta SAML authentication. <!-- CQ-4278134 -->
 
-
 ## Installation instructions {#installation-instructions-v2}
 
 To know how to install and configure the app, see [Install AEM desktop app](install-upgrade.md).
