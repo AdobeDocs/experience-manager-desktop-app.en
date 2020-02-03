@@ -24,17 +24,17 @@ Adhere to the following best practices to prevent some common issues and trouble
 
 * **Understand how the desktop app works**: Before starting to use the application, spend a few minutes knowing how the app works. Know about linking between Web UI and desktop, repository mapping, asset caching, saving locally and uploading in background. See [how it works](release-notes.md#how-app-works).
 
-* **Avoid unsupported characters in folder names**: Do not use white spaces and invalid characters when creating or uploading folders. See a list of characters at [Create folders in AEM Assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders). Some AEM use cases may be impacted by unsupported characters in the folder name.
+* **Avoid unsupported characters in folder names**: Do not use white spaces and invalid characters when creating or uploading folders. See a list of characters at [Create folders in Experience Manager Assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders). Some Adobe Experience Manager use cases may be impacted by unsupported characters in the folder name.
 
 * **Best practices to avoid conflicts**: To avoid potential conflicts when collaborating on multiple assets, see [avoid editing conflicts](using.md#adv-workflow-collaborate-avoid-conflicts).
 
-* **Use folder upload for large, hierarchical folders**: Instead of using the Assets web interface or other methods, use AEM desktop app to upload large folders. The app uploads the assets in background with logging and monitoring. See [bulk upload assets](using.md#bulk-upload-assets).
+* **Use folder upload for large, hierarchical folders**: Instead of using the Assets web interface or other methods, use Experience Manager desktop app to upload large folders. The app uploads the assets in background with logging and monitoring. See [bulk upload assets](using.md#bulk-upload-assets).
 
-* **Use the latest version**: Use the latest app version and always check for compatibility before installing either a new app version or before upgrading to a newer AEM version. See [release notes](release-notes.md).
+* **Use the latest version**: Use the latest app version and always check for compatibility before installing either a new app version or before upgrading to a newer Adobe Experience Manager version. See [release notes](release-notes.md).
 
-* **Use the same drive letter**: Use the same drive letter across an organization to map to the AEM DAM. To see assets placed by other users, the paths must be the same. Using the same drive letter ensures a constant path to DAM assets. The assets remain placed and are not removed even if different drive letters are used by different users.
+* **Use the same drive letter**: Use the same drive letter across an organization to map to the Adobe Experience Manager DAM. To see assets placed by other users, the paths must be the same. Using the same drive letter ensures a constant path to DAM assets. The assets remain placed and are not removed even if different drive letters are used by different users.
 
-* **Mind the network**: Network performance is critical to AEM desktop app's performance. If you face slowed response to file transfers or bulk operations, turn off the features or apps that might cause lots of network traffic.
+* **Mind the network**: Network performance is critical to Experience Manager desktop app's performance. If you face slowed response to file transfers or bulk operations, turn off the features or apps that might cause lots of network traffic.
 
 * **Unsupported use cases for desktop app**: Do not use the app for Assets' migration (it needs planning and other tools); for heavy-duty DAM operations (like moving large folders, large uploads, finding files using advanced metadata searches); and as a sync client (design principles and usage patterns are different from in-sync clients like Microsoft OneDrive or Adobe Creative Cloud desktop sync).
 
