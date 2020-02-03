@@ -1,6 +1,6 @@
 ---
-title: Install and configure AEM desktop app
-description: Install and configure AEM desktop app to work with AEM Assets servers and download the assets on your local file system.
+title: Install and configure Adobe Experience Manager desktop app
+description: Install and configure Adobe Experience Manager desktop app to work with Adobe Experience Manager Assets servers and download the assets on your local file system.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS
@@ -12,21 +12,21 @@ internal: n
 snippet: y
 ---
 
-# Install AEM desktop app {#install-app-v2}
+# Install Adobe Experience Manager desktop app {#install-app-v2}
 
-Using the AEM desktop app, the assets within AEM are easily accessible on your local desktop and can be used in any desktop applications. Assets can be easily revealed in Mac Finder or Windows Explorer, opened in desktop applications, and changed locally – the changes are saved back to AEM when you upload and a new version is created in the repository.
+Using the Adobe Experience Manager desktop app, the assets within Experience Manager are easily accessible on your local desktop and can be used in any desktop applications. Assets can be easily revealed in Mac Finder or Windows Explorer, opened in desktop applications, and changed locally – the changes are saved back to Experience Manager when you upload and a new version is created in the repository.
 
-Such an integration allows various roles in the organization to manage the assets centrally in AEM Assets and to access them in the Creative Cloud and other applications, while making it easy to adhere to the various standards including branding.
+Such an integration allows various roles in the organization to manage the assets centrally in Adobe Experience Manager Assets and to access them in the Creative Cloud and other applications, while making it easy to adhere to the various standards including branding.
 
-To use AEM desktop app,
+To use Experience Manager desktop app,
 
-* Ensure that your AEM server version is supported by AEM desktop app. See the [compatibility matrix](release-notes-of-v1.md#compatibilitymatrix).
+* Ensure that your Experience Manager server version is supported by Experience Manager desktop app. See the [compatibility matrix](release-notes-of-v1.md#compatibilitymatrix).
 * Download and install the application.
 * Test the connection using a few assets. See [Access and open assets on your desktop](use-app-v1.md#openondesktop).
 
 ## System requirements prerequisites, and download links {#tech-specs-v2}
 
-For detailed information, see the [AEM desktop app release notes](release-notes.md).
+For detailed information, see the [Experience Manager desktop app release notes](release-notes.md).
 
 ## Upgrade from app v1.x to app v2 {#upgrade-from-previous-version}
 

@@ -1,6 +1,6 @@
 ---
-title: Use AEM desktop app
-description: Learn how to install and use Adobe Experience Manager desktop app, to work on AEM assets right from your Win or Mac desktop. Know best practices and troubleshooting information.
+title: Use Adobe Experience Manager desktop app
+description: Learn how to install and use Adobe Experience Manager desktop app, to work on Adobe Experience Manager DAM assets right from your Win or Mac desktop. Know best practices and troubleshooting information.
 uuid: 55057617-89de-43cd-8419-1252a42ab2fb
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS
@@ -10,17 +10,17 @@ discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
 ---
 
-# Use AEM desktop app {#use-aem-desktop-app-v2}
+# Use Adobe Experience Manager desktop app {#use-aem-desktop-app-v2}
 
-Use the Adobe Experience Manager (AEM) desktop app, to easily access the AEM assets on your local desktop and use these assets in any desktop applications. You can open the assets in desktop applications and edit the assets locally – upload the changes back to AEM with version control, to share the updates with other users. You can also upload new files and folder hierarchies to AEM, create folders, and delete assets or folders from AEM.
+Use the Adobe Experience Manager (AEM) desktop app, to easily access the Adobe Experience Manager DAM assets on your local desktop and use these assets in any desktop applications. You can open the assets in desktop applications and edit the assets locally – upload the changes back to Experience Manager with version control, to share the updates with other users. You can also upload new files and folder hierarchies to Experience Manager, create folders, and delete assets or folders from Experience Manager DAM.
 
-The integration allows various roles in the organization to manage the assets centrally in AEM Assets and to access the assets on local desktop in the native applications on Windows or Mac OS.
+The integration allows various roles in the organization to manage the assets centrally in Experience Manager Assets and to access the assets on local desktop in the native applications on Windows or Mac OS.
 
-When you open the application after logging out or for the first time, provide the URL of your AEM server. Click Connect. Provide your credentials to connect the app with the server.
+When you open the application after logging out or for the first time, provide the URL of your Experience Manager server. Click Connect. Provide your credentials to connect the app with the server.
 
-The key tasks you do using the AEM desktop app are:
+The key tasks you do using the Experience Manager desktop app are:
 
-![Workflows and tasks you can accomplish using AEM desktop app](assets/aem_desktop_app_usecases_v2.png "Workflows and tasks you can accomplish using AEM desktop app")
+![Workflows and tasks you can accomplish using Experience Manager desktop app](assets/aem_desktop_app_usecases_v2.png "Workflows and tasks you can accomplish using Adobe Experience Manager desktop app")
 Download [this](assets/aem_desktop_app_usecases_print.pdf) print-ready PDF file.
 
 ## How desktop app works {#how-app-works2}
@@ -29,15 +29,15 @@ Before you start using the application, understand [How the app works](release-n
 
 * **[!UICONTROL Desktop Actions]**: From the Assets web interface, from within in a browser, you can explore the asset locations or check-out and open the asset for editing in your native desktop application. These actions are available from the web interface and use desktop app functionality. See [how to enable Desktop Actions](using.md#desktopactions-v2).
 
-* File status is **[!UICONTROL Cloud Only]**: Such assets are not downloaded on the local machine and are available on AEM server only.
+* File status is **[!UICONTROL Cloud Only]**: Such assets are not downloaded on the local machine and are available on Experience Manager server only.
 
 * File status is **[!UICONTROL Available locally]**: The assets are downloaded and available on the local machine as is. The assets are not changed.
 
-* File status is **[!UICONTROL Edited locally]**: Such assets are modified locally and the changes remain to the uploaded to AEM server. After you upload, the status changes to [!UICONTROL Available locally]. See [edit assets](using.md#edit-assets-upload-updated-assets).
+* File status is **[!UICONTROL Edited locally]**: Such assets are modified locally and the changes remain to the uploaded to Experience Manager server. After you upload, the status changes to [!UICONTROL Available locally]. See [edit assets](using.md#edit-assets-upload-updated-assets).
 
 * File status is **[!UICONTROL Editing conflict]**: If you and other users modify an asset simultaneously, the app indicates that an editing conflict has occurred. The app also provides options to retain or discard your changes. See [how to avoid editing conflicts](using.md#adv-workflow-collaborate-avoid-conflicts).
 
-* File status is **[!UICONTROL Modified remotely]**: The app indicates if an asset that you have downloaded is changed on the AEM server. The app also provides the option to download the latest version and update your local copy. See [how to avoid editing conflicts](using.md#adv-workflow-collaborate-avoid-conflicts).
+* File status is **[!UICONTROL Modified remotely]**: The app indicates if an asset that you have downloaded is changed on the Experience Manager server. The app also provides the option to download the latest version and update your local copy. See [how to avoid editing conflicts](using.md#adv-workflow-collaborate-avoid-conflicts).
 
 * **[!UICONTROL Check-out]**: If you are editing a file or intend to edit a file, you toggle the status to check out. It adds a lock icon on the asset in the app and AEM web interface. The lock icon indicates to other users to avoid simultaneously editing the same asset as it leads to an editing conflict.
 

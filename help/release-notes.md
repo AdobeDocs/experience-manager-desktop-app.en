@@ -1,6 +1,6 @@
 ---
-title: AEM desktop app release notes
-description: Release details, enhancements, new features, compatibility, and download links for AEM desktop app.
+title: Adobe Experience Manager desktop app release notes
+description: Release details, enhancements, new features, compatibility, and download links for Adobe Experience Manager desktop app.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS
@@ -14,7 +14,7 @@ mini-toc-levels: 1
 
 ---
 
-# AEM desktop app release notes {#release-notes-v2}
+# Adobe Experience Manager desktop app release notes {#release-notes-v2}
 
 | Products      |  Adobe Experience Manager (AEM) desktop app                        |
 |---------------|--------------------------------------------------------------------|
@@ -26,40 +26,40 @@ mini-toc-levels: 1
 
 ## System requirements and prerequisites {#system-requirements-and-prerequisites-v2}
 
-AEM desktop app is compatible with the following operating systems:
+Adobe Experience Manager desktop app is compatible with the following operating systems:
 
 * Mac OS X 10.10 or later, with latest bug fixes.
 * Windows 7 and Windows 10 with the latest service packs and bug fixes.
 
-The app works with the following AEM versions, whether deployed on-premise or on Adobe Managed Services (AMS):
+The app works with the following Experience Manager versions, whether deployed on-premise or on Adobe Managed Services (AMS):
 
-* [AEM 6.5.0](https://helpx.adobe.com/experience-manager/6-5/release-notes.html) or later
-* [AEM 6.4.4](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) or later
-* AEM 6.4.0 - 6.4.3 with [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
+* [Experience Manager 6.5.0](https://helpx.adobe.com/experience-manager/6-5/release-notes.html) or later
+* [Experience Manager 6.4.4](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) or later
+* Experience Manager 6.4.0 - 6.4.3 with [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
 >[!NOTE]
 >
->Desktop app support for AEM 6.3 is deprecated. Adobe recommends upgrading to a newer and supported AEM version.
->AEM 6.3.3.1 or later works with desktop app after installing the [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). No such package is available for AEM 6.3 as no [service packs are planned](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
+>Desktop app support for Experience Manager 6.3 is deprecated. Adobe recommends upgrading to a newer and supported Adobe Experience Manager version.
+>Experience Manager 6.3.3.1 or later works with desktop app after installing the [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). No such package is available for Experience Manager 6.3 as no [service packs are planned](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
 
-The version of the app you plan to install on your local machine requires a specific Adobe Experience Manager server version/additional server-side components (service packs, hot fixes, or feature packs). Contact your AEM administrator for help.
+The version of the app you plan to install on your local machine requires a specific Adobe Experience Manager server version/additional server-side components (service packs, hot fixes, or feature packs). Contact your Adobe Experience Manager administrator for help.
 
 ### Support for different assets and file types {#support-for-file-types}
 
-The application supports assets stored in AEM that represent binary file for its basic operations. Opening files in the native desktop application relies on the operating system association of the specific file types like PNG or JPG to specific applications like Mac Preview or Adobe Photoshop.
+The application supports assets stored in Adobe Experience Manager that represent binary file for its basic operations. Opening files in the native desktop application relies on the operating system association of the specific file types like PNG or JPG to specific applications like Mac Preview or Adobe Photoshop.
 
-A few file types support placing linked assets in the binary. The application pre-downloads the linked assets if the asset is present in the AEM repository when such binary files are opened using the desktop app. Currently supported file types are:
+A few file types support placing linked assets in the binary. The application pre-downloads the linked assets if the asset is present in the Experience Manager repository when such binary files are opened using the desktop app. Currently supported file types are:
 
 * Adobe InDesign files (INDD format)
 * Adobe Illustrator files (AI format)
 * Adobe Photoshop files (PS format)
 
-The feature is supported with Adobe Creative Cloud 2018 and Adobe Creative Cloud 2019 versions of the above application. The app uses a heuristic, best-match approach to map the local desktop paths of linked assets to URLs on the AEM server. It relies on a few assumptions:
+The feature is supported with Adobe Creative Cloud 2018 and Adobe Creative Cloud 2019 versions of the above application. The app uses a heuristic, best-match approach to map the local desktop paths of linked assets to URLs on the Experience Manager server. It relies on a few assumptions:
 
 * Paths to placed files in the native application use a global desktop path (placed from the local network share shown with [!UICONTROL Reveal] option).
 * Paths are stored in the file’s XMP record by the native app.
-* AEM has extracted the XMP record with the paths to the asset’s metadata record.
-* The paths can be matched to assets in AEM, that is, the placed files are also in AEM under a matching path).
+* Experience Manager has extracted the XMP record with the paths to the asset’s metadata record.
+* The paths can be matched to assets in Experience Manager, that is, the placed files are also in Experience Manager under a matching path).
 
 ## New features and enhancements {#whats-new-added}
 
@@ -72,9 +72,9 @@ Bug fixes and updates made in v 2.0.1 release are:
 
 ## Installation instructions {#installation-instructions-v2}
 
-To know how to install and configure the app, see [Install AEM desktop app](install-upgrade.md).
+To know how to install and configure the app, see [Install Experience Manager desktop app](install-upgrade.md).
 
-If you are upgrading from a previous AEM desktop app, you must follow these best practices for transitioning that are listed at [upgrade from previous version](install-upgrade.md#upgrade-from-previous-version).
+If you are upgrading from a previous Experience Manager desktop app, you must follow these best practices for transitioning that are listed at [upgrade from previous version](install-upgrade.md#upgrade-from-previous-version).
 
 ## Important notes about how the app works {#how-app-works}
 
@@ -118,6 +118,6 @@ The following diagram illustrates the flow of assets and files from cloud to loc
 >
 >* [AEM 6.5 documentation](https://helpx.adobe.com/support/experience-manager/6-5.html)
 >* [AEM Assets 6.5 documentation](https://docs.adobe.com/content/help/en/experience-manager-65/assets/home.html)
->* [How to use AEM desktop app](using.md)
+>* [How to use Experience Manager desktop app](using.md)
 >* [Install and upgrade desktop app](install-upgrade.md)
 >* [Best practices and troubleshooting tips](troubleshoot.md)
