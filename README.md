@@ -1,6 +1,6 @@
-# Adobe Experience Manager Desktop App Documentation
+# Adobe Experience Manager desktop app Documentation
 
-This is the repository for Adobe Experience Manager Desktop App documentation.
+This is the repository for Adobe Experience Manager desktop app documentation.
 
 Your contributions to the documentation are welcome. Please see the following resources:
 
