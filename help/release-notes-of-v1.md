@@ -18,10 +18,10 @@ For desktop app v1.x release, the following are the download links and AEM compa
 
 | Products      |  Adobe Experience Manager (AEM) desktop app                        |
 |---------------|--------------------------------------------------------------------|
-| Version       | 1.10 (1.10.0.3 on Mac and Windows)                                                                                                                                                                                                                     |
+| Version       | 1.10 (1.10.0.6 on Mac and 1.10.0.3 on Windows)                                                                                                                                                                                                                     |
 | Type          | Minor release                                                                                                                                                                                                                                          |
-| Date          | August 31, 2018                                                                                                                                                                                                                                        |
-| Download URLs |  [Mac OS X 64 bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.10.0.3.dmg); [Windows 32 bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.10.0.3.exe); [Windows 64 bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.10.0.3.exe) |
+| Date          | 1.10.0.6 (Mac): April 15, 2020; 1.10.0.3 (Win): August 31, 2018                                                                                                                                                                                                                                        |
+| Download URLs |  [Mac OS X 64 bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.10.0.6.dmg); [Windows 32 bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.10.0.3.exe); [Windows 64 bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.10.0.3.exe) |
 | Compatibility | AEM 6.5.x; AEM 6.4.x; AEM 6.3 SP2; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
 
 >[!NOTE]
@@ -44,6 +44,10 @@ See the [detailed compatibility matrix](#compatibilitymatrix) at the end of this
 ## What's New in AEM desktop app 1.10 {#what-s-new-in-aem-desktop-app}
 
 AEM desktop app 1.10 focuses on improving user experience around large uploads, information about the background operations, and optimized experience when opening assets with linked files (like InDesign).
+
+>[!NOTE]
+>
+>If you are using macOS 10.15.4 or newer, use at least version 1.10.0.6 of the app. This patch release complies with the [Apple notarization requirements](https://developer.apple.com/news/?id=04102019a).
 
 **Local Editing / Check-Out**: Automatic uploads of changes saved to assets can be disabled in the status window. That way the user can continue working on files and saving changes and then, when they are ready, decide to upload all changes.
 
