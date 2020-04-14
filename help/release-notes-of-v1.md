@@ -47,7 +47,7 @@ AEM desktop app 1.10 focuses on improving user experience around large uploads, 
 
 >[!NOTE]
 >
->If you are using MacOS 10.15.4 or newer, please ensure you are using at least version 1.10.0.6 of the app. This patch release was recompiled to comply with newer Apple notarization requirements. 
+>If you are using macOS 10.15.4 or newer, use at least version 1.10.0.6 of the app. This patch release complies with the [Apple notarization requirements](https://developer.apple.com/news/?id=04102019a).
 
 **Local Editing / Check-Out**: Automatic uploads of changes saved to assets can be disabled in the status window. That way the user can continue working on files and saving changes and then, when they are ready, decide to upload all changes.
 
