@@ -16,13 +16,13 @@ mini-toc-levels: 1
 
 # Adobe Experience Manager desktop app release notes {#release-notes-v2}
 
-| Products      |  Adobe Experience Manager (AEM) desktop app                        |
-|---------------|--------------------------------------------------------------------|
-| App version (Revision)   | 2.0 (2.0.2.0)                                           |
-| Supported AEM versions | AEM Cloud Service, AEM 6.5, AEM 6.4, AEM 6.3 (with compatibility package)    |
-| Type          | Minor release                                                      |
-| Release date  | Apr 15, 2020 (Mac and Win)                                         |
-| Download URLs |  [MacOS 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.2.0.dmg); [Windows 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.2.0.exe); [Windows 32-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.2.0.exe)  |
+| Products | Adobe Experience Manager desktop app |
+|----|----|
+| App version (Revision) | 2.0 (2.0.2.0) |
+| Supported AEM versions | AEM as a Cloud Service; AEM 6.5; AEM 6.4; AEM 6.3 (with compatibility package) |
+| Type | Minor release |
+| Release date  | Apr 15, 2020 (Mac and Win) |
+| Download URLs | [macOS 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.2.0.dmg); [Windows 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.2.0.exe); [Windows 32-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.2.0.exe) |
 
 ## System requirements and prerequisites {#system-requirements-and-prerequisites-v2}
 
@@ -60,21 +60,25 @@ The feature is supported with Adobe Creative Cloud 2018 and Adobe Creative Cloud
 * Paths to placed files in the native application use a global desktop path (placed from the local network share shown with [!UICONTROL Reveal] option).
 * Paths are stored in the file’s XMP record by the native app.
 * Experience Manager has extracted the XMP record with the paths to the asset’s metadata record.
-* The paths can be matched to assets in Experience Manager, that is, the placed files are also in Experience Manager under a matching path).
+* The paths can be matched to assets in Experience Manager, that is, the placed files are also in Experience Manager under a matching path.
 
 ## New features and enhancements {#whats-new-added}
 
 To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
 
-Bug fixes and updates made in v 2.0.2 release are:
+**Updates in app v2.0.2**
 
-* Upload performance can be improved by increasing upload acceleration in [!UICONTROL Preferences]. Note that it uses more local CPU threads so the application will consume more resources when acceleration is turned on. 
-* Fixed issue with asset uploading when file names or paths contain certain GB18030 characters <!-- CQ-4283494 -->
-* Sort by relevance option is available after switching to another sort type in search results <!-- CQ-4286874 -->
-* Desktop app now lists sub-folders without the need to explicitly refresh <!-- CQ-4285711 -->
-* (Windows) Fixed a problem where Desktop App UI might be "shifted" in the application window on certain Window machines <!-- CQ-4280785 -->
+The bug fixes and updates are:
 
-Bug fixes and updates made in v 2.0.1 release are:
+* To improve upload performance, increase the upload acceleration in [!UICONTROL Preferences]. When this setting turned on, the app uses more local CPU threads and is more resource-intensive.
+* Fixed issue with asset uploads when filenames or paths contain certain GB18030 characters. <!-- CQ-4283494 -->
+* Sort by relevance option is available after switching to another sort type in the search results. <!-- CQ-4286874 -->
+* Desktop app now lists sub-folders without the need to explicitly refresh. <!-- CQ-4285711 -->
+* (Windows) Fixed a rare issue of unusable app interface on some Windows machines. Users cannot click on the app interface as it  appears distorted with the click-area of interface elements is 'shifted' sideway. <!-- CQ-4280785 -->
+
+**Updates in app v2.0.1**
+
+The bug fixes and updates are:
 
 * Allow option to configure `%Temp%` directory to match `%APPDATA%` path. <!-- CQ-4282665 -->
 * Allow users to log in on AEM Author via Okta SAML authentication. <!-- CQ-4278134 -->
