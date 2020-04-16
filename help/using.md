@@ -183,6 +183,8 @@ To view the list of assets transferred in a given session, click **[!UICONTROL V
 
 ![List of transferred assets in a particular session](assets/assets_transfered_da2.png "List of transferred assets in a particular session")
 
+You can control the upload concurrency (acceleration) in **[!UICONTROL Preferences]** > **[!UICONTROL Upload acceleration]** setting. More concurrency typically gives faster uploads, but can be resource-intensive, consuming more processing power of the local machine. If you experience a slow system, re-attempt uploads using a lower value of concurrency.
+
 >[!NOTE]
 >
 >The transfer list is not persistent and is not available if you exit the app and reopen it.
