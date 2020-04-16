@@ -14,15 +14,15 @@ snippet: y
 
 # Install Adobe Experience Manager desktop app {#install-app-v2}
 
-Using the Adobe Experience Manager desktop app, the assets within Experience Manager are easily accessible on your local desktop and can be used in any desktop applications. Assets can be easily revealed in Mac Finder or Windows Explorer, opened in desktop applications, and changed locally – the changes are saved back to Experience Manager when you upload and a new version is created in the repository.
+Using the Adobe Experience Manager desktop app, the assets within Experience Manager are easily accessible on your local desktop and can be used in any desktop applications. Assets can be previewed, opened in native desktop applications, revealed in Mac Finder or Windows Explorer for placing in other documents, and changed locally – the changes are saved back to Experience Manager when you upload and a new version is created in the repository.
 
-Such an integration allows various roles in the organization to manage the assets centrally in Adobe Experience Manager Assets and to access them in the Creative Cloud and other applications, while making it easy to adhere to the various standards including branding.
+Such an integration allows various roles in the organization to manage the assets centrally in Adobe Experience Manager Assets and to access them in any native desktop applications (including 3rd-party as well as Adobe's Creative Cloud), while making it easy to adhere to the various standards including branding.
 
 To use Experience Manager desktop app,
 
-* Ensure that your Experience Manager server version is supported by Experience Manager desktop app. See the [compatibility matrix](release-notes-of-v1.md#compatibilitymatrix).
-* Download and install the application.
-* Test the connection using a few assets. See [Access and open assets on your desktop](use-app-v1.md#openondesktop).
+* Ensure that your Experience Manager version is supported by Experience Manager desktop app. See the [system requirements](#tech-specs-v2) below.
+* Download and install the application. See [installing](#install-v2) below.
+* Test the connection using a few assets. See [how to browse and search for assets](using.md#browse-search-preview-assets).
 
 ## System requirements prerequisites, and download links {#tech-specs-v2}
 
@@ -48,7 +48,7 @@ To upgrade from v1.x to the latest version of the app, follow these instructions
 To install the desktop app, follow these steps. Uninstall any existing Adobe Experience Manager desktop app v1.x before installing the latest app. For more info, see above.
 
 1. Keep the URL and credentials of your AEM deployment handy.
-1. Skip this step if you are using AEM 6.4.4 and later or AEM 6.5.0 or later. Ensure that your AEM setup meets the compatibility requirements mentioned in the release notes. If necessary, download the applicable [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) and install it using the AEM Package Manager as an AEM administrator. To install a package, see [How to work with Packages](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html).
+1. Skip this step if you are using AEM as a Cloud Service, AEM 6.4.4 and later or AEM 6.5.0 or later. Ensure that your AEM setup meets the compatibility requirements mentioned in the release notes. If necessary, download the applicable [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) and install it using the AEM Package Manager as an AEM administrator. To install a package, see [How to work with Packages](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html).
 1. Execute the installer binary and follow the onscreen instructions to install.
 1. On Windows, the installer may prompt to install `Visual Studio C++ Redistributable 2015`. Follow on-screen instructions to install it. If the installation fails then install it manually. Download the installer from [here](https://www.microsoft.com/en-us/download/details.aspx?id=52685) and install both `vc_redist.x64.exe` and `vc_redist.x86.exe` files. Re-run the AEM desktop app installer.
 1. Restart the machine as prompted. Launch the desktop app to configure it.
@@ -80,6 +80,7 @@ To change preferences, click ![More options icon](assets/do-not-localize/more_op
 * **[!UICONTROL Current cache size]**: Storage size of the locally downloaded assets. The information is displayed only after assets are downloaded using the app.
 * **[!UICONTROL Automatically download linked assets]**: The assets that are placed in the supported native Creative Cloud apps are fetched automatically if you download the original file.
 * **[!UICONTROL Maximum number of downloads]**: When downloading assets for the first time (via Reveal, Open, Edit, Download, or similar option), the assets are downloaded only if the batch contains less than this number. Default value is 50. Do not change if you are unsure. Increasing the value can lead to longer wait times and decreasing the value may not allow you to download the necessary assets or folders in one go.
+* **[!UICONTROL Upload Acceleration]**: When uploading assets, the application can use concurrent uploads to improve upload speed. You can increase the concurrency of the upload by moving the slider to the right side. The slider on the left-hand side means no concurrency (single-threaded upload), the middle corresponds to 10 concurrent threads, and the maximum setting to 20 concurrent threads. Please note that increasing concurrency leads to more resource consuption of the local desktop machine.
 
 To update the unavailable preferences, log out of the AEM server. After updating the preferences, click ![Save preferences](assets/do-not-localize/save_preferences_da2.png) to save the changes.
 
