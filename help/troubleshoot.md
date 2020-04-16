@@ -54,15 +54,15 @@ To troubleshoot, you can enable the debug mode and get more information in the l
 
 ### Location of log files {#check-log-files-v2}
 
-You can find the log files for AEM desktop app at the following locations. When uploading many assets, if some files fail to upload, see `backend.log` file at the above location to identify the failed uploads.
+You can find the log files for AEM desktop app at the following locations. When uploading many assets, if some files fail to upload, see `backend.log` file to identify the failed uploads.
 
-* On Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
+* Path on Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
 
-* On Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+* Path on Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
 
 >[!NOTE]
 >
->When working with Adobe Customer Care on a support request/ticket, you may be asked to share the log files to help the support team understand the issue. Archive the entire `Logs` folder and share it with the customer care.
+>When working with Adobe Customer Care on a support request/ticket, you may be asked to share the log files to help the Customer Care team understand the issue. Archive the entire `Logs` folder and share it with your Customer Care contact.
 
 ### Clear cache {#clear-cache-v2}
 
