@@ -46,11 +46,25 @@ To troubleshoot desktop app issues, be aware of the following information. Also,
 
 ### Enable debug mode {#enable-debug-mode}
 
-To troubleshoot, you can enable the debug mode and get more information in the logs. To run the app in debug mode, use the following command line options in a terminal or at the command prompt.
+To troubleshoot, you can enable the debug mode and get more information in the logs. To use the app in debug mode on Mac, use the following command line options in a terminal or at the command prompt: `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
 
+To enable debug mode on Windows, follow these steps:
+
+1. Locate `Adobe Experience Manager Desktop.exe.config` file in your desktop app installation folder. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop`. Save and close the file.
+
+1. Locate `<level value="INFO"/>` towards the end of the file. Change the value to `DEBUG`, that is, `<level value="DEBUG"/>`.
+
+1. Locate `logging.json` file in your desktop app installation folder. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
+
+1. In `logging.json` file, locate all the instances of the `level` parameter. Change the values from `info` to `debug`. Save and close the file.
+
+1. Clear the cached directories that at the location set in the app preferences.
+
+1. Restart the desktop app.
+
+<!-- The Windows command doesn't work for now.
 * On Windows: `SET AEM_DESKTOP_LOG_LEVEL=DEBUG & "C:\Program Files\Adobe\Adobe Experience Manager Desktop\Adobe Experience Manager Desktop.exe"`
-
-* On Mac: `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`
+-->
 
 ### Location of log files {#check-log-files-v2}
 
