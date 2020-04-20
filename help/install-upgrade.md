@@ -31,26 +31,28 @@ To use Experience Manager desktop app,
 
 For detailed information, see the [Experience Manager desktop app release notes](release-notes.md).
 
-## Upgrade from app v1.x to app v2 {#upgrade-from-previous-version}
+## Upgrade from a previous version {#upgrade-from-previous-version}
 
-If you are an existing user of the app, then understand the differences and similarities between the previous and the latest version of the app. Also, follow these guidelines, to transition from v1.x to the latest version.
+If you are a user of v1.x of desktop app, then understand the differences and similarities between the previous and the latest version of the app. See [what is new in desktop app](introduction.md#whats-new-v2) and [how the app works](release-notes.md#how-app-works)
 
 >[!NOTE]
 >
->Desktop app v1.x and v2 cannot co-exist on a machine. Before you install a version, uninstall the other version.
+>Two version of desktop app cannot co-exist on a machine. Before you install a version, uninstall the other version.
 
-To upgrade from v1.x to the latest version of the app, follow these instructions:
+To upgrade from a previous version of the app, follow these instructions:
 
-1. Before upgrading, sync all your assets. Upload all the changes using app v1.x. This is to avoid losing any changes when uninstalling the app v1.x.
-1. Uninstall app v1.x. When uninstalling v1.x, clear the cache.
+1. Before upgrading, sync all your assets and upload your changes to Experience Manager. This is to avoid losing any edits when uninstalling the app.
+1. Uninstall the previous version of the app. When uninstalling, select the option to clear the cache.
 1. Restart your machine.
-1. Download and install the latest app. Follow the instructions below.
+1. [Download](release-notes.md) and [install](#install-v2) the latest app. Follow the instructions below.
 
 ## Install {#install-v2}
 
 To install the desktop app, follow these steps. Uninstall any existing Adobe Experience Manager desktop app v1.x before installing the latest app. For more info, see above.
 
+1. Download the latest installer from the [release notes](release-notes.md) page.
 1. Keep the URL and credentials of your Experience Manager deployment handy.
+1. If you are upgrading from another verison of the app, see [upgrade desktop app](#upgrade-from-previous-version).
 1. Skip this step if you are using Experience Manager as a Cloud Service, Experience Manager 6.4.4 or later, or Experience Manager 6.5.0 or later. Ensure that your Experience Manager setup meets the compatibility requirements mentioned in the [release notes](release-notes.md). If necessary, download the applicable [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) and install it using the Experience Manager Package Manager as an Experience Manager administrator. To install a package, see [How to work with Packages](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html).
 1. Execute the installer binary and follow the onscreen instructions to install.
 1. On Windows, the installer may prompt to install `Visual Studio C++ Redistributable 2015`. Follow on-screen instructions to install it. If the installation fails then install it manually. Download the installer from [here](https://www.microsoft.com/en-us/download/details.aspx?id=52685) and install both `vc_redist.x64.exe` and `vc_redist.x86.exe` files. Re-run the AEM desktop app installer.
