@@ -4,7 +4,7 @@ product: Adobe Experience Manager desktop app
 audience: end-user
 user-guide-title: AEM desktop app Help
 solution-title: AEM Assets
-solution-hub-url: https://helpx.adobe.com/experience-manager/6-5/assets/user-guide.html
+solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-65/assets/home.html
 getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/introduction.html
 tutorials-title: AEM Tutorials
 tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-tutorials.html

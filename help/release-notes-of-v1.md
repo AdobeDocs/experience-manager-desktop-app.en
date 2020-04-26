@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# AEM desktop app v1.x release notes{#aem-desktop-app-release-notes}
+# AEM desktop app v1.x release notes {#aem-desktop-app-release-notes}
 
 For desktop app v1.x release, the following are the download links and AEM compatibility information.
 
@@ -122,7 +122,7 @@ The application icon will indicate the state of background operations to provide
 To improve user experience when working with InDesign documents which include linked assets stored in AEM, desktop app will try and pre-fetch these linked files to local cache before it downloads and opens the InDesign document. That way the user will have the linked files available locally, and won't have to wait longer when accessing these in InDesign (in the Links panel).
 Please note that pre-fetching only works if AEM recognizes the links on the server side. An asset with recognized links will have a list of "References" listed in the Properties view of the InDesign asset.
 
-### Enhancements Available Since AEM desktop app 1.8.x{#enhancements-available-since-aem-desktop-app-18x}
+### Enhancements Available Since AEM desktop app 1.8.x {#enhancements-available-since-aem-desktop-app-18x}
 
 AEM desktop app 1.8.1 fast-follow release added improvements when opening multiple files at once from AEM UI to the 1.8 release (CQ-4237747, CQ-4238780). Enhancements in AEM desktop app 1.8 are:
 
@@ -140,7 +140,7 @@ AEM desktop app 1.8.1 fast-follow release added improvements when opening multip
   * More Asset Info dialog: sometimes action bar was not visible (CQ-4208540)
   * (Win) File can now be synchronized after reverting to a previous version from AEM Assets UI (CQ-4216411)
 
-### Enhancements Available Since AEM desktop app 1.7{#Enhancements-Available-Since-AEM-Desktop-App-17}
+### Enhancements Available Since AEM desktop app 1.7 {#Enhancements-Available-Since-AEM-Desktop-App-17}
 
 * Stability:
   * Improved stability when AEM desktop app connects to an overloaded AEM server (CQ-4224803)
@@ -160,7 +160,7 @@ AEM desktop app 1.8.1 fast-follow release added improvements when opening multip
 >
 >Issues found in AEM desktop app 1.7 beta loads (that weren’t present in the 1.6 release are not reported in the release notes).
 
-### Enhancements Available Since AEM desktop app 1.6{#Enhancements-Available-Since-AEM-Desktop-App-16}
+### Enhancements Available Since AEM desktop app 1.6 {#Enhancements-Available-Since-AEM-Desktop-App-16}
 
 * Documentation: New [Best practices for v1.x app](https://helpx.adobe.com/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html) documentation.
 * Improved login process to AEM:
@@ -184,7 +184,7 @@ AEM desktop app 1.8.1 fast-follow release added improvements when opening multip
   * High CPU usage (CQ-4218070).
   * Drag and Drop files yielding error when uploading to AEM (CQ-4217006).
 
-### Enhancements Available Since AEM desktop app 1.5{#Enhancements-Available-Since-AEM-Desktop-App-15}
+### Enhancements Available Since AEM desktop app 1.5 {#Enhancements-Available-Since-AEM-Desktop-App-15}
 
 **Version 1.5.1.5 for Mac OS X:** The 1.5.1.5 release provides the following benefits:
 
@@ -225,7 +225,7 @@ Both of these cases are expected and are side effects of the "delayed sync" arch
   * Various improvements in stability (CQ-4207539, CQ-4200378)
   * Better handling of AEM Assets URL in Preferences (CQ-97388)
 
-### Enhancements Available Since AEM desktop app 1.4{#Enhancements-Available-Since-AEM-Desktop-App-14}
+### Enhancements Available Since AEM desktop app 1.4 {#Enhancements-Available-Since-AEM-Desktop-App-14}
 
 * Simplified upload of hierarchical folders through the new Create > Upload Folder action in Touch UI
   * Action initiates a folder upload operation carried out by the desktop app
@@ -237,7 +237,7 @@ Both of these cases are expected and are side effects of the "delayed sync" arch
 * Improved compatibility with the latest OS releases
 * Customer reported fixes
 
-### Enhancements Available Since AEM desktop app 1.3{#Enhancements-Available-Since-AEM-Desktop-App-13}
+### Enhancements Available Since AEM desktop app 1.3 {#Enhancements-Available-Since-AEM-Desktop-App-13}
 
 * Increased efficiency. Users spend less time waiting for network operations to complete.
 * Improved Finder integration, which provides more stability and access to features, such as thumbnails.

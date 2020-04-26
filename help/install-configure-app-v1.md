@@ -118,9 +118,9 @@ To point the application to a different folder or a different drive, edit the ap
 
 ## Additional resources {#additional-resources}
 
-* [Introduction to AEM desktop app](https://helpx.adobe.com/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
+* [Introduction to AEM desktop app](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
 * [Use AEM desktop app](use-app-v1.md)  
 
-* [Understand Check-in/Check-out with AEM desktop app](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
-* [Using desktop app with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [Understand Check-in/Check-out with AEM desktop app](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
+* [Using desktop app with AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 * [Troubleshooting AEM desktop app](troubleshoot-app-v1.md)

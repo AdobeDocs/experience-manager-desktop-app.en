@@ -157,7 +157,7 @@ Context menu options to access and open assets using AEM Desktop app
 
 AEM Assets lets you check out assets for editing and check them back in after you complete making the changes. After you check out an asset, only you can edit, annotate, publish, move, or delete the asset. Checking out an asset locks the asset and prevents other users from performing any of these operations. To be able to check out/in assets, you require Write access on them.
 
-There are two ways of checking out assets from the AEM web interface. For detailed information on the first method, see [check in and checkout files from Assets UI](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/check-out-and-submit-assets.html). Follow these steps, for the second methods to check out and open the asset when AEM Desktop app is installed.
+There are two ways of checking out assets from the AEM web interface. For detailed information on the first method, see [check in and checkout files from Assets UI](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/check-out-and-submit-assets.html). Follow these steps, for the second methods to check out and open the asset when AEM Desktop app is installed.
 
 1. Open the AEM Assets interface and hover the pointer over a folder or an asset, to display the desktop actions as quick actions in the Card view.
 
@@ -254,6 +254,6 @@ Another alternative if you prefer to work on the desktop is to select files/fold
 
 >[!MORELIKETHIS]
 >
->* [Introduction to AEM desktop app](https://helpx.adobe.com/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
->* [Understand Check-in/Check-out with AEM desktop app](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+>* [Introduction to AEM desktop app](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
+>* [Understand Check-in/Check-out with AEM desktop app](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 >* [Troubleshoot AEM Desktop application](troubleshoot-app-v1.md)
