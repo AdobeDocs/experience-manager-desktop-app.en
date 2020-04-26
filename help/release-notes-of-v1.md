@@ -334,9 +334,9 @@ Since the /Volumes folder no longer requires administrative rights, this change 
 
 AEM desktop app works with various versions of AEM. See the compatibility matrix for the supported versions.
 
-| Version | Revision               | Release Date | Compatibility                                               |
-|---------|------------------------|--------------|-------------------------------------------------------------|
-| 1.10    | 1.10.0.3 (Mac and Win) | Aug 31, 2018 | AEM 6.5; AEM 6.4 SP1; AEM 6.3 SP2; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
-| 1.9     | 1.9.1.1 (Mac and Win)  | Jun 21, 2018 | AEM 6.4; AEM 6.3 SP1; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+     |
-| 1.8     | 1.8.1.0 (Mac and Win)  | Mar 28, 2018 | AEM 6.4; AEM 6.3 SP1; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+     |
-| 1.7     | 1.7.0.3 (Mac and Win)  | Jan 10, 2018 | AEM 6.3 SP1; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+             |
+| Version | Revision | Release Date | Compatibility |
+|---|---|---|---|
+| 1.10 | 1.10.0.3 (Mac and Win) | Aug 31, 2018 | AEM 6.5; AEM 6.4 SP1; AEM 6.3 SP2; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
+| 1.9 | 1.9.1.1 (Mac and Win) | Jun 21, 2018 | AEM 6.4; AEM 6.3 SP1; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
+| 1.8 | 1.8.1.0 (Mac and Win) | Mar 28, 2018 | AEM 6.4; AEM 6.3 SP1; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
+| 1.7 | 1.7.0.3 (Mac and Win) | Jan 10, 2018 | AEM 6.3 SP1; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
