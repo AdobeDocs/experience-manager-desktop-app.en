@@ -36,14 +36,6 @@ For details, see [Install and connect AEM desktop app to AEM server](use-app-v1.
 >
 >Only one instance of the AEM desktop app can be installed and be active at a time.
 
-## Proxy support {#proxy-support}
-
-AEM desktop app uses system's pre-defined proxy to connect to the Internet over HTTPS. The app can only connect using a network proxy that does not require extra authentication.
-
-If you configure or modify proxy server settings for Windows (Internet Options &gt; LAN Settings), restart the AEM desktop app for the changes to take effect.
-
-If your proxy requires authentication, the IT team can whitelist the AEM Assets URL in the proxy server settings to allow the application traffic to pass through.
-
 ## File handling {#file-handling}
 
 When changing a file from a network share location mounted by the desktop app, files are saved to that location in two phases. In the first phase, a file is saved locally. A user can save the file and continue working on the file, without waiting for the transfer to complete.
@@ -67,9 +59,21 @@ The copy and move methods in the Assets API require the following additional hea
 * X-Depth
 * X-Overwrite
 
-AEM Desktop connects to AEM using a URL that includes the default port. Therefore, the `virtualhosts` setting in the dispatcher configuration should include the default port number. For more information around `virtualhosts` configuration, see [Identifying Virtual Hosts](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
+AEM desktop connects to AEM using a URL that includes the default port. Therefore, the `virtualhosts` setting in the dispatcher configuration should include the default port number. For more information around `virtualhosts` configuration, see [identify virtual hosts](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
 
 For additional information on configuring the dispatcher to pass through these additional headers, see [Specifying the HTTP Headers](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders).
+
+### Proxy support {#proxy-support}
+
+AEM desktop app uses system's pre-defined proxy to connect to the Internet over HTTPS. The app can only connect using a network proxy that does not require extra authentication.
+
+If you configure or modify proxy server settings for Windows (Internet Options &gt; LAN Settings), restart the AEM desktop app for the changes to take effect.
+
+>[!NOTE]
+>
+>Proxy configuration is only applied when you start the desktop app. Close and re-launch the app for any changes to take effect.
+
+If your proxy requires authentication, the IT team can whitelist the AEM Assets URL in the proxy server settings to allow the application traffic to pass through.
 
 ## Customize the Asset Info dialog {#customize-the-asset-info-dialog}
 
