@@ -75,6 +75,10 @@ Unlike Creative Cloud Desktop or other file sync solutions, such Microsoft One D
 
 Caching provides the ability to limit the network/storage overhead to only a subset of assets that are relevant to the user.
 
+>[!CAUTION]
+>
+>Adobe recommends turning off thumbnail generation to make browsing faster. If you enable icon previews, the app caches the digital assets when you navigate through the mounted folder. The app also downloads assets that the user may not care about, which adds load to the server, consumes the user's bandwidth, and uses more of the user's disk space.
+
 Here is how AEM desktop app performs caching:
 
 * When you open a folder in Finder and thumbnails/previews of files are displayed, or when you open a file in an application, desktop app caches the file binary.
