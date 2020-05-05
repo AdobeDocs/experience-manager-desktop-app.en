@@ -74,7 +74,7 @@ The bug fixes and updates are:
 * Fixed issue with asset uploads when filenames or paths contain certain GB18030 characters. <!-- CQ-4283494 -->
 * Sort by relevance option is available after switching to another sort type in the search results. <!-- CQ-4286874 -->
 * Desktop app now lists sub-folders without the need to explicitly refresh. <!-- CQ-4285711 -->
-* (Windows) Fixed a rare issue of unusable app interface on some Windows machines. Users cannot click on the app interface as it  appears distorted with the click-area of interface elements is 'shifted' sideway. <!-- CQ-4280785 -->
+* (Windows) Fixed a rare issue of unusable app interface on some Windows machines. Users cannot click on the app interface as it  appears distorted with the click-area of interface elements 'shifted' sideway. <!-- CQ-4280785 -->
 
 **Updates in app v2.0.1**
 
