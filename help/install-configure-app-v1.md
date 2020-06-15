@@ -73,7 +73,7 @@ If you configure or modify proxy server settings for Windows (Internet Options &
 >
 >Proxy configuration is only applied when you start the desktop app. Close and re-launch the app for any changes to take effect.
 
-If your proxy requires authentication, the IT team can whitelist the AEM Assets URL in the proxy server settings to allow the application traffic to pass through.
+If your proxy requires authentication, the IT team can allow the Experience Manager Assets URL in the proxy server settings to allow the application traffic to pass through.
 
 ## Customize the Asset Info dialog {#customize-the-asset-info-dialog}
 
