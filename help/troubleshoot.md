@@ -56,7 +56,7 @@ To enable debug mode on Windows, follow these steps:
 
 1. Locate `logging.json` file in your desktop app installation folder. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
 
-1. In `logging.json` file, locate all the instances of `"level": "info"`. Change the values from `info` to `debug`. Save and close the file.
+1. In `logging.json` file, locate all the instances of `"level": "info"`. Change the values from `info` to `debug`, which is `"level": "debug"`. Save and close the file.
 
 1. Clear the cached directories that are at the location set in the application [Preferences](/help/install-upgrade.md#set-preferences).
 
