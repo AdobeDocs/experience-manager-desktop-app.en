@@ -43,6 +43,7 @@ Before you can begin creating or editing the creative assets, connect the deskto
 AEM desktop app uses an HTTPS connection to connect to AEM server to robustly and securely transfer your assets.
 
 >[!NOTE]
+>
 >For part of or all of the installation and configuration steps, you may need help from your AEM administrator or system administrator.
 
 ### Install the application {#installapp}
@@ -55,6 +56,7 @@ Detailed configuration can be necessary depending on your network and system pre
 1. Launch the downloaded installation file and follow the on-screen instructions to install the app.
 
    >[!NOTE]
+   >
    >Only one instance of the AEM desktop app can be installed and be active at a time.
 
 ### Understand the in-app options and preferences {#inapppref}
@@ -113,6 +115,7 @@ For Adobe InDesign (INDD) files, select **[!UICONTROL Open]** from the context m
 *Figure: Context menu options to access and open assets using AEM desktop app.*
 
 >[!NOTE]
+>
 >On Windows, the [default Windows 7 setting](https://support.microsoft.com/en-us/kb/2668751) prevents AEM desktop app from handling assets that are larger than 50 MB.
 
 >[!NOTE]
@@ -164,6 +167,7 @@ There are two ways of checking out assets from the AEM web interface. For detail
    Alternatively, choose Open from the Desktop Actions menu in the toolbar.
 
    >[!NOTE]
+   >
    >When you edit a file that is just opened and not checked-out, other users do not get to know that an asset is being updated by you.
 
 1. To open an asset for editing in an Adobe Creative Cloud application, click/tap the Edit desktop quick action ![Edit Desktop icon](assets/aemassets_icon_editdesktop.png). This also checks out the asset for editing. After you finish editing, check in the asset, to update the changes in AEM Assets.
@@ -211,6 +215,7 @@ The app lets you check out asset files to prevent other users from modifying the
 1. Review the asset in Explorer. The lock icon on the asset ![Asset lock icon](assets/aemassets_icon_lockcheckout.png) indicates that you have checked out the asset.
 
    >[!NOTE]
+   >
    >The lock icon may appear after some delay. AEM desktop app caches the assets for quick access so it may take a few moments to update the locked status.
 
 1. To check in the asset so it is available to other users, click/tap the check-in icon in the **Asset Info** dialog.
@@ -236,6 +241,7 @@ Using AEM Desktop, you can upload an entire folder containing assets from your l
    See status of the upload in the Asset Status window
 
    >[!NOTE]
+   >
    >You can manually pause or cancel the upload by clicking/tapping the appropriate icon.
 
 1. After the folder uploads, close the dialog and navigate to the Assets UI. The uploaded folder is displayed in the web interface.
