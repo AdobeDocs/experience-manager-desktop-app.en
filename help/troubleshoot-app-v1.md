@@ -140,7 +140,7 @@ You can improve the performance at the AEM side by enabling transient workflows 
 Another method for improving AEM performance is to configure the value of the maximum parallel jobs for the Granite Transient Workflow Queue job. The recommended value is roughly half the number of the CPU available with the server. To adjust the value, perform these steps:
 
 1. Navigate to */system/console/configMgr* in the AEM instance to be configured (for example, <http://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr>).
-1. Search for **QueueConfiguration**, and click to open each job until you locate the **Granite Transient Workflow Queue** job. Click the Edit icon beside it.
+1. Search for **QueueConfiguration**, and click to open each job until you locate the **Granite Transient Workflow Queue** job. Click the Edit  beside it.
 1. Change the **Maximum Parallel Jobs** value, and click **Save**.
 
 ## AWS configuration {#aws-configuration}
@@ -185,7 +185,7 @@ After you install desktop app, the desktop app menu icon appears in the menu bar
 1. Type the following command, and press Enter:
 
    ```shell
-   rm -r com.adobe.aem.assetscompanion 
+   rm -r com.adobe.aem.assetscompanion
    ```
 
 1. Type the following command, and press Enter:
@@ -216,9 +216,10 @@ The simplest way to fix this situation is to open the conflicting file and save 
 
 Clearing AEM Desktop's cache is a preliminary troubleshooting task that can resolve several AEM Desktop issues.
 
-You can clear the cache by deleting the application's cache directory at the following locations: Windows: %LocalAppData%\Adobe\AssetsCompanion\Cache\
+You can clear the cache by deleting the application's cache directory at the following locations.
+In Windows, `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
 
-Mac: ~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/
+In Mac, `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
 
 However, the location can change depending on AEM Desktop's configured AEM endpoint. The value is an encoded version of the targeted URL. For example, if the application is targeting `http://localhost:4502`, the directory name is `http%3A%2F%2Flocalhost%3A4502%2F`.
 

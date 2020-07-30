@@ -134,19 +134,19 @@ After you map the AEM Assets repository to your local drive, you can enable addi
 
    These desktop actions are also available when you click the **Desktop Actions** icon in the toolbar after selecting the asset or from the toolbar in the asset page.
 
-1. To open the asset in the desktop application that is associated with the specific file extension, click/tap the **Open on desktop** quick action ![Open on Desktop icon](assets/aemassets_icon_openondesktop.png).
+1. To open the asset in the desktop application that is associated with the specific file extension, click/tap the **Open on desktop** quick action ![Open on Desktop icon](assets/do-not-localize/aemassets_icon_openondesktop.png).
 
    Alternatively, choose **Open** from the **Desktop Actions** menu in the toolbar.
 
-To locate the particular asset on your local file system, click **Reveal** quick action ![Reveal icon](assets/aemassets_reveal_icon.png). Alternatively, choose **Reveal** from the **Desktop Actions** menu in the toolbar.
+To locate the particular asset on your local file system, click **Reveal** quick action ![Reveal icon](assets/do-not-localize/aemassets_reveal_icon.png). Alternatively, choose **Reveal** from the **Desktop Actions** menu in the toolbar.
 
 ## Understand the asset statuses {#understand-the-asset-statuses}
 
-| ![Windows default app icon](assets/win_default.png) | App is connected to the server and all assets are synchronized.                                                                                           |
-|------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Windows disabled icon](assets/win_disabled.png) | App is launched but is not connected with the server. Some assets may be pending synchronization.                                                         |
-| ![Windows file sync icon](assets/win_sync.png) | Assets are synchronizing. Files are either being uploaded or downloaded. You can see exact statuses and pause the transfers from the Asset Status window. |
-| ![Windows reconnect icon](assets/win_refresh.png) | App is trying to reconnect. Potentially the network issues are causing it to disconnect.                                                                  |
+| ![Windows default app icon](assets/do-not-localize/win_default.png) | App is connected to the server and all assets are synchronized. |
+--- |--- |
+| ![Windows disabled icon](assets/do-not-localize/win_disabled.png) | App is launched but is not connected with the server. Some assets may be pending synchronization. |
+| ![Windows file sync icon](assets/do-not-localize/win_sync.png) | Assets are synchronizing. Files are either being uploaded or downloaded. You can see exact statuses and pause the transfers from the Asset Status window. |
+| ![Windows reconnect icon](assets/do-not-localize/win_refresh.png) | App is trying to reconnect. Potentially the network issues are causing it to disconnect. |
 
 ## Work on your assets {#workonassets}
 
@@ -162,7 +162,7 @@ There are two ways of checking out assets from the AEM web interface. For detail
 
    These desktop actions are also available when you click/tap the Desktop Actions icon in the toolbar after selecting the asset or from the toolbar in the asset page.
 
-1. To open the asset, click/tap the Open on desktop quick action ![Open on Desktop icon](assets/aemassets_icon_openondesktop.png).
+1. To open the asset, click/tap the Open on desktop quick action ![Open on Desktop icon](assets/do-not-localize/aemassets_icon_openondesktop.png).
 
    Alternatively, choose Open from the Desktop Actions menu in the toolbar.
 
@@ -170,7 +170,7 @@ There are two ways of checking out assets from the AEM web interface. For detail
    >
    >When you edit a file that is just opened and not checked-out, other users do not get to know that an asset is being updated by you.
 
-1. To open an asset for editing in an Adobe Creative Cloud application, click/tap the Edit desktop quick action ![Edit Desktop icon](assets/aemassets_icon_editdesktop.png). This also checks out the asset for editing. After you finish editing, check in the asset, to update the changes in AEM Assets.
+1. To open an asset for editing in an Adobe Creative Cloud application, click/tap the Edit desktop quick action ![Edit Desktop icon](assets/do-not-localize/aemassets_icon_editdesktop.png). This also checks out the asset for editing. After you finish editing, check in the asset, to update the changes in AEM Assets.
 
    Alternatively, choose Edit from the Desktop Actions menu in the toolbar.
 
@@ -224,7 +224,7 @@ The app lets you check out asset files to prevent other users from modifying the
 
 When you've finished editing the assets, save the assets in your desktop application. From the context menu, select **More Assets Info** and click check-in.
 
-The assets are uploaded to AEM server. Optionally, you can check the status of the upload by selecting **View Asset Status** from the system tray icon. Alternatively, you can check in an asset from the AEM web interface. Click the checked out assets or select it. From the toolbar, click the check in icon ![check-in icon](assets/aemassets_icon_checkin.png).
+The assets are uploaded to AEM server. Optionally, you can check the status of the upload by selecting **View Asset Status** from the system tray icon. Alternatively, you can check in an asset from the AEM web interface. Click the checked out assets or select it. From the toolbar, click the check in icon ![check-in icon](assets/do-not-localize/aemassets_icon_checkin.png).
 
 An asset is uploaded to AEM automatically after any changes are saved locally. The check-in makes the asset available to other AEM users for editing.
 

@@ -24,3 +24,4 @@ tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-tutorials
   + [Use app v1](use-app-v1.md)
   + [Best Practices v1](best-practices-for-v1.md)
   + [Troubleshoot v1](troubleshoot-app-v1.md)
+  
