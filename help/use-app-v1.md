@@ -106,7 +106,7 @@ From within the Assets user interface, you can explore the asset locations or ch
 
 When you click **Open** to open an asset on local machine, the app downloads the asset to its internal cache. The app launches the native desktop application that is associated with the file type of the downloaded asset.
 
-On Mac, select **Open** from the context menu to open an asset through AEM desktop app. On Windows, select Open on Web from the context menu to open the asset. From the Asset Status window, click/tap ![Open on Desktop icon](assets/aemassets_icon_openondesktop.png) to open the asset.
+On Mac, select **Open** from the context menu to open an asset through AEM desktop app. On Windows, select Open on Web from the context menu to open the asset. From the Asset Status window, click/tap ![Open on Desktop icon](assets/do-not-localize/aemassets_icon_openondesktop.png) to open the asset.
 
 For Adobe InDesign (INDD) files, select **[!UICONTROL Open]** from the context menu. When you click this option, the App downloads the linked assets to your local file system and then opens the INDD file in Adobe InDesign. This method ensures that the necessary assets are locally available when editing the INDD file.
 
@@ -212,7 +212,7 @@ The app lets you check out asset files to prevent other users from modifying the
 
    ![Checkout icon toggles](assets/chlimage_1-8.png)
 
-1. Review the asset in Explorer. The lock icon on the asset ![Asset lock icon](assets/aemassets_icon_lockcheckout.png) indicates that you have checked out the asset.
+1. Review the asset in Explorer. The lock icon on the asset ![Asset lock icon](assets/do-not-localize/aemassets_icon_lockcheckout.png) indicates that you have checked out the asset.
 
    >[!NOTE]
    >
