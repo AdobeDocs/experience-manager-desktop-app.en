@@ -66,7 +66,7 @@ Key capabilities of AEM desktop app include:
 
 * Do not use AEM desktop app network drives to save assets frequently. All save operations are transmitted to AEM Assets. Therefore, it is impractical to perform intensive edit operations directly in the mounted AEM Assets repository. Editing an asset directly in the mounted repository crams the asset's timeline with irrelevant versions and imposes additional overheads on the server.
 
-* Do not use AEM desktop app for migration of large amounts of data from one AEM instance to another. Please refer to the [Migration Guide](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/assets-migration-guide.html) to plan and execute asset migrations. In contrast, desktop app [supports bulk uploading](use-app-v1.md#bulkupload) large number of assets for the first time in [!DNL Adobe Experience Manager].
+* Do not use AEM desktop app for migration of large amounts of data from one AEM instance to another. See the [Migration Guide](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/assets-migration-guide.html) to plan and execute asset migrations. In contrast, desktop app [supports bulk uploading](use-app-v1.md#bulkupload) large number of assets for the first time in [!DNL Adobe Experience Manager].
 
 ## Recommendations for selected use cases {#recommendations-for-selected-use-cases}
 
