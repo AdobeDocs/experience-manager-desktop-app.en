@@ -76,7 +76,7 @@ To install the desktop app, follow these steps. Uninstall any existing Adobe Exp
 
    *Figure: Connection screen to input server address*
 
-   >[!Caution]
+   >[!CAUTION]
    >
    >Ensure there are no leading or trailing spaces before or after the address of the AEM server. Otherwise the app cannot connect to the AEM server.
 
