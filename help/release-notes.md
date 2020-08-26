@@ -27,9 +27,9 @@ mini-toc-levels: 1
 
 Adobe Experience Manager desktop app is compatible with the following operating systems:
 
-Mac OS X 10.14 or newer, with the latest bug fixes.
+* Mac OS X 10.14 or newer, with the latest bug fixes.
 
-Windows 10 with the latest service packs and bug fixes.
+* Windows 10 with the latest service packs and bug fixes.
 
 >[!NOTE]
 >
