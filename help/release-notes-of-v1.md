@@ -30,10 +30,15 @@ For desktop app v1.x release, the following are the download links and AEM compa
 
 ## System requirements and prerequisites {#system-requirements-and-prerequisites}
 
-AEM Desktop is compatible with the following operating systems:
+[!DNL Adobe Experience Manager] desktop app is compatible with the following operating systems:
 
-* Mac OS X 10.10 or later, with latest bug fixes.
-* Windows 7 and Windows 10 with the latest service packs and bug fixes.
+* Mac OS X 10.10 or newer, with latest bug fixes.
+
+* Windows 10 with the latest service packs and bug fixes.
+
+>[!NOTE]
+>
+>Windows 7 is no longer supported by the vendor (https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 Adobe strongly recommends using the latest version of AEM desktop app to avail the latest functionality, the most recent bug fixes, and the best possible performance.
 
