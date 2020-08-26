@@ -17,19 +17,23 @@ mini-toc-levels: 1
 
 | Products | Adobe Experience Manager desktop app |
 |--- |--- |
-| App version (Revision) | 2.0 (2.0.2.0) |
+| App version (Revision) | 2.0 (2.0.3.0) |
 | Supported AEM versions | AEM as a Cloud Service; AEM 6.5; AEM 6.4; AEM 6.3 (with compatibility package) |
 | Type | Minor release |
-| Release date | Apr 15, 2020 (Mac and Win) |
-| Download URLs | [macOS 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.2.0.dmg); [Windows 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.2.0.exe); [Windows 32-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.2.0.exe) |
+| Release date | Aug 27, 2020 (Mac and Win) |
+| Download URLs | [macOS 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.3.2.dmg); [Windows 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.3.2.exe); [Windows 32-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.3.2.exe) |
 
 ## System requirements and prerequisites {#system-requirements-and-prerequisites-v2}
 
 Adobe Experience Manager desktop app is compatible with the following operating systems:
 
-* Mac OS X 10.14 or newer, with the latest bug fixes.
+Mac OS X 10.14 or newer, with the latest bug fixes.
 
-* Windows 7 and Windows 10 with the latest service packs and bug fixes.
+Windows 10 with the latest service packs and bug fixes.
+
+>[!NOTE]
+>
+>Windows 7 is no longer supported by the vendor (https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 The app works with the following Experience Manager versions, whether deployed as a Cloud Service, on Adobe Managed Services (AMS) or on-premise:
 
@@ -72,11 +76,17 @@ The feature is supported with Adobe Creative Cloud 2018 and Adobe Creative Cloud
 
 To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
 
+**Updates in app v2.0.3**
+
+The bug fixed in the current version is:
+
+* Fixed the login issue faced by Windows users trying to access the DAM repository on [!DNL Adobe Experience Manager] 6.5.5.0 instance using the app.
+
 **Updates in app v2.0.2**
 
 The bug fixes and updates are:
 
-* To improve upload performance, increase the upload acceleration in [!UICONTROL Preferences]. When this setting turned on, the app uses more local CPU threads and is more resource-intensive.
+* To improve upload performance, increase the upload acceleration in [!UICONTROL Preferences]. When this setting is turned on, the app uses more local CPU threads and is more resource-intensive.
 
 * Fixed issue with asset uploads when filenames or paths contain certain GB18030 characters. <!-- CQ-4283494 -->
 
