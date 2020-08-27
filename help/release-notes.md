@@ -17,7 +17,7 @@ mini-toc-levels: 1
 
 | Products | Adobe Experience Manager desktop app |
 |--- |--- |
-| App version (Revision) | 2.0 (2.0.3.0) |
+| App version (Revision) | 2.0 (2.0.3.2) |
 | Supported AEM versions | AEM as a Cloud Service; AEM 6.5; AEM 6.4; AEM 6.3 (with compatibility package) |
 | Type | Minor release |
 | Release date | Aug 27, 2020 (Mac and Win) |
