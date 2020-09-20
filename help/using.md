@@ -16,7 +16,7 @@ Use the Adobe Experience Manager (AEM) desktop app, to easily access the Adobe E
 
 The integration allows various roles in the organization to manage the assets centrally in Experience Manager Assets and to access the assets on local desktop in the native applications on Windows or Mac OS.
 
-When you open the application after logging out or for the first time, provide the URL of your Experience Manager server. Click Connect. Provide your credentials to connect the app with the server.
+When you open the application after logging out or for the first time, provide the URL of your Experience Manager server in the format `https://[aem-server-url]:[port]/`. Click Connect. Provide credentials to connect the app with the server.
 
 The key tasks you do using the Experience Manager desktop app are:
 

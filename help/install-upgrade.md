@@ -56,8 +56,12 @@ To install the desktop app, follow these steps. Uninstall any existing Adobe Exp
 1. Skip this step if you are using Experience Manager as a Cloud Service, Experience Manager 6.4.4 or later, or Experience Manager 6.5.0 or later. Ensure that your Experience Manager setup meets the compatibility requirements mentioned in the [release notes](release-notes.md). If necessary, download the applicable [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) and install it using the Experience Manager Package Manager as an Experience Manager administrator. To install a package, see [How to work with Packages](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html).
 1. Execute the installer binary and follow the onscreen instructions to install.
 1. On Windows, the installer may prompt to install `Visual Studio C++ Redistributable 2015`. Follow on-screen instructions to install it. If the installation fails then install it manually. Download the installer from [here](https://www.microsoft.com/en-us/download/details.aspx?id=52685) and install both `vc_redist.x64.exe` and `vc_redist.x86.exe` files. Re-run the AEM desktop app installer.
+
 1. Restart the machine as prompted. Launch and configure the desktop app.
-1. To connect the app with an AEM repository, click the app icon in the tray to launch the app. Provide the address of the AEM instance. Click **[!UICONTROL Connect]** and provide the credentials.
+
+1. To connect the app with an AEM repository, click the app icon in the tray and launch the app. Provide the address of the AEM server in the format `https://[aem-server-url]:[port]/`.
+
+   Click **[!UICONTROL Connect]** and provide the credentials.
 
    ![Connection screen of desktop app to input server address](assets/connect_da2.png "Connection screen to input server address")
 
