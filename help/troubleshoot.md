@@ -22,9 +22,9 @@ Read on to troubleshoot the app, learn the best practices, and find out the limi
 
 Adhere to the following best practices to prevent some common issues and troubleshooting.
 
-* **Understand how the desktop app works**: Before starting to use the application, spend a few minutes knowing how the app works. Know about linking between Web UI and desktop, repository mapping, asset caching, saving locally and uploading in background. See [how it works](release-notes.md#how-app-works).
+* **Understand how the desktop app works**: Before starting to use the application, spend a few moments knowing how the app works. Know about linking between Experience Manager web interface and desktop, repository mapping, asset caching, saving locally and uploading in background. See [how it works](release-notes.md#how-app-works).
 
-* **Avoid unsupported characters in folder names**: Do not use white spaces and invalid characters when creating or uploading folders. See a list of characters at [Create folders in Experience Manager Assets](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders). Some Adobe Experience Manager use cases may be impacted by unsupported characters in the folder name.
+* **Avoid unsupported characters in folder names**: Do not use whitespaces and invalid characters when creating or uploading folders. See a list of characters at [Create folders in Experience Manager Assets](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders). Some Adobe Experience Manager use cases may be impacted by unsupported characters in the folder name.
 
 * **Best practices to avoid conflicts**: To avoid potential conflicts when collaborating on multiple assets, see [avoid editing conflicts](using.md#adv-workflow-collaborate-avoid-conflicts).
 
@@ -50,15 +50,15 @@ To troubleshoot, you can enable the debug mode and get more information in the l
 
 To enable debug mode on Windows, follow these steps:
 
-1. Locate `Adobe Experience Manager Desktop.exe.config` file in your desktop app installation folder. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop`. Save and close the file.
+1. Locate `Adobe Experience Manager Desktop.exe.config` file in your desktop app installation folder. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop`.
 
-1. Locate `<level value="INFO"/>` towards the end of the file. Change the value to `DEBUG`, that is, `<level value="DEBUG"/>`.
+1. Locate `<level value="INFO"/>` towards the end of the file. Change the value from `INFO` to `DEBUG`, which is `<level value="DEBUG"/>`. Save and close the file.
 
 1. Locate `logging.json` file in your desktop app installation folder. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
 
-1. In `logging.json` file, locate all the instances of the `level` parameter. Change the values from `info` to `debug`. Save and close the file.
+1. In `logging.json` file, locate all the instances of `"level": "info"`. Change the values from `info` to `debug`, which is `"level": "debug"`. Save and close the file.
 
-1. Clear the cached directories that at the location set in the app preferences.
+1. Clear the cached directories that are at the location set in the application [Preferences](/help/install-upgrade.md#set-preferences).
 
 1. Restart the desktop app.
 
@@ -132,8 +132,8 @@ The libraries that AEM desktop app uses for HTTP communication utilizes strict S
 
 Rarely the application may become unresponsive, display just a white screen, or display an error at the bottom of the interface without any options on the interface. Try the following in the order:
 
-1. Right click on the application interface and click **[!UICONTROL Refresh]**.
-1. Exit the application and restart it.
+* Right click on the application interface and click **[!UICONTROL Refresh]**.
+* Exit the application and open it again.
 
 In both methods, the app starts at the root DAM folder.
 
