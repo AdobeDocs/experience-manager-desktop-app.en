@@ -70,7 +70,9 @@ To install the desktop app, follow these steps. Uninstall any existing Adobe Exp
 
 1. Restart the machine as prompted. Launch and configure the desktop app.
 
-1. To connect the app with an AEM repository, click the app icon in the tray to launch the app. Provide the address of the AEM instance. Click **[!UICONTROL Connect]** and provide the credentials.
+1. To connect the app with an AEM repository, click the app icon in the tray and launch the app. Provide the address of the AEM server in the format `https://[aem-server-url]:[port]/`.
+
+   Click **[!UICONTROL Connect]** and provide the credentials.
 
    ![Connection screen of desktop app to input server address](assets/connect_da2.png)
 
