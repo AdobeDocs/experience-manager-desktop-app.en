@@ -2,9 +2,7 @@
 title: Introduction to Adobe Experience Manager desktop app
 description: Learn how to use Adobe Experience Manager desktop app to optimize the asset management workflows for creative users when using Adobe Experience Manager Assets directly from their desktop.
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 snippet: y
 ---

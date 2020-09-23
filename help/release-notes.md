@@ -3,9 +3,7 @@ title: Adobe Experience Manager desktop app release notes
 description: Release details, enhancements, new features, compatibility, and download links for Adobe Experience Manager desktop app.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
