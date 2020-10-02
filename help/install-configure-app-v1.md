@@ -110,7 +110,7 @@ The default location of the cache for the AEM desktop app is as follows:
 
 * In Mac, `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`.
 
-`EncodedAEMEndpoint` is AEM desktop app's configured AEM endpoint URL. The value is an encoded version of the targeting URL of the AEM server. For example, if the application is targeting `http://localhost:4502`, the directory name is `http%3A%2F%2Flocalhost%3A4502`. The Windows path to the cache directory in this example is %LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502.
+`EncodedAEMEndpoint` is AEM desktop app's configured AEM endpoint URL. The value is an encoded version of the targeting URL of the AEM server. For example, if the application is targeting `http://localhost:4502`, the directory name is `http%3A%2F%2Flocalhost%3A4502`. The Windows path to the cache directory in this example is `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`.
 
 To point the application to a different folder or a different drive, edit the application's configuration file.
 
@@ -120,7 +120,7 @@ To point the application to a different folder or a different drive, edit the ap
 
    Administrator privileges are required to save changes to this file.
 
-1. Search for the string "ProxyCacheRoot". You see that its value is set to the cache location "%LocalAppData%\Adobe\AssetsCompanion\Cache". Simply change this value to any valid path.
+1. Search for the string "ProxyCacheRoot". You see that its value is set to the cache location `%LocalAppData%\Adobe\AssetsCompanion\Cache`. Simply change this value to any valid path.
 
    >[!NOTE]
    >
