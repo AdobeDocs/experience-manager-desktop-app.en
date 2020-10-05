@@ -44,37 +44,41 @@ To troubleshoot desktop app issues, be aware of the following information. Also,
 
 ### Enable debug mode {#enable-debug-mode}
 
-To troubleshoot, you can enable the debug mode and get more information in the logs. To use the app in debug mode on Mac, use the following command line options in a terminal or at the command prompt: `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
-
-To enable debug mode on Windows, follow these steps:
-
-1. Locate `Adobe Experience Manager Desktop.exe.config` file in your desktop app installation folder. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop`.
-
-1. Locate `<level value="INFO"/>` towards the end of the file. Change the value from `INFO` to `DEBUG`, which is `<level value="DEBUG"/>`. Save and close the file.
-
-1. Locate `logging.json` file in your desktop app installation folder. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
-
-1. In `logging.json` file, locate all the instances of `"level": "info"`. Change the values from `info` to `debug`, which is `"level": "debug"`. Save and close the file.
-
-1. Clear the cached directories that are at the location set in the application [Preferences](/help/install-upgrade.md#set-preferences).
-
-1. Restart the desktop app.
-
-<!-- The Windows command doesn't work for now.
-* On Windows: `SET AEM_DESKTOP_LOG_LEVEL=DEBUG & "C:\Program Files\Adobe\Adobe Experience Manager Desktop\Adobe Experience Manager Desktop.exe"`
--->
-
-### Location of log files {#check-log-files-v2}
-
-You can find the log files for AEM desktop app at the following locations. When uploading many assets, if some files fail to upload, see `backend.log` file to identify the failed uploads.
-
-* Path on Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
-
-* Path on Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+To troubleshoot, you can enable the debug mode and get more information in the logs.
 
 >[!NOTE]
 >
->When working with Adobe Customer Care on a support request/ticket, you may be asked to share the log files to help the Customer Care team understand the issue. Archive the entire `Logs` folder and share it with your Customer Care contact.
+>Valid log levels are DEBUG, INFO, WARN, or ERROR. The verbosity of the logs is highest in DEBUG and lowest in ERROR.
+
+To use the app in debug mode on Mac:
+
+1. Open a terminal window or a command prompt.
+
+1. Launch the [!DNL Experience Manager] desktop app by running the following command:
+
+    `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
+
+To enable debug mode on Windows:
+
+1. Open a command window.
+
+1. Launch [!DNL Experience Manager] desktop app by running the following command:
+
+`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
+
+### Location of log files {#check-log-files-v2}
+
+[!DNL Experience Manager] desktop app stores its log files in the following locations depending on the operating system:
+
+On Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
+
+On Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+
+When uploading many assets, if some files fail to upload, see `backend.log` file to identify the failed uploads.
+
+>[!NOTE]
+>
+>When working with Adobe Customer Care on a support request or ticket, you can be asked to share the log files to help the Customer Care team understand the issue. Archive the entire `Logs` folder and share it with your Customer Care contact.
 
 ### Clear cache {#clear-cache-v2}
 
@@ -122,7 +126,59 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 If you are using desktop app with AEM 6.5.1 or later, upgrade S3 or Azure connector to version 1.10.4 or later. It resolves file upload failure issue related to [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). See [install instructions](install-upgrade.md#install-v2).
 
-## SSL configuration issue {#ssl-config-v2}
+## [!DNL Experience Manager] desktop app connection issues {#connection-issues}
+
+### SAML login authentication not working {#da-connection-issue-with-saml-aem}
+
+If [!DNL Experience Manager] desktop app does not connect to your SSO-enabled (SAML) [!DNL Adobe Experience Manager] instance, read on this section to troubleshoot. SSO processes are varied, sometimes complex, and the application's design does its best to accommodate these types of connections. However, some setups require additional troubleshooting.
+
+Sometimes the SAML process does not redirect back to the originally requested path, or the final redirect is to a host that is different than what is configured in [!DNL Adobe Experience Manager] desktop app. To verify that this is not the case:
+
+1. Open a web browser.
+
+1. Enter the URL `<AEM host>/content/dam.json` in the address bar.
+
+    Replace `<AEM host>` with the target [!DNL Adobe Experience Manager] instance, for example `http://localhost:4502/content/dam.json`.
+
+1. Log in to the [!DNL Adobe Experience Manager] instance.
+
+1. When the login is complete, look at the browser's current address in the address bar. It should exactly match the URL that was initially entered.
+
+1. Also verify that everything before `/content/dam.json` matches the target [!DNL Adobe Experience Manager] value configured in [!DNL Adobe Experience Manager] desktop app's settings.
+
+**Login SAML process works correctly according to the above steps, but users are still unable to login**
+
+The window within [!DNL Adobe Experience Manager] desktop app that displays the login process is simply a web browser that is displaying the target [!DNL Adobe Experience Manager] instance's web user interface:
+
+* The Mac version uses a [WebView](https://developer.apple.com/documentation/webkit/webview).
+
+* The Windows version uses Chromium-based [CefSharp](https://cefsharp.github.io/).
+
+Ensure that the SAML process supports those browsers.
+
+To troubleshoot further, it is possible to view the exact URLs that the browser is attempting to load. To see this information:
+
+1. Follow the directions for launching the application in [debug mode](#enable-debug-mode).
+
+1. Reproduce the login attempt.
+
+1. Navigate to [log directory](#check-log-files-v2) of the application
+
+1. For Windows:
+
+    1. Open "aemcompanionlog.txt".
+
+    1. Search for messages that begin with "Login browser address changed to". These entries also contain the URL that the application loaded.
+
+   For Mac:
+
+    1. `com.adobe.aem.desktop-nnnnnnnn-nnnnnn.log`, where the **n** are replaced by whichever numbers are in the newest file name.
+
+    1. Search for messages that begin with "loaded frame". These entries also contain the URL that the application loaded.
+
+Looking at the URL sequence that is being loaded can help troubleshoot at the SAML's end to determine what is wrong.
+
+### SSL configuration issue {#ssl-config-v2}
 
 The libraries that AEM desktop app uses for HTTP communication utilizes strict SSL enforcement. At times, a connection may succeed using a browser but fails using AEM desktop app. To configure SSL appropriately, install the missing intermediate certificate in Apache. See [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575).
 
