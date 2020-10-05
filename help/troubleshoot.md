@@ -46,25 +46,27 @@ To troubleshoot desktop app issues, be aware of the following information. Also,
 
 ### Enable debug mode {#enable-debug-mode}
 
-To troubleshoot, you can enable the debug mode and get more information in the logs. To use the app in debug mode on Mac, use the following command line options in a terminal or at the command prompt: `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
+To troubleshoot, you can enable the debug mode and get more information in the logs.
 
-To enable debug mode on Windows, follow these steps:
+>[!NOTE]
+>
+>Valid log levels are DEBUG, INFO, WARN, or ERROR. The verbosity of the logs is highest in DEBUG and lowest in ERROR.
 
-1. Locate `Adobe Experience Manager Desktop.exe.config` file in your desktop app installation folder. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop`.
+To use the app in debug mode on Mac:
 
-1. Locate `<level value="INFO"/>` towards the end of the file. Change the value from `INFO` to `DEBUG`, which is `<level value="DEBUG"/>`. Save and close the file.
+1. Open a terminal window or a command prompt.
 
-1. Locate `logging.json` file in your desktop app installation folder. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
+1. Launch the [!DNL Experience Manager] desktop app by running the following command:
 
-1. In `logging.json` file, locate all the instances of `"level": "info"`. Change the values from `info` to `debug`, which is `"level": "debug"`. Save and close the file.
+    `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
 
-1. Clear the cached directories that are at the location set in the application [Preferences](/help/install-upgrade.md#set-preferences).
+To enable debug mode on Windows:
 
-1. Restart the desktop app.
+1. Open a command window.
 
-<!-- The Windows command doesn't work for now.
-* On Windows: `SET AEM_DESKTOP_LOG_LEVEL=DEBUG & "C:\Program Files\Adobe\Adobe Experience Manager Desktop\Adobe Experience Manager Desktop.exe"`
--->
+1. Launch [!DNL Experience Manager] desktop app by running the following command:
+
+`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
 ### Location of log files {#check-log-files-v2}
 
