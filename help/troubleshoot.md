@@ -70,15 +70,17 @@ To enable debug mode on Windows:
 
 ### Location of log files {#check-log-files-v2}
 
-You can find the log files for AEM desktop app at the following locations. When uploading many assets, if some files fail to upload, see `backend.log` file to identify the failed uploads.
+[!DNL Experience Manager] desktop app stores its log files in the following locations depending on the operating system:
 
-* Path on Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
+On Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
 
-* Path on Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+On Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+
+When uploading many assets, if some files fail to upload, see `backend.log` file to identify the failed uploads.
 
 >[!NOTE]
 >
->When working with Adobe Customer Care on a support request/ticket, you may be asked to share the log files to help the Customer Care team understand the issue. Archive the entire `Logs` folder and share it with your Customer Care contact.
+>When working with Adobe Customer Care on a support request or ticket, you can be asked to share the log files to help the Customer Care team understand the issue. Archive the entire `Logs` folder and share it with your Customer Care contact.
 
 ### Clear cache {#clear-cache-v2}
 
@@ -131,6 +133,7 @@ If you are using desktop app with AEM 6.5.1 or later, upgrade S3 or Azure connec
 ### SAML login authentication not working {#da-connection-issue-with-saml-aem}
 
 If [!DNL Experience Manager] desktop app does not connect to your SSO-enabled (SAML) [!DNL Adobe Experience Manager] instance, read on this section to troubleshoot. SSO processes are varied, sometimes complex, and the application's design does its best to accommodate these types of connections. However, some setups require additional troubleshooting.
+
 Sometimes the SAML process does not redirect back to the originally requested path, or the final redirect is to a host that is different than what is configured in [!DNL Adobe Experience Manager] desktop app. To verify that this is not the case:
 
 1. Open a web browser.
@@ -157,11 +160,11 @@ Ensure that the SAML process supports those browsers.
 
 To troubleshoot further, it is possible to view the exact URLs that the browser is attempting to load. To see this information:
 
-1. Follow the directions for launching the application in [debug mode]().
+1. Follow the directions for launching the application in [debug mode](#enable-debug-mode).
 
 1. Reproduce the login attempt.
 
-1. Navigate to the application's [log directory]().
+1. Navigate to [log directory](#check-log-files-v2) of the application
 
 1. For Windows:
 
