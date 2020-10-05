@@ -124,7 +124,58 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 If you are using desktop app with AEM 6.5.1 or later, upgrade S3 or Azure connector to version 1.10.4 or later. It resolves file upload failure issue related to [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). See [install instructions](install-upgrade.md#install-v2).
 
-## SSL configuration issue {#ssl-config-v2}
+## [!DNL Experience Manager] desktop app connection issues {#connection-issues}
+
+### SAML login authentication not working {#da-connection-issue-with-saml-aem}
+
+If [!DNL Experience Manager] desktop app does not connect to your SSO-enabled (SAML) [!DNL Adobe Experience Manager] instance, read on this section to troubleshoot. SSO processes are varied, sometimes complex, and the application's design does its best to accommodate these types of connections. However, some setups require additional troubleshooting.
+Sometimes the SAML process does not redirect back to the originally requested path, or the final redirect is to a host that is different than what is configured in [!DNL Adobe Experience Manager] desktop app. To verify that this is not the case:
+
+1. Open a web browser.
+
+1. Enter the URL `<AEM host>/content/dam.json` in the address bar.
+
+    Replace `<AEM host>` with the target [!DNL Adobe Experience Manager] instance, for example `http://localhost:4502/content/dam.json`.
+
+1. Log in to the [!DNL Adobe Experience Manager] instance.
+
+1. When the login is complete, look at the browser's current address in the address bar. It should exactly match the URL that was initially entered.
+
+1. Also verify that everything before `/content/dam.json` matches the target [!DNL Adobe Experience Manager] value configured in [!DNL Adobe Experience Manager] desktop app's settings.
+
+**Login SAML process works correctly according to the above steps, but users are still unable to login**
+
+The window within [!DNL Adobe Experience Manager] desktop app that displays the login process is simply a web browser that is displaying the target [!DNL Adobe Experience Manager] instance's web user interface:
+
+* The Mac version uses a [WebView](https://developer.apple.com/documentation/webkit/webview).
+
+* The Windows version uses Chromium-based [CefSharp](https://cefsharp.github.io/).
+
+Ensure that the SAML process supports those browsers.
+
+To troubleshoot further, it is possible to view the exact URLs that the browser is attempting to load. To see this information:
+
+1. Follow the directions for launching the application in [debug mode]().
+
+1. Reproduce the login attempt.
+
+1. Navigate to the application's [log directory]().
+
+1. For Windows:
+
+    1. Open "aemcompanionlog.txt".
+
+    1. Search for messages that begin with "Login browser address changed to". These entries also contain the URL that the application loaded.
+
+   For Mac:
+
+    1. `com.adobe.aem.desktop-nnnnnnnn-nnnnnn.log`, where the **n** are replaced by whichever numbers are in the newest file name.
+
+    1. Search for messages that begin with "loaded frame". These entries also contain the URL that the application loaded.
+
+Looking at the URL sequence that is being loaded can help troubleshoot at the SAML's end to determine what is wrong.
+
+### SSL configuration issue {#ssl-config-v2}
 
 The libraries that AEM desktop app uses for HTTP communication utilizes strict SSL enforcement. At times, a connection may succeed using a browser but fails using AEM desktop app. To configure SSL appropriately, install the missing intermediate certificate in Apache. See [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575).
 
