@@ -136,7 +136,7 @@ The cache is cleared by deleting the application's cache directory, which is fou
 
 To clear the cache, delete the desired Encoded [!DNL Adobe Experience Manager] Endpoint directory. Alternatively, deleting the entire directory specified in the preferences will clear the cache for all instances that have been used by the application.
 
-Clearing [!DNL Adobe Experience Manager]] desktop app's cache is a preliminary troubleshooting task that can resolve several issues. Clear the cache from the app preferences. See [set preferences](install-upgrade.md#set-preferences). The default location of the cache folder is:
+Clearing [!DNL Adobe Experience Manager] desktop app's cache is a preliminary troubleshooting task that can resolve several issues. Clear the cache from the app preferences. See [set preferences](install-upgrade.md#set-preferences). The default location of the cache folder is:
 
 ### Know the [!DNL Adobe Experience Manager] desktop app version {#know-app-version-v2}
 
