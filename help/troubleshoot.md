@@ -42,6 +42,48 @@ Adhere to the following best practices to prevent some common issues and trouble
 
 To troubleshoot desktop app issues, be aware of the following information. Also, it prepares you to better convey the issues to Adobe Customer Care if you choose to seek support.
 
+### Location of log files {#check-log-files-v2}
+
+[!DNL Experience Manager] desktop app stores its log files in the following locations depending on the operating system:
+
+On Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
+
+On Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+
+When uploading many assets, if some files fail to upload, see `backend.log` file to identify the failed uploads.
+
+>[!NOTE]
+>
+>When working with Adobe Customer Care on a support request or ticket, you can be asked to share the log files to help the Customer Care team understand the issue. Archive the entire `Logs` folder and share it with your Customer Care contact.
+
+### Change level of details in log files {#level-of-details-in-log}
+
+To change the level of details in log files:
+
+1. Ensure the application is not running.
+
+1. On Windows system:
+
+    1. Open a command window.
+
+    1. Launch [!DNL Adobe Experience Manager] desktop app by running the command:
+
+    ```shell
+    set AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe
+    ```
+
+    On Mac system:
+
+    1. Open a terminal window.
+
+    1. Launch [!DNL Adobe Experience Manager] desktop app by running the command:
+
+    ```shell
+    AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app
+    ```
+
+The valid log levels are DEBUG, INFO, WARN, or ERROR. The verbosity of the logs is highest in DEBUG and lowest in ERROR.
+
 ### Enable debug mode {#enable-debug-mode}
 
 To troubleshoot, you can enable the debug mode and get more information in the logs.
@@ -66,46 +108,61 @@ To enable debug mode on Windows:
 
 `AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
-### Location of log files {#check-log-files-v2}
-
-[!DNL Experience Manager] desktop app stores its log files in the following locations depending on the operating system:
-
-On Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
-
-On Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
-
-When uploading many assets, if some files fail to upload, see `backend.log` file to identify the failed uploads.
-
->[!NOTE]
->
->When working with Adobe Customer Care on a support request or ticket, you can be asked to share the log files to help the Customer Care team understand the issue. Archive the entire `Logs` folder and share it with your Customer Care contact.
-
 ### Clear cache {#clear-cache-v2}
 
-Clearing AEM desktop app's cache is a preliminary troubleshooting task that can resolve several issues. Clear the cache from the app preferences. See [set preferences](install-upgrade.md#set-preferences). The default location of the cache folder is:
+Perform the following steps:
 
-* On Windows: `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
+1. Start the application and connect an the AEM instance.
 
-* On Mac: `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
+1. Open the application's preferences by clicking the ellipses in the upper right corner and selecting [!UICONTROL Preferences].
 
-However, the location can change depending on AEM desktop's configured AEM endpoint. The value is an encoded version of the targeted URL. For example, if the application is targeting `http://localhost:4502`, the directory name is `http%3A%2F%2Flocalhost%3A4502%2F`. To clear the cache, delete the appropriate folder. Another reason to clear cache is to free disk space when you are running low on disk space.
+1. Locate the entry displaying the [!UICONTROL Current Cache Size]. Click the trash icon next to this element.
+
+To manually clear the cache, proceed with the steps below. 
 
 >[!CAUTION]
 >
->If you clear AEM desktop cache, local asset modifications that are not synced to AEM server, are irrevocably lost.
+>This is a potentially destructive operation. If there are local file changes that are not uploaded to [!DNL Adobe Experience Manager], then those changes will be lost by proceeding.
 
-### Know the AEM desktop app version {#know-app-version-v2}
+The cache is cleared by deleting the application's cache directory, which is found in the application's preferences.
 
-Click ![App menu](assets/do-not-localize/more_options_da2.png) to open the app's menu and click **[!UICONTROL Help]** > **[!UICONTROL About]**.
+1. Start the application.
+
+1. Open the application's preferences by selecting the ellipses in the upper right corner and selecting [!UICONTROL Preferences].
+
+1. Note the [!UICONTROL Cache Directory] value.
+
+    In this directory there are subdirectories named after the Encoded [!DNL Adobe Experience Manager] Endpoints. The names is an encoded version of the targeted [!DNL Adobe Experience Manager] URL. For example, if the application is targeting `localhost:4502` then the directory name will be `localhost_4502`.
+
+To clear the cache, delete the desired Encoded [!DNL Adobe Experience Manager] Endpoint directory. Alternatively, deleting the entire directory specified in the preferences will clear the cache for all instances that have been used by the application.
+
+Clearing [!DNL Adobe Experience Manager]] desktop app's cache is a preliminary troubleshooting task that can resolve several issues. Clear the cache from the app preferences. See [set preferences](install-upgrade.md#set-preferences). The default location of the cache folder is:
+
+### Know the [!DNL Adobe Experience Manager] desktop app version {#know-app-version-v2}
+
+To see the version number:
+
+1. Start the application.
+
+1. Click the ellipses in the upper right corner, hover over [!UICONTROL Help], then click [!UICONTROL About].
+
+    The version number is listed on this screen.
 
 ### Cannot see placed assets {#placed-assets-missing}
 
 If you cannot see the assets that you or other creative professionals placed in the support files (say, INDD files), check the following:
 
 * Connection to the server. Flaky network connectivity can stall asset downloads.
+
 * File size. Large assets take longer to download and display.
+
 * Drive letter consistency. If you or another collaborator placed the assets while mapping the AEM DAM to a different drive letter, the placed assets do not display.
+
 * Permissions. To check if you have permissions to fetch the placed assets, contact your AEM administrator.
+
+### Edits to files on desktop app's user interface do not reflect in [!DNL Adobe Experience Manager] immediately {#changes-on-da-not-visible-on-aem}
+
+[!DNL Adobe Experience Manager] desktop app leaves it up to the user to decide when all edits to a file are complete. Depending on the size and complexity of a file, it takes significant amount of time to transfer the new version of a file back to [!DNL Adobe Experience Manager]. The design of the application calls for minimizing the number of times a file is transferred back and forth, instead of guessing when the file edits are complete and are uploaded automatically. It is advised that the user initiate the transfer of the file back to [!DNL Adobe Experience Manager] by choosing to upload a file's changes.
 
 ### Issues when upgrading on macOS {#issues-when-upgrading-on-macos}
 
@@ -239,6 +296,22 @@ Rarely the application may become unresponsive, display just a white screen, or 
 * Exit the application and open it again.
 
 In both methods, the app starts at the root DAM folder.
+
+### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
+
+Create Jira ticket with the following information:
+
+* Use `DAM - Companion App` as the [!UICONTROL Component].
+
+* Detailed steps to reproduce the issue in [!UICONTROL Description].
+
+* DEBUG level logs that were captured while reproducing the issue.
+
+* Target AEM version.
+
+* Operating system version.
+
+* [!DNL Adobe Experience Manager] desktop app version. To know your app version, see [finding the desktop app version](#know-app-version-v2).
 
 >[!MORELIKETHIS]
 >
