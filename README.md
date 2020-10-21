@@ -1,5 +1,9 @@
 # Adobe Experience Manager desktop app Documentation
 
+| EXL-PR | EXL | Preview | Activate | Published | Help |
+|--- |--- |--- |--- |--- |--- |
+| [![Build Status](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-desktop-app.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-desktop-app.en_pr-exl/lastBuild/) | [![Build Status](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-desktop-app.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-desktop-app.en_exl/lastBuild/lastBuild) | [Preview URL](https://experienceleague.corp.adobe.com/docs/experience-manager-desktop-app/using/introduction.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/)| [Live URL](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html?lang=en) | [Authoring Guide](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
+
 This is the repository for Adobe Experience Manager desktop app documentation.
 
 Your contributions to the documentation are welcome. Please see the following resources:
