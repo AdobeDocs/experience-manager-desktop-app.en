@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-product: Adobe Experience Manager desktop app
+product: adobe experience manager
 audience: end-user
 user-guide-title: AEM desktop app Guide
 breadcrumb-title: Desktop App Guide
