@@ -137,7 +137,7 @@ You can improve the performance at the AEM side by enabling transient workflows 
 
 Another method for improving AEM performance is to configure the value of the maximum parallel jobs for the Granite Transient Workflow Queue job. The recommended value is roughly half the number of the CPU available with the server. To adjust the value, perform these steps:
 
-1. Navigate to */system/console/configMgr* in the AEM instance to be configured (for example, <http://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr>).
+1. Navigate to */system/console/configMgr* in the AEM instance to be configured (for example, `http://[aem_server]:[port]/system/console/configMgr`).
 1. Search for **QueueConfiguration**, and click to open each job until you locate the **Granite Transient Workflow Queue** job. Click the Edit  beside it.
 1. Change the **Maximum Parallel Jobs** value, and click **Save**.
 
