@@ -101,7 +101,7 @@ Adobe recommends that an individual user's upload speed to be close to 10 Mbps. 
 
 If you run AEM on Windows, you can configure Windows to enhance the performance of the WebDAV client. For more information, go to [https://support.microsoft.com/en-us/kb/2445570](https://support.microsoft.com/en-us/kb/2445570).
 
-On Windows 7, modifying IE settings can improve the performance of WebDAV. For details, visit [http://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/](http://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/).
+On Windows 7, modifying IE settings can improve the performance of WebDAV. For details, see how to [fix slow WebDAV performance in Windows 7](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/).
 
 ## Concurrent operations {#concurrent-operations}
 

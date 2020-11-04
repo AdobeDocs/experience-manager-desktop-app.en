@@ -246,6 +246,4 @@ Alternatively, select files/folders you want to upload to AEM in Finder or Explo
 
 >[!MORELIKETHIS]
 >
->* [Introduction to AEM desktop app](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
->* [Understand Check-in/check-out with AEM desktop app](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 >* [Troubleshoot AEM desktop app application](troubleshoot-app-v1.md)
