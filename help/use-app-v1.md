@@ -85,7 +85,7 @@ The app supports proxy configuration on Mac and Windows. The configuration is re
 
 1. In the login screen, specify the user name and password for your instance. To specify an alternate AEM instance, select the **[!UICONTROL Alternate Login URL]** option.
 
-   ![Provide AEM server credentials on the login screen on AEM Desktop](assets/chlimage_1-2.png)
+   ![Provide AEM server credentials on the login screen on AEM desktop app](assets/login_screen_v1.png)
 
 ### Enable desktop actions in AEM web interface {#desktopactions}
 
@@ -98,7 +98,7 @@ From within the Assets user interface, you can explore the asset locations or ch
 
 1. In the User Preferences dialog, select **[!UICONTROL Show Desktop Actions For Assets]**. Click **[!UICONTROL Accept]**.
 
-   ![Check Show Desktop Actions For Assets to enable desktop actions](assets/chlimage_1-3.png)
+   ![Check [!UICONTROL Show Desktop Actions For Assets] to enable desktop actions](assets/enable_desktop_actions.png)
 
    *Figure: Check Show Desktop Actions For Assets to enable the desktop actions.*
 
@@ -128,13 +128,13 @@ After you map the AEM Assets repository to your local drive, you can enable addi
 
 1. Open the AEM Assets interface and hover the pointer over a folder or an asset, to display the desktop actions as quick actions in the Card view.
 
-   ![In Assets UI, open quick actions menu to see desktop actions](assets/chlimage_1-4.png)
+   ![In Assets UI, open quick actions menu to see desktop actions](assets/desktop_actions_in_card_view.png)
 
    *Figure: In Assets UI, open quick actions menu to see desktop actions.*
 
-   These desktop actions are also available when you click the **Desktop Actions** icon in the toolbar after selecting the asset or from the toolbar in the asset page.
+   These desktop actions are also available when you click the **Desktop Actions** option in the toolbar after selecting the asset or from the toolbar in the asset page.
 
-1. To open the asset in the desktop application that is associated with the specific file extension, click/tap the **Open on desktop** quick action ![Open on Desktop icon](assets/do-not-localize/aemassets_icon_openondesktop.png).
+1. To open the asset in the desktop application that is associated with the specific file extension, click the **Open on desktop** quick action ![Open on Desktop icon](assets/do-not-localize/aemassets_icon_openondesktop.png).
 
    Alternatively, choose **Open** from the **Desktop Actions** menu in the toolbar.
 
@@ -158,7 +158,7 @@ There are two ways of checking out assets from the AEM web interface. For detail
 
 1. Open the AEM Assets interface and hover the pointer over a folder or an asset, to display the desktop actions as quick actions in the Card view.
 
-   ![Properties option in Card View](assets/chlimage_1-4.png)
+   ![Properties option in Card View](assets/desktop_actions_in_card_view.png)
 
    These desktop actions are also available when you click/tap the Desktop Actions icon in the toolbar after selecting the asset or from the toolbar in the asset page.
 
@@ -188,13 +188,10 @@ The app lets you check out asset files to prevent other users from modifying the
    Context menu options to access and open assets using AEM Desktop app
 
 1. Navigate to the asset you want to check out.
-
-   ![Open in AEM Assets context menu on Mac](assets/chlimage_1-5.png)
-
 1. Right-click the asset, and select More Assets Info from the context menu.
 1. In the Asset Info dialog, click/tap the Checkout icon to check out the asset. The Checkout icon toggles to the check-in icon after you click/tap it.
 
-   ![Browse to asset to checkout](assets/chlimage_1-6.png)
+   ![Browse to asset to checkout](assets/browse_assets_to_checkout.png)
 
 1. To check in the asset so it is available to other users, click/tap the check-in icon in the Asset Info dialog.
 
@@ -204,13 +201,10 @@ The app lets you check out asset files to prevent other users from modifying the
 
 1. From the Context menu, select the Explore Assets to open Explorer.
 1. In Explorer, navigate to the location of the asset you want to check out.
-
-   ![Checkout icon toggles](assets/chlimage_1-7.png)
-
 1. Right-click the asset and select Open on Web from the context menu.
 1. In the Asset Info dialog, click/tap the Checkout icon. The Checkout icon toggles to check-in icon.
 
-   ![Checkout icon toggles](assets/chlimage_1-8.png)
+   ![Checkout icon toggles](assets/checkout_icon_toggles.png)
 
 1. Review the asset in Explorer. The lock icon on the asset ![Asset lock icon](assets/do-not-localize/aemassets_icon_lockcheckout.png) indicates that you have checked out the asset.
 

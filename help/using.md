@@ -63,7 +63,7 @@ From within the Assets user interface in a browser, you can explore the asset lo
 1. Click/tap the **[!UICONTROL My Preferences]** to display the **[!UICONTROL Preferences]** dialog.
 1. In the User Preferences dialog, select **[!UICONTROL Show Desktop Actions For Assets]**. Click/tap **[!UICONTROL Accept]**.
 
-   ![Check Show Desktop Actions For Assets to enable desktop actions](assets/chlimage_1-3.png)
+   ![Check Show Desktop Actions For Assets to enable desktop actions](assets/enable_desktop_actions.png)
 
    Check [!UICONTROL Show Desktop Actions For Assets] to enable desktop actions
 

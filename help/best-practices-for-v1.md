@@ -28,7 +28,7 @@ Desktop app mounts the AEM Assets repository as a network share on desktop. Ther
 
 AEM desktop app uses WebDAV (Windows) or SMB (Mac) network shares to mount network shares. The mounted network share is local only. AEM desktop app intercepts the calls (open, read, write) and provides additional local caching. It translates remote calls to the AEM Assets server to optimized AEM HTTP requests. The following diagram depicts the AEM desktop app architecture.
 
-![AEM desktop app architecture](assets/chlimage_1.png)
+![AEM desktop app architecture](assets/arch_v1.png)
 
 *Figure: desktop app architecture*
 
