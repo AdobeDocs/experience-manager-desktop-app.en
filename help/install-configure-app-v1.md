@@ -62,9 +62,9 @@ The copy and move methods in the Assets API require the following additional hea
 * X-Depth
 * X-Overwrite
 
-AEM desktop connects to AEM using a URL that includes the default port. Therefore, the `virtualhosts` setting in the dispatcher configuration should include the default port number. For more information around `virtualhosts` configuration, see [identify virtual hosts](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
+AEM desktop connects to AEM using a URL that includes the default port. Therefore, the `virtualhosts` setting in the dispatcher configuration should include the default port number. For more information around `virtualhosts` configuration, see [identify virtual hosts](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
 
-For additional information on configuring the dispatcher to pass through these additional headers, see [Specifying the HTTP Headers](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders).
+For additional information on configuring the dispatcher to pass through these additional headers, see [Specifying the HTTP Headers]().
 
 ### Proxy support {#proxy-support}
 
@@ -128,6 +128,6 @@ To point the application to a different folder or a different drive, edit the ap
 
 >[!MORELIKETHIS]
 >
->* [Introduction to AEM desktop app](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
+>* [Introduction to AEM desktop app](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
 >* [Use AEM desktop app](use-app-v1.md).
 >* [Troubleshooting AEM desktop app](troubleshoot-app-v1.md).

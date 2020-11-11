@@ -35,11 +35,11 @@ Adobe Experience Manager desktop app is compatible with the following operating 
 
 The app works with the following Experience Manager versions, whether deployed as a Cloud Service, on Adobe Managed Services (AMS) or on-premise:
 
-* [Experience Manager as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/home.html).
+* [Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html).
 
-* [Experience Manager 6.5.0](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/release-notes.html) or newer.
+* [Experience Manager 6.5.0](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html) or newer.
 
-* [Experience Manager 6.4.4](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) or newer.
+* [Experience Manager 6.4.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) or newer.
 
 * Experience Manager 6.4.0 - 6.4.3 with [compatibility package](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support).
 
@@ -162,8 +162,8 @@ The following diagram illustrates the flow of assets and files from cloud to loc
 
 >[!MORELIKETHIS]
 >
->* [AEM as a Cloud Service documentation](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
->* [AEM as a Cloud Service Assets documentation](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/home.html)
+>* [AEM as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)
+>* [AEM as a Cloud Service Assets documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html)
 >* [How to use Experience Manager desktop app](using.md)
 >* [Install and upgrade desktop app](install-upgrade.md)
 >* [Best practices and troubleshooting tips](troubleshoot.md)
