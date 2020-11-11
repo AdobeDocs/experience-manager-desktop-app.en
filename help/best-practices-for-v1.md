@@ -1,13 +1,6 @@
 ---
 title: AEM desktop app version 1.x best practices
 description: Key capabilities and recommended use of Adobe Experience Manager desktop app version 1.x.
-uuid: ba8fbc74-e1ad-4085-a031-ffd317628ba6
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 57d5cd78-abce-4ede-a50e-7c161ddb43ae
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM desktop app v1.x best practices {#aem-desktop-app-best-practices}
@@ -22,7 +15,7 @@ Desktop app mounts the AEM Assets repository as a network share on desktop. Ther
 
 >[!NOTE]
 >
->Before reading this document, you can review the overall [AEM and Creative Cloud integration best practices](https://docs.adobe.com/content/help/en/experience-manager-64/assets/administer/aem-cc-integration-best-practices.html) for a higher-level overview of the topic.
+>Before reading this document, you can review the overall [AEM and Creative Cloud integration best practices](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/aem-cc-integration-best-practices.html) for a higher-level overview of the topic.
 
 ## AEM desktop app architecture {#aem-desktop-app-architecture}
 
@@ -64,7 +57,7 @@ Key capabilities of AEM desktop app include:
 
 * Do not use AEM desktop app network drives to save assets frequently. All save operations are transmitted to AEM Assets. Therefore, it is impractical to perform intensive edit operations directly in the mounted AEM Assets repository. Editing an asset directly in the mounted repository crams the asset's timeline with irrelevant versions and imposes additional overheads on the server.
 
-* Do not use AEM desktop app for migration of large amounts of data from one AEM instance to another. See the [Migration Guide](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/assets-migration-guide.html) to plan and execute asset migrations. In contrast, desktop app [supports bulk uploading](use-app-v1.md#bulkupload) large number of assets for the first time in [!DNL Adobe Experience Manager].
+* Do not use AEM desktop app for migration of large amounts of data from one AEM instance to another. See the [Migration Guide](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html) to plan and execute asset migrations. In contrast, desktop app [supports bulk uploading](use-app-v1.md#bulkupload) large number of assets for the first time in [!DNL Adobe Experience Manager].
 
 ## Recommendations for selected use cases {#recommendations-for-selected-use-cases}
 
@@ -120,7 +113,7 @@ Good experience for users using the AEM desktop app greatly depends on good, sta
 
 ### Network considerations {#network-considerations}
 
-To understand best practices around AEM Assets network configuration, please refer to [AEM Assets Network Considerations](https://docs.adobe.com/content/help/en/experience-manager-64/assets/administer/assets-migration-guide.html) document. Some of the important aspects that help optimize AEM desktop app experience for the users include:
+To understand best practices around AEM Assets network configuration, please refer to [AEM Assets Network Considerations](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/assets-migration-guide.html) document. Some of the important aspects that help optimize AEM desktop app experience for the users include:
 
 * **Use properly configured Dispatcher**. Use AEM Dispatcher for additional security and ensure that it is configured for [AEM desktop app connection to AEM behind a dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
 
@@ -132,8 +125,8 @@ To understand best practices around AEM Assets network configuration, please ref
 
 ### Optimizing server performance {#optimizing-server-performance}
 
-To understand, how AEM Assets server should be optimized for performance, refer to [AEM Assets Performance Tuning Guide](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/performance-tuning-guidelines.html). Some of the important aspects of the server performance for AEM desktop app are around optimizing workflow configuration so that it performs well for asset uploads:
+To understand, how AEM Assets server should be optimized for performance, refer to [AEM Assets Performance Tuning Guide](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html). Some of the important aspects of the server performance for AEM desktop app are around optimizing workflow configuration so that it performs well for asset uploads:
 
-* **More performant asset upload**. Configure the [AEM Asset Update workflow model to be transient](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/performance-tuning-guidelines.html#Workflows).
+* **More performant asset upload**. Configure the [AEM Asset Update workflow model to be transient](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html).
 
 * **Limit server CPU for uploads**. Ensure that the maximum parallel workflow jobs parameter is set  correctly, so that uploads do not exhaust all the CPU.

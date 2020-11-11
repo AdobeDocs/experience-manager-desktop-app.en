@@ -152,7 +152,7 @@ Use **[!UICONTROL Toggle Check-out]** to lock the asset to prevent conflicts wit
 * You've started editing an asset without checking it out first (say by just opening it).
 * You intend to start editing an asset soon and do not want others to edit.
 
-Once you’re done making the edits, the app displays the **[!UICONTROL Edited Locally]** status for the changed assets. All the changes saved to the assets are local-only until you upload the changes to AEM. To upload an individual or a few assets one-by-one, click **[!UICONTROL Upload Changes]** from the options for an asset. It creates a version of the asset in AEM. Using the web interface of AEM Assets, you can see asset history in the [Timeline view](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/activity-stream.html).
+Once you’re done making the edits, the app displays the **[!UICONTROL Edited Locally]** status for the changed assets. All the changes saved to the assets are local-only until you upload the changes to AEM. To upload an individual or a few assets one-by-one, click **[!UICONTROL Upload Changes]** from the options for an asset. It creates a version of the asset in AEM. Using the web interface of AEM Assets, you can see asset history in the [Timeline view](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html).
 
 ![Upload changes option in the app](assets/upload_changes_single1_da2.png "Upload changes option in the app")
 
@@ -170,7 +170,7 @@ If necessary, toggle check-out. The updated asset is removed from the local cach
 
 ## Upload and add new assets to AEM {#upload-and-add-new-assets-to-aem}
 
-Users can add new assets to the DAM repository. For example, you may be an agency photographer or contractor who wants to add a large number of photos from a photoshoot to the AEM repository. To add fresh content to AEM, click ![Upload to cloud icon](assets/do-not-localize/upload_to_cloud_da2.png) in the top-bar of the app. Browse to the asset files in the local file system and click **[!UICONTROL Select]**. The app starts uploading the asset and displays a progress bar at the bottom if the asset takes longer to upload. Do not use whitespaces and invalid characters when creating or uploading folders. See a list of characters at [Create folders in AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders).
+Users can add new assets to the DAM repository. For example, you may be an agency photographer or contractor who wants to add a large number of photos from a photoshoot to the AEM repository. To add fresh content to AEM, click ![Upload to cloud icon](assets/do-not-localize/upload_to_cloud_da2.png) in the top-bar of the app. Browse to the asset files in the local file system and click **[!UICONTROL Select]**. The app starts uploading the asset and displays a progress bar at the bottom if the asset takes longer to upload. Do not use whitespaces and invalid characters when creating or uploading folders. See a list of characters at [Create folders in AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
@@ -225,7 +225,7 @@ After uploading, if the expected changes are not reflected in the app, click the
 
 >[!NOTE]
 >
->Do not use upload functionality to migrate assets across two AEM deployments. Instead, see the [migration guide](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/assets-migration-guide.html).
+>Do not use upload functionality to migrate assets across two AEM deployments. Instead, see the [migration guide](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html).
 
 ### List of transferred assets {#list-of-transferred-assets}
 

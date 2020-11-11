@@ -22,7 +22,7 @@ Adhere to the following best practices to prevent some common issues and trouble
 
 * **Understand how the desktop app works**: Before starting to use the application, spend a few moments knowing how the app works. Know about linking between Experience Manager web interface and desktop, repository mapping, asset caching, saving locally and uploading in background. See [how it works](release-notes.md#how-app-works).
 
-* **Avoid unsupported characters in folder names**: Do not use whitespaces and invalid characters when creating or uploading folders. See a list of characters at [Create folders in Experience Manager Assets](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders). Some Adobe Experience Manager use cases may be impacted by unsupported characters in the folder name.
+* **Avoid unsupported characters in folder names**: Do not use whitespaces and invalid characters when creating or uploading folders. See a list of characters at [Create folders in Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders). Some Adobe Experience Manager use cases may be impacted by unsupported characters in the folder name.
 
 * **Best practices to avoid conflicts**: To avoid potential conflicts when collaborating on multiple assets, see [avoid editing conflicts](using.md#adv-workflow-collaborate-avoid-conflicts).
 
