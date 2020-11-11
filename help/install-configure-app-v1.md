@@ -64,7 +64,7 @@ The copy and move methods in the Assets API require the following additional hea
 
 AEM desktop connects to AEM using a URL that includes the default port. Therefore, the `virtualhosts` setting in the dispatcher configuration should include the default port number. For more information around `virtualhosts` configuration, see [identify virtual hosts](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
 
-For additional information on configuring the dispatcher to pass through these additional headers, see [Specifying the HTTP Headers]().
+For additional information on configuring the dispatcher to pass through these additional headers, see [Specifying the HTTP Headers](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders).
 
 ### Proxy support {#proxy-support}
 
