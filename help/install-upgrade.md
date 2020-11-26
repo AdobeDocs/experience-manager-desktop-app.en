@@ -58,29 +58,29 @@ To install the desktop app, follow these steps. Uninstall any existing Adobe Exp
 
 1. Keep the URL and credentials of your Experience Manager deployment handy.
 
-1. If you are upgrading from another verison of the app, see [upgrade desktop app](#upgrade-from-previous-version).
+1. If you are upgrading from another version of the app, see [upgrade desktop app](#upgrade-from-previous-version).
 
 1. Skip this step if you are using Experience Manager as a Cloud Service, Experience Manager 6.4.4 or later, or Experience Manager 6.5.0 or later. Ensure that your Experience Manager setup meets the compatibility requirements mentioned in the [release notes](release-notes.md). If necessary, download the applicable [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) and install it using the Experience Manager Package Manager as an Experience Manager administrator. To install a package, see [How to work with Packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html).
 
 1. Execute the installer binary and follow the onscreen instructions to install.
 
-1. On Windows, the installer may prompt to install `Visual Studio C++ Redistributable 2015`. Follow on-screen instructions to install it. If the installation fails then install it manually. Download the installer from [here](https://www.microsoft.com/en-us/download/details.aspx?id=52685) and install both `vc_redist.x64.exe` and `vc_redist.x86.exe` files. Re-run the AEM desktop app installer.
+1. On Windows, the installer may prompt to install `Visual Studio C++ Redistributable 2015`. Follow on-screen instructions to install it. If the installation fails then install it manually. Download the installer from [here](https://www.microsoft.com/en-us/download/details.aspx?id=52685) and install both `vc_redist.x64.exe` and `vc_redist.x86.exe` files. Re-run the [!DNL Experience Manager] desktop app installer.
 
 1. Restart the machine as prompted. Launch and configure the desktop app.
 
-1. To connect the app with an AEM repository, click the app icon in the tray and launch the app. Provide the address of the AEM server in the format `https://[aem-server-url]:[port]/`.
+1. To connect the app with an [!DNL Experience Manager] repository, click the app icon in the tray and launch the app. Provide the address of the [!DNL Experience Manager] server in the format `https://[aem_server]:[port]/`.
 
    Click **[!UICONTROL Connect]** and provide the credentials.
 
    ![Connection screen of desktop app to input server address](assets/connect_da2.png)
 
-   *Figure: Connection screen to input server address*
+   *Figure: Connection screen to input server address.*
 
    >[!CAUTION]
    >
-   >Ensure there are no leading or trailing spaces before or after the address of the AEM server. Otherwise the app cannot connect to the AEM server.
+   >Ensure there are no leading or trailing spaces before or after the address of the [!DNL Experience Manager] server. Otherwise the app cannot connect to the [!DNL Experience Manager] server.
 
-1. Upon successful connection, you can view the list of folders and assets available in the root folder of the AEM DAM. You can browse the folders from within the app.
+1. Upon successful connection, you can view the list of folders and assets available in the root folder of the [!DNL Experience Manager] DAM. You can browse the folders from within the app.
 
    ![Upon login the app displays the DAM contents](assets/firstview_da2.png)
 
@@ -100,7 +100,7 @@ To change preferences, click ![More options icon](assets/do-not-localize/more_op
 
 * **[!UICONTROL Cache Directory]**: Location of local cache of the app (it contains the locally downloaded assets).
 
-* **[!UICONTROL Network Drive Letter]**: The drive letter used to map to the AEM DAM. Do not change this if you are not sure. The app can map to any drive letter on Windows. If two users place assets from different drive letters, they cannot see the assets placed by each other. The path of the assets change. The assets remain placed in the binary file (say INDD) and are not removed. The app lists all the available drive letters and by default uses the last-available letter that is typically `Z`.
+* **[!UICONTROL Network Drive Letter]**: The drive letter used to map to the [!DNL Experience Manager] DAM. Do not change this if you are not sure. The app can map to any drive letter on Windows. If two users place assets from different drive letters, they cannot see the assets placed by each other. The path of the assets change. The assets remain placed in the binary file (say INDD) and are not removed. The app lists all the available drive letters and by default uses the last-available letter that is typically `Z`.
 
 * **[!UICONTROL Maximum Cache Size]**: Allowed cache on hard disk in GB that is used toward storing locally downloaded assets.
 
@@ -112,29 +112,29 @@ To change preferences, click ![More options icon](assets/do-not-localize/more_op
 
 * **[!UICONTROL Upload Acceleration]**: When uploading assets, the application can use concurrent uploads to improve upload speed. You can increase the concurrency of the upload by moving the slider to the right. The slider on the far left-hand side means no concurrency (single-threaded upload), the middle position corresponds to 10 concurrent threads, and the maximum limit on far right-hand side corresponds to 20 concurrent threads. A higher concurrency limit requires more resource consumption of the local machine's processor.
 
-To update the unavailable preferences, log out of the AEM server. After updating the preferences, click ![Save preferences](assets/do-not-localize/save_preferences_da2.png) to save the changes.
+To update the unavailable preferences, log out of the [!DNL Experience Manager] server. After updating the preferences, click ![Save preferences](assets/do-not-localize/save_preferences_da2.png) to save the changes.
 
 ![Desktop app preferences and settings](assets/preferences_da2.png)
 
-*Figure: Desktop app preferences*
+*Figure: Desktop app preferences.*
 
 ## Uninstall the app {#uninstall-the-app}
 
 To uninstall the application on Windows, follow these steps:
 
-1. Upload all your changes to AEM to avoid losing any edits. See [Edit assets and upload updated assets to AEM](using.md#edit-assets-upload-updated-assets). Log off and [!UICONTROL Exit] the app.
+1. Upload all your changes to [!DNL Experience Manager] to avoid losing any edits. See [Edit assets and upload updated assets to [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). Log off and [!UICONTROL Exit] the app.
 
 1. Remove the app as you’d remove any other OS application. Uninstall it from Add and remove programs on Windows.
 
 1. To remove the cache and logs, select the necessary check box.
 
-   ![Uninstallation dialog to remove logs and cache](assets/uninstall_da2.png)
+   ![Uninstall dialog to remove logs and cache](assets/uninstall_da2.png)
 
 1. Follow the onscreen instructions. When completed, restart the machine.
 
 To uninstall the application on Mac, follow these steps:
 
-1. Upload all your changes to AEM to avoid losing any edits. See [Edit assets and upload updated assets to AEM](using.md#edit-assets-upload-updated-assets). Log off and [!UICONTROL Exit] the app.
+1. Upload all your changes to [!DNL Experience Manager] to avoid losing any edits. See [Edit assets and upload updated assets to [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). Log off and [!UICONTROL Exit] the app.
 
 1. Remove the `Adobe Experience Manager Desktop.app` from `/Applications`.
 

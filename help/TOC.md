@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: adobe experience manager
 audience: end-user
-user-guide-title: AEM desktop app Guide
+user-guide-title: Experience Manager desktop app Guide
 breadcrumb-title: Desktop App Guide
-user-guide-description: Learn to use the AEM desktop app to connect repositories and desktop applications to provide faster access to resources and streamlined workflows.
+user-guide-description: Learn to use the Experience Manager desktop app to connect repositories and desktop applications to provide faster access to resources and streamlined workflows.
 solution-title: AEM Assets
 solution-hub-url: https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html
 getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html
