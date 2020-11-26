@@ -16,7 +16,7 @@ mini-toc-levels: 1
 | Products | Adobe Experience Manager desktop app |
 |--- |--- |
 | App version (Revision) | 2.0 (2.0.3.2) |
-| Supported AEM versions | AEM as a Cloud Service; AEM 6.5; AEM 6.4; AEM 6.3 (with compatibility package) |
+| Supported Experience Manager versions | Experience Manager as a Cloud Service; Experience Manager 6.5; Experience Manager 6.4; Experience Manager 6.3 (with compatibility package) |
 | Type | Minor release |
 | Release date | Aug 27, 2020 (Mac and Win) |
 | Download URLs | [macOS 64-bit](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.0.3.2.dmg); [Windows 64-bit](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.0.3.2.exe); [Windows 32-bit](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.0.3.2.exe) |
@@ -100,7 +100,7 @@ The bug fixes and updates are:
 
 * Allow option to configure `%Temp%` directory to match `%APPDATA%` path. <!-- CQ-4282665 -->
 
-* Allow users to log in on AEM Author via Okta SAML authentication. <!-- CQ-4278134 -->
+* Allow users to log in on Experience Manager Author via Okta SAML authentication. <!-- CQ-4278134 -->
 
 ## Installation instructions {#installation-instructions-v2}
 
@@ -112,17 +112,17 @@ If you are upgrading from a previous Experience Manager desktop app, you must fo
 
 It is important to understand the following about the application and how it works.
 
-* The application provides full control over operations that require full transfer of asset binaries from and to AEM (open, edit, upload changes, and upload assets).
+* The application provides full control over operations that require full transfer of asset binaries from and to Experience Manager (open, edit, upload changes, and upload assets).
 
   * If you want to work with the asset on desktop, you need to explicitly Open, Edit, or Download to your desktop, either individually, in a folder, or via multi-selection.
 
-  * If you want to get local changes to assets uploaded to AEM, you need to select [!UICONTROL Upload Changes], either individually or via multi-selection.
+  * If you want to get local changes to assets uploaded to Experience Manager, you need to select [!UICONTROL Upload Changes], either individually or via multi-selection.
 
-  * The application is not a 'sync client' that synchronizes assets across the desktop and AEM.
+  * The application is not a 'sync client' that synchronizes assets across the desktop and Experience Manager.
 
-  * The application does not provide a network share that maps the AEM repository as a virtual folder structure.
+  * The application does not provide a network share that maps the Experience Manager repository as a virtual folder structure.
 
-* The list of assets shown by the application is based on the status of the AEM Assets repository. Any files downloaded locally and then renamed in the local files or cache folder are not displayed or managed by the application.
+* The list of assets shown by the application is based on the status of the Assets repository. Any files downloaded locally and then renamed in the local files or cache folder are not displayed or managed by the application.
 
 * If the app does not display the expected results, click refresh icon in the top bar.
 
@@ -132,7 +132,7 @@ It is important to understand the following about the application and how it wor
 
 The following diagram illustrates the flow of assets and files from cloud to local file system and vice versa, as initiated by user actions.
 
-![Flow of assets from AEM server to native desktop apps via desktop app](assets/da20_flow_diagram.png)
+![Flow of assets from Experience Manager server to native desktop apps via desktop app](assets/da20_flow_diagram.png)
 
 ## Known issues {#known-issues-v2}
 
@@ -146,13 +146,13 @@ The following diagram illustrates the flow of assets and files from cloud to loc
 
 * After applying and removing the filter to find all locally edited assets, the app does not take users to their search results or folder view that the users started with. The app displays the root folder of the DAM repository.
 
-* At times, when you connect to a URL that doesn’t have AEM server running, the connect screen becomes unresponsive. Exit the application and start it again.
+* At times, when you connect to a URL that doesn’t have Experience Manager server running, the connect screen becomes unresponsive. Exit the application and start it again.
 
 **CRUD (Create, Read, Update, and Delete) issues:**
 
 * Application tries to upload files even with invalid characters, might cause server-side upload failure. <!-- CQ-4273652 -->
 
-* When uploading changes to an asset with comments, the comments are stored with the asset in AEM but are not visible as versioning comments. This issue is resolved in AEM 6.4.5 and AEM 6.5.1. Adobe strongly recommends installing the latest service packs. <!-- CQ-4268990 -->
+* When uploading changes to an asset with comments, the comments are stored with the asset in Experience Manager but are not visible as versioning comments. This issue is resolved in Experience Manager 6.4.5 and Experience Manager 6.5.1. Adobe strongly recommends installing the latest service packs. <!-- CQ-4268990 -->
 
 * Asset transfers cannot be canceled by the user. If you triggered an unintended large transfer, exit the application and start it again. <!-- CQ-4278940 -->
 
@@ -162,8 +162,8 @@ The following diagram illustrates the flow of assets and files from cloud to loc
 
 >[!MORELIKETHIS]
 >
->* [AEM as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)
->* [AEM as a Cloud Service Assets documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html)
+>* [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)
+>* [Experience Manager as a Cloud Service Assets documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html)
 >* [How to use Experience Manager desktop app](using.md)
 >* [Install and upgrade desktop app](install-upgrade.md)
 >* [Best practices and troubleshooting tips](troubleshoot.md)

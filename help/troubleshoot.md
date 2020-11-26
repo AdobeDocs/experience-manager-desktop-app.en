@@ -12,7 +12,7 @@ snippet: y
 
 # Troubleshoot Adobe Experience Manager desktop app {#troubleshoot-v2}
 
-Adobe Experience Manager (AEM) desktop app connects to a remote Experience Manager deployment's Digital Asset Management (DAM) repository. The app fetches repository information and search results on your machine, downloads and uploads files and folders, and includes capabilities to manage conflicts with AEM Assets user interface.
+Adobe Experience Manager desktop app connects to a remote Experience Manager deployment's Digital Asset Management (DAM) repository. The app fetches repository information and search results on your machine, downloads and uploads files and folders, and includes capabilities to manage conflicts with Assets user interface.
 
 Read on to troubleshoot the app, learn the best practices, and find out the limitations.
 
@@ -112,7 +112,7 @@ To enable debug mode on Windows:
 
 Perform the following steps:
 
-1. Start the application and connect an the AEM instance.
+1. Start the application and connect an the Experience Manager instance.
 
 1. Open the application's preferences by clicking the ellipses in the upper right corner and selecting [!UICONTROL Preferences].
 
@@ -156,9 +156,9 @@ If you cannot see the assets that you or other creative professionals placed in 
 
 * File size. Large assets take longer to download and display.
 
-* Drive letter consistency. If you or another collaborator placed the assets while mapping the AEM DAM to a different drive letter, the placed assets do not display.
+* Drive letter consistency. If you or another collaborator placed the assets while mapping the Experience Manager DAM to a different drive letter, the placed assets do not display.
 
-* Permissions. To check if you have permissions to fetch the placed assets, contact your AEM administrator.
+* Permissions. To check if you have permissions to fetch the placed assets, contact your Experience Manager administrator.
 
 ### Edits to files on desktop app's user interface do not reflect in [!DNL Adobe Experience Manager] immediately {#changes-on-da-not-visible-on-aem}
 
@@ -166,7 +166,7 @@ If you cannot see the assets that you or other creative professionals placed in 
 
 ### Issues when upgrading on macOS {#issues-when-upgrading-on-macos}
 
-Occasionally issues may occur when upgrading AEM desktop app on macOS. This is caused by legacy system folder for AEM desktop app preventing new versions of AEM desktop app to load correctly. To remedy this issue, the following folders and files can be manually removed.
+Occasionally issues may occur when upgrading Experience Manager desktop app on macOS. This is caused by legacy system folder for Experience Manager desktop app preventing new versions of Experience Manager desktop app to load correctly. To remedy this issue, the following folders and files can be manually removed.
 
 Before executing the following steps, drag the `Adobe Experience Manager Desktop` application from the macOS Applications folder to the Trash. Then open terminal, execute the following command, and provide your password when prompted.
 
@@ -181,7 +181,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ### Cannot upload files {#upload-fails}
 
-If you are using desktop app with AEM 6.5.1 or later, upgrade S3 or Azure connector to version 1.10.4 or later. It resolves file upload failure issue related to [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). See [install instructions](install-upgrade.md#install-v2).
+If you are using desktop app with Experience Manager 6.5.1 or later, upgrade S3 or Azure connector to version 1.10.4 or later. It resolves file upload failure issue related to [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). See [install instructions](install-upgrade.md#install-v2).
 
 ### [!DNL Experience Manager] desktop app connection issues {#connection-issues}
 
@@ -206,13 +206,9 @@ If [!DNL Experience Manager] desktop app does not connect to your SSO-enabled (S
 
 Sometimes the SAML process does not redirect back to the originally requested path, or the final redirect is to a host that is different than what is configured in [!DNL Adobe Experience Manager] desktop app. To verify that this is not the case:
 
-1. Open a web browser.
+1. Open a web browser. Access `https://[aem_server]:[port]/content/dam.json` URL.
 
-1. Enter the URL `<AEM host>/content/dam.json` in the address bar.
-
-    Replace `<AEM host>` with the target [!DNL Adobe Experience Manager] instance, for example `http://localhost:4502/content/dam.json`.
-
-1. Log in to the [!DNL Adobe Experience Manager] instance.
+1. Log in to the [!DNL Adobe Experience Manager] deployment.
 
 1. When the login is complete, look at the browser's current address in the address bar. It should exactly match the URL that was initially entered.
 
@@ -252,10 +248,9 @@ Looking at the URL sequence that is being loaded can help troubleshoot at the SA
 
 #### SSL configuration issue {#ssl-config-v2}
 
-The libraries that AEM desktop app uses for HTTP communication utilizes strict SSL enforcement. At times, a connection may succeed using a browser but fails using AEM desktop app. To configure SSL appropriately, install the missing intermediate certificate in Apache. See [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575).
+The libraries that Experience Manager desktop app uses for HTTP communication utilizes strict SSL enforcement. At times, a connection may succeed using a browser but fails using Experience Manager desktop app. To configure SSL appropriately, install the missing intermediate certificate in Apache. See [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575).
 
-
-The libraries that AEM Desktop uses for HTTP communication utilize strict SSL enforcement. So there can be instances where SSL connections that succeed through a browser fail with [!DNL Adobe Experience Manager] desktop app. This is good because it encourages correct configuration of SSL and increases security, but can be frustrating when the application is unable to connect.
+The libraries that Experience Manager Desktop uses for HTTP communication utilize strict SSL enforcement. So there can be instances where SSL connections that succeed through a browser fail with [!DNL Adobe Experience Manager] desktop app. This is good because it encourages correct configuration of SSL and increases security, but can be frustrating when the application is unable to connect.
 
 The recommended approach in this case is to use a tool to analyze a server's SSL certificate and identify issues so they can be corrected. There are websites that inspect a server's certificate on providing its URL.
 
@@ -297,6 +292,7 @@ Rarely the application may become unresponsive, display just a white screen, or 
 
 In both methods, the app starts at the root DAM folder.
 
+<!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
 
 Create Jira ticket with the following information:
@@ -307,11 +303,12 @@ Create Jira ticket with the following information:
 
 * DEBUG level logs that were captured while reproducing the issue.
 
-* Target AEM version.
+* Target Experience Manager version.
 
 * Operating system version.
 
 * [!DNL Adobe Experience Manager] desktop app version. To know your app version, see [finding the desktop app version](#know-app-version-v2).
+-->
 
 >[!MORELIKETHIS]
 >

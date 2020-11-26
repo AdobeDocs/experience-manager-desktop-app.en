@@ -2,37 +2,37 @@
 
 ## Documentation Philosophy
 
-We know that Adobe Experience Manager users are working in highly competitive environments, striving to create digital experiences that will set them apart from their competitors. Therefore it is vital that when Adobe delivers advanced new tools in AEM, that these tools are complemented with accurate and clear documentation to allow the customer to immediately leverage their AEM investment and maximize ROI.
+We know that Adobe Experience Manager users are working in highly competitive environments, striving to create digital experiences that will set them apart from their competitors. Therefore it is vital that when Adobe delivers advanced new tools in [!DNL Experience Manager], that these tools are complemented with accurate and clear documentation to allow the customer to immediately leverage their [!DNL Experience Manager] investment and maximize ROI.
 
-The goal of the AEM documentation is to put documentation into the hands of AEM users as soon as possible. Therefore we prioritize accurate, usable documentation and strive to continually update and improve it.
+The goal of the [!DNL Experience Manager] documentation is to put documentation into the hands of [!DNL Experience Manager] users as soon as possible. Therefore we prioritize accurate, usable documentation and strive to continually update and improve it.
 
 ## Documentation Contributions
 
-In the interest of continually improving AEM documentation, the entire community of AEM users is welcome to contribute to the documentation. Be it through pull requests or issues, improvements to the documentation can be corrections, clarifications, expansions, and additional examples.
+In the interest of continually improving [!DNL Experience Manager] documentation, the entire community of [!DNL Experience Manager] users is welcome to contribute to the documentation. Be it through pull requests or issues, improvements to the documentation can be corrections, clarifications, expansions, and additional examples.
 
 ## Documentation Standards
 
-While we welcome contributions to our documentation, any contribution to the AEM documentation, either in the form of a pull request or an issue, should conform to our contribution and documentation standards.
+While we welcome contributions to our documentation, any contribution to the [!DNL Experience Manager] documentation, either in the form of a pull request or an issue, should conform to our contribution and documentation standards.
 
 Contributions that do not meet these standards may be rejected.
 
-### We document standard use cases.
+### We document standard use cases
 
-AEM documentation covers standard use cases. Use cases beyond the scope of standard installation and usage of the product are not part of AEM documentation.
+[!DNL Experience Manager] documentation covers standard use cases. Use cases beyond the scope of standard installation and usage of the product are not part of [!DNL Experience Manager] documentation.
 
-### We do not generally document bugs or their workarounds.
+### We do not generally document bugs or their workarounds
 
-AEM documentation covers standard use cases. For this reason, bugs, effects caused by bugs, and workarounds for bugs are not generally not documented.
+[!DNL Experience Manager] documentation covers standard use cases. For this reason, bugs, effects caused by bugs, and workarounds for bugs are not generally not documented.
 
-Exceptions to this rule apply to the release notes where known issues can be listed with possible solutions that have been approved by AEM Product Management.
+Exceptions to this rule apply to the release notes where known issues can be listed with possible solutions that have been approved by [!DNL Experience Manager] Product Management.
 
-### Documentation contributions are not for answering technical questions.
+### Documentation contributions are not for answering technical questions
 
-Any ideas you may have to improve AEM documentation are welcome as contributions. However comments, issues, and pull requests are intended for *contributions* only. They are not intended to be used to answer your questions about how to use AEM, implement your AEM project, or solve technical problems.
+Any ideas you may have to improve [!DNL Experience Manager] documentation are welcome as contributions. However comments, issues, and pull requests are intended for *contributions* only. They are not intended to be used to answer your questions about how to use [!DNL Experience Manager], implement your [!DNL Experience Manager] project, or solve technical problems.
 
-Any questions about the usage of AEM or technical errors you may have should be reported through the normal support process via the [Experience Cloud Enterprise Support portal](https://helpx.adobe.com/contact/enterprise-support.ec.html) or discussed in the [Experience Manager community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
+Any questions about the usage of [!DNL Experience Manager] or technical errors you may have should be reported through the normal support process via the [Experience Cloud Enterprise Support portal](https://helpx.adobe.com/contact/enterprise-support.ec.html) or discussed in the [Experience Manager community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
 
-***AEM documentation contributions are not a replacement for Adobe Customer Care*** and any such contributions seeking answers to support-related questions will be rejected.
+***[!DNL Experience Manager] documentation contributions are not a replacement for Adobe Customer Care*** and any such contributions seeking answers to support-related questions will be rejected.
 
 ### Contributions must clearly reference affected documentation pages.
 
@@ -50,15 +50,15 @@ Following these guidelines makes the review of your contribution easier and ther
 
 #### Language
 
-* AEM documentation is authored and maintained in US English.
+* [!DNL Experience Manager] documentation is authored and maintained in US English.
 * Keep sentences as simple as possible.
 * Keep the language clear and concise.
 
-Remember, readers of AEM documentation are worldwide and can not be expected to be native or fluent English speakers. Avoid colloquialisms and keep the language as clear and simple as possible.
+Remember, readers of [!DNL Experience Manager] documentation are worldwide and can not be expected to be native or fluent English speakers. Avoid colloquialisms and keep the language as clear and simple as possible.
 
 #### Follow Microsoft Manual of Style
 
-[The Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/) is a freely available documentation style guide that focuses on software documentation and AEM documentation follows this guide wherever possible.
+[The Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/) is a freely available documentation style guide that focuses on software documentation and [!DNL Experience Manager] documentation follows this guide wherever possible.
 
 ### Formatting
 
@@ -78,8 +78,8 @@ Markers or other annotations in screenshots (like red frames, arrows or text) sh
 
 Try to avoid any direct references to a specific version throughout the documentation content whenever possible. This makes the documentation more flexible and extensible for future versions.
 
-### Use of Day, AEM, CQ, CRX
+### Use of Day, [!DNL Experience Manager], CQ, CRX
 
-The product should always be referred to by its full name **Adobe Experience Manager** for the first time in an article and can thereafter be referred to as **AEM**.
+The product should always be referred to by its full name **Adobe Experience Manager** for the first time in an article and can thereafter be referred to as **Experience Manager**.
 
-Day, Day Software, CQ, and CRX should not be used except where unavoidable such as in class names or referring to the history of AEM.
+Day, Day Software, CQ, and CRX should not be used except where unavoidable such as in class names or referring to the history of [!DNL Experience Manager].
