@@ -45,7 +45,7 @@ Have a look at the following video for a quick overview of how to create issues 
 
 ### Contributions from Adobe Employees
 
-If you are an Adobe employee and have a contribution, we request that you use the `AdobeDocs` org in the corporate git. You can contribute to this public repository on GitHub.com but contributions are easier to process on the corporate repo. Make sure that any proprietary or unreleased information is only discussed on the corporate repo.
+If you are an Adobe employee and have a contribution, we request that you use the `AdobeDocs` org in the corporate git. You can contribute to this public repository on GitHub.com but contributions are easier to process on the corporate repo. Make sure that any proprietary or unreleased information is only discussed on the corporate repo. Adobe employees need not sign the CLA.
 
 ## About Adobe's GitHub authoring platform and Markdown
 
