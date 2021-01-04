@@ -1,28 +1,21 @@
 ---
-title: Install and configure Adobe Experience Manager desktop app
-description: Install and configure Adobe Experience Manager desktop app to work with Adobe Experience Manager Assets servers and download the assets on your local file system.
-uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: f6365302-1690-4719-9b8c-035719422740
-index: y
-internal: n
-snippet: y
+title: Install and configure [!DNL Adobe Experience Manager] desktop app
+description: Install and configure [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] servers and download the assets on your local file system.
 ---
 
-# Install Adobe Experience Manager desktop app {#install-app-v2}
+# Install [!DNL Adobe Experience Manager] desktop app {#install-app-v2}
 
-Using the Adobe Experience Manager desktop app, the assets within Experience Manager are easily available on your local desktop and can be used in any native desktop applications. Assets can be previewed, opened in native desktop applications, revealed in Mac Finder or Windows Explorer for placing in other documents, and changed locally – the changes are saved back to Experience Manager when you upload and a new version is created in the repository.
+Using the [!DNL Adobe Experience Manager] desktop app, the assets within [!DNL Experience Manager] are easily available on your local desktop and can be used in any native desktop applications. Assets can be previewed, opened in native desktop applications, revealed in Mac Finder or Windows Explorer for placing in other documents, and changed locally – the changes are saved back to [!DNL Experience Manager] when you upload and a new version is created in the repository.
 
 Such an integration allows various roles in the organization to,
 
-* Manage the assets centrally in Experience Manager Assets.
+* Manage the assets centrally in [!DNL Experience Manager Assets].
 
 * Access the assets in any native desktop applications, including third-party applications and in Adobe Creative Cloud. While doing so, users can easily adhere to the various standards including branding.
 
-To use Experience Manager desktop app,
+To use [!DNL Experience Manager] desktop app,
 
-* Ensure that your Experience Manager version is supported by Experience Manager desktop app. See the [system requirements](release-notes.md#system-requirements-and-prerequisites-v2) below.
+* Ensure that your [!DNL Experience Manager] version is supported by [!DNL Experience Manager] desktop app. See the [system requirements](release-notes.md#system-requirements-and-prerequisites-v2) below.
 
 * Download and install the application. See [install desktop app](#install-v2) below.
 
@@ -30,7 +23,7 @@ To use Experience Manager desktop app,
 
 ## System requirements, prerequisites, and download links {#tech-specs-v2}
 
-For detailed information, see the [Experience Manager desktop app release notes](release-notes.md).
+For detailed information, see the [[!DNL Experience Manager] desktop app release notes](release-notes.md).
 
 ## Upgrade from a previous version {#upgrade-from-previous-version}
 
@@ -42,7 +35,7 @@ If you are a user of v1.x of desktop app, then understand the differences and si
 
 To upgrade from a previous version of the app, follow these instructions:
 
-1. Before upgrading, sync all your assets and upload your changes to Experience Manager. This is to avoid losing any edits when uninstalling the app.
+1. Before upgrading, sync all your assets and upload your changes to [!DNL Experience Manager]. This is to avoid losing any edits when uninstalling the app.
 
 1. Uninstall the previous version of the app. When uninstalling, select the option to clear the cache.
 
@@ -52,15 +45,15 @@ To upgrade from a previous version of the app, follow these instructions:
 
 ## Install {#install-v2}
 
-To install the desktop app, follow these steps. Uninstall any existing Adobe Experience Manager desktop app v1.x before installing the latest app. For more info, see above.
+To install the desktop app, follow these steps. Uninstall any existing Adobe [!DNL Experience Manager] desktop app v1.x before installing the latest app. For more info, see above.
 
 1. Download the latest installer from the [release notes](release-notes.md) page.
 
-1. Keep the URL and credentials of your Experience Manager deployment handy.
+1. Keep the URL and credentials of your [!DNL Experience Manager] deployment handy.
 
 1. If you are upgrading from another version of the app, see [upgrade desktop app](#upgrade-from-previous-version).
 
-1. Skip this step if you are using Experience Manager as a Cloud Service, Experience Manager 6.4.4 or later, or Experience Manager 6.5.0 or later. Ensure that your Experience Manager setup meets the compatibility requirements mentioned in the [release notes](release-notes.md). If necessary, download the applicable [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) and install it using the Experience Manager Package Manager as an Experience Manager administrator. To install a package, see [How to work with Packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html).
+1. Skip this step if you are using [!DNL Experience Manager] as a [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 or later, or [!DNL Experience Manager] 6.5.0 or later. Ensure that your [!DNL Experience Manager] setup meets the compatibility requirements mentioned in the [release notes](release-notes.md). If necessary, download the applicable [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) and install it using the [!DNL Experience Manager] Package Manager as an [!DNL Experience Manager] administrator. To install a package, see [How to work with Packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html).
 
 1. Execute the installer binary and follow the onscreen instructions to install.
 
@@ -86,7 +79,7 @@ To install the desktop app, follow these steps. Uninstall any existing Adobe Exp
 
    *Figure: Application displays the DAM contents after login*
 
-1. (Experience Manager 6.5.1 or later) If you are using desktop app with Experience Manager 6.5.1 or later, upgrade S3 or Azure connector to version 1.10.4 or later. See [Azure connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#azure-data-store) or [S3 connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#amazon-s-data-store).
+1. ([!DNL Experience Manager] 6.5.1 or later) If you are using desktop app with [!DNL Experience Manager] 6.5.1 or later, upgrade S3 or Azure connector to version 1.10.4 or later. See [Azure connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#azure-data-store) or [S3 connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#amazon-s-data-store).
 
    If you are an Adobe Managed Services (AMS) customer, contact Adobe Customer Care.
 

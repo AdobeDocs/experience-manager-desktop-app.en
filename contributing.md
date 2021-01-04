@@ -1,6 +1,6 @@
-# Contributing to Adobe Experience Manager Desktop App Documentation
+# Contributing to [!DNL Adobe Experience Manager] desktop app Documentation
 
-Thank you for choosing to contribute to Adobe Experience Manager Desktop App documentation! We welcome content contributions from our entire reader community as well as from fellow Adobe employees.
+Thank you for choosing to contribute to [!DNL Adobe Experience Manager] desktop app documentation! We welcome content contributions from our entire reader community as well as from fellow Adobe employees.
 
 This file describes how you can contribute as well as points out the guidelines to follow when making your contributions.
 
@@ -8,9 +8,9 @@ This file describes how you can contribute as well as points out the guidelines 
 
 This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct.md). By contributing to [!DNL Adobe Experience Manager] documentation, you agree to adhere to this code of conduct. Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Guidelines for Contributing
+## Guidelines to Contribute
 
-While we welcome any contributions to improve [!DNL Experience Manager] documentation, we do ask that contributions adhere to certain guidelines and standards where possible. Please review the [Guidelines for Contributing to [!DNL Experience Manager] Documentation](guidelines.md) for more information.
+While we welcome any contributions to improve [!DNL Experience Manager] documentation, we do ask that contributions adhere to certain guidelines and standards where possible. Please review the [Guidelines to contribute to [!DNL Experience Manager] Documentation](guidelines.md) for more information.
 
 ## How to Contribute
 
@@ -29,13 +29,13 @@ Which method you choose depends on how comfortable you are editing the documenta
 
 Do you have a suggestion, observation about the current docs, or question the way something is described? Then please create an issue. Issues are also excellent if you have something to contribute, but don't feel comfortable editing the docs or making a pull request yourself.
 
-Issues allow you to easily describe your idea for improvement to the docs and an [!DNL Experience Manager] Docs Team member can review it. Simply click on the **Log an issue** link at the top of the right navigation panel on any page to create an issue.
+Issues allow you to easily describe your idea for improvement to the docs and an [!DNL Experience Manager] doc team member can review it. Simply click on the **Log an issue** link at the top of the right navigation panel on any page to create an issue.
 
 ### Create a Pull Request {#create-a-pull-request}
 
-If you see a problem and know exactly how to fix it, consider creating a pull request. Pull requests allow you to make your own edits to the documentation, which are then reviewed for inclusion by an [!DNL Experience Manager] Docs Team member. Simply click on the **Edit this page** link at the top of the right navigation panel on any page to make your suggested changes and create the pull request.
+If you see a problem and know exactly how to fix it, consider creating a pull request. Pull requests allow you to make your own edits to the documentation, which are then reviewed by an [!DNL Experience Manager] doc team member. Simply click on the **Edit this page** link at the top of the right navigation panel on any page to make your suggested changes and create the pull request.
 
-All pull requests must be accompanied by a signed [contributor license agreement or CLA.](https://opensource.adobe.com/cla.html)  This gives Adobe permission to redistribute your contributions as part of the project. You only need to submit an Adobe CLA one time, so if you have submitted one previously, you are good to go!
+All pull requests must be accompanied by a signed [contributor license agreement or CLA.](https://opensource.adobe.com/cla.html) This gives Adobe permission to redistribute your contributions as part of the project. You only need to submit an Adobe CLA one time, so if you have submitted one previously, you are good to go!
 
 ### Quick Video Introduction
 
@@ -45,10 +45,8 @@ Have a look at the following video for a quick overview of how to create issues 
 
 ### Contributions from Adobe Employees
 
-If you are an Adobe employee and have a contribution, please use the `AdobeDocs` org in the corporate git.
+If you are an Adobe employee and have a contribution, we request that you use the `AdobeDocs` org in the corporate git. You can contribute to this public repository on GitHub.com but contributions are easier to process on the corporate repo. Make sure that any proprietary or unreleased information is only discussed on the corporate repo.
 
-We of course are happy for any contribution and will review your contribution if it is made on the public repository,however pull requests from Adobe employees are easier to process and can be approved faster on the corporate repo. Please make sure that any proprietary information is only discussed on the corporate repo.
-
-## Further Information
+## About Adobe's GitHub authoring platform and Markdown
 
 See the [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) for further details on how to use the GitHub authoring platform.

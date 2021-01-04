@@ -1,20 +1,13 @@
 ---
 title: AEM desktop app Release Notes for version 1.x
 description: Release details, enhancements, new features, compatibility, and download links for AEM desktop app version 1.x.
-uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
-index: y
-internal: n
-snippet: y
 ---
 
-# AEM desktop app v1.x release notes {#aem-desktop-app-release-notes}
+# [!DNL Adobe Experience Manager] desktop app v1.x release notes {#aem-desktop-app-release-notes}
 
 For desktop app v1.x release, the following are the download links and AEM compatibility information.
 
-| Products | Adobe Experience Manager (AEM) desktop app |
+| Products | [!DNL Adobe Experience Manager] desktop app |
 |--- |--- |
 | Version | 1.10 (1.10.0.6 on Mac and 1.10.0.3 on Windows) |
 | Type | Minor release |
@@ -68,7 +61,7 @@ For detailed instructions, see [Install and configure AEM desktop app](install-c
 
 ## Enhancements in the previous versions {#enhancements-in-the-previous-versions}
 
-This release extends and replaces the previous versions of the Experience Manager desktop app, which provided the following key enhancements:
+This release extends and replaces the previous versions of the [!DNL Experience Manager] desktop app, which provided the following key enhancements:
 
 * **Version 1.9/1.9.1**: resumable uploads, improved status window, application icons indicating status of application / connection, pre-fetching of linked assets for InDesign files.
 
@@ -86,7 +79,7 @@ This release extends and replaces the previous versions of the Experience Manage
 
 ### Enhancements available since AEM desktop app 1.9 {#Enhancements-Available-Since-AEM-Desktop-App-19x}
 
-Adobe Experience Manager (AEM) desktop app 1.9.1 was a patch release to addresses a few key customer issues around asset checkout and copying files from network share to a local directory.
+[!DNL Adobe Experience Manager] desktop app 1.9.1 was a patch release to addresses a few key customer issues around asset checkout and copying files from network share to a local directory.
 
 * Assets checked out by one users should not be available for modification for other users (CQ-4246009)
 
@@ -128,7 +121,7 @@ An improved asset status window provides the following information about assets.
 
 * Footer shows total number of files downloaded and average transfer rate.
 
-* If a user chooses to open or edit multiple files from the Experience Manager Assets Web UI, they will be grouped together. For example, myasset.jpeg and 4 more files.
+* If a user chooses to open or edit multiple files from the [!DNL Experience Manager Assets] Web interface, they will be grouped together. For example, myasset.jpeg and 4 more files.
 
 * When downloading InDesign Documents including linked assets that are stored in AEM Assets, the desktop app will download all of the linked Assets first, before opening the [!UICONTROL Adobe InDesign] document and indicate the download of linked assets. For example, 5 of 24.
 

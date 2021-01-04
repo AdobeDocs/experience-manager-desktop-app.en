@@ -1,29 +1,22 @@
 ---
-title: Adobe Experience Manager desktop app release notes
-description: Release details, enhancements, new features, compatibility, and download links for Adobe Experience Manager desktop app.
-uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
-index: y
-internal: n
-snippet: y
+title: [!DNL Adobe Experience Manager] desktop app release notes
+description: Release details, enhancements, new features, compatibility, and download links for [!DNL Adobe Experience Manager] desktop app.
 mini-toc-levels: 1
 ---
 
-# Adobe Experience Manager desktop app release notes {#release-notes-v2}
+# [!DNL Adobe Experience Manager] desktop app release notes {#release-notes-v2}
 
-| Products | Adobe Experience Manager desktop app |
+| Products | [!DNL Adobe Experience Manager] desktop app |
 |--- |--- |
 | App version (Revision) | 2.1 (2.1.0.0) |
 | Supported [!DNL Adobe Experience Manager] versions | [!DNL Experience Manager] as a [!DNL Cloud Service]; [!DNL Experience Manager] 6.5; [!DNL Experience Manager] 6.4; [!DNL Experience Manager] 6.3 (with compatibility package) |
 | Type | Minor release |
-| Release date | Aug 27, 2020 (Mac and Win) |
+| Release date | Dec 17, 2020 (Mac and Win) |
 | Download URLs | [macOS 64-bit](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg); [Windows 64-bit](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe); [Windows 32-bit](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
 
 ## System requirements and prerequisites {#system-requirements-and-prerequisites-v2}
 
-Adobe Experience Manager desktop app is compatible with the following operating systems:
+[!DNL Adobe Experience Manager] desktop app is compatible with the following operating systems:
 
 * Mac OS X 10.14 or newer, with the latest bug fixes.
 
@@ -33,7 +26,7 @@ Adobe Experience Manager desktop app is compatible with the following operating 
 >
 >Windows 7 is no longer supported by the vendor (https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
-The app works with the following Experience Manager versions, whether deployed as a Cloud Service, on Adobe Managed Services (AMS) or on-premise:
+The app works with the following [!DNL Experience Manager] versions, whether deployed as a [!DNL Cloud Service], on Adobe Managed Services (AMS) or on-premise:
 
 * [[!DNL Experience Manager] as a [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html).
 
@@ -46,29 +39,29 @@ The app works with the following Experience Manager versions, whether deployed a
 >[!NOTE]
 >
 >Desktop app support for [!DNL Experience Manager] 6.3 is deprecated. Adobe recommends upgrading to a newer and supported [!DNL Adobe Experience Manager] version.
->[!DNL Experience Manager] 6.3.3.1 or later works with desktop app after installing the [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). No such package is available for Experience Manager 6.3 as no [service packs are planned](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
+>[!DNL Experience Manager] 6.3.3.1 or later works with desktop app after installing the [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). No such package is available for [!DNL Experience Manager] 6.3 as no [service packs are planned](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
 
-The version of the app you plan to install on your local machine requires a specific Adobe Experience Manager server version/additional server-side components (service packs, hot fixes, or feature packs). Contact your Adobe Experience Manager administrator for help.
+The version of the app you plan to install on your local machine requires a specific [!DNL Adobe Experience Manager] server version/additional server-side components (service packs, hot fixes, or feature packs). Contact your [!DNL Experience Manager] administrator for help.
 
 ### Support for different assets and file types {#support-for-file-types}
 
-The application supports assets stored in Adobe Experience Manager that represent binary file for its basic operations. Opening files in the native desktop application relies on the operating system association of the specific file types like PNG or JPG to specific applications like Mac Preview or Adobe Photoshop.
+The application supports assets stored in [!DNL Experience Manager] that represent binary file for its basic operations. Opening files in the native desktop application relies on the operating system association of the specific file types like PNG or JPG to specific applications like Mac Preview or Adobe Photoshop.
 
-A few file types support placing linked assets in the binary. The application pre-downloads the linked assets if the asset is present in the Experience Manager repository when such binary files are opened using the desktop app. Currently supported file types are:
+A few file types support placing linked assets in the binary. The application pre-downloads the linked assets if the asset is present in the [!DNL Experience Manager] repository when such binary files are opened using the desktop app. Currently supported file types are:
 
 * [!DNL Adobe InDesign] files (INDD format)
 * [!DNL Adobe Illustrator] files (AI format)
 * [!DNL Adobe Photoshop] files (PS format)
 
-The feature is supported with Adobe Creative Cloud 2018 and Adobe Creative Cloud 2019 versions of the above application. The app uses a heuristic, best-match approach to map the local desktop paths of linked assets to URLs on the Experience Manager server. It relies on a few assumptions:
+The feature is supported with [!DNL Adobe Creative Cloud] 2018 and [!DNL Adobe Creative Cloud] 2019 versions of the above application. The app uses a heuristic, best-match approach to map the local desktop paths of linked assets to URLs on the [!DNL Experience Manager] server. It relies on a few assumptions:
 
 * Paths to placed files in the native application use a global desktop path (placed from the local network share shown with [!UICONTROL Reveal] option).
 
 * Paths are stored in the file’s XMP record by the native app.
 
-* Experience Manager has extracted the XMP record with the paths to the asset’s metadata record.
+* [!DNL Experience Manager] has extracted the XMP record with the paths to the asset’s metadata record.
 
-* The paths can be matched to assets in Experience Manager, that is, the placed files are also in Experience Manager under a matching path.
+* The paths can be matched to assets in [!DNL Experience Manager], that is, the placed files are also in [!DNL Experience Manager] under a matching path.
 
 ## New features and enhancements {#whats-new-added}
 
@@ -104,27 +97,27 @@ The bug fixes and updates are:
 
 * Allow option to configure `%Temp%` directory to match `%APPDATA%` path. <!-- CQ-4282665 -->
 
-* Allow users to log in on Experience Manager Author via Okta SAML authentication. <!-- CQ-4278134 -->
+* Allow users to log in on [!DNL Experience Manager] Author via Okta SAML authentication. <!-- CQ-4278134 -->
 
 ## Installation instructions {#installation-instructions-v2}
 
-To know how to install and configure the app, see [Install Experience Manager desktop app](install-upgrade.md).
+To know how to install and configure the app, see [Install [!DNL Experience Manager] desktop app](install-upgrade.md).
 
-If you are upgrading from a previous Experience Manager desktop app, you must follow these best practices for transitioning that are listed at [upgrade from previous version](install-upgrade.md#upgrade-from-previous-version).
+If you are upgrading from a previous [!DNL Experience Manager] desktop app, you must follow these best practices for transitioning that are listed at [upgrade from previous version](install-upgrade.md#upgrade-from-previous-version).
 
 ## Important notes about how the app works {#how-app-works}
 
 It is important to understand the following about the application and how it works.
 
-* The application provides full control over operations that require full transfer of asset binaries from and to Experience Manager (open, edit, upload changes, and upload assets).
+* The application provides full control over operations that require full transfer of asset binaries from and to [!DNL Experience Manager] (open, edit, upload changes, and upload assets).
 
   * If you want to work with the asset on desktop, you need to explicitly Open, Edit, or Download to your desktop, either individually, in a folder, or via multi-selection.
 
-  * If you want to get local changes to assets uploaded to Experience Manager, you need to select [!UICONTROL Upload Changes], either individually or via multi-selection.
+  * If you want to get local changes to assets uploaded to [!DNL Experience Manager], you need to select [!UICONTROL Upload Changes], either individually or via multi-selection.
 
-  * The application is not a 'sync client' that synchronizes assets across the desktop and Experience Manager.
+  * The application is not a 'sync client' that synchronizes assets across the desktop and [!DNL Experience Manager].
 
-  * The application does not provide a network share that maps the Experience Manager repository as a virtual folder structure.
+  * The application does not provide a network share that maps the [!DNL Experience Manager] repository as a virtual folder structure.
 
 * The list of assets shown by the application is based on the status of the Assets repository. Any files downloaded locally and then renamed in the local files or cache folder are not displayed or managed by the application.
 
@@ -136,7 +129,7 @@ It is important to understand the following about the application and how it wor
 
 The following diagram illustrates the flow of assets and files from cloud to local file system and vice versa, as initiated by user actions.
 
-![Flow of assets from Experience Manager server to native desktop apps via desktop app](assets/da20_flow_diagram.png)
+![Flow of assets from [!DNL Experience Manager] server to native desktop apps via desktop app](assets/da20_flow_diagram.png)
 
 ## Known issues {#known-issues-v2}
 
@@ -150,13 +143,13 @@ The following diagram illustrates the flow of assets and files from cloud to loc
 
 * After applying and removing the filter to find all locally edited assets, the app does not take users to their search results or folder view that the users started with. The app displays the root folder of the DAM repository.
 
-* At times, when you connect to a URL that doesn’t have Experience Manager server running, the connect screen becomes unresponsive. Exit the application and start it again.
+* At times, when you connect to a URL that doesn’t have [!DNL Experience Manager] server running, the connect screen becomes unresponsive. Exit the application and start it again.
 
 **CRUD (Create, Read, Update, and Delete) issues:**
 
 * Application tries to upload files even with invalid characters, might cause server-side upload failure. <!-- CQ-4273652 -->
 
-* When uploading changes to an asset with comments, the comments are stored with the asset in Experience Manager but are not visible as versioning comments. This issue is resolved in Experience Manager 6.4.5 and Experience Manager 6.5.1. Adobe strongly recommends installing the latest service packs. <!-- CQ-4268990 -->
+* When uploading changes to an asset with comments, the comments are stored with the asset in [!DNL Experience Manager] but are not visible as versioning comments. This issue is resolved in [!DNL Experience Manager] 6.4.5 and [!DNL Experience Manager] 6.5.1. Adobe recommends installing the latest service packs. <!-- CQ-4268990 -->
 
 * Asset transfers cannot be canceled by the user. If you triggered an unintended large transfer, exit the application and start it again. <!-- CQ-4278940 -->
 
@@ -166,8 +159,8 @@ The following diagram illustrates the flow of assets and files from cloud to loc
 
 >[!MORELIKETHIS]
 >
->* [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)
->* [Experience Manager as a Cloud Service Assets documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html)
->* [How to use Experience Manager desktop app](using.md)
+>* [[!DNL Experience Manager] as a [!DNL Cloud Service] documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)
+>* [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html)
+>* [How to use [!DNL Experience Manager] desktop app](using.md)
 >* [Install and upgrade desktop app](install-upgrade.md)
 >* [Best practices and troubleshooting tips](troubleshoot.md)

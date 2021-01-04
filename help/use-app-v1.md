@@ -1,7 +1,6 @@
 ---
 title: Use [!DNL Experience Manager] desktop app version 1.x.
 description: Learn how to use Adobe Experience Manager desktop app version 1.x and optimize your work with assets on desktop.
-contentOwner: AG
 ---
 
 # Use [!DNL Experience Manager] desktop app v1.x {#use-aem-desktop-app-v1x}
