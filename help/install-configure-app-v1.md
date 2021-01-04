@@ -1,13 +1,6 @@
 ---
 title: Install and configure [!DNL Experience Manager] desktop app version 1.x
 description: Install and configure [!DNL Experience Manager] desktop app version 1.x to work with [!DNL Assets] servers and map the assets to mount as a drive on your desktop.
-uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS,SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: f6365302-1690-4719-9b8c-035719422740
-index: y
-internal: n
-snippet: y
 ---
 
 # Install and configure [!DNL Experience Manager] desktop app v1.x {#install-and-configure-aem-desktop-app}

@@ -1,8 +1,8 @@
-# Guidelines for Contributing to Adobe Experience Manager Documentation
+# Guidelines for Contributing to [!DNL Adobe Experience Manager] Documentation
 
 ## Documentation Philosophy
 
-We know that Adobe Experience Manager users are working in highly competitive environments, striving to create digital experiences that will set them apart from their competitors. Therefore it is vital that when Adobe delivers advanced new tools in [!DNL Experience Manager], that these tools are complemented with accurate and clear documentation to allow the customer to immediately leverage their [!DNL Experience Manager] investment and maximize ROI.
+We know that [!DNL Adobe Experience Manager] users are working in highly competitive environments, striving to create digital experiences that will set them apart from their competitors. Therefore it is vital that when Adobe delivers advanced new tools in [!DNL Experience Manager], that these tools are complemented with accurate and clear documentation to allow the customer to immediately leverage their [!DNL Experience Manager] investment and maximize ROI.
 
 The goal of the [!DNL Experience Manager] documentation is to put documentation into the hands of [!DNL Experience Manager] users as soon as possible. Therefore we prioritize accurate, usable documentation and strive to continually update and improve it.
 
@@ -74,12 +74,12 @@ Screen shots are to be used judiciously and only when a textual description is i
 
 Markers or other annotations in screenshots (like red frames, arrows or text) should not be used. This way the screenshots are easier to re-use or replicate in localized versions of the documentation.
 
-### Version-Specific References
+### Version-specific References
 
 Try to avoid any direct references to a specific version throughout the documentation content whenever possible. This makes the documentation more flexible and extensible for future versions.
 
 ### Use of Day, [!DNL Experience Manager], CQ, CRX
 
-The product should always be referred to by its full name **Adobe Experience Manager** for the first time in an article and can thereafter be referred to as **Experience Manager**.
+Refer the product by its full name **Adobe Experience Manager** for the first usage in an article and then refer to it as **Experience Manager**.
 
-Day, Day Software, CQ, and CRX should not be used except where unavoidable such as in class names or referring to the history of [!DNL Experience Manager].
+Do not use Day, Day Software, CQ, and CRX terms, except where unavoidable such as in class names or referring to the history of [!DNL Experience Manager].

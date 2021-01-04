@@ -1,20 +1,13 @@
 ---
-title: Troubleshoot AEM desktop app version 1.x
-description: Troubleshoot AEM desktop app version 1.x to resolve the occasional issues related to installation, upgrade, configuration, and so on.
-uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
-index: y
-internal: n
-snippet: y
+title: Troubleshoot [!DNL Adobe Experience Manager] desktop app version 1.x
+description: Troubleshoot [!DNL Adobe Experience Manager] desktop app version 1.x to resolve the occasional issues related to installation, upgrade, and configuration.
 ---
 
-# Troubleshoot AEM desktop app v1.x {#troubleshoot-aem-desktop-app}
+# Troubleshoot [!DNL Adobe Experience Manager] desktop app v1.x {#troubleshoot-aem-desktop-app}
 
 Troubleshoot AEM desktop app to resolve the occasional issues related to installation, upgrade, configuration, and so on.
 
-Adobe Experience Manager (AEM) desktop app includes utilities that assist you in mapping the AEM Assets repository as a network share on desktop (SMB share on Mac OS). Network share is an operating system technology that enables remote sources to be treated as if they were part of a computer's local file system. In the case of desktop app, a remote AEM instance's digital asset management (DAM) repository structure is targeted as the remote file source. The following diagram describes the desktop app topology:
+[!DNL Adobe Experience Manager] desktop app includes utilities that assist you in mapping the AEM Assets repository as a network share on desktop (SMB share on Mac OS). Network share is an operating system technology that enables remote sources to be treated as if they were part of a computer's local file system. In the case of desktop app, a remote AEM instance's digital asset management (DAM) repository structure is targeted as the remote file source. The following diagram describes the desktop app topology:
 
 ![desktop app diagram](assets/aem-desktopapp-architecture.png)
 
@@ -63,7 +56,7 @@ AEM Desktop is not suitable for performing intensive file system manipulation, i
 
 Due to limitations in the operating system, Windows has a file size limitation of 4,294,967,295 bytes (approximately 4.29 GB). It is due to a registry setting that defines how large a file on a network share can be. The value of the registry setting is a DWORD with a maximum size that equals the referenced number.
 
-Experience Manager desktop app does not have a configurable timeout value that disconnects the connection between Experience Manager server and desktop app after a fixed time interval. When uploading large assets, if the connection gets timeout after a while, the app retries to upload the asset a few times by increasing the upload timeout. There is no recommended way to change the default timeout settings.
+[!DNL Experience Manager] desktop app does not have a configurable timeout value that disconnects the connection between [!DNL Experience Manager] server and desktop app after a fixed time interval. When uploading large assets, if the connection gets timeout after a while, the app retries to upload the asset a few times by increasing the upload timeout. There is no recommended way to change the default timeout settings.
 
 ## Caching and communication with AEM {#caching-and-communication-with-aem}
 
