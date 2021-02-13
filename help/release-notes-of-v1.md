@@ -37,7 +37,7 @@ The version of AEM desktop app you are planning to install on your local machine
 
 See the [detailed compatibility matrix](#compatibilitymatrix) at the end of this document to evaluate the prerequisites for your setup.
 
-## What's New in AEM desktop app 1.10 {#what-s-new-in-aem-desktop-app}
+## What is new in desktop app v1.10 {#what-s-new-in-aem-desktop-app}
 
 AEM desktop app 1.10 focuses on improving user experience around large uploads, information about the background operations, and optimized experience when opening assets with linked files (like InDesign).
 

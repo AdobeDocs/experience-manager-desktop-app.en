@@ -1,6 +1,6 @@
 ---
-title: Troubleshoot [!DNL Adobe Experience Manager] desktop app version 1.x
-description: Troubleshoot [!DNL Adobe Experience Manager] desktop app version 1.x to resolve the occasional issues related to installation, upgrade, and configuration.
+title: Troubleshoot desktop app version 1.10.
+description: Troubleshoot [!DNL Adobe Experience Manager] desktop app version 1.10 to resolve the occasional issues related to installation, upgrade, and configuration.
 ---
 
 # Troubleshoot [!DNL Adobe Experience Manager] desktop app v1.x {#troubleshoot-aem-desktop-app}

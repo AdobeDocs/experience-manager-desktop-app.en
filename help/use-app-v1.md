@@ -1,9 +1,9 @@
 ---
-title: Use [!DNL Experience Manager] desktop app version 1.x.
-description: Learn how to use Adobe Experience Manager desktop app version 1.x and optimize your work with assets on desktop.
+title: Use [!DNL Experience Manager] desktop app version 1.10.
+description: Learn how to use Adobe Experience Manager desktop app version 1.10 and optimize your work with assets on desktop.
 ---
 
-# Use [!DNL Experience Manager] desktop app v1.x {#use-aem-desktop-app-v1x}
+# Use [!DNL Experience Manager] desktop app v1.10 {#use-aem-desktop-app-v1x}
 
 Using the App, the assets within [!DNL Experience Manager] are easily accessible on your local desktop and can be used in any desktop applications. Assets can be easily revealed in Mac Finder or Windows Explorer, opened in desktop applications, and changed locally - the changes are saved back to [!DNL Experience Manager] with a new version created in the repository.
 
@@ -20,7 +20,7 @@ For the various recommended dos and don'ts, see the [best practices for using ap
 
 >[!NOTE]
 >
->[!DNL Experience Manager] desktop app was introduced in [!DNL Experience Manager] 6.1 release and was called [!DNL Experience Manager Assets Companion App].
+>The desktop app was introduced in [!DNL Experience Manager] 6.1 release and was called [!DNL Experience Manager Assets Companion App].
 
 ## [!DNL Experience Manager] desktop app touch-points in the creative workflow {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
