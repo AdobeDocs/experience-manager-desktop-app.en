@@ -1,5 +1,5 @@
 ---
-title: Introduction to [!DNL Adobe Experience Manager] desktop app
+title: Introduction to [!DNL Experience Manager] desktop app
 description: Learn how to use [!DNL Adobe Experience Manager] desktop app to optimize the asset management workflows for creative users when using [!DNL Adobe Experience Manager Assets] directly from their desktop.
 ---
 
@@ -13,20 +13,20 @@ Such an integration allows various roles in the organization to manage the asset
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Manager] desktop app was introduced in [!DNL Adobe Experience Manager] 6.1 release and was previously called [!DNL Adobe Experience Manager Assets] Companion App. For help of app version 1.x, see the TOC in the left sidebar. Adobe recommends upgrading to the latest version 2.
+>The app was introduced in [!DNL Adobe Experience Manager] 6.1 release and was previously called [!DNL Adobe Experience Manager Assets] Companion App. For help of app version 1.x, see the table of contents in the left sidebar. Adobe recommends upgrading to the latest version.
 
 The desktop app documentation contains information for the following roles and use cases.
 
 | Information required | Help content |
 |--- |--- |
-| Want a quick glimpse of new features and enhancements in the latest version? | [What's New in the App](#whats-new-v2) |
-| Want to know the prerequisites and technical specifications? Want download links? | [Release Notes](release-notes.md) |
+| Want a quick glimpse of new features and enhancements in the latest version? | [What is new in the app](#whats-new-v2) |
+| Want to know the prerequisites and technical specifications? Want download links? | [Release notes](release-notes.md) |
 | Not new to desktop app? Upgrading and want to transition smoothly? | [Upgrade from previous version](install-upgrade.md#upgrade-from-previous-version) |
 | Get up and running. Want to tweak default preferences? | [Install and configure the app](install-upgrade.md) |
 | Learn how to use to browse, discover, edit, upload, resolve conflicts, do bulk operations, and so on. | [Use [!DNL Experience Manager] desktop app](using.md) |
 | Ran into an issue? Need help to troubleshoot? | [Troubleshoot the [!DNL Experience Manager] desktop app](troubleshoot.md) |
 
-## What's New in the App {#whats-new-v2}
+## What is new in the app {#whats-new-v2}
 
 Version 2.0 of the app is created from grounds-up to provide many improvements over the previous versions. The new app is more user-friendly and offers a dedicated desktop experience with a new application UI. Users can discover assets via search or browsing, open, edit, and upload changes, as well as upload new assets – without requiring the user to use the [!DNL Experience Manager] interface. This version also supports opening files from the [!DNL Experience Manager] interface.
 

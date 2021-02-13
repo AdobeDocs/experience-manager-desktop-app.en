@@ -1,9 +1,9 @@
 ---
-title: Install and configure [!DNL Experience Manager] desktop app version 1.x
-description: Install and configure [!DNL Experience Manager] desktop app version 1.x to work with [!DNL Assets] servers and map the assets to mount as a drive on your desktop.
+title: Install and configure desktop app v1.10
+description: Install and configure [!DNL Experience Manager] desktop app version 1.10 to work with [!DNL Assets] servers and map the assets to mount as a drive on your desktop.
 ---
 
-# Install and configure [!DNL Experience Manager] desktop app v1.x {#install-and-configure-aem-desktop-app}
+# Install and configure [!DNL Experience Manager] desktop app v1.10 {#install-and-configure-aem-desktop-app}
 
 Using the [!DNL Experience Manager] desktop app, the assets within [!DNL Experience Manager] are easily accessible on your local desktop and can be used in any desktop applications. Assets can be easily revealed in Mac Finder or Windows Explorer, opened in desktop applications, and changed locally – the changes are saved back to [!DNL Experience Manager] when you upload and a new version is created in the repository.
 

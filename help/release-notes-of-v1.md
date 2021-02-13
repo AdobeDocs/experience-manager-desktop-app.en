@@ -1,9 +1,9 @@
 ---
-title: AEM desktop app Release Notes for version 1.x
-description: Release details, enhancements, new features, compatibility, and download links for AEM desktop app version 1.x.
+title: Release notes of desktop app v1.10
+description: Release details, enhancements, new features, compatibility, and download links for AEM desktop app version 1.10.
 ---
 
-# [!DNL Adobe Experience Manager] desktop app v1.x release notes {#aem-desktop-app-release-notes}
+# [!DNL Adobe Experience Manager] desktop app v1.10 release notes {#aem-desktop-app-release-notes}
 
 For desktop app v1.x release, the following are the download links and AEM compatibility information.
 
@@ -37,7 +37,7 @@ The version of AEM desktop app you are planning to install on your local machine
 
 See the [detailed compatibility matrix](#compatibilitymatrix) at the end of this document to evaluate the prerequisites for your setup.
 
-## What's New in AEM desktop app 1.10 {#what-s-new-in-aem-desktop-app}
+## What is new in desktop app v1.10 {#what-s-new-in-aem-desktop-app}
 
 AEM desktop app 1.10 focuses on improving user experience around large uploads, information about the background operations, and optimized experience when opening assets with linked files (like InDesign).
 
