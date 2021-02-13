@@ -26,7 +26,7 @@ The desktop app documentation contains information for the following roles and u
 | Learn how to use to browse, discover, edit, upload, resolve conflicts, do bulk operations, and so on. | [Use [!DNL Experience Manager] desktop app](using.md) |
 | Ran into an issue? Need help to troubleshoot? | [Troubleshoot the [!DNL Experience Manager] desktop app](troubleshoot.md) |
 
-## What's New in the App {#whats-new-v2}
+## What is new in the app {#whats-new-v2}
 
 Version 2.0 of the app is created from grounds-up to provide many improvements over the previous versions. The new app is more user-friendly and offers a dedicated desktop experience with a new application UI. Users can discover assets via search or browsing, open, edit, and upload changes, as well as upload new assets – without requiring the user to use the [!DNL Experience Manager] interface. This version also supports opening files from the [!DNL Experience Manager] interface.
 
