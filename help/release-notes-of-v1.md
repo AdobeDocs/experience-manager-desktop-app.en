@@ -53,7 +53,7 @@ AEM desktop app 1.10 focuses on improving user experience around large uploads, 
 
 **Notifications for Update Conflicts**. When the application detects a conflict when trying to update an asset, it will show a notification, so that the user can review that without the need to monitor the status window. When the application starts, it will check for all the conflicts, so that the user can resolve them.
 
-**Better Handling of Connection Losses**. Bulk uploads will be paused if there is a connection loss, and the user will be able to resume later. A Retry button is available to retry a failed upload of an individual file.
+**Better Handling of Connection Losses**. Bulk uploads will be paused if there is a connection loss, and the user will be able to resume later. A [!UICONTROL Retry] option is available to retry a failed upload of an individual file.
 
 ## Installation instructions {#installation-instructions}
 
@@ -410,7 +410,7 @@ Since the /Volumes folder no longer requires administrative rights, this change 
 * Windows:
   * Files with Alternate Data Streams (ADS) are only fully supported on NTFS. Copying such files to the WebDAV share provided by the desktop app will result in a caution dialog warning the user that the file has properties that can't be copied to the new location. This is usually fine since the properties are only relevant to a particular application on the user's desktop and have nothing to do with the actual file contents (CQ-103770) (Win)
   * desktop app on Windows needs to be installed by the user that will be using it (CQ-4216389) (win)
-  * The app can crash when clicking the Retry button on a failed upload under certain circumstances after having resumed batch upload when disconnected (CQ-4251884) (Win)
+  * The app can crash when selecting the [!UICONTROL Retry] option on a failed upload under certain circumstances after having resumed batch upload when disconnected (CQ-4251884) (Win)
 
 ## Helpful resources {#helpful-resources}
 

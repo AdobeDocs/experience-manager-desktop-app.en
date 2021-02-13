@@ -121,7 +121,7 @@ To understand best practices around AEM Assets network configuration, please ref
 
 >[!NOTE]
 >
->To turn off icon previews, in Finder go to View, select View Options, and then un-check the "Show icon preview" option. This only works for the current folder - to make it a default, click the "Use as default" button in the same window.
+>To turn off icon previews, in Finder go to [!UICONTROL View], select [!UICONTROL View Options], and then un-check the [!UICONTROL Show icon preview] option. This only works for the current folder - to make it a default, click the [!UICONTROL Use as default] option in the same dialog.
 
 ### Optimizing server performance {#optimizing-server-performance}
 
