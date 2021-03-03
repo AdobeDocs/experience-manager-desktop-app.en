@@ -101,11 +101,15 @@ To change preferences, click ![More options icon](assets/do-not-localize/more_op
 
 * **[!UICONTROL Automatically download linked assets]**: The assets that are placed in the supported native Creative Cloud apps are fetched automatically if you download the original file.
 
-* **[!UICONTROL Maximum number of downloads]**: When downloading assets for the first time (via Reveal, Open, Edit, Download, or similar option), the assets are downloaded only if the batch contains less than this number. Default value is 50. Do not change if you are unsure. Increasing the value can lead to longer wait times and decreasing the value may not allow you to download the necessary assets or folders in one go.
+* **[!UICONTROL Maximum number of downloads]**: ![caution icon](assets/do-not-localize/caution-icon.png) Change with caution. When downloading assets for the first time (via Reveal, Open, Edit, Download, or similar option), the assets are downloaded only if the batch contains less than this number. Default value is 50. Do not change if you are unsure. Increasing the value can lead to longer wait times and decreasing the value may not allow you to download the necessary assets or folders in one go.
 
-* **[!UICONTROL Upload Acceleration]**: When uploading assets, the application can use concurrent uploads to improve upload speed. You can increase the concurrency of the upload by moving the slider to the right. The slider on the far left-hand side means no concurrency (single-threaded upload), the middle position corresponds to 10 concurrent threads, and the maximum limit on far right-hand side corresponds to 20 concurrent threads. A higher concurrency limit requires more resource consumption of the local machine's processor.
+* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**: ![caution icon](assets/do-not-localize/caution-icon.png) Change with caution. This setting lets the app emulate v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respects spaces and casing of the folder names provided by the user. However, in v2.1 of the app, the extra spaces in the folder names are converted to dashes. For example, uploading `New Folder` or `new   folder` creates the same node in the repository if the option is not selected and the default behavior in v2.1 is retained. If this option is selected, then different nodes are created in the repository for the above two folders and it matches the behavior of v1.10 app.
 
-To update the unavailable preferences, log out of the [!DNL Experience Manager] server. After updating the preferences, click ![Save preferences](assets/do-not-localize/save_preferences_da2.png) to save the changes.
+  The default behavior of v2.1 continues to remain same, that is, replace multiple spaces in folder names with dashes in the repository node name and convert to lowercase node names.
+
+* **[!UICONTROL Upload Acceleration]**: ![caution icon](assets/do-not-localize/caution-icon.png) Change with caution. When uploading assets, the application can use concurrent uploads to improve upload speed. You can increase the concurrency of the upload by moving the slider to the right. The slider on the far left-hand side means no concurrency (single-threaded upload), the middle position corresponds to 10 concurrent threads, and the maximum limit on far right-hand side corresponds to 20 concurrent threads. A higher concurrency limit is more resource-intensive.
+
+To update the unavailable preferences, log out of the [!DNL Experience Manager] server and then update. After updating the preferences, click ![Save preferences](assets/do-not-localize/save_preferences_da2.png).
 
 ![Desktop app preferences and settings](assets/preferences_da2.png)
 

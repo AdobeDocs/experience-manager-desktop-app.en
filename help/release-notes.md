@@ -6,45 +6,40 @@ mini-toc-levels: 1
 
 # [!DNL Adobe Experience Manager] desktop app release notes {#release-notes-v2}
 
-| Products | [!DNL Adobe Experience Manager] desktop app |
-|--- |--- |
-| App version (Revision) | 2.1 (2.1.0.0) |
-| Supported [!DNL Adobe Experience Manager] versions | [!DNL Experience Manager] as a [!DNL Cloud Service]; [!DNL Experience Manager] 6.5; [!DNL Experience Manager] 6.4; [!DNL Experience Manager] 6.3 (with compatibility package) |
-| Type | Minor release |
-| Release date | Dec 17, 2020 (Mac and Win) |
-| Download URLs for AEM 6.x | [macOS 64-bit](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg); [Windows 64-bit](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe); [Windows 32-bit](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
-| Download URLs for AEM as a [!DNL Cloud Service] | [macOS 64-bit](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg); [Windows 64-bit](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe); [Windows 32-bit](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
+<!-- TBD: Update 6 links and 1 date below. -->
 
-## System requirements and prerequisites {#system-requirements-and-prerequisites-v2}
+The release information for the latest desktop app version 2.1 (2.1.1.0) is below. The release date is Mar 5, 2021. It is a minor release with an enhancement.
 
-[!DNL Adobe Experience Manager] desktop app is compatible with the following operating systems:
+The supported [!DNL Experience Manager] versions are:
 
-* Mac OS X 10.14 or newer, with the latest bug fixes.
+* [!DNL Experience Manager] as a [!DNL Cloud Service]. See [release notes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html).
+* [!DNL Experience Manager] 6.5.0 or newer, on Adobe Managed Services (AMS) or On-Premise. See [service pack release notes](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html).
+* [!DNL Experience Manager] 6.4.4 or newer, on Adobe Managed Services (AMS) or On-Premise. See [service pack release notes](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html).
+* [!DNL Experience Manager] 6.4.0 - 6.4.3 with the [compatibility package](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) installed, on Adobe Managed Services (AMS) or On-Premise.
+* [!DNL Experience Manager] 6.3 (with compatibility package)
+* [!DNL Experience Manager] 6.3.3.1 or newer with the [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) installed. Desktop app is not supported for [!DNL Experience Manager] 6.3.3.0 or previous versions.
 
+[!DNL Adobe Experience Manager] desktop app is available for the following operating systems:
+
+* macOS X 10.14 or newer, with the latest bug fixes.
 * Windows 10 with the latest service packs and bug fixes.
+
+The download URLs for supported OS are:
+
+| Operating system | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
+|---|---|---|
+| macOS 64-bit | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg) |
+| Windows 64-bit | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe) |
+| Windows 32-bit | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
 
 >[!NOTE]
 >
 >Windows 7 is no longer supported. See [the article about EOL of Windows 7](https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
-The app works with the following [!DNL Experience Manager] versions, whether deployed as a [!DNL Cloud Service], on Adobe Managed Services (AMS) or on-premise:
+<!-- The version of the app you plan to install on your local machine requires a specific [!DNL Adobe Experience Manager] server version/additional server-side components (service packs, hot fixes, or feature packs). Contact your [!DNL Experience Manager] administrator for help.
+-->
 
-* [[!DNL Experience Manager] as a [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html).
-
-* [[!DNL Experience Manager] 6.5.0](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html) or newer.
-
-* [[!DNL Experience Manager] 6.4.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) or newer.
-
-* [!DNL Experience Manager] 6.4.0 - 6.4.3 with [compatibility package](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support).
-
->[!NOTE]
->
->Desktop app support for [!DNL Experience Manager] 6.3 is deprecated. Adobe recommends upgrading to a newer and supported [!DNL Adobe Experience Manager] version.
->[!DNL Experience Manager] 6.3.3.1 or later works with desktop app after installing the [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). No such package is available for [!DNL Experience Manager] 6.3 as no [service packs are planned](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap.html).
-
-The version of the app you plan to install on your local machine requires a specific [!DNL Adobe Experience Manager] server version/additional server-side components (service packs, hot fixes, or feature packs). Contact your [!DNL Experience Manager] administrator for help.
-
-### Support for different assets and file types {#support-for-file-types}
+## Support for different assets and file types {#support-for-file-types}
 
 The application supports assets stored in [!DNL Experience Manager] that represent binary file for its basic operations. Opening files in the native desktop application relies on the operating system association of the specific file types like PNG or JPG to specific applications like Mac Preview or Adobe Photoshop.
 
@@ -64,27 +59,31 @@ The feature is supported with [!DNL Adobe Creative Cloud] 2018 and [!DNL Adobe C
 
 * The paths can be matched to assets in [!DNL Experience Manager], that is, the placed files are also in [!DNL Experience Manager] under a matching path.
 
-## New features and enhancements {#whats-new-added}
+## New features, enhancements, and bug fixes {#what-is-new}
 
 To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
 
-**Updates in app v2.1.0.0**
+**Update in app v2.1.1.0**
 
-* To upload assets, users can now drag the files or folders on the application's interface, directly from Windows Explorer or Mac Finder. This works in addition to the upload option previously available in the application.
+* An advanced setting lets the app emulate v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respects spaces and casing of the folder names provided by the user. The default behavior of v2.1 continues to remain same, that is, replace multiple spaces in folder names with a hyphen in the repository node name and convert to lowercase node names. See [the app preferences](/help/install-upgrade.md#set-preferences).
 
-**Updates in app v2.0.3**
+**Update in app v2.1.0.0**
+
+* To upload assets, users can now drag the files or folders on the application's interface, directly from Windows Explorer or Mac Finder. This works in addition to the upload option previously available in the application. <!-- CQ-4309527 -->
+
+**Update in app v2.0.3**
 
 The bug fixed in the current version is:
 
-* Fixed the login issue faced by Windows users trying to access the DAM repository on [!DNL Adobe Experience Manager] 6.5.5.0 instance using the app.
+* Fixed the login issue for app users on Windows who try to access the DAM repository on [!DNL Adobe Experience Manager] 6.5.5.0.
 
 **Updates in app v2.0.2**
 
 The bug fixes and updates are:
 
-* To improve upload performance, increase the upload acceleration in [!UICONTROL Preferences]. When this setting is turned on, the app uses more local CPU threads and is more resource-intensive.
+* Upload acceleration setting now made available to boost the upload performance. When this setting is turned on, the app uploads faster by using more local CPU threads and is more resource-intensive.
 
-* Fixed issue with asset uploads when filenames or paths contain certain GB18030 characters. <!-- CQ-4283494 -->
+* Asset uploads when filenames or paths containing certain GB18030 characters is fixed. <!-- CQ-4283494 -->
 
 * Sort by relevance option is available after switching to another sort type in the search results. <!-- CQ-4286874 -->
 
@@ -112,7 +111,7 @@ It is important to understand the following about the application and how it wor
 
 * The application provides full control over operations that require full transfer of asset binaries from and to [!DNL Experience Manager] (open, edit, upload changes, and upload assets).
 
-  * If you want to work with the asset on desktop, you need to explicitly Open, Edit, or Download to your desktop, either individually, in a folder, or via multi-selection.
+  * If you want to work with the asset on desktop, you must explicitly Open, Edit, or Download to your desktop, either individually, in a folder, or via multi-selection.
 
   * If you want to get local changes to assets uploaded to [!DNL Experience Manager], you need to select [!UICONTROL Upload Changes], either individually or via multi-selection.
 
@@ -128,7 +127,7 @@ It is important to understand the following about the application and how it wor
 
 * SMB (Mac) /WebDAV (Win) local network share is used when an Adobe Creative Cloud app reads the asset files linked/placed in a native file of the Creative Cloud app.
 
-The following diagram illustrates the flow of assets and files from cloud to local file system and vice versa, as initiated by user actions.
+The following diagram illustrates the flow of assets and files from cloud to local file system and the opposite way, as initiated by user actions.
 
 ![Flow of assets from [!DNL Experience Manager] server to native desktop apps via desktop app](assets/da20_flow_diagram.png)
 
@@ -136,7 +135,7 @@ The following diagram illustrates the flow of assets and files from cloud to loc
 
 **User interface issues:**
 
-* At times, the interface of the desktop app might become blank. Right-click and click [!UICONTROL Refresh] to re-load the application. After such a refresh, you start at the root of the DAM repository. Updates to or statuses of your assets are retained. <!-- CQ-4270267 -->
+* At times, the interface of the desktop app might become blank. Right-click and click [!UICONTROL Refresh] to reload the application. After such a refresh, you start at the root of the DAM repository. Updates to or statuses of your assets are retained. <!-- CQ-4270267 -->
 
 * Difficult to navigate folders/search results without a track pad or mouse pointer. The scroll-bar might not appear with mouse devices without mouse wheel. <!-- CQ-4269947 -->
 
