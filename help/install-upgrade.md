@@ -15,7 +15,7 @@ Such an integration allows various roles in the organization to,
 
 To use [!DNL Experience Manager] desktop app,
 
-* Ensure that your [!DNL Experience Manager] version is supported by [!DNL Experience Manager] desktop app. See the [system requirements](release-notes.md#system-requirements-and-prerequisites-v2) below.
+* Ensure that your [!DNL Experience Manager] version is supported by [!DNL Experience Manager] desktop app. See the [system requirements](release-notes.md).
 
 * Download and install the application. See [install desktop app](#install-v2) below.
 
