@@ -82,7 +82,7 @@ Every operation is not cached locally. The following are transmitted to the AEM 
 
 ## Individual operations {#individual-operations}
 
-When troubleshooting sub-optimized performance for individual users, first review [Limitations](https://helpx.adobe.com/experience-manager/desktop-app/troubleshooting-desktop-app.html#limitations). The subsequent sections include suggestions to improve performance for individual users.
+When troubleshooting sub-optimized performance for the individual users, first review [the app limitations](#limitations). The subsequent sections include suggestions to improve performance for the individual users.
 
 ## Bandwidth recommendations {#bandwidth-recommendations}
 
@@ -92,9 +92,12 @@ Adobe recommends that an individual user's upload speed to be close to 10 Mbps. 
 
 ## Windows-specific configurations {#windows-specific-configurations}
 
-If you run AEM on Windows, you can configure Windows to enhance the performance of the WebDAV client. For more information, go to [https://support.microsoft.com/en-us/kb/2445570](https://support.microsoft.com/en-us/kb/2445570).
+If you use Experience Manager on Windows, you can configure Windows to enhance the performance of the WebDAV client. For more information, go to [https://support.microsoft.com/en-us/kb/2445570](https://support.microsoft.com/en-us/kb/2445570).
 
 On Windows 7, modifying IE settings can improve the performance of WebDAV. For details, see how to [fix slow WebDAV performance in Windows 7](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/).
+
+<!-- TBD: The above performance tip is for Windows 7 which is not supported by the app anymore. Remove it later.
+-->
 
 ## Concurrent operations {#concurrent-operations}
 

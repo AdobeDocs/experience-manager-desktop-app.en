@@ -9,7 +9,7 @@ solution-title: AEM Assets
 solution-hub-url: https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html
 getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html
 tutorials-title: AEM Tutorials
-tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-tutorials.html
+tutorials-url: https://experienceleague.adobe.com/docs/experience-manager-tutorials.html
 ---
 
 # Adobe desktop app Guide {#using}

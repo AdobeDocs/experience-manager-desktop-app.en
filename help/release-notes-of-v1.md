@@ -29,7 +29,7 @@ For desktop app v1.x release, the following are the download links and AEM compa
 
 >[!NOTE]
 >
->Windows 7 is no longer supported by the vendor (https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+>Windows 7 is no longer supported. See [the article about EOL of Windows 7](https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 Adobe strongly recommends using the latest version of AEM desktop app to avail the latest functionality, the most recent bug fixes, and the best possible performance.
 
@@ -210,7 +210,7 @@ AEM desktop app 1.8.1 fast-follow release added improvements when opening multip
 
 ### Enhancements Available Since AEM desktop app 1.6 {#Enhancements-Available-Since-AEM-Desktop-App-16}
 
-* Documentation: New [Best practices for v1.x app](https://helpx.adobe.com/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html) documentation.
+* Documentation: New [Best practices for v1.x app](/help/best-practices-for-v1.md) documentation.
 
 * Improved login process to AEM:
 
@@ -414,7 +414,7 @@ Since the /Volumes folder no longer requires administrative rights, this change 
 
 ## Helpful resources {#helpful-resources}
 
-* [AEM Documentation](https://helpx.adobe.com/support/experience-manager/6-4.html)
+* [AEM Documentation](https://experienceleague.adobe.com/docs/)
 * [Use AEM desktop app v1.x](use-app-v1.md)
 * [AEM desktop app v1.x best practices](best-practices-for-v1.md)
 

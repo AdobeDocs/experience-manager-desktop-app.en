@@ -25,7 +25,7 @@ mini-toc-levels: 1
 
 >[!NOTE]
 >
->Windows 7 is no longer supported by the vendor (https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+>Windows 7 is no longer supported. See [the article about EOL of Windows 7](https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 The app works with the following [!DNL Experience Manager] versions, whether deployed as a [!DNL Cloud Service], on Adobe Managed Services (AMS) or on-premise:
 
@@ -40,7 +40,7 @@ The app works with the following [!DNL Experience Manager] versions, whether dep
 >[!NOTE]
 >
 >Desktop app support for [!DNL Experience Manager] 6.3 is deprecated. Adobe recommends upgrading to a newer and supported [!DNL Adobe Experience Manager] version.
->[!DNL Experience Manager] 6.3.3.1 or later works with desktop app after installing the [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). No such package is available for [!DNL Experience Manager] 6.3 as no [service packs are planned](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
+>[!DNL Experience Manager] 6.3.3.1 or later works with desktop app after installing the [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). No such package is available for [!DNL Experience Manager] 6.3 as no [service packs are planned](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap.html).
 
 The version of the app you plan to install on your local machine requires a specific [!DNL Adobe Experience Manager] server version/additional server-side components (service packs, hot fixes, or feature packs). Contact your [!DNL Experience Manager] administrator for help.
 
