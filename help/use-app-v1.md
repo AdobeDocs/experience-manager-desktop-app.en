@@ -51,7 +51,7 @@ To use [!DNL Experience Manager] desktop app, ensure that your [!DNL Experience 
 
 Detailed configuration can be necessary depending on your network and system preferences. See [Install and configure [!DNL Experience Manager] desktop app](install-configure-app-v1.md) for more details.
 
-1. Go to the [[!DNL Experience Manager] desktop app download page](https://helpx.adobe.com/experience-manager/kb/download-companion-app.html) and download the appropriate binary for your operating system.
+1. Go to the [[!DNL Experience Manager] desktop app v1.10 download page](/help/release-notes-of-v1.md) and download the appropriate binary for your operating system.
 1. Launch the downloaded installation file and follow the on-screen instructions to install the app.
 
    >[!NOTE]
@@ -116,6 +116,9 @@ For Adobe InDesign (INDD) files, select **[!UICONTROL Open]** from the context m
 >[!NOTE]
 >
 >On Windows, the [default Windows 7 setting](https://support.microsoft.com/en-us/kb/2668751) prevents [!DNL Experience Manager] desktop app from handling assets that are larger than 50 MB.
+
+<!-- TBD: The above note is for Windows 7 which is not supported by the app anymore. Remove it later.
+-->
 
 >[!NOTE]
 >
