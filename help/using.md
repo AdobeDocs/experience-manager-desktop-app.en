@@ -286,7 +286,7 @@ When you use [!DNL Experience Manager] desktop app to open files with linked ass
 >
 >The desktop app can map to any drive on Windows. However, for smooth operations, do not change the default drive letter. If users of the same organization use different drive letters, they cannot see the assets placed by others. The placed assets are not fetched as the path changes. The placed assets continue to remain placed in the binary file (say INDD) and are not removed.
 
-To know the limitations of this workflow, see the [System requirements and supported versions](release-notes.md#system-requirements-and-prerequisites-v2).
+To know the limitations of this workflow, see the [system requirements and supported versions](release-notes.md).
 
 To try this workflow with an image asset and InDesign, follow these steps:
 
