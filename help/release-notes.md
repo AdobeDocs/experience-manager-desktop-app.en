@@ -6,8 +6,6 @@ mini-toc-levels: 1
 
 # [!DNL Adobe Experience Manager] desktop app release notes {#release-notes-v2}
 
-<!-- TBD: Update 6 links and 1 date below. -->
-
 The release information for the latest desktop app version 2.1 (2.1.1.0) is below. The release date is Mar 5, 2021. It is a minor release with an enhancement.
 
 The supported [!DNL Experience Manager] versions are:
