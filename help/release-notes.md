@@ -8,7 +8,7 @@ mini-toc-levels: 1
 
 The release information for the latest desktop app version 2.1 (2.1.1.0) is below. The release date is Mar 5, 2021. It is a minor release with an enhancement.
 
-The supported [!DNL Experience Manager] versions are:
+The **supported [!DNL Experience Manager] versions** are:
 
 * [!DNL Experience Manager] as a [!DNL Cloud Service]. See [release notes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html).
 * [!DNL Experience Manager] 6.5.0 or newer, on Adobe Managed Services (AMS) or On-Premise. See [service pack release notes](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html).
@@ -17,12 +17,12 @@ The supported [!DNL Experience Manager] versions are:
 * [!DNL Experience Manager] 6.3 (with compatibility package)
 * [!DNL Experience Manager] 6.3.3.1 or newer with the [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) installed. Desktop app is not supported for [!DNL Experience Manager] 6.3.3.0 or previous versions.
 
-[!DNL Adobe Experience Manager] desktop app is available for the following operating systems:
+[!DNL Adobe Experience Manager] desktop app is available for the following **operating systems**:
 
 * macOS X 10.14 or newer, with the latest bug fixes.
 * Windows 10 with the latest service packs and bug fixes.
 
-The download URLs for supported OS are:
+The **download URLs** for supported OS are:
 
 | Operating system | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
