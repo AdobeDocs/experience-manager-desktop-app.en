@@ -1,13 +1,13 @@
-"filename","title","description","feature","topic","role","level"
-"./metadata.md","","","","","",""
-"././help/TOC.md","","","","","",""
-"./help/introduction.md","Introduction to [!DNL Experience Manager] desktop app","Learn how to use [!DNL Adobe Experience Manager] desktop app to optimize the asset management workflows for creative users when using [!DNL Adobe Experience Manager Assets] directly from their desktop.","","","",""
-"./help/release-notes.md","[!DNL Adobe Experience Manager] desktop app release notes","Release details, enhancements, new features, compatibility, and download links for [!DNL Adobe Experience Manager] desktop app.","","","",""
-"./help/install-upgrade.md","Install and configure desktop app","Install and configure [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] servers and download the assets on your local file system.","","","",""
-"./help/using.md","Use [!DNL Experience Manager] desktop app","Use [!DNL Adobe Experience Manager] desktop app, to work with [!DNL Adobe Experience Manager] DAM assets right from your Win or Mac desktop and use in other applications.","","","",""
-"./help/troubleshoot.md","Best practices for and troubleshooting [!DNL Adobe Experience Manager] desktop app","Follow best practices and troubleshoot to resolve the occasional issues related to installation, upgrade, configuration, and so on.","","","",""
-"./help/release-notes-of-v1.md","Release notes of desktop app v1.10","Release details, enhancements, new features, compatibility, and download links for AEM desktop app version 1.10.","","","",""
-"./help/install-configure-app-v1.md","Install and configure desktop app v1.10","Install and configure [!DNL Experience Manager] desktop app version 1.10 to work with [!DNL Assets] servers and map the assets to mount as a drive on your desktop.","","","",""
-"./help/use-app-v1.md","Use [!DNL Experience Manager] desktop app version 1.10.","Learn how to use Adobe Experience Manager desktop app version 1.10 and optimize your work with assets on desktop.","","","",""
-"./help/best-practices-for-v1.md","Desktop app v1.10 best practices","Key capabilities and recommended use of [!DNL Adobe Experience Manager] desktop app version 1.10.","","","",""
-"./help/troubleshoot-app-v1.md","Troubleshoot desktop app version 1.10.","Troubleshoot [!DNL Adobe Experience Manager] desktop app version 1.10 to resolve the occasional issues related to installation, upgrade, and configuration.","","","",""
+filename,title,description,feature,topic,role,level
+./metadata.md,,,Experience Manager Desktop App,,"Business Practitioner, Administrator",
+././help/TOC.md,,,Experience Manager Desktop App,,"Business Practitioner, Administrator",
+./help/introduction.md,Introduction to [!DNL Experience Manager] desktop app,Learn how to use [!DNL Adobe Experience Manager] desktop app to optimize the asset management workflows for creative users when using [!DNL Adobe Experience Manager Assets] directly from their desktop.,,,"Business Practitioner, Administrator, Leader",
+./help/release-notes.md,[!DNL Adobe Experience Manager] desktop app release notes,"Release details, enhancements, new features, compatibility, and download links for [!DNL Adobe Experience Manager] desktop app.","Experience Manager Desktop App, Release Information",,,
+./help/install-upgrade.md,Install and configure desktop app,Install and configure [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] servers and download the assets on your local file system.,"Experience Manager Desktop App, Release Information",,,
+./help/using.md,Use [!DNL Experience Manager] desktop app,"Use [!DNL Adobe Experience Manager] desktop app, to work with [!DNL Adobe Experience Manager] DAM assets right from your Win or Mac desktop and use in other applications.","Experience Manager Desktop App, Asset Management",,,
+./help/troubleshoot.md,Best practices for and troubleshooting [!DNL Adobe Experience Manager] desktop app,"Follow best practices and troubleshoot to resolve the occasional issues related to installation, upgrade, configuration, and so on.",,,,
+./help/release-notes-of-v1.md,Release notes of desktop app v1.10,"Release details, enhancements, new features, compatibility, and download links for AEM desktop app version 1.10.",,,,
+./help/install-configure-app-v1.md,Install and configure desktop app v1.10,Install and configure [!DNL Experience Manager] desktop app version 1.10 to work with [!DNL Assets] servers and map the assets to mount as a drive on your desktop.,,,,
+./help/use-app-v1.md,Use [!DNL Experience Manager] desktop app version 1.10.,Learn how to use Adobe Experience Manager desktop app version 1.10 and optimize your work with assets on desktop.,"Experience Manager Desktop App, Asset Management",,,
+./help/best-practices-for-v1.md,Desktop app v1.10 best practices,Key capabilities and recommended use of [!DNL Adobe Experience Manager] desktop app version 1.10.,,,,
+./help/troubleshoot-app-v1.md,Troubleshoot desktop app version 1.10.,"Troubleshoot [!DNL Adobe Experience Manager] desktop app version 1.10 to resolve the occasional issues related to installation, upgrade, and configuration.",,,,
