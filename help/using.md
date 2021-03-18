@@ -2,6 +2,7 @@
 title: Use [!DNL Experience Manager] desktop app
 description: Use [!DNL Adobe Experience Manager] desktop app, to work with [!DNL Adobe Experience Manager] DAM assets right from your Win or Mac desktop and use in other applications.
 mini-toc-levels: 1
+feature: Experience Manager Desktop App, Asset Management
 ---
 
 # Use [!DNL Adobe Experience Manager] desktop app {#use-aem-desktop-app-v2}
