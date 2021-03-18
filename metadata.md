@@ -1,17 +1,10 @@
 ---
 cloud: experience-cloud
-solution-title: Learn & Support
-solution-hub-url: https://experienceleague.adobe.com/docs/
-solution-icon: assets/experience-cloud-logo-24.png
-getting-started-title: Getting Started
-getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-tutorials.html
-tutorials-title: Tutorials
-tutorials-url: https://experienceleague.adobe.com/docs/experience-manager-tutorials.html
+solution: Experience Manager, Experience Manager Assets
+type: Documentation
 mini-toc-levels: 1
 git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.en
 index: y
-feature: Experience Manager Desktop App
-role: "Business Practitioner, Administrator"
 ---
 
 # Metadata for internal use

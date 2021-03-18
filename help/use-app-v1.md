@@ -1,7 +1,7 @@
 ---
 title: Use [!DNL Experience Manager] desktop app version 1.10.
 description: Learn how to use Adobe Experience Manager desktop app version 1.10 and optimize your work with assets on desktop.
-feature: "Experience Manager Desktop App, Asset Management"
+feature: Experience Manager Desktop App, Asset Management
 ---
 
 # Use [!DNL Experience Manager] desktop app v1.10 {#use-aem-desktop-app-v1x}

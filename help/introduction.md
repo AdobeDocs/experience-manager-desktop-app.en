@@ -1,7 +1,7 @@
 ---
 title: Introduction to [!DNL Experience Manager] desktop app
 description: Learn how to use [!DNL Adobe Experience Manager] desktop app to optimize the asset management workflows for creative users when using [!DNL Adobe Experience Manager Assets] directly from their desktop.
-role: "Business Practitioner, Administrator, Leader"
+role: Business Practitioner, Administrator, Leader
 ---
 
 # [!DNL Adobe Experience Manager] desktop app overview {#overview-v2}
