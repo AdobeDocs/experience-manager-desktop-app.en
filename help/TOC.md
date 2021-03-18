@@ -10,6 +10,8 @@ solution-hub-url: https://experienceleague.adobe.com/docs/experience-manager-65/
 getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html
 tutorials-title: AEM Tutorials
 tutorials-url: https://experienceleague.adobe.com/docs/experience-manager-tutorials.html
+feature: Experience Manager Desktop App
+role: "Business Practitioner, Administrator"
 ---
 
 # Adobe desktop app Guide {#using}

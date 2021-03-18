@@ -10,6 +10,8 @@ tutorials-url: https://experienceleague.adobe.com/docs/experience-manager-tutori
 mini-toc-levels: 1
 git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.en
 index: y
+feature: Experience Manager Desktop App
+role: "Business Practitioner, Administrator"
 ---
 
 # Metadata for internal use

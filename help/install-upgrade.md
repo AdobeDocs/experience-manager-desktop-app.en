@@ -1,6 +1,7 @@
 ---
 title: Install and configure desktop app
 description: Install and configure [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] servers and download the assets on your local file system.
+feature: "Experience Manager Desktop App, Release Information"
 ---
 
 # Install [!DNL Adobe Experience Manager] desktop app {#install-app-v2}
