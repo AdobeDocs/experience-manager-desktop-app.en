@@ -116,6 +116,14 @@ To update the unavailable preferences, log out of the [!DNL Experience Manager] 
 
 *Figure: Desktop app preferences.*
 
+### Proxy support {#proxy-support}
+
+[!DNL Experience Manager] desktop app uses system's pre-defined proxy to connect to the Internet over HTTPS. The app can only connect using a network proxy that does not require extra authentication.
+
+If you configure or modify proxy server settings for Windows (Internet Options &gt; LAN Settings), restart the [!DNL Experience Manager] desktop app for the changes to take effect. Proxy configuration applies when you start the desktop app. Close and re-launch the app for any changes to take effect.
+
+If your proxy requires authentication, the IT team can allow the [!DNL Experience Manager Assets] URL in the proxy server settings to allow the application traffic to pass through.
+
 ## Uninstall the app {#uninstall-the-app}
 
 To uninstall the application on Windows, follow these steps:
