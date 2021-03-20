@@ -64,7 +64,7 @@ To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
 
 **Update in app v2.1.1.0**
 
-* An advanced setting lets the app emulate v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respects spaces and casing of the folder names provided by the user. The default behavior of v2.1 continues to remain same, that is, replace multiple spaces in folder names with a hyphen in the repository node name and convert to lowercase node names. See [the app preferences](/help/install-upgrade.md#set-preferences).
+* An advanced setting lets the app emulate v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respect spaces and casing of the folder names provided by the user. The default behavior of v2.1 continues to remain same, that is, replace multiple spaces in folder names with a hyphen in the repository node name and convert to lowercase node names. See [the app preferences](/help/install-upgrade.md#set-preferences).
 
 **Update in app v2.1.0.0**
 
