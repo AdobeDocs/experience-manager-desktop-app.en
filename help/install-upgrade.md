@@ -32,7 +32,7 @@ If you are a user of v1.x of desktop app, then understand the differences and si
 
 >[!NOTE]
 >
->Two version of desktop app cannot co-exist on a machine. Before you install a version, uninstall the other version.
+>Two versions of desktop app cannot co-exist on a machine. Before you install a version, uninstall the other version.
 
 To upgrade from a previous version of the app, follow these instructions:
 
