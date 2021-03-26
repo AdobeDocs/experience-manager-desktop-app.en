@@ -195,7 +195,7 @@ See the [SAML section](#da-connection-issue-with-saml-aem) for instructions on h
 
 #### SAML login authentication not working {#da-connection-issue-with-saml-aem}
 
-If [!DNL Experience Manager] desktop app does not connect to your SSO-enabled (SAML) [!DNL Adobe Experience Manager] instance, read on this section to troubleshoot. SSO processes are varied, sometimes complex, and the application's design does its best to accommodate these types of connections. However, some setups require additional troubleshooting.
+[!DNL Experience Manager] desktop app may not connect to your SSO-enabled (SAML) [!DNL Adobe Experience Manager] deployment. The application's design attempts to accommodate the variations and complexities of SSO connections and processes. However, a setup may require additional troubleshooting.
 
 Sometimes the SAML process does not redirect back to the originally requested path, or the final redirect is to a host that is different than what is configured in [!DNL Adobe Experience Manager] desktop app. To verify that this is not the case:
 
