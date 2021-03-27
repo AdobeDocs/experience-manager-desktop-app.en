@@ -59,7 +59,7 @@ From within the [!DNL Assets] user interface in a browser, you can explore the a
 1. In the [!DNL Assets] console, click the **[!UICONTROL User]** icon from the toolbar.
 1. Click **[!UICONTROL My Preferences]** to display the **[!UICONTROL Preferences]** dialog.
 
-1. In the User Preferences dialog, select [!UICONTROL Show Desktop Actions For [!DNL Assets]]. Click **[!UICONTROL Accept]**.
+1. In the User Preferences dialog, select **[!UICONTROL Show Desktop Actions For Assets]**. Click **[!UICONTROL Accept]**.
 
 
    ![Select Show Desktop Actions For Assets to enable desktop actions](assets/enable_desktop_actions.png)
