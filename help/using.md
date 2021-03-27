@@ -54,15 +54,17 @@ Before you start using the application, understand [How the app works](release-n
 
 ## Enable desktop actions in [!DNL Experience Manager] web interface {#desktopactions-v2}
 
-From within the Assets user interface in a browser, you can explore the asset locations or check-out and open the asset for editing in your desktop application. These options are called [!UICONTROL Desktop Actions] and are not enabled by default. To enable it, follow these steps.
+From within the [!DNL Assets] user interface in a browser, you can explore the asset locations or check-out and open the asset for editing in your desktop application. These options are called [!UICONTROL Desktop Actions] and are not enabled by default. To enable it, follow these steps.
 
-1. In the Assets console, click/tap the **[!UICONTROL User]** icon from the toolbar.
-1. Click/tap the **[!UICONTROL My Preferences]** to display the **[!UICONTROL Preferences]** dialog.
-1. In the User Preferences dialog, select **[!UICONTROL Show Desktop Actions For [!DNL Assets]]**. Click **[!UICONTROL Accept]**.
+1. In the [!DNL Assets] console, click the **[!UICONTROL User]** icon from the toolbar.
+1. Click **[!UICONTROL My Preferences]** to display the **[!UICONTROL Preferences]** dialog.
 
-   ![Check Show Desktop Actions For Assets to enable desktop actions](assets/enable_desktop_actions.png)
+1. In the User Preferences dialog, select [!UICONTROL Show Desktop Actions For [!DNL Assets]]. Click **[!UICONTROL Accept]**.
 
-   Check [!UICONTROL Show Desktop Actions For Assets] to enable desktop actions
+
+   ![Select Show Desktop Actions For Assets to enable desktop actions](assets/enable_desktop_actions.png)
+
+   *Figure: Select [!UICONTROL Show Desktop Actions For Assets] to enable desktop actions.*
 
 ## Browse, search, and preview assets {#browse-search-preview-assets}
 
