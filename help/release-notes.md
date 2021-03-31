@@ -64,7 +64,7 @@ To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
 
 **Update in app v2.1.2.0**
 
-* A new option to [!UICONTROL Clear Cookies] is added to the main menu of the application. It helps with potential login issues, for example when changing connection from a server to another.
+* A new option to [!UICONTROL Clear Cookies] is added to the main menu of the application. It helps with potential login issues, for example when changing connection from a server to another. See [clear cookies before connecting](/help/troubleshoot.md#cannot-login-cookies-issue).
 
 **Update in app v2.1.1.0**
 

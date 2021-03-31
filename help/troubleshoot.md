@@ -101,6 +101,16 @@ To enable debug mode on Windows:
 
 `AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
+### Know the [!DNL Adobe Experience Manager] desktop app version {#know-app-version-v2}
+
+To see the version number:
+
+1. Start the application.
+
+1. Click the ellipses in the upper right corner, hover over [!UICONTROL Help], then click [!UICONTROL About].
+
+    The version number is listed on this screen.
+
 ### Clear cache {#clear-cache-v2}
 
 Perform the following steps:
@@ -131,17 +141,7 @@ To clear the cache, delete the desired Encoded [!DNL Adobe Experience Manager] E
 
 Clearing [!DNL Adobe Experience Manager] desktop app's cache is a preliminary troubleshooting task that can resolve several issues. Clear the cache from the app preferences. See [set preferences](install-upgrade.md#set-preferences). The default location of the cache folder is:
 
-### Know the [!DNL Adobe Experience Manager] desktop app version {#know-app-version-v2}
-
-To see the version number:
-
-1. Start the application.
-
-1. Click the ellipses in the upper right corner, hover over [!UICONTROL Help], then click [!UICONTROL About].
-
-    The version number is listed on this screen.
-
-### Cannot see placed assets {#placed-assets-missing}
+## Cannot see placed assets {#placed-assets-missing}
 
 If you cannot see the assets that you or other creative professionals placed in the support files (say, INDD files), check the following:
 
@@ -172,11 +172,11 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop" | xargs rm -rf
 sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-plugin" | xargs rm -rf
 ```
 
-### Cannot upload files {#upload-fails}
+## Cannot upload files {#upload-fails}
 
 If you are using desktop app with [!DNL Experience Manager] 6.5.1 or later, upgrade S3 or Azure connector to version 1.10.4 or later. It resolves file upload failure issue related to [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). See [install instructions](install-upgrade.md#install-v2).
 
-### [!DNL Experience Manager] desktop app connection issues {#connection-issues}
+## [!DNL Experience Manager] desktop app connection issues {#connection-issues}
 
 If you are experiencing general connectivity issues, here are some ways to get more information about what [!DNL Experience Manager] desktop app is doing.
 
@@ -193,7 +193,7 @@ If you are experiencing general connectivity issues, here are some ways to get m
 A majority of the application's requests are found in the request log. However, if there is no helpful information there, then it can be useful to look into the requests sent by the application's embedded browser.
 See the [SAML section](#da-connection-issue-with-saml-aem) for instructions on how to view those requests.
 
-#### SAML login authentication not working {#da-connection-issue-with-saml-aem}
+### SAML login authentication not working {#da-connection-issue-with-saml-aem}
 
 [!DNL Experience Manager] desktop app may not connect to your SSO-enabled (SAML) [!DNL Adobe Experience Manager] deployment. The application's design attempts to accommodate the variations and complexities of SSO connections and processes. However, a setup may require additional troubleshooting.
 
@@ -239,7 +239,7 @@ To troubleshoot further, it is possible to view the exact URLs that the browser 
 
 Looking at the URL sequence that is being loaded can help troubleshoot at the SAML's end to determine what is wrong.
 
-#### SSL configuration issue {#ssl-config-v2}
+### SSL configuration issue {#ssl-config-v2}
 
 The libraries that [!DNL Experience Manager] desktop app uses for HTTP communication utilizes strict SSL enforcement. At times, a connection may succeed using a browser but fails using [!DNL Experience Manager] desktop app. To configure SSL appropriately, install the missing intermediate certificate in Apache. See [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575).
 
@@ -276,7 +276,13 @@ As a temporary measure, it is possible to disable strict SSL enforcement in [!DN
 
 1. Save the file and restart [!DNL Adobe Experience Manager] desktop app.
 
-### App is unresponsive {#unresponsive}
+### Login issues when switching to a different server {#cannot-login-cookies-issue}
+
+After using an [!DNL Experience Manager] server, when you attempt to change the connection to a different server, you may encounter login issues. It is due to old cookies interfering with new authentication. An option in the main menu to [!UICONTROL Clear Cookies] helps. Logout of the current session in the app and select [!UICONTROL Clear Cookies] before proceeding to connect.
+
+![Clear cookies when switching server](assets/main_menu_logout_da2.png)
+
+## App is unresponsive {#unresponsive}
 
 Rarely the application may become unresponsive, display just a white screen, or display an error at the bottom of the interface without any options on the interface. Try the following in the order:
 
