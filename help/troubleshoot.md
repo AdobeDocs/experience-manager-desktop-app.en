@@ -1,8 +1,8 @@
 ---
 title: Best practices for and troubleshooting [!DNL Adobe Experience Manager] desktop app
 description: Follow best practices and troubleshoot to resolve the occasional issues related to installation, upgrade, configuration, and so on.
+exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
 ---
-
 # Troubleshoot [!DNL Adobe Experience Manager] desktop app {#troubleshoot-v2}
 
 [!DNL Adobe Experience Manager] desktop app connects to a [!DNL Experience Manager] deployment's Digital Asset Management (DAM) repository. The app fetches repository information and search results on your machine, downloads and uploads files and folders, and includes capabilities to manage conflicts with Assets user interface.

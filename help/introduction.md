@@ -2,8 +2,8 @@
 title: Introduction to [!DNL Experience Manager] desktop app
 description: Learn how to use [!DNL Adobe Experience Manager] desktop app to optimize the asset management workflows for creative users when using [!DNL Adobe Experience Manager Assets] directly from their desktop.
 role: Business Practitioner, Administrator, Leader
+exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
 ---
-
 # [!DNL Adobe Experience Manager] desktop app overview {#overview-v2}
 
 Adobe offers connected workflows across its solutions to allow next-level productivity for your line-of-business users and creative professionals. The [!DNL Adobe Experience Manager] desktop app connects repositories and desktop applications, including Adobe and third-party ones, to provide faster access to resources and streamlined workflows. This saving of time and reduction in effort improves efficiency of users, who work with assets from [!DNL Adobe Experience Manager] in their desktop workflows.
