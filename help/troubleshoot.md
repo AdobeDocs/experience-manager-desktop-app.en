@@ -291,6 +291,13 @@ Rarely the application may become unresponsive, display just a white screen, or 
 
 In both methods, the app starts at the root DAM folder.
 
+## Hide expired assets {#hide-expired-assets}
+
+When browsing assets from within [!DNL Experience Manager] user interface, the expired assets are not displayed. To prevent viewing, searching, and fetching of expired assets when browsing assets from desktop app and Asset Link, administrators can do the following configuration. The configuration works for all users, irrespective of administrator privilege.
+
+* [Configuration in Experience Manager 6.5 to hide expired assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#hide-expired-assets-via-acp-api).
+* [Configuration in Experience Manager as a Cloud Service to hide expired assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html#hide-expired-assets-via-acp-api).
+
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
 
