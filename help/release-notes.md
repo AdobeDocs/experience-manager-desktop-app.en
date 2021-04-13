@@ -3,11 +3,11 @@ title: [!DNL Adobe Experience Manager] desktop app release notes
 description: Release details, enhancements, new features, compatibility, and download links for [!DNL Adobe Experience Manager] desktop app.
 mini-toc-levels: 1
 feature: Experience Manager Desktop App, Release Information
+exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 ---
-
 # [!DNL Adobe Experience Manager] desktop app release notes {#release-notes-v2}
 
-The release information for the latest desktop app version 2.1 (2.1.1.0) is below. The release date is Mar 5, 2021. It is a minor release with an enhancement.
+The release information for the latest desktop app version 2.1 (2.1.2.0) is below. The release date is Mar 26, 2021. It is a minor release with an enhancement.
 
 The **supported [!DNL Experience Manager] versions** are:
 
@@ -68,7 +68,7 @@ To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
 
 **Update in app v2.1.1.0**
 
-* An advanced setting lets the app emulate v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respects spaces and casing of the folder names provided by the user. The default behavior of v2.1 continues to remain same, that is, replace multiple spaces in folder names with a hyphen in the repository node name and convert to lowercase node names. See [the app preferences](/help/install-upgrade.md#set-preferences).
+* An advanced setting lets the app emulate v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respect spaces and casing of the folder names provided by the user. The default behavior of v2.1 continues to remain same, that is, replace multiple spaces in folder names with a hyphen in the repository node name and convert to lowercase node names. See [the app preferences](/help/install-upgrade.md#set-preferences).
 
 **Update in app v2.1.0.0**
 

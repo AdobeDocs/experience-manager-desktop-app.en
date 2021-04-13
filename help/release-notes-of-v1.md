@@ -1,8 +1,8 @@
 ---
 title: Release notes of desktop app v1.10
 description: Release details, enhancements, new features, compatibility, and download links for AEM desktop app version 1.10.
+exl-id: 886864e0-016a-4a17-b3ba-4b18a514214a
 ---
-
 # [!DNL Adobe Experience Manager] desktop app v1.10 release notes {#aem-desktop-app-release-notes}
 
 For desktop app v1.x release, the following are the download links and AEM compatibility information.

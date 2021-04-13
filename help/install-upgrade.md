@@ -2,8 +2,8 @@
 title: Install and configure desktop app
 description: Install and configure [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] servers and download the assets on your local file system.
 feature: Experience Manager Desktop App, Release Information
+exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 ---
-
 # Install [!DNL Adobe Experience Manager] desktop app {#install-app-v2}
 
 Using the [!DNL Adobe Experience Manager] desktop app, the assets within [!DNL Experience Manager] are easily available on your local desktop and can be used in any native desktop applications. Assets can be previewed, opened in native desktop applications, revealed in Mac Finder or Windows Explorer for placing in other documents, and changed locally – the changes are saved back to [!DNL Experience Manager] when you upload and a new version is created in the repository.
@@ -32,7 +32,7 @@ If you are a user of v1.x of desktop app, then understand the differences and si
 
 >[!NOTE]
 >
->Two version of desktop app cannot co-exist on a machine. Before you install a version, uninstall the other version.
+>Two versions of desktop app cannot co-exist on a machine. Before you install a version, uninstall the other version.
 
 To upgrade from a previous version of the app, follow these instructions:
 
@@ -104,7 +104,7 @@ To change preferences, click ![More options icon](assets/do-not-localize/more_op
 
 * **[!UICONTROL Maximum number of downloads]**: ![caution icon](assets/do-not-localize/caution-icon.png) Change with caution. When downloading assets for the first time (via Reveal, Open, Edit, Download, or similar option), the assets are downloaded only if the batch contains less than this number. Default value is 50. Do not change if you are unsure. Increasing the value can lead to longer wait times and decreasing the value may not allow you to download the necessary assets or folders in one go.
 
-* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**: ![caution icon](assets/do-not-localize/caution-icon.png) Change with caution. This setting lets the app emulate v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respects spaces and casing of the folder names provided by the user. However, in v2.1 of the app, the extra spaces in the folder names are converted to dashes. For example, uploading `New Folder` or `new   folder` creates the same node in the repository if the option is not selected and the default behavior in v2.1 is retained. If this option is selected, then different nodes are created in the repository for the above two folders and it matches the behavior of v1.10 app.
+* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**: ![caution icon](assets/do-not-localize/caution-icon.png) Change with caution. This setting lets the app emulate v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respect spaces and casing of the folder names provided by the user. However, in v2.1 of the app, the extra spaces in the folder names are converted to dashes. For example, uploading `New Folder` or `new   folder` creates the same node in the repository if the option is not selected and the default behavior in v2.1 is retained. If this option is selected, then different nodes are created in the repository for the above two folders and it matches the behavior of v1.10 app.
 
   The default behavior of v2.1 continues to remain same, that is, replace multiple spaces in folder names with dashes in the repository node name and convert to lowercase node names.
 

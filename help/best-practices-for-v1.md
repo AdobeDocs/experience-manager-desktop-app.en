@@ -1,8 +1,8 @@
 ---
 title: Desktop app v1.10 best practices
 description: Key capabilities and recommended use of [!DNL Adobe Experience Manager] desktop app version 1.10.
+exl-id: 5de06b33-c05c-47eb-b884-408b6f9afc94
 ---
-
 # AEM desktop app v1.10 best practices {#aem-desktop-app-best-practices}
 
 ## Overview {#overview}
