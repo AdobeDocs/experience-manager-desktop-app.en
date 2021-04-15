@@ -20,7 +20,7 @@ The **supported [!DNL Experience Manager] versions** are:
 
 [!DNL Adobe Experience Manager] desktop app is available for the following **operating systems**:
 
-* macOS X 10.14 or newer, with the latest bug fixes.
+* macOS X 10.14 or newer, with the latest bug fixes. [Mac computers with Apple silicon](https://support.apple.com/en-us/HT211814) are not supported yet.
 * Windows 10 with the latest service packs and bug fixes.
 
 The **download URLs** for supported OS are:
