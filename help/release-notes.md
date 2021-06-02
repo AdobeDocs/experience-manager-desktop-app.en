@@ -72,7 +72,7 @@ To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
 
 **Update in app v2.1.0.0**
 
-* To upload assets, users can now drag the files or folders on the application's interface, directly from Windows Explorer or Mac Finder. This works in addition to the upload option previously available in the application. <!-- CQ-4309527 -->
+* To upload assets, users can now drag the files or folders on the application's interface, directly from Windows Explorer or Mac Finder. This works in addition to the upload option available in the application. See [upload assets](/help/using.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
 
 **Update in app v2.0.3**
 
