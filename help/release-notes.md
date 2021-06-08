@@ -7,7 +7,7 @@ exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 ---
 # [!DNL Adobe Experience Manager] desktop app release notes {#release-notes-v2}
 
-The release information for the latest desktop app version 2.1 (2.1.3.1) is below. The release date is June xx, 2021.
+The release information for the latest desktop app version 2.1 (2.1.3.1) is below. The release date is June 08, 2021.
 
 The **supported [!DNL Experience Manager] versions** are:
 
@@ -70,7 +70,7 @@ To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
 
 The bug fixed in the current version is:
 
-* Asset upload and download speeds have improved, even with large assets. Fixed the issue where asset uploads with [!UICONTROL desktop app] failed increasingly when large files were uploaded.
+* Asset upload and download speeds have improved, even with large assets. Fixed the issue where asset uploads with [!DNL desktop app] failed increasingly when large files were uploaded.
 
 **Update in app v2.1.2.0**
 

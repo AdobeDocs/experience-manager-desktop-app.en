@@ -173,19 +173,15 @@ Users can add new assets to the DAM repository. For example, you may be an agenc
 
 When naming the files and folders, do not use the following (space-separated list of) characters:
 
-* in file names `\\`
+* in file names `\\`.
 
-  >[!NOTE]
-  >
-  >The characters `# % { } ? & . / : [ | ] *` are replaced by dash in node names created in [!DNL Adobe Experience Manager]; but whitespaces and casing are retained.
+  The characters `# % { } ? & . / : [ | ] *` are replaced by dash in node names created in [!DNL Adobe Experience Manager]; but whitespaces and casing are retained.
 
-* in folder names `\\ \t & `
+* in folder names `\\ \t &`.
 
-  >[!NOTE]
-  >
-  > Whitespaces and the characters `% ; # , + ? ^ { } " . / : [ ] | *` in folder names are replaced by dash in folder paths in node names created in [!DNL Adobe Experience Manager]. Also, the upper-case characters are converted to lower case in folder paths.
+  Whitespaces and the characters `% ; # , + ? ^ { } " . / : [ ] | *` in folder names are replaced by dash in folder paths in node names created in [!DNL Adobe Experience Manager]. Also, the uppercase characters are converted to lowercase in folder paths.
 
-However, if [!UICONTROL Use legacy conventions when creating nodes for assets and folders] is enabled in [!UICONTROL Preferences], then the app emulates v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respect spaces and casing of the folder names provided by the user. For more information, see For more information see, [app Preferences](/help/install-upgrade.md#set-preferences).
+However, if [!UICONTROL Use legacy conventions when creating nodes for assets and folders] is enabled in [!UICONTROL Preferences], then the app emulates v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respect spaces and casing of the folder names provided by the user. For more information, see [app Preferences](/help/install-upgrade.md#set-preferences).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
