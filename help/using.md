@@ -169,9 +169,19 @@ If necessary, toggle check-out. The updated asset is removed from the local cach
 
 ## Upload and add new assets to [!DNL Experience Manager] {#upload-and-add-new-assets-to-aem}
 
-Users can add new assets to the DAM repository. For example, you may be an agency photographer or contractor who wants to add a large number of photos from a photoshoot to the [!DNL Experience Manager] repository. To add new content to [!DNL Experience Manager], select ![upload to cloud option](assets/do-not-localize/upload_to_cloud_da2.png) in the top-bar of the app. Browse to the asset files in the local file system and click **[!UICONTROL Select]**. Alternatively, to upload assets, drag the files or folders on the application interface. On Windows, if you drag assets on a folder inside the app, the assets are uploaded into the folder. 
+Users can add new assets to the DAM repository. For example, you may be an agency photographer or contractor who wants to add a large number of photos from a photoshoot to the [!DNL Experience Manager] repository. To add new content to [!DNL Experience Manager], select ![upload to cloud option](assets/do-not-localize/upload_to_cloud_da2.png) in the top-bar of the app. Browse to the asset files in the local file system and click **[!UICONTROL Select]**. Alternatively, to upload assets, drag the files or folders on the application interface. On Windows, if you drag assets on a folder inside the app, the assets are uploaded into the folder. If it takes longer to upload, the app displays a progress bar.
 
-If the upload takes longer to upload, the app displays a progress bar at the bottom. Do not use whitespaces and invalid characters when creating or uploading folders. See a list of allowed characters at [create folders in [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders).
+When naming the files and folders, do not use the following (space-separated list of) characters:
+
+* in file names `\\`.
+
+  The characters `# % { } ? & . / : [ | ] *` are replaced by dash in node names created in [!DNL Adobe Experience Manager]; but whitespaces and casing are retained.
+
+* in folder names `\\ \t &`.
+
+  Whitespaces and the characters `% ; # , + ? ^ { } " . / : [ ] | *` in folder names are replaced by dash in folder paths in node names created in [!DNL Adobe Experience Manager]. Also, the uppercase characters are converted to lowercase in folder paths.
+
+However, if [!UICONTROL Use legacy conventions when creating nodes for assets and folders] is enabled in [!UICONTROL Preferences], then the app emulates v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respect spaces and casing of the folder names provided by the user. For more information, see [app Preferences](/help/install-upgrade.md#set-preferences).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->

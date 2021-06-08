@@ -7,7 +7,7 @@ exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 ---
 # [!DNL Adobe Experience Manager] desktop app release notes {#release-notes-v2}
 
-The release information for the latest desktop app version 2.1 (2.1.2.0) is below. The release date is Mar 26, 2021. It is a minor release with an enhancement.
+The release information for the latest desktop app version 2.1 (2.1.3.1) is below. The release date is June 08, 2021.
 
 The **supported [!DNL Experience Manager] versions** are:
 
@@ -27,9 +27,9 @@ The **download URLs** for supported OS are:
 
 | Operating system | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
-| macOS 64-bit | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.2.0.dmg) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.2.0.dmg) |
-| Windows 64-bit | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.2.0.exe) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.2.0.exe) |
-| Windows 32-bit | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.2.0.exe) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.2.0.exe) |
+| macOS 64-bit | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.1.dmg) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.1.dmg) |
+| Windows 64-bit | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.1.exe) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.1.exe) |
+| Windows 32-bit | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) |
 
 >[!NOTE]
 >
@@ -62,6 +62,16 @@ The feature is supported with [!DNL Adobe Creative Cloud] 2018 and [!DNL Adobe C
 
 To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
 
+**Updates in app v2.1.3.1**
+
+* An option is added that (if selected) allows the app to upload folders and files such that their node names created in [!DNL Adobe Experience Manager] are same as the local file and folder names.
+
+  This behavior is similar to the default behavior in version 1 of desktop app. Whereas in the current version, if the option is not enabled then whitespaces and the characters `% ; # , + ? ^ { } "` in folder names are replaced by dash in folder paths. Also, the upper-case characters are converted to lower case in folder paths. However in file names, the characters `# % { } ? &` are replaced by dash; but whitespaces and casing are retained. For more information see, [app Preferences](/help/install-upgrade.md#set-preferences) and [Upload and add new assets](/help/using.md#upload-and-add-new-assets-to-aem).  
+
+The bug fixed in the current version is:
+
+* Asset upload and download speeds have improved, even with large assets. Fixed the issue where asset uploads with [!DNL desktop app] failed increasingly when large files were uploaded.
+
 **Update in app v2.1.2.0**
 
 * A new option to [!UICONTROL Clear Cookies] is added to the main menu of the application. It helps with potential login issues, for example when changing connection from a server to another. See [clear cookies before connecting](/help/troubleshoot.md#cannot-login-cookies-issue).
@@ -76,7 +86,7 @@ To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
 
 **Update in app v2.0.3**
 
-The bug fixed in the current version is:
+The bug fixed in this version is:
 
 * Fixed the login issue for app users on Windows who try to access the DAM repository on [!DNL Adobe Experience Manager] 6.5.5.0.
 
@@ -149,8 +159,6 @@ The following diagram illustrates the flow of assets and files from cloud to loc
 * At times, when you connect to a URL that doesn’t have [!DNL Experience Manager] server running, the connect screen becomes unresponsive. Exit the application and start it again.
 
 **CRUD (Create, Read, Update, and Delete) issues:**
-
-* Application tries to upload files even with invalid characters, might cause server-side upload failure. <!-- CQ-4273652 -->
 
 * When uploading changes to an asset with comments, the comments are stored with the asset in [!DNL Experience Manager] but are not visible as versioning comments. This issue is resolved in [!DNL Experience Manager] 6.4.5 and [!DNL Experience Manager] 6.5.1. Adobe recommends installing the latest service packs. <!-- CQ-4268990 -->
 
