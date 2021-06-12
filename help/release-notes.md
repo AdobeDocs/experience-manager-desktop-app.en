@@ -64,10 +64,6 @@ To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
 
 **Updates in app v2.1.3.1**
 
-* An option is added that (if selected) allows the app to upload folders and files such that their node names created in [!DNL Adobe Experience Manager] are same as the local file and folder names.
-
-  This behavior is similar to the default behavior in version 1 of desktop app. Whereas in the current version, if the option is not enabled then whitespaces and the characters `% ; # , + ? ^ { } "` in folder names are replaced by dash in folder paths. Also, the upper-case characters are converted to lower case in folder paths. However in file names, the characters `# % { } ? &` are replaced by dash; but whitespaces and casing are retained. For more information see, [app Preferences](/help/install-upgrade.md#set-preferences) and [Upload and add new assets](/help/using.md#upload-and-add-new-assets-to-aem).  
-
 The bug fixed in the current version is:
 
 * Asset upload and download speeds have improved, even with large assets. Fixed the issue where asset uploads with [!DNL desktop app] failed increasingly when large files were uploaded.
@@ -75,6 +71,10 @@ The bug fixed in the current version is:
 **Update in app v2.1.2.0**
 
 * A new option to [!UICONTROL Clear Cookies] is added to the main menu of the application. It helps with potential login issues, for example when changing connection from a server to another. See [clear cookies before connecting](/help/troubleshoot.md#cannot-login-cookies-issue).
+
+* An option is added that (if selected) allows the app to upload folders and files such that their node names created in [!DNL Adobe Experience Manager] are same as the local file and folder names.
+
+  This behavior is similar to the default behavior in version 1 of desktop app. Whereas in the current version, if the option is not enabled then whitespaces and the characters `% ; # , + ? ^ { } "` in folder names are replaced by dash in folder paths. Also, the upper-case characters are converted to lower case in folder paths. However in file names, the characters `# % { } ? &` are replaced by dash; but whitespaces and casing are retained. For more information see, [app Preferences](/help/install-upgrade.md#set-preferences) and [Upload and add new assets](/help/using.md#upload-and-add-new-assets-to-aem).
 
 **Update in app v2.1.1.0**
 

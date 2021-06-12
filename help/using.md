@@ -171,20 +171,36 @@ If necessary, toggle check-out. The updated asset is removed from the local cach
 
 Users can add new assets to the DAM repository. For example, you may be an agency photographer or contractor who wants to add a large number of photos from a photoshoot to the [!DNL Experience Manager] repository. To add new content to [!DNL Experience Manager], select ![upload to cloud option](assets/do-not-localize/upload_to_cloud_da2.png) in the top-bar of the app. Browse to the asset files in the local file system and click **[!UICONTROL Select]**. Alternatively, to upload assets, drag the files or folders on the application interface. On Windows, if you drag assets on a folder inside the app, the assets are uploaded into the folder. If it takes longer to upload, the app displays a progress bar.
 
-When naming the files and folders, do not use the following (space-separated list of) characters:
-
-* in file names `\\`.
-
-  The characters `# % { } ? & . / : [ | ] *` are replaced by dash in node names created in [!DNL Adobe Experience Manager]; but whitespaces and casing are retained.
-
-* in folder names `\\ \t &`.
-
-  Whitespaces and the characters `% ; # , + ? ^ { } " . / : [ ] | *` in folder names are replaced by dash in folder paths in node names created in [!DNL Adobe Experience Manager]. Also, the uppercase characters are converted to lowercase in folder paths.
-
-However, if [!UICONTROL Use legacy conventions when creating nodes for assets and folders] is enabled in [!UICONTROL Preferences], then the app emulates v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respect spaces and casing of the folder names provided by the user. For more information, see [app Preferences](/help/install-upgrade.md#set-preferences).
-
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
+
+When you upload files and folders to [!DNL desktop app], the node names and path created in [!DNL Adobe Experience Manager] are changed as per the following conventions.
+
+| File names||
+|---|---|
+| Characters | Replaced by |
+| &#35; &#37; &#123; &#63; &#125; &#38; &#46; &#47; &#58; &#91; &#124; &#93; &#42; | hyphen (-) |
+| whitespaces | whitespaces are retained |
+| capital case | casing is retained |
+
+>[!CAUTION]
+>
+>Avoid using `\\` in file names.
+
+| Folder names ||
+|---|---|
+| Characters | Replaced by |
+| &#37; &#59; &#35; &#44; &#43; &#63; &#94; &#123; &#123; &#34; &#46; &#47; &#59; &#91; &#93; &#124; &#42; | hyphen (-) |
+| whitespaces | hyphen (-) |
+| capital case | lower case |
+
+>[!CAUTION]
+>
+>Avoid using `\\ \t &` in folder names.
+
+>[!NOTE]
+>
+>If you enable [!UICONTROL Use legacy conventions when creating nodes for assets and folders] in app [!UICONTROL Preferences], then the app emulates v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respect spaces and casing of the folder names provided by the user. For more information, see [app Preferences](/help/install-upgrade.md#set-preferences).
 
 You can upload folders or individual files from your local file system. A folder’s hierarchy is preserved when it is uploaded. Before uploading assets in bulk, see [Bulk uploads](#bulk-upload-assets).
 
