@@ -174,20 +174,23 @@ Users can add new assets to the DAM repository. For example, you may be an agenc
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
 
-When you upload files and folders to [!DNL desktop app], the node names and path created in [!DNL Adobe Experience Manager] are changed as per the following conventions.
+When you upload files and folders to [!DNL desktop app], [!DNL Adobe Experience Manager] changes and cleanses the node names and paths as per the following conventions.
 
-| File names||
-|---|---|
+**File names**
+
 | Characters | Replaced by |
+|---|---|
 | &#35; &#37; &#123; &#63; &#125; &#38; &#46; &#47; &#58; &#91; &#124; &#93; &#42; | hyphen (-) |
 | whitespaces | whitespaces are retained |
 | capital case | casing is retained |
 
 >[!CAUTION]
 >
->Avoid using `\\` in file names.
+>Avoid using &#92;&#92; in file names.
 
-| Folder names ||
+**Folder names**
+
+| Characters | Replaced by |
 |---|---|
 | Characters | Replaced by |
 | &#37; &#59; &#35; &#44; &#43; &#63; &#94; &#123; &#123; &#34; &#46; &#47; &#59; &#91; &#93; &#124; &#42; | hyphen (-) |
@@ -196,7 +199,7 @@ When you upload files and folders to [!DNL desktop app], the node names and path
 
 >[!CAUTION]
 >
->Avoid using `\\ \t &` in folder names.
+>Avoid using &#92;&#92; &#92;&#116; &#38; in folder names.
 
 >[!NOTE]
 >
