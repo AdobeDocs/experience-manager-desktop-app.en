@@ -195,10 +195,10 @@ When you upload files and folders using [!DNL Experience Manager desktop app], i
 | Characters &Dagger; | Legacy preference | Occurrence in file names | Occurrence in folder names | Example |
 |---|---|---|---|---|
 | `. / : [ ] | *` | Enabled or Disabled | Replaced with `-` (hyphen). A `.` (dot) in the filename extension is retained as is. | Replaced with `-` (hyphen). | `myimage.jpg` remains as is and `my.image.jpg` changes to `my-image.jpg`. |
-| `% ; # , + ? ^ { } "` and whitespaces | Disabled | Whitespaces are retained | Replaced with `-` (hyphen). | `My Folder.` changes to `my-folder-`. |
-| `# % { } ? & .` | Disabled | Replaced with `-` (hyphen). | NA. | `#My New File.` changes to `-My New File-`. |
-| Uppercase characters | Disabled | Casing is retained as is. | Changed to lowercase characters. | `My New Folder` changes to `my-new-folder`. |
-| Uppercase characters | Enabled | Casing is retained as is. | Casing is retained as is. | NA. |
+| `% ; # , + ? ^ { } "` and whitespaces | ![deselect icon](assets\do-not-localize\deselect-icon.png) Disabled | Whitespaces are retained | Replaced with `-` (hyphen). | `My Folder.` changes to `my-folder-`. |
+| `# % { } ? & .` | ![deselect icon](assets\do-not-localize\deselect-icon.png) Disabled | Replaced with `-` (hyphen). | NA. | `#My New File.` changes to `-My New File-`. |
+| Uppercase characters | ![deselect icon](assets\do-not-localize\deselect-icon.png) Disabled | Casing is retained as is. | Changed to lowercase characters. | `My New Folder` changes to `my-new-folder`. |
+| Uppercase characters | ![selection checked icon](assets\do-not-localize\selection-checked-icon.png) Enabled | Casing is retained as is. | Casing is retained as is. | NA. |
 
 &Dagger; The list of characters is a whitespace-separated list. Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names of folders.
 
