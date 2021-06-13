@@ -174,7 +174,35 @@ Users can add new assets to the DAM repository. For example, you may be an agenc
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
 
-When you upload files and folders to [!DNL desktop app], [!DNL Adobe Experience Manager] changes and cleanses the node names and paths as per the following conventions.
+You can upload folders or individual files from your local file system. A folder’s hierarchy is preserved when it is uploaded. Before uploading assets in bulk, see [Bulk uploads](#bulk-upload-assets).
+
+To view the list of assets transferred in a given session, click **[!UICONTROL View]** > **[!UICONTROL Assets transfers]**. The list allows you to view and quickly verify the file transfers of the current session.
+
+![List of transferred assets in a particular session](assets/assets_transfered_da2.png "List of transferred assets in a particular session")
+
+You can control the upload concurrency (acceleration) in **[!UICONTROL Preferences]** > **[!UICONTROL Upload acceleration]** setting. More concurrency typically gives faster uploads, but can be resource-intensive, consuming more processing power of the local machine. If you experience a slow system, re-attempt uploads using a lower value of concurrency.
+
+>[!NOTE]
+>
+>The transfer list is not persistent and is not available if you exit the app and reopen it.
+
+### Manage special characters in asset names {#special-characters-in-filename}
+
+In the legacy app, the node names created in the JCR repository respected and retained the spaces and casing of the folder names provided by the user. For the current application to emulate v1.10 app behavior when uploading folders, enable [!UICONTROL Use legacy conventions when creating nodes for assets and folders] in the [!UICONTROL Preferences]. See [app preferences](/help/install-upgrade.md#set-preferences). This legacy preference is disabled by default.
+
+When you upload files and folders using [!DNL Experience Manager desktop app], it changes the node names in the JCR repository using the following naming conventions.
+
+| Characters &Dagger; | Legacy preference | Occurrence in file names | Occurrence in folder names | Example |
+|---|---|---|---|---|
+| `. / : [ ] | *` | Enabled or Disabled | Replaced with `-` (hyphen). A `.` (dot) in the filename extension is retained as is. | Replaced with `-` (hyphen). | `myimage.jpg` remains as is and `my.image.jpg` changes to `my-image.jpg`. |
+| `% ; # , + ? ^ { } "` and whitespaces | Disabled | Whitespaces are retained | Replaced with `-` (hyphen). | `My Folder.` changes to `my-folder-`. |
+| `# % { } ? & .` | Disabled | Replaced with `-` (hyphen). | NA. | `#My New File.` changes to `-My New File-`. |
+| Uppercase characters | Disabled | Casing is retained as is. | Changed to lowercase characters. | `My New Folder` changes to `my-new-folder`. |
+| Uppercase characters | Enabled | Casing is retained as is. | Casing is retained as is. | NA. |
+
+&Dagger; The list of characters is a whitespace-separated list. Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names of folders.
+
+<!-- TBD: Remove the below content, if the above suffices.
 
 **File names**
 
@@ -205,21 +233,7 @@ When you upload files and folders to [!DNL desktop app], [!DNL Adobe Experience 
 >
 >If you enable [!UICONTROL Use legacy conventions when creating nodes for assets and folders] in app [!UICONTROL Preferences], then the app emulates v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respect spaces and casing of the folder names provided by the user. For more information, see [app Preferences](/help/install-upgrade.md#set-preferences).
 
-You can upload folders or individual files from your local file system. A folder’s hierarchy is preserved when it is uploaded. Before uploading assets in bulk, see [Bulk uploads](#bulk-upload-assets).
-
-To view the list of assets transferred in a given session, click **[!UICONTROL View]** > **[!UICONTROL Assets transfers]**. The list allows you to view and quickly verify the file transfers of the current session.
-
-![List of transferred assets in a particular session](assets/assets_transfered_da2.png "List of transferred assets in a particular session")
-
-You can control the upload concurrency (acceleration) in **[!UICONTROL Preferences]** > **[!UICONTROL Upload acceleration]** setting. More concurrency typically gives faster uploads, but can be resource-intensive, consuming more processing power of the local machine. If you experience a slow system, re-attempt uploads using a lower value of concurrency.
-
->[!NOTE]
->
->The transfer list is not persistent and is not available if you exit the app and reopen it.
-
->[!NOTE]
->
->If the files fail to upload and if you are connecting to [!DNL Experience Manager] 6.5.1 or later deployment, see this [troubleshooting information](troubleshoot.md#upload-fails).
+-->
 
 ## Work with multiple assets {#work-with-multiple-assets}
 
