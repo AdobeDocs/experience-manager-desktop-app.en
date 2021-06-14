@@ -188,11 +188,25 @@ You can control the upload concurrency (acceleration) in **[!UICONTROL Preferenc
 
 ### Manage special characters in asset names {#special-characters-in-filename}
 
-In the legacy app, the node names created in the JCR repository respected and retained the spaces and casing of the folder names provided by the user. For the current application to emulate v1.10 app behavior when uploading folders, enable [!UICONTROL Use legacy conventions when creating nodes for assets and folders] in the [!UICONTROL Preferences]. See [app preferences](/help/install-upgrade.md#set-preferences). This legacy preference is disabled by default.
+In the legacy app, the node names created in the JCR repository respected and retained the spaces and casing of the folder names provided by the user. For the current application to emulate the node naming rules of v1.10 app, enable [!UICONTROL Use legacy conventions when creating nodes for assets and folders] in the [!UICONTROL Preferences]. See [app preferences](/help/install-upgrade.md#set-preferences). This legacy preference is disabled by default. all of this only applies to the item's path. The title will remain untouched, and will appear the same as the original name. The app updates the repository path and not the `Title` of the asset, which appears as is.
 
 When you upload files and folders using [!DNL Experience Manager desktop app], it changes the node names in the JCR repository using the following naming conventions.
 
-| Characters &Dagger; | Legacy preference | Occurrence in file names | Occurrence in folder names | Example |
+<!-- TBD: Do NOT use this table.
+
+| Where do characters occur | Characters | Legacy preference | Renaming convention | Example |
+|---|---|---|---|---|
+| In file name extension | `.` | Enabled or disabled | Retained as is | NA |
+| File or folder name | `. / : [ ] | *` | Enabled or disabled | Replaced with a `-` (hyphen) | `myimage.jpg` remains as is and `my.image.jpg` changes to `my-image.jpg`. |
+| Folder name | `% ; # , + ? ^ { } "` | Disabled | Replaced with a `-` (hyphen) | tbd |
+| File name | `% # ? { } &` | Disabled | Replaced with a `-` (hyphen) | tbd |
+| File name | Whitespaces | Enabled or disabled | Retained as is | NA |
+| Folder name | Whitespaces | Disabled | Replaced with a `-` (hyphen) | tbd |
+| File name | Uppercase characters | Disabled | Retained as is | tbd |
+| Folder name | Uppercase characters | Disabled | Replaced with a `-` (hyphen) | tbd |
+-->
+
+| Characters &Dagger; | Legacy preference in app | When occurring in file names | When occurring in folder names | Example |
 |---|---|---|---|---|
 | `. / : [ ] | *` | Enabled or Disabled | Replaced with `-` (hyphen). A `.` (dot) in the filename extension is retained as is. | Replaced with `-` (hyphen). | `myimage.jpg` remains as is and `my.image.jpg` changes to `my-image.jpg`. |
 | `% ; # , + ? ^ { } "` and whitespaces | ![deselect icon](assets/do-not-localize/deselect-icon.png) Disabled | Whitespaces are retained | Replaced with `-` (hyphen). | `My Folder.` changes to `my-folder-`. |
@@ -200,9 +214,15 @@ When you upload files and folders using [!DNL Experience Manager desktop app], i
 | Uppercase characters | ![deselect icon](assets/do-not-localize/deselect-icon.png) Disabled | Casing is retained as is. | Changed to lowercase characters. | `My New Folder` changes to `my-new-folder`. |
 | Uppercase characters | ![selection checked icon](assets/do-not-localize/selection-checked-icon.png) Enabled | Casing is retained as is. | Casing is retained as is. | NA. |
 
-&Dagger; The list of characters is a whitespace-separated list. Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names of folders.
+&Dagger; The list of characters is a whitespace-separated list. 
 
-<!-- TBD: Remove the below content, if the above suffices.
+<!-- TBD: Check if the following is to be included in the footnote.
+
+Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names of folders. 
+-->
+
+
+<!-- TBD: Securing the below presentation of the same content in a comment.
 
 **File names**
 
