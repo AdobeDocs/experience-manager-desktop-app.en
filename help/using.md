@@ -188,9 +188,11 @@ You can control the upload concurrency (acceleration) in **[!UICONTROL Preferenc
 
 ### Manage special characters in asset names {#special-characters-in-filename}
 
-In the legacy app, the node names created in the JCR repository respected and retained the spaces and casing of the folder names provided by the user. For the current application to emulate the node naming rules of v1.10 app, enable [!UICONTROL Use legacy conventions when creating nodes for assets and folders] in the [!UICONTROL Preferences]. See [app preferences](/help/install-upgrade.md#set-preferences). This legacy preference is disabled by default. all of this only applies to the item's path. The title will remain untouched, and will appear the same as the original name. The app updates the repository path and not the `Title` of the asset, which appears as is.
+In the legacy app, the node names created in the repository retained the spaces and casing of the folder names provided by the user. For the current application to emulate the node naming rules of v1.10 app, enable [!UICONTROL Use legacy conventions when creating nodes for assets and folders] in the [!UICONTROL Preferences]. See [app preferences](/help/install-upgrade.md#set-preferences). This legacy preference is disabled by default.
 
-When you upload files and folders using [!DNL Experience Manager desktop app], it changes the node names in the JCR repository using the following naming conventions.
+>[!NOTE]
+>
+>The app changes only the node names in the repository using the following naming conventions. The app retains the `Title` of the asset as is.
 
 <!-- TBD: Do NOT use this table.
 
