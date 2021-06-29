@@ -184,7 +184,7 @@ If you are experiencing general connectivity issues, here are some ways to get m
 
 [!DNL Experience Manager] desktop app logs all requests that it sends, along with each request's response code, in a dedicated log file.
 
-1. Open `request.log` in the application`s log directory to see these requests.
+1. Open `request.log` in the application's log directory to see these requests.
 
 1. Each line in the log represents either a request or a response. Requests will have a `>` character followed by the URL that was requested. Responses will have a `<` character followed by the response code and the URL that was requested. Requests and Response can be matched using each line's GUID.
 
