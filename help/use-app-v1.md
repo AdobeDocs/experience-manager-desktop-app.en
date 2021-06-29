@@ -96,11 +96,11 @@ From within the Assets user interface, you can explore the asset locations or ch
 
    ![[!DNL Experience Manager] interface with user preferences](assets/aem_ui_user_preferences.png)
 
-1. In the User Preferences dialog, select **[!UICONTROL Show Desktop Actions For Assets]**. Click **[!UICONTROL Accept]**.
+1. In the [!UICONTROL User Preferences] dialog, select **[!UICONTROL Show Desktop Actions For Assets]**, then click **[!UICONTROL Accept]**.
 
    ![Check [!UICONTROL Show Desktop Actions For Assets] to enable desktop actions](assets/enable_desktop_actions.png)
 
-   *Figure: Check Show Desktop Actions For Assets to enable the desktop actions.*
+   *Figure: Check [!UICONTROL Show Desktop Actions For Assets] to enable the desktop actions.*
 
 ## Access and open assets on your desktop {#openondesktop}
 
