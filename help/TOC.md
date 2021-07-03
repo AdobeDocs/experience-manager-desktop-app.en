@@ -7,7 +7,7 @@ breadcrumb-title: Desktop App Guide
 user-guide-description: Learn to use the Experience Manager desktop app to connect repositories and desktop applications to provide faster access to resources and streamlined workflows.
 feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
-role: Business Practitioner, Administrator
+role: User, Admin
 ---
 
 # Adobe desktop app Guide {#using}
