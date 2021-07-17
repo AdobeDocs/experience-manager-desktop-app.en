@@ -123,7 +123,7 @@ If the WebDAV/SMB performance degrades drastically when multiple users work simu
 
 You can improve the performance at the AEM side by enabling transient workflows for the DAM Update Asset workflow. Enabling transient workflows reduces the processing power required to update assets when they are created or modified in AEM.
 
-1. Navigate to `/miscadmin` in the AEM instance to be configured (for example, `http://[Server]:[Port]/miscadmin`).
+1. Navigate to `/miscadmin` in the Experience Manager instance (`https://[aem_server]:[port]/miscadmin`).
 1. From the navigation tree, expand **Tools** &gt; **Workflow** &gt; **Models** &gt; **dam**.
 1. Double-click **DAM Update Asset**.
 1. From the floating tools panel, switch to the **Page** tab and then click **Page Properties**.
@@ -133,9 +133,9 @@ You can improve the performance at the AEM side by enabling transient workflows 
 
 Another method for improving AEM performance is to configure the value of the maximum parallel jobs for the Granite Transient Workflow Queue job. The recommended value is roughly half the number of the CPU available with the server. To adjust the value, perform these steps:
 
-1. Navigate to */system/console/configMgr* in the AEM instance to be configured (for example, `http://[aem_server]:[port]/system/console/configMgr`).
-1. Search for **QueueConfiguration**, and click to open each job until you locate the **Granite Transient Workflow Queue** job. Click the Edit  beside it.
-1. Change the **Maximum Parallel Jobs** value, and click **Save**.
+1. Navigate to `/system/console/configMgr` in the AEM instance to be configured (for example, `https://[aem_server]:[port]/system/console/configMgr`).
+1. Search for `QueueConfiguration`, and click to open each job until you locate the **Granite Transient Workflow Queue** job, and click **Edit**.
+1. Change the `Maximum Parallel Jobs` value, and click **Save**.
 
 ## AWS configuration {#aws-configuration}
 
@@ -268,7 +268,7 @@ The most common reason for issues with AEM Desktop connecting to your SSO-enable
 
 1. Open a web browser.
 1. In the address bar, specify the URL `/content/dam.json`.
-1. Replace the URL with the target AEM instance, for example `http://localhost:4502/content/dam.json`.
+1. Replace the URL with the target AEM instance, for example `https://localhost:4502/content/dam.json`.
 1. Log on to AEM.
 1. After logging in, check the browser's current address in the address bar. It should match the URL that you initially entered.
 1. Verify that everything before `/content/dam.json` matches the target AEM value configured in AEM Desktop.
