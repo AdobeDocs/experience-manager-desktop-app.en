@@ -390,7 +390,7 @@ Since the /Volumes folder no longer requires administrative rights, this change 
 ## Known issues {#known-issues}
 
 * General:
-  * Server URLs are required to point to the server without a path (e.g. `http://server`, `https://server`, `http://server:port`, or `https://server:port`). Context paths and sub-folders other than /content/dam are not supported (CQ-89343, CQ-87272)
+  * Server URLs are required to point to the server without a path (for example, `http://server`, `https://server`, `http://server:port`, or `https://server:port`). Context paths and sub-folders other than /content/dam are not supported (CQ-89343, CQ-87272)
 * File names / localization:
   * File and folder names with reserved characters are not properly handled. Make sure to use file and folder names that fit AEM requirements (CQ-93361, CQ-93308, CQ-89276, CQ-4217183)
   * Some applications like Adobe Illustrator might create files with names not supported in AEM. For example, adding `Converted` after converting a file, which stops it from being uploaded (CQ-4216985)
