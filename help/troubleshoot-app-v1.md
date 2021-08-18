@@ -90,13 +90,13 @@ The bandwidth available to an individual user plays a critical role in the perfo
 
 Adobe recommends that an individual user's upload speed to be close to 10 Mbps. For wireless connections, bandwidth is often shared between multiple users. If multiple users simultaneously perform tasks that consume network bandwidth, the performance can degrade even further. To avoid such issues, use a wired connection.
 
+<!-- AG, 8/18: The Windows KB article is removed by MS now. Giving 404. Also, Win 7 support is gone and the desktop app is also not supported on Win 7. Hiding this content for now.
+
 ## Windows-specific configurations {#windows-specific-configurations}
 
 If you use Experience Manager on Windows, you can configure Windows to enhance the performance of the WebDAV client. For more information, go to [https://support.microsoft.com/en-us/kb/2445570](https://support.microsoft.com/en-us/kb/2445570).
 
 On Windows 7, modifying IE settings can improve the performance of WebDAV. For details, see how to [fix slow WebDAV performance in Windows 7](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/).
-
-<!-- TBD: The above performance tip is for Windows 7 which is not supported by the app anymore. Remove it later.
 -->
 
 ## Concurrent operations {#concurrent-operations}
