@@ -82,7 +82,7 @@ To install the desktop app, follow these steps. Uninstall any existing Adobe [!D
 
 1. ([!DNL Experience Manager] 6.5.1 or later) If you are using desktop app with [!DNL Experience Manager] 6.5.1 or later, upgrade S3 or Azure connector to version 1.10.4 or later. See [Azure connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#azure-data-store) or [S3 connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#amazon-s-data-store).
 
-   If you are an Adobe Managed Services (AMS) customer, contact Adobe Customer Care.
+   If you are an Adobe Managed Services (AMS) customer, contact Adobe Customer Support.
 
 ## Set preferences {#set-preferences}
 
