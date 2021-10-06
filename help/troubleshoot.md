@@ -33,7 +33,7 @@ Adhere to the following best practices to prevent some common issues and trouble
 
 ## How to troubleshoot {#troubleshooting-prep}
 
-To troubleshoot desktop app issues, be aware of the following information. Also, it prepares you to better convey the issues to Adobe Customer Care if you choose to seek support.
+To troubleshoot desktop app issues, be aware of the following information. Also, it prepares you to better convey the issues to Adobe Customer Support if you choose to seek support.
 
 ### Location of log files {#check-log-files-v2}
 
@@ -47,7 +47,7 @@ When uploading many assets, if some files fail to upload, see `backend.log` file
 
 >[!NOTE]
 >
->When working with Adobe Customer Care on a support request or ticket, you can be asked to share the log files to help the Customer Care team understand the issue. Archive the entire `Logs` folder and share it with your Customer Care contact.
+>When working with Adobe Customer Support on a support request or ticket, you can be asked to share the log files to help the Customer Support team understand the issue. Archive the entire `Logs` folder and share it with your Customer Support contact.
 
 ### Change level of details in log files {#level-of-details-in-log}
 
