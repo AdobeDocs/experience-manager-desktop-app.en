@@ -7,7 +7,7 @@ exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 ---
 # [!DNL Adobe Experience Manager] desktop app release notes {#release-notes-v2}
 
-The release information for the latest desktop app version 2.1 (2.1.3.4) is below. The release date is November 5, 2021.
+The release information for the latest desktop app version 2.1 (2.1.3.4) is below. The release date is November 4, 2021.
 
 The **supported [!DNL Experience Manager] versions** are:
 
