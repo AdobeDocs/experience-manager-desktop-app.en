@@ -7,7 +7,7 @@ exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 ---
 # [!DNL Adobe Experience Manager] desktop app release notes {#release-notes-v2}
 
-The release information for the latest desktop app version 2.1 (2.1.3.3) is below. The release date is July 29, 2021.
+The release information for the latest desktop app version 2.1 (2.1.3.4) is below. The release date is November 5, 2021.
 
 The **supported [!DNL Experience Manager] versions** are:
 
@@ -27,16 +27,13 @@ The **download URLs** for supported OS are:
 
 | Operating system | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
-| macOS (v2.1.3.3) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) |
-| Windows 64-bit (v2.1.3.3) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe)|
+| macOS (v2.1.3.4) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.4.dmg) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.4.dmg) |
+| Windows 64-bit (v2.1.3.4) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.4.exe) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.4.exe)|
 | Windows 32-bit (v2.1.3.1) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) |
 
 >[!NOTE]
 >
 >Windows 7 is no longer supported. See [the article about EOL of Windows 7](https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
-
-<!-- The version of the app you plan to install on your local machine requires a specific [!DNL Adobe Experience Manager] server version/additional server-side components (service packs, hot fixes, or feature packs). Contact your [!DNL Experience Manager] administrator for help.
--->
 
 ## Support for different assets and file types {#support-for-file-types}
 
@@ -62,13 +59,17 @@ The feature is supported with [!DNL Adobe Creative Cloud] 2018 and [!DNL Adobe C
 
 To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
 
+**Updates in app v2.1.3.4**
+
+The new version of the application offers a bug fix.
+
 **Updates in app v2.1.3.3**
 
 The new version of the application offers a bug fix.
 
 **Updates in app v2.1.3.2**
 
-This version of the application offered a bug fix.
+This version of the application offers a bug fix.
 
 **Updates in app v2.1.3.1**
 
