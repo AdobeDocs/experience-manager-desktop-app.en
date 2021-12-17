@@ -61,7 +61,7 @@ To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
 
 **Updates in app v2.1.4.0**
 
-The new version of the application offers a bug fix.
+The new version of the application offers bug fixes.
 
 **Updates in app v2.1.3.4**
 
