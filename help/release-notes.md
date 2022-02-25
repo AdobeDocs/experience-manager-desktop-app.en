@@ -1,5 +1,5 @@
 ---
-title: [!DNL Adobe Experience Manager] desktop app release notes
+title: "[!DNL Adobe Experience Manager] desktop app release notes"
 description: Release details, enhancements, new features, compatibility, and download links for [!DNL Adobe Experience Manager] desktop app.
 mini-toc-levels: 1
 feature: Desktop App,Release Information
