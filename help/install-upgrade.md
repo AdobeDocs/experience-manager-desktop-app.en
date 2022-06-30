@@ -28,7 +28,7 @@ For detailed information, see the [[!DNL Experience Manager] desktop app release
 
 ## Upgrade from a previous version {#upgrade-from-previous-version}
 
-If you are a user of v1.x of desktop app, then understand the differences and similarities between the previous and the latest version of the app. See [what is new in desktop app](introduction.md#whats-new-v2) and [how the app works](release-notes.md#how-app-works)
+If you are a user of v1.x of desktop app, then understand the differences and similarities between the previous and the latest version of the app. See [what is new in desktop app](introduction.md#whats-new-v2) and [how the app works](release-notes.md#how-app-works).
 
 >[!NOTE]
 >
