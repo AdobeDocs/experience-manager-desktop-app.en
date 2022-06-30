@@ -13,7 +13,7 @@ The integration allows various roles in the organization to manage the assets ce
 
 When you open the application after logging out or for the first time, provide the URL of your [!DNL Experience Manager] server in the format `https://[aem-server-url]:[port]/`. Then select the [!UICONTROL Connect] option. Provide credentials to connect the app with the server.
 
-The key tasks you do using the [!DNL Experience Manager] desktop app are:
+The key tasks you perform using the [!DNL Adobe Experience Manager] desktop app are:
 
 ![Workflows and tasks you can accomplish using [!DNL Experience Manager] desktop app](assets/aem_desktop_app_usecases_v2.png "Workflows and tasks you can accomplish using [!DNL Adobe Experience Manager] desktop app")
 Download [this](assets/aem_desktop_app_usecases_print.pdf) print-ready PDF file.
