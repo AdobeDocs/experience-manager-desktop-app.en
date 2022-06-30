@@ -8,13 +8,13 @@ exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 
 Using the [!DNL Adobe Experience Manager] desktop app, the assets within [!DNL Experience Manager] are easily available on your local desktop and can be used in any native desktop applications. Assets can be previewed, opened in native desktop applications, revealed in Mac Finder or Windows Explorer for placing in other documents, and changed locally – the changes are saved back to [!DNL Experience Manager] when you upload and a new version is created in the repository.
 
-Such an integration allows various roles in the organization to,
+Such an integration allows various roles in the organization to:
 
 * Manage the assets centrally in [!DNL Experience Manager Assets].
 
 * Access the assets in any native desktop applications, including third-party applications and in Adobe Creative Cloud. While doing so, users can easily adhere to the various standards including branding.
 
-To use [!DNL Experience Manager] desktop app,
+To use [!DNL Experience Manager] desktop app:
 
 * Ensure that your [!DNL Experience Manager] version is supported by [!DNL Experience Manager] desktop app. See the [system requirements](release-notes.md).
 
