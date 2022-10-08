@@ -70,6 +70,8 @@ To install the desktop app, follow these steps. Uninstall any existing Adobe [!D
 
    *Figure: Connection screen to input server address.*
 
+   Select **[!UICONTROL Remember Connection]** to avoid entering the connection details each time you log on to desktop app.
+
    >[!CAUTION]
    >
    >Ensure there are no leading or trailing spaces before or after the address of the [!DNL Experience Manager] server. Otherwise the app cannot connect to the [!DNL Experience Manager] server.
@@ -130,7 +132,7 @@ To uninstall the application on Windows, follow these steps:
 
 1. Upload all your changes to [!DNL Experience Manager] to avoid losing any edits. See [Edit assets and upload updated assets to [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). Log off and [!UICONTROL Exit] the app.
 
-1. Remove the app as you’d remove any other OS application. Uninstall it from Add and remove programs on Windows.
+1. Remove the app as you'd remove any other OS application. Uninstall it from Add and remove programs on Windows.
 
 1. To remove the cache and logs, select the necessary check box.
 
