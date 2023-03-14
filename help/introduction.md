@@ -34,11 +34,8 @@ Version 2.0 of the app is created from grounds-up to provide many improvements o
 The new app brings substantial improvements to the user experience, while catering to the same use cases as before. The following are the top-level improvements.
 
 * Users discover assets by browsing and searching within the app in a built-in browser, instead of relying on Mac Finder or Windows Explorer to display a virtual network share.
-
 * Clear guidance on the actions available to users.
-
 * Performance is improved by reducing bandwidth usage. The original binary files are downloaded only when necessary. For browsing and searching assets, only small thumbnails are transferred.
-
 * Optimized for bulk operations, such as bulk upload.
 
 The primary use cases and enhancements of the new app are mapped with the customer journey in the following illustration.
