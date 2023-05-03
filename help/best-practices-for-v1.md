@@ -113,7 +113,7 @@ Good experience for users using the AEM desktop app greatly depends on good, sta
 
 ### Network considerations {#network-considerations}
 
-To understand best practices around AEM Assets network configuration, please refer to [AEM Assets Network Considerations](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/assets-migration-guide.html) document. Some of the important aspects that help optimize AEM desktop app experience for the users include:
+To understand best practices around AEM Assets network configuration, please refer to [How to migrate assets in bulk](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html) document. Some of the important aspects that help optimize AEM desktop app experience for the users include:
 
 * **Use properly configured Dispatcher**. Use AEM Dispatcher for additional security and ensure that it is configured for [AEM desktop app connection to AEM behind a dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
 

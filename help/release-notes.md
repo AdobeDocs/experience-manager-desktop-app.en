@@ -17,10 +17,6 @@ The **supported [!DNL Experience Manager] versions** are:
 
 * [!DNL Experience Manager] as a [!DNL Cloud Service]. See [release notes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html).
 * [!DNL Experience Manager] 6.5.0 or newer, on Adobe Managed Services (AMS) or On-Premise. See [service pack release notes](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html).
-* [!DNL Experience Manager] 6.4.4 or newer, on Adobe Managed Services (AMS) or On-Premise. See [service pack release notes](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html).
-* [!DNL Experience Manager] 6.4.0 - 6.4.3 with the [compatibility package](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) installed, on Adobe Managed Services (AMS) or On-Premise.
-* [!DNL Experience Manager] 6.3 (with compatibility package)
-* [!DNL Experience Manager] 6.3.3.1 or newer with the [compatibility package](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) installed. Desktop app is not supported for [!DNL Experience Manager] 6.3.3.0 or previous versions.
 
 [!DNL Adobe Experience Manager] desktop app is available for the following **operating systems**:
 
