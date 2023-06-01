@@ -188,7 +188,7 @@ You can control the upload concurrency (acceleration) in **[!UICONTROL Preferenc
 
 ### Manage special characters in asset names {#special-characters-in-filename}
 
-In the legacy app, the node names created in the repository retained the spaces and casing of the folder names provided by the user. For the current application to emulate the node naming rules of v1.10 app, enable [!UICONTROL Use legacy conventions when creating nodes for assets and folders] in the [!UICONTROL Preferences]. See [app preferences](/help/install-upgrade.md#set-preferences). This legacy preference is disabled by default.
+In the legacy app, the node names created in the repository retained the spaces and casing of the folder names provided by the user. For the current application to emulate the node naming rules of v1.10 app, enable [!UICONTROL Use legacy conventions when creating nodes for assets and folders] in the [!UICONTROL Preferences]. See [app preferences](/help/using/install-upgrade.md#set-preferences). This legacy preference is disabled by default.
 
 >[!NOTE]
 >
@@ -253,7 +253,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 >[!NOTE]
 >
->If you enable [!UICONTROL Use legacy conventions when creating nodes for assets and folders] in app [!UICONTROL Preferences], then the app emulates v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respect spaces and casing of the folder names provided by the user. For more information, see [app Preferences](/help/install-upgrade.md#set-preferences).
+>If you enable [!UICONTROL Use legacy conventions when creating nodes for assets and folders] in app [!UICONTROL Preferences], then the app emulates v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respect spaces and casing of the folder names provided by the user. For more information, see [app Preferences](/help/using/install-upgrade.md#set-preferences).
 
 -->
 
