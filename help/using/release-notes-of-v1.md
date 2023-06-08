@@ -210,7 +210,7 @@ AEM desktop app 1.8.1 fast-follow release added improvements when opening multip
 
 ### Enhancements Available Since AEM desktop app 1.6 {#Enhancements-Available-Since-AEM-Desktop-App-16}
 
-* Documentation: New [Best practices for v1.x app](/help/best-practices-for-v1.md) documentation.
+* Documentation: New [Best practices for v1.x app](/help/using/best-practices-for-v1.md) documentation.
 
 * Improved login process to AEM:
 

@@ -118,19 +118,19 @@ The bug fixed in this version is:
 
 **Update in app v2.1.2.0**
 
-* A new option to [!UICONTROL Clear Cookies] is added to the main menu of the application. It helps with potential login issues, for example when changing connection from a server to another. See [clear cookies before connecting](/help/troubleshoot.md#cannot-login-cookies-issue).
+* A new option to [!UICONTROL Clear Cookies] is added to the main menu of the application. It helps with potential login issues, for example when changing connection from a server to another. See [clear cookies before connecting](/help/using/troubleshoot.md#cannot-login-cookies-issue).
 
 * An option is added that (if selected) allows the app to upload folders and files such that their node names created in [!DNL Adobe Experience Manager] are same as the local file and folder names.
 
-  This behavior is similar to the default behavior in version 1 of desktop app. Whereas in the current version, if the option is not enabled then whitespaces and the characters `% ; # , + ? ^ { } "` in folder names are replaced by dash in folder paths. Also, the upper-case characters are converted to lower case in folder paths. However in file names, the characters `# % { } ? &` are replaced by dash; but whitespaces and casing are retained. For more information see, [app Preferences](/help/install-upgrade.md#set-preferences) and [Upload and add new assets](/help/using.md#upload-and-add-new-assets-to-aem).
+  This behavior is similar to the default behavior in version 1 of desktop app. Whereas in the current version, if the option is not enabled then whitespaces and the characters `% ; # , + ? ^ { } "` in folder names are replaced by dash in folder paths. Also, the upper-case characters are converted to lower case in folder paths. However in file names, the characters `# % { } ? &` are replaced by dash; but whitespaces and casing are retained. For more information see, [app Preferences](/help/using/install-upgrade.md#set-preferences) and [Upload and add new assets](/help/using/using.md#upload-and-add-new-assets-to-aem).
 
 **Update in app v2.1.1.0**
 
-* An advanced setting lets the app emulate v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respect spaces and casing of the folder names provided by the user. The default behavior of v2.1 continues to remain same, that is, replace multiple spaces in folder names with a hyphen in the repository node name and convert to lowercase node names. See [the app preferences](/help/install-upgrade.md#set-preferences).
+* An advanced setting lets the app emulate v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respect spaces and casing of the folder names provided by the user. The default behavior of v2.1 continues to remain same, that is, replace multiple spaces in folder names with a hyphen in the repository node name and convert to lowercase node names. See [the app preferences](/help/using/install-upgrade.md#set-preferences).
 
 **Update in app v2.1.0.0**
 
-* To upload assets, users can now drag the files or folders on the application's interface, directly from Windows Explorer or Mac Finder. This works in addition to the upload option available in the application. See [upload assets](/help/using.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
+* To upload assets, users can now drag the files or folders on the application's interface, directly from Windows Explorer or Mac Finder. This works in addition to the upload option available in the application. See [upload assets](/help/using/using.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
 
 **Update in app v2.0.3**
 
