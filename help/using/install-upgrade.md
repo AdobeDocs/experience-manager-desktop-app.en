@@ -76,7 +76,7 @@ To install the desktop app, follow these steps. Uninstall any existing Adobe [!D
    >
    >Ensure there are no leading or trailing spaces before or after the address of the [!DNL Experience Manager] server. Otherwise the app cannot connect to the [!DNL Experience Manager] server.
 
-1. [Optional] Click **[!UICONTROL I want to connect a different way]** and click **[!UICONTROL Adobe login]** to log on Experience Manager Assets server using Adobe Identity Management Service (IMS). IMS login allows the Desktop App to perform access token refresh automatically, allowing the user to stay logged in for up to 14 days. Click **[!UICONTROL Direct login]** to perform the standard log on to the [!DNL Experience Manager] server using user's credentials.
+1. [Optional] Click **[!UICONTROL I want to connect a different way]** and click **[!UICONTROL Adobe login]** to log on to Experience Manager Assets server using Adobe Identity Management Service (IMS). IMS login allows the Desktop App to perform access token refresh automatically, allowing the user to stay logged in for up to 14 days. Click **[!UICONTROL Direct login]** to perform the standard log on to the [!DNL Experience Manager] server using user's credentials.
 
    ![Adobe Login](assets/adobe-login.png)
 
