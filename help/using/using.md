@@ -88,7 +88,7 @@ You can browse to, search for, and preview the assets available in the [!DNL Exp
 
 >[!NOTE]
 >
->The app displays the assets by matching the search criteria across multiple metadata fields and not just the asset’s title or the filename.
+>The app displays the assets by matching the search criteria across multiple metadata fields and not just the asset's title or the filename.
 
 ## Download assets {#download-assets}
 
@@ -145,14 +145,14 @@ The **[!UICONTROL Reveal File]** action opens a local network share, that displa
 
 Open assets for editing when you want to make changes and upload the updated assets to AExperience ManagerEM server. To avoid conflicts with edits of other users, use the app to initiate an editing session. Before you start editing, ensure that the asset does not have a lock icon on it, that is, another user is not editing the asset.
 
-To edit an asset, search for the asset or browse to the asset’s location. Click ![More icon](assets/do-not-localize/more2_da2.png) and click **[!UICONTROL Edit]**.
+To edit an asset, search for the asset or browse to the asset's location. Click ![More icon](assets/do-not-localize/more2_da2.png) and click **[!UICONTROL Edit]**.
 
 Use **[!UICONTROL Toggle Check-out]** to lock the asset to prevent conflicts with edits of other users in both the following situations:
 
 * You've started editing an asset without checking it out first (say by just opening it).
 * You intend to start editing an asset soon and do not want others to edit.
 
-Once you’re done making the edits, the app displays the **[!UICONTROL Edited Locally]** status for the changed assets. All the changes saved to the assets are local-only until you upload the changes to [!DNL Experience Manager]. To upload an individual or a few assets one-by-one, click **[!UICONTROL Upload Changes]** from the options for an asset. It creates a version of the asset in [!DNL Experience Manager]. Using the web interface of [!DNL Assets], you can see asset history in the [Timeline view](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html).
+Once you're done making the edits, the app displays the **[!UICONTROL Edited Locally]** status for the changed assets. All the changes saved to the assets are local-only until you upload the changes to [!DNL Experience Manager]. To upload an individual or a few assets one-by-one, click **[!UICONTROL Upload Changes]** from the options for an asset. It creates a version of the asset in [!DNL Experience Manager]. Using the web interface of [!DNL Assets], you can see asset history in the [Timeline view](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html).
 
 ![Upload changes option in the app](assets/upload_changes_single1_da2.png "Upload changes option in the app")
 
@@ -175,7 +175,7 @@ Users can add new assets to the DAM repository. For example, you may be an agenc
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
 
-You can upload folders or individual files from your local file system. A folder’s hierarchy is preserved when it is uploaded. Before uploading assets in bulk, see [Bulk uploads](#bulk-upload-assets).
+You can upload folders or individual files from your local file system. A folder's hierarchy is preserved when it is uploaded. Before uploading assets in bulk, see [Bulk uploads](#bulk-upload-assets).
 
 To view the list of assets transferred in a given session, click **[!UICONTROL View]** > **[!UICONTROL Assets transfers]**. The list allows you to view and quickly verify the file transfers of the current session.
 
@@ -211,7 +211,7 @@ In the legacy app, the node names created in the repository retained the spaces 
 
 | Characters &Dagger; | Legacy preference in app | When occurring in file names | When occurring in folder names | Example |
 |---|---|---|---|---|
-| `. / : [ ] | *` | Enabled or Disabled | Replaced with `-` (hyphen). A `.` (dot) in the filename extension is retained as is. | Replaced with `-` (hyphen). | `myimage.jpg` remains as is and `my.image.jpg` changes to `my-image.jpg`. |
+| `. / : [ ] \| *` | Enabled or Disabled | Replaced with `-` (hyphen). A `.` (dot) in the filename extension is retained as is. | Replaced with `-` (hyphen). | `myimage.jpg` remains as is and `my.image.jpg` changes to `my-image.jpg`. |
 | `% ; # , + ? ^ { } "` and whitespaces | ![deselect icon](assets/do-not-localize/deselect-icon.png) Disabled | Whitespaces are retained | Replaced with `-` (hyphen). | `My Folder.` changes to `my-folder-`. |
 | `# % { } ? & .` | ![deselect icon](assets/do-not-localize/deselect-icon.png) Disabled | Replaced with `-` (hyphen). | NA. | `#My New File.` changes to `-My New File-`. |
 | Uppercase characters | ![deselect icon](assets/do-not-localize/deselect-icon.png) Disabled | Casing is retained as is. | Changed to lowercase characters. | `My New Folder` changes to `my-new-folder`. |
@@ -343,7 +343,7 @@ If a locally downloaded asset is updated on the [!DNL Experience Manager] server
 
 ![Options to resolve the conflict when the asset is remotely modified](assets/modified_remotely_dialog_da2.png "Options to resolve the conflict when the asset is remotely modified")
 
-If an asset you are editing locally is also updated on the server without your knowledge, the app displays an **[!UICONTROL Editing Conflict]** status. You can retain one set of the changes – either retain your updates (click **[!UICONTROL Keep Mine]**) and delete the other user’s edit or respect the other user’s updates and delete yours (**[!UICONTROL Overwrite Mine]**).
+If an asset you are editing locally is also updated on the server without your knowledge, the app displays an **[!UICONTROL Editing Conflict]** status. You can retain one set of the changes – either retain your updates (click **[!UICONTROL Keep Mine]**) and delete the other user's edit or respect the other user's updates and delete yours (**[!UICONTROL Overwrite Mine]**).
 
 ![Options to resolve an editing conflict](assets/editing_conflict_dialog_da2.png "Options to resolve an editing conflict")
 
