@@ -5,13 +5,13 @@ exl-id: 7f3bdfb1-d345-4e48-b020-6e06531f46f2
 ---
 # Install and configure [!DNL Experience Manager] desktop app v1.10 {#install-and-configure-aem-desktop-app}
 
-Using the [!DNL Experience Manager] desktop app, the assets within [!DNL Experience Manager] are easily accessible on your local desktop and can be used in any desktop applications. Assets can be easily revealed in Mac Finder or Windows Explorer, opened in desktop applications, and changed locally – the changes are saved back to [!DNL Experience Manager] when you upload and a new version is created in the repository.
+Using the [!DNL Experience Manager] desktop app, the assets within [!DNL Experience Manager] are easily accessible on your local desktop and can be used in any desktop applications. Assets can be revealed in Mac Finder or Windows Explorer, edited in desktop apps, and changes are saved back to [!DNL Experience Manager], creating a new version upon upload.
 
-Such an integration allows various roles in the organization to manage the assets centrally in Assets and to access them in the Creative Cloud and other applications, while making it easy to adhere to the various standards including branding.
+This integration enables different roles to manage assets centrally within the organization in Assets, access them in Creative Cloud and other applications, and easily comply with various standards, including branding.
 
-To use [!DNL Experience Manager] desktop app,
+To use the [!DNL Experience Manager] desktop app,
 
-* Ensure that your [!DNL Experience Manager] server version is supported by [!DNL Experience Manager] desktop app. See the [compatibility matrix](release-notes-of-v1.md#compatibilitymatrix).
+* Make sure that your [!DNL Experience Manager] server version is compatible with the [!DNL Experience Manager] desktop app. See the [compatibility matrix](release-notes-of-v1.md#compatibilitymatrix).
 
 * Download and install the application.
 
@@ -33,7 +33,7 @@ For details, see [Install and connect [!DNL Experience Manager] desktop app to [
 
 When changing a file from a network share location mounted by the desktop app, files are saved to that location in two phases. In the first phase, a file is saved locally. A user can save the file and continue working on the file, without waiting for the transfer to complete.
 
-In the second phase, desktop app uploads the updated file to [!DNL Experience Manager] server after a predefined delay (for example, 30s). This operation occurs in the background. Use the View Asset Status option to view the status of the upload operation.
+In the second phase, the desktop app uploads the updated file to the [!DNL Experience Manager] server after a predefined delay (for example, 30s). This operation occurs in the background. Use the View Asset Status option to view the status of the upload operation.
 
 1. Upload an asset to Assets.
 
@@ -47,7 +47,7 @@ In the second phase, desktop app uploads the updated file to [!DNL Experience Ma
 >
 >[!DNL Experience Manager] desktop app can handle assets up to 40 GB in size.
 
-## Connect to an [!DNL Experience Manager] instance behind a dispatcher {#connect-to-an-aem-instance-behind-a-dispatcher}
+## Connect to an [!DNL Experience Manager] instance behind a Dispatcher {#connect-to-an-aem-instance-behind-a-dispatcher}
 
 The copy and move methods in the Assets API require the following additional headers to be passed to [!DNL Experience Manager]:
 
@@ -55,13 +55,13 @@ The copy and move methods in the Assets API require the following additional hea
 * X-Depth
 * X-Overwrite
 
-[!DNL Experience Manager] desktop connects to [!DNL Experience Manager] using a URL that includes the default port. Therefore, the `virtualhosts` setting in the dispatcher configuration should include the default port number. For more information around `virtualhosts` configuration, see [identify virtual hosts](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
+[!DNL Experience Manager] desktop connects to [!DNL Experience Manager] using a URL that includes the default port. Therefore, the `virtualhosts` setting in the Dispatcher configuration should include the default port number. For more information around `virtualhosts` configuration, see [identify virtual hosts](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts).
 
-For additional information on configuring the dispatcher to pass through these additional headers, see [Specifying the HTTP Headers](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders).
+For additional information on configuring the Dispatcher to pass through these additional headers, see [Specifying the HTTP Headers](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
 
 ### Proxy support {#proxy-support}
 
-[!DNL Experience Manager] desktop app uses system's pre-defined proxy to connect to the Internet over HTTPS. The app can only connect using a network proxy that does not require extra authentication.
+The [!DNL Experience Manager] desktop app uses the system's pre-defined proxy to connect to the Internet over HTTPS. The app can only connect using a network proxy that does not require extra authentication.
 
 If you configure or modify proxy server settings for Windows (Internet Options &gt; LAN Settings), restart the [!DNL Experience Manager] desktop app for the changes to take effect.
 
@@ -79,13 +79,13 @@ You can customize the Asset Info dialog by overlaying one or both of these compo
 
 * The HTL `/css/javascript` component at `/libs/dam/gui/components/admin/moreinfo`.
 
-Which component is overlaid, depends on the nature of the customization. To change which components are displayed as part of the Asset Info dialog, overlay the Granite user interface page. To change the HTML, CSS, or JavaScript content of the dialog, overlay the HTL component.
+Which component is overlaid depends on the nature of the customization. To change which components are displayed as part of the Asset Info dialog, overlay the Granite user interface page. To change the HTML, CSS, or JavaScript content of the dialog, overlay the HTL component.
 
 ## Manage cache {#manage-cache}
 
 On Windows, the cache is at `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\`, where is an encoded version of the [!DNL Experience Manager] host configured in the desktop app. For example, `http://localhost:4502` appears as `http%3A%2F%2Flocalhost%3A4502%2F`.
 
-On Mac OS X, a similar directory is at `~/Library/Group Containers/group.com.adobe.aem.desktop/cache`.
+On macOS X, a similar directory is at `~/Library/Group Containers/group.com.adobe.aem.desktop/cache`.
 
 ### In-app option to manage cache {#in-app-option-to-manage-cache}
 
@@ -93,7 +93,7 @@ You can control the amount of disk space made available for local caching purpos
 
 >[!NOTE]
 >
->When you clear the cache, it preserves your unsaved changes. Any assets not checked into [!DNL Experience Manager] server are retained and not deleted.
+>When you clear the cache, it preserves your unsaved changes. Any assets not checked into the [!DNL Experience Manager] server are retained and not deleted.
 
 ### Change location of cache on Windows {#change-location-of-cache-on-windows}
 
@@ -103,17 +103,17 @@ The default location of the cache for the [!DNL Experience Manager] desktop app 
 
 * In Mac, `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`.
 
-`EncodedAEMEndpoint` is app's configured [!DNL Experience Manager] endpoint URL. The value is an encoded version of the targeting URL of the [!DNL Experience Manager] server. For example, if the application is targeting `http://localhost:4502`, the directory name is `http%3A%2F%2Flocalhost%3A4502`. The Windows path to the cache directory in this example is `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`.
+The `EncodedAEMEndpoint` is the app's configured [!DNL Experience Manager] endpoint URL. The value is an encoded version of the targeting URL of the [!DNL Experience Manager] server. For example, if the application is targeting `http://localhost:4502`, the directory name is `http%3A%2F%2Flocalhost%3A4502`. The Windows path to the cache directory in this example is `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`.
 
 To point the application to a different folder or a different drive, edit the application's configuration file.
 
-1. Navigate to the app’s installation directory. The default location on Windows is `C:\Program Files (x86)\Adobe\Adobe Experience Manager Desktop`.
+1. Navigate to the app's installation directory. The default location on Windows is `C:\Program Files (x86)\Adobe\Adobe Experience Manager Desktop`.
 
-1. Edit Adobe Experience Manager Desktop.exe.config file with a text editor.
+1. Edit the `Adobe Experience Manager Desktop.exe.config` file with a text editor.
 
    Administrator privileges are required to save changes to this file.
 
-1. Search for the string "ProxyCacheRoot". You see that its value is set to the cache location `%LocalAppData%\Adobe\AssetsCompanion\Cache`. Simply change this value to any valid path.
+1. Search for the string "ProxyCacheRoot." You see that its value is set to the cache location `%LocalAppData%\Adobe\AssetsCompanion\Cache`. Simply change this value to any valid path.
 
    >[!NOTE]
    >
@@ -121,6 +121,6 @@ To point the application to a different folder or a different drive, edit the ap
 
 >[!MORELIKETHIS]
 >
->* [Introduction to [!DNL Experience Manager] desktop app](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
+>* Watch an [Introduction to [!DNL Experience Manager] desktop app](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minutes, 43 seconds).
 >* [Use [!DNL Experience Manager] desktop app](use-app-v1.md).
 >* [Troubleshooting [!DNL Experience Manager] desktop app](troubleshoot-app-v1.md).
