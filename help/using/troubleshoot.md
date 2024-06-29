@@ -5,7 +5,7 @@ exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
 ---
 # Troubleshoot [!DNL Adobe Experience Manager] desktop app {#troubleshoot-v2}
 
-[!DNL Adobe Experience Manager] desktop app connects to a [!DNL Experience Manager] deployment's Digital Asset Management (DAM) repository. The app fetches repository information and search results on your machine, downloads and uploads files and folders, and includes capabilities to manage conflicts with Assets user interface.
+[!DNL Adobe Experience Manager] desktop app connects to an [!DNL Experience Manager] deployment's Digital Asset Management (DAM) repository. The app fetches repository information and search results on your machine, downloads and uploads files and folders, and includes capabilities to manage conflicts with the Assets user interface.
 
 Read on to troubleshoot the app, learn the best practices, and find out the limitations.
 
@@ -13,31 +13,31 @@ Read on to troubleshoot the app, learn the best practices, and find out the limi
 
 Adhere to the following best practices to prevent some common issues and troubleshooting.
 
-* **Understand how the desktop app works**: Before starting to use the application, spend a few moments knowing how the app works. Know about linking between [!DNL Experience Manager] web interface and desktop, repository mapping, asset caching, saving locally and uploading in background. See [how it works](release-notes.md#how-app-works).
+* **Understand how the desktop app works**: Before starting to use the application, spend a few moments knowing how the app works. Know about linking between the [!DNL Experience Manager] web interface and the desktop, repository mapping, asset caching, saving locally and uploading in the background. See [how it works](release-notes.md#how-app-works).
 
-* **Avoid unsupported characters in folder names**: Do not use whitespaces and invalid characters when creating or uploading folders. See a list of characters at [Create folders in [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders). Some [!DNL Experience Manager] use cases may be impacted by unsupported characters in the folder name.
+* **Avoid unsupported characters in folder names**: Do not use whitespaces and invalid characters when creating or uploading folders. See a list of characters at [Create folders in [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). Unsupported characters in the folder name may impact some [!DNL Experience Manager] use cases.
 
-* **Best practices to avoid conflicts**: To avoid potential conflicts when collaborating on multiple assets, see [avoid editing conflicts](using.md#adv-workflow-collaborate-avoid-conflicts).
+* **Best practices to avoid conflicts**: To avoid potential conflicts when collaborating on multiple assets, go to [avoid editing conflicts](using.md#adv-workflow-collaborate-avoid-conflicts).
 
-* **Use folder upload for large, hierarchical folders**: Instead of using the Assets web interface or other methods, use [!DNL Experience Manager] desktop app to upload large folders. The app uploads the assets in background with logging and monitoring. See [bulk upload assets](using.md#bulk-upload-assets).
+* **Use folder upload for large, hierarchical folders**: Instead of using the Assets web interface or other methods, use the [!DNL Experience Manager] desktop app to upload large folders. The app uploads the assets in the background with logging and monitoring. See [bulk upload assets](using.md#bulk-upload-assets).
 
-* **Use the latest version**: Use the latest app version and always check for compatibility before installing either a new app version or before upgrading to a newer [!DNL Experience Manager] version. See [release notes](release-notes.md).
+* **Use the latest version**: Use the latest app version. Always check for compatibility before installing either a new app version or before upgrading to a newer [!DNL Experience Manager] version. See [release notes](release-notes.md).
 
 * **Use the same drive letter**: Use the same drive letter across an organization to map to the [!DNL Experience Manager] DAM. To see assets placed by other users, the paths must be the same. Using the same drive letter ensures a constant path to DAM assets. The assets remain placed and are not removed even if different drive letters are used by different users.
 
-* **Mind the network**: Network performance is critical to [!DNL Experience Manager] desktop app's performance. If you face slowed response to file transfers or bulk operations, turn off the features or apps that might cause lots of network traffic.
+* **Mind the network**: Network performance is critical to [!DNL Experience Manager] desktop app's performance. If you face a slowed response to file transfers or bulk operations, turn off the features or apps that might cause lots of network traffic.
 
-* **Unsupported use cases for desktop app**: Do not use the app for Assets' migration (it needs planning and other tools); for heavy-duty DAM operations (like moving large folders, large uploads, finding files using advanced metadata searches); and as a sync client (design principles and usage patterns are different from in-sync clients like Microsoft OneDrive or Adobe Creative Cloud desktop sync).
+* **Unsupported use cases for desktop app**: Avoid using the app for asset migration, as it requires planning and additional tools. It is also not suitable for heavy-duty DAM operations, such as moving large folders, large uploads, or advanced metadata searches. Additionally, do not use it as a sync client, as its design principles and usage patterns differ from sync clients like Microsoft OneDrive or Adobe Creative Cloud desktop sync.
 
-* **Timeout**: Currently, desktop app does not have a configurable timeout value that disconnects the connection between [!DNL Experience Manager] server and desktop app after a fixed time interval. When uploading large assets, if the connection gets timeout after a while, the app retries to upload the asset a few times by increasing the upload timeout. There is no recommended way to change the default timeout settings.
+* **Time out**: Currently, the desktop app does not have a configurable timeout value that disconnects the connection between [!DNL Experience Manager] server and desktop app after a fixed time interval. When uploading large assets, if the connection gets timeout after a while, the app retries to upload the asset a few times by increasing the upload timeout. There is no recommended way to change the default timeout settings.
 
 ## How to troubleshoot {#troubleshooting-prep}
 
-To troubleshoot desktop app issues, be aware of the following information. Also, it prepares you to better convey the issues to Adobe Customer Support if you choose to seek support.
+To troubleshoot desktop app issues, be aware of the following information. Also, it prepares you to convey the issues better to Adobe Customer Support if you choose to seek support.
 
 ### Location of log files {#check-log-files-v2}
 
-[!DNL Experience Manager] desktop app stores its log files in the following locations depending on the operating system:
+The [!DNL Experience Manager] desktop app stores its log files in the following locations depending on the operating system:
 
 On Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
 
@@ -53,13 +53,13 @@ When uploading many assets, if some files fail to upload, see `backend.log` file
 
 To change the level of details in log files:
 
-1. Ensure the application is not running.
+1. Ensure that the application is not running.
 
 1. On Windows system:
 
     1. Open a command window.
 
-    1. Launch [!DNL Adobe Experience Manager] desktop app by running the command:
+    1. Launch the [!DNL Adobe Experience Manager] desktop app by running the command:
 
     ```shell
     set AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe
@@ -69,7 +69,7 @@ To change the level of details in log files:
 
     1. Open a terminal window.
 
-    1. Launch [!DNL Adobe Experience Manager] desktop app by running the command:
+    1. Launch the [!DNL Adobe Experience Manager] desktop app by running the command:
 
     ```shell
     AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app
@@ -97,7 +97,7 @@ To enable debug mode on Windows:
 
 1. Open a command window.
 
-1. Launch [!DNL Experience Manager] desktop app by running the following command:
+1. Launch the [!DNL Experience Manager] desktop app by running the following command:
 
 `AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
@@ -115,17 +115,17 @@ To see the version number:
 
 Perform the following steps:
 
-1. Start the application and connect an the [!DNL Experience Manager] instance.
+1. Start the application and connect to an instance of [!DNL Experience Manager].
 
 1. Open the application's preferences by clicking the ellipses in the upper right corner and selecting [!UICONTROL Preferences].
 
 1. Locate the entry displaying the [!UICONTROL Current Cache Size]. Click the trash icon next to this element.
 
-To manually clear the cache, proceed with the steps below. 
+To clear the cache manually, do the following: 
 
 >[!CAUTION]
 >
->This is a potentially destructive operation. If there are local file changes that are not uploaded to [!DNL Adobe Experience Manager], then those changes will be lost by proceeding.
+>These steps are a potentially destructive operation. If there are local file changes that are not uploaded to [!DNL Adobe Experience Manager], then those changes are lost.
 
 The cache is cleared by deleting the application's cache directory, which is found in the application's preferences.
 
@@ -135,9 +135,9 @@ The cache is cleared by deleting the application's cache directory, which is fou
 
 1. Note the [!UICONTROL Cache Directory] value.
 
-    In this directory there are subdirectories named after the Encoded [!DNL Adobe Experience Manager] Endpoints. The names is an encoded version of the targeted [!DNL Adobe Experience Manager] URL. For example, if the application is targeting `localhost:4502` then the directory name will be `localhost_4502`.
+    In this directory, there are subdirectories named after the Encoded [!DNL Adobe Experience Manager] Endpoints. The names are an encoded version of the targeted [!DNL Adobe Experience Manager] URL. For example, if the application is targeting `localhost:4502`, then the directory name is `localhost_4502`.
 
-To clear the cache, delete the desired Encoded [!DNL Adobe Experience Manager] Endpoint directory. Alternatively, deleting the entire directory specified in the preferences will clear the cache for all instances that have been used by the application.
+To clear the cache, delete the desired Encoded [!DNL Adobe Experience Manager] Endpoint directory. Alternatively, deleting the entire directory specified in the preferences clears the cache for all instances that have been used by the application.
 
 Clearing [!DNL Adobe Experience Manager] desktop app's cache is a preliminary troubleshooting task that can resolve several issues. Clear the cache from the app preferences. See [set preferences](install-upgrade.md#set-preferences). The default location of the cache folder is:
 
@@ -153,15 +153,15 @@ If you cannot see the assets that you or other creative professionals placed in 
 
 * Permissions. To check if you have permissions to fetch the placed assets, contact your [!DNL Experience Manager] administrator.
 
-### Edits to files on desktop app's user interface do not reflect in [!DNL Adobe Experience Manager] immediately {#changes-on-da-not-visible-on-aem}
+### Edits to files on the desktop app's user interface do not reflect in [!DNL Adobe Experience Manager] immediately {#changes-on-da-not-visible-on-aem}
 
-[!DNL Adobe Experience Manager] desktop app leaves it up to the user to decide when all edits to a file are complete. Depending on the size and complexity of a file, it takes significant amount of time to transfer the new version of a file back to [!DNL Adobe Experience Manager]. The design of the application calls for minimizing the number of times a file is transferred back and forth, instead of guessing when the file edits are complete and are uploaded automatically. It is advised that the user initiate the transfer of the file back to [!DNL Adobe Experience Manager] by choosing to upload a file's changes.
+[!DNL Adobe Experience Manager] desktop app leaves it up to the user to decide when all edits to a file are complete. Depending on the size and complexity of a file, it takes a significant amount of time to transfer the new version of a file back to [!DNL Adobe Experience Manager]. The application is designed to minimize the number of file transfers, rather than automatically uploading files based on guessed completion of edits. It is advised that the user initiate the transfer of the file back to [!DNL Adobe Experience Manager] by choosing to upload a file's changes.
 
 ### Issues when upgrading on macOS {#issues-when-upgrading-on-macos}
 
-Occasionally issues may occur when upgrading [!DNL Experience Manager] desktop app on macOS. This is caused by legacy system folder for [!DNL Experience Manager] desktop app preventing new versions of [!DNL Experience Manager] desktop app to load correctly. To remedy this issue, the following folders and files can be manually removed.
+Occasionally, issues may occur when upgrading the [!DNL Experience Manager] desktop app on macOS. Legacy system folders for the [!DNL Experience Manager] desktop app cause these issues. The folders prevent new versions of the [!DNL Experience Manager] desktop app to load correctly. To remedy this issue, the following folders and files can be manually removed.
 
-Before executing the following steps, drag the `Adobe Experience Manager Desktop` application from the macOS Applications folder to the Trash. Then open terminal, execute the following command, and provide your password when prompted.
+Before running the following steps, drag the `Adobe Experience Manager Desktop` application from the macOS Applications folder to the Trash. Then open the terminal, run the following command, and provide your password when prompted.
 
 ```shell
 sudo rm -rf ~/Library/Application\ Support/com.adobe.aem.desktop
@@ -174,19 +174,19 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ## Cannot upload files {#upload-fails}
 
-If you are using desktop app with [!DNL Experience Manager] 6.5.1 or later, upgrade S3 or Azure connector to version 1.10.4 or later. It resolves file upload failure issue related to [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). See [install instructions](install-upgrade.md#install-v2).
+If you are using the desktop app with [!DNL Experience Manager] 6.5.1 or later, upgrade S3 or Azure connector to version 1.10.4 or later. It resolves the file upload failure issue related to [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). See [install instructions](install-upgrade.md#install-v2).
 
 ## [!DNL Experience Manager] desktop app connection issues {#connection-issues}
 
-If you are experiencing general connectivity issues, here are some ways to get more information about what [!DNL Experience Manager] desktop app is doing.
+If you are experiencing general connectivity issues, here are some ways to get more information about what the [!DNL Experience Manager] desktop app is doing.
 
 **Check the request log**
 
-[!DNL Experience Manager] desktop app logs all requests that it sends, along with each request's response code, in a dedicated log file.
+The [!DNL Experience Manager] desktop app logs all requests that it sends, along with each request's response code, in a dedicated log file.
 
 1. Open `request.log` in the application's log directory to see these requests.
 
-1. Each line in the log represents either a request or a response. Requests will have a `>` character followed by the URL that was requested. Responses will have a `<` character followed by the response code and the URL that was requested. Requests and Response can be matched using each line's GUID.
+1. Each line in the log represents either a request or a response. Requests have a `>` character followed by the URL that was requested. Responses have a `<` character followed by the response code and the URL that was requested. Requests and Response can be matched using each line's GUID.
 
 **Check requests loaded by the application's embedded browser**
 
@@ -197,9 +197,9 @@ See the [SAML section](#da-connection-issue-with-saml-aem) for instructions on h
 
 [!DNL Experience Manager] desktop app may not connect to your SSO-enabled (SAML) [!DNL Adobe Experience Manager] deployment. The application's design attempts to accommodate the variations and complexities of SSO connections and processes. However, a setup may require additional troubleshooting.
 
-Sometimes the SAML process does not redirect back to the originally requested path, or the final redirect is to a host that is different than what is configured in [!DNL Adobe Experience Manager] desktop app. To verify that this is not the case:
+Sometimes the SAML process does not redirect back to the originally requested path. Or, the final redirect is to a host that is different than what is configured in the [!DNL Adobe Experience Manager] desktop app. To verify that this issue is not the case, do the following:
 
-1. Open a web browser. Access `https://[aem_server]:[port]/content/dam.json` URL.
+1. Open a Web browser. Access `https://[aem_server]:[port]/content/dam.json` URL.
 
 1. Log in to the [!DNL Adobe Experience Manager] deployment.
 
@@ -207,9 +207,9 @@ Sometimes the SAML process does not redirect back to the originally requested pa
 
 1. Also verify that everything before `/content/dam.json` matches the target [!DNL Adobe Experience Manager] value configured in [!DNL Adobe Experience Manager] desktop app's settings.
 
-**Login SAML process works correctly according to the above steps, but users are still unable to login**
+**Login SAML process works correctly according to the above steps, but users are still unable to log on**
 
-The window within [!DNL Adobe Experience Manager] desktop app that displays the login process is simply a web browser that is displaying the target [!DNL Adobe Experience Manager] instance's web user interface:
+The window within the [!DNL Adobe Experience Manager] desktop app that displays the login process is simply a web browser that is displaying the target [!DNL Adobe Experience Manager] instance's web user interface:
 
 * The Mac version uses a [WebView](https://developer.apple.com/documentation/webkit/webview).
 
@@ -223,33 +223,33 @@ To troubleshoot further, it is possible to view the exact URLs that the browser 
 
 1. Reproduce the login attempt.
 
-1. Navigate to [log directory](#check-log-files-v2) of the application
+1. Navigate to the [log directory](#check-log-files-v2) of the application.
 
 1. For Windows:
 
-    1. Open "aemcompanionlog.txt".
+    1. Open "aemcompanionlog.txt."
 
-    1. Search for messages that begin with "Login browser address changed to". These entries also contain the URL that the application loaded.
+    1. Search for messages that begin with "Login browser address changed to." These entries also contain the URL that the application loaded.
 
    For Mac:
 
-    1. `com.adobe.aem.desktop-nnnnnnnn-nnnnnn.log`, where the **n** are replaced by whichever numbers are in the newest file name.
+    1. In `com.adobe.aem.desktop-nnnnnnnn-nnnnnn.log`, whichever numbers are in the newest file name replace **n**.
 
-    1. Search for messages that begin with "loaded frame". These entries also contain the URL that the application loaded.
+    1. Search for messages that begin with "loaded frame." These entries also contain the URL that the application loaded.
 
 Looking at the URL sequence that is being loaded can help troubleshoot at the SAML's end to determine what is wrong.
 
 ### SSL configuration issue {#ssl-config-v2}
 
-The libraries that [!DNL Experience Manager] desktop app uses for HTTP communication utilizes strict SSL enforcement. At times, a connection may succeed using a browser but fails using [!DNL Experience Manager] desktop app. To configure SSL appropriately, install the missing intermediate certificate in Apache. See [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575).
+The libraries that the [!DNL Experience Manager] desktop app uses for HTTP communication uses strict SSL enforcement. At times, a connection may succeed using a browser but fails when using the [!DNL Experience Manager] desktop app. To configure SSL appropriately, install the missing intermediate certificate in Apache. See [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575).
 
-The libraries that [!DNL Experience Manager] desktop app uses for HTTP communication utilize strict SSL enforcement. So there can be instances where SSL connections that succeed through a browser fail with [!DNL Adobe Experience Manager] desktop app. This is good because it encourages correct configuration of SSL and increases security, but can be frustrating when the application is unable to connect.
+The libraries that the [!DNL Experience Manager] desktop app uses for HTTP communication use strict SSL enforcement. So, there can be instances where SSL connections that succeed through a browser fail with the [!DNL Adobe Experience Manager] desktop app. This outcome is good because it encourages correct configuration of SSL and increases security, but can be frustrating when the application is unable to connect.
 
-The recommended approach in this case is to use a tool to analyze a server's SSL certificate and identify issues so they can be corrected. There are websites that inspect a server's certificate on providing its URL.
+The recommended approach in this case is to use a tool to analyze a server's SSL certificate and identify issues so they can be corrected. There are Web sites that inspect a server's certificate by providing its URL.
 
-As a temporary measure, it is possible to disable strict SSL enforcement in [!DNL Adobe Experience Manager] desktop app. This is not a recommended long-term solution, as it reduces security by hiding the root cause of incorrectly configured SSL. To disable strict enforcement:
+As a temporary measure, it is possible to disable strict SSL enforcement in the [!DNL Adobe Experience Manager] desktop app. This approach is not a recommended long-term solution, as it reduces security by hiding the root cause of incorrectly configured SSL. To disable strict enforcement:
 
-1. Use the editor of your choice to edit the application's JavaScript configuration file, which are found (by default) at the following locations (depending on the operating system):
+1. Use the editor of your choice to edit the application's JavaScript configuration file, which is found (by default) at the following locations (depending on the operating system):
 
     On Mac: `/Applications/Adobe Experience Manager Desktop.app/Contents/Resources/javascript/lib-smb/config.json`
 
@@ -274,7 +274,7 @@ As a temporary measure, it is possible to disable strict SSL enforcement in [!DN
     ...
     ```
 
-1. Save the file and restart [!DNL Adobe Experience Manager] desktop app.
+1. Save the file and restart the [!DNL Adobe Experience Manager] desktop app.
 
 ### Login issues when switching to a different server {#cannot-login-cookies-issue}
 
@@ -293,10 +293,10 @@ In both methods, the app starts at the root DAM folder.
 
 ## Hide expired assets {#hide-expired-assets}
 
-When browsing assets from within [!DNL Experience Manager] user interface, the expired assets are not displayed. To prevent viewing, searching, and fetching of expired assets when browsing assets from desktop app and Asset Link, administrators can do the following configuration. The configuration works for all users, irrespective of administrator privilege.
+When browsing assets from within the [!DNL Experience Manager] user interface, the expired assets are not displayed. Administrators can configure settings to prevent viewing, searching, and fetching of expired assets when browsing from the desktop app and Asset Link. Doing so ensures that expired assets are not accessible during these operations. The configuration works for all users, irrespective of administrator privilege.
 
-* [Configuration in Experience Manager 6.5 to hide expired assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#hide-expired-assets-via-acp-api).
-* [Configuration in Experience Manager as a Cloud Service to hide expired assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html#hide-expired-assets-via-acp-api).
+* [Configuration in Experience Manager 6.5 to hide expired assets](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api).
+* [Configuration in Experience Manager as a Cloud Service to hide expired assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api).
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}

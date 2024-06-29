@@ -15,7 +15,7 @@ role: User, Admin
 + [Overview](introduction.md)
 + [Release Notes](release-notes.md)
 + [Install or upgrade](install-upgrade.md)
-+ [Use app](using.md)
++ [Use the app](using.md)
 + [Troubleshoot](troubleshoot.md)
 + Help of previous version {#archive}
   + [Release Notes v1](release-notes-of-v1.md)

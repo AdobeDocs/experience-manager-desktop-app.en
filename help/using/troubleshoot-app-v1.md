@@ -5,27 +5,27 @@ exl-id: 1e1409c2-bf5e-4e2d-a5aa-3dd74166862c
 ---
 # Troubleshoot [!DNL Adobe Experience Manager] desktop app v1.x {#troubleshoot-aem-desktop-app}
 
-Troubleshoot AEM desktop app to resolve the occasional issues related to installation, upgrade, configuration, and so on.
+Troubleshoot the AEM desktop app to resolve the occasional issues related to installation, upgrade, configuration, and so on.
 
-[!DNL Adobe Experience Manager] desktop app includes utilities that assist you in mapping the AEM Assets repository as a network share on desktop (SMB share on Mac OS). Network share is an operating system technology that enables remote sources to be treated as if they were part of a computer's local file system. In the case of desktop app, a remote AEM instance's digital asset management (DAM) repository structure is targeted as the remote file source. The following diagram describes the desktop app topology:
+The [!DNL Adobe Experience Manager] desktop app includes utilities that assist you in mapping the AEM Assets repository as a network share on desktop (SMB share on macOS). Network share is an operating system technology that enables remote sources to be treated as if they were part of a computer's local file system. For the desktop app, the remote file source is the digital asset management (DAM) repository structure of a remote AEM instance. The following diagram describes the desktop app topology:
 
 ![desktop app diagram](assets/aem-desktopapp-architecture.png)
 
-With this architecture, desktop app intercepts file system calls (open, close, read, write, and so on) to the mounted network share, and translates them into native AEM HTTP calls to the AEM server. Files are cached locally. For more details, see [Use AEM desktop app v1.x](use-app-v1.md).
+With this architecture, the desktop app intercepts file system calls (open, close, read, write, and so on) to the mounted network share, and translates them into native AEM HTTP calls to the AEM server. Files are cached locally. For more details, see [Use AEM desktop app v1.x](use-app-v1.md).
 
 ## AEM desktop app component overview {#desktop-app-component-overview}
 
-desktop app includes the following components:
+The desktop app includes the following components:
 
-* **The desktop application**: The application mounts or unmounts DAM as a remote file system, and translates file system calls between the locally mounted network share and the remote AEM instance to which it connects.
-* **Operating system WebDAV/SMB client**: Handles communication between Windows Explorer/Finder and desktop app. If a file is retrieved, created, modified, deleted, moved, or copied, the operating system (OS) WebDAV/SMB client communicates this operation to desktop app. After receiving the communication, desktop app translates it into native AEM remote API calls. For example, if a user creates a file in the mounted directory, the WebDAV/SMB client initiates a request, which the desktop app translates into an HTTP request that creates the file in DAM. The WebDAV/SMB client is a built-in component of the OS. It is not affiliated with desktop app, AEM, or Adobe in any way.
-* **Adobe Experience Manager instance**: Provides access to assets stored in the AEM Assets DAM repository. In addition, it performs actions requested by desktop app on behalf of the local desktop applications interacting with the mounted network share. The target AEM instance should run AEM version 6.1 or higher. AEM instances running previous AEM versions might require extra feature packs and hot fixes installed to become fully functional.
+* **The desktop application**: The application mounts or unmounts DAM as a remote file system. It translates file system calls between the locally mounted network share and the remote AEM instance to which it connects.
+* **Operating system WebDAV/SMB client**: Handles communication between Windows Explorer/Finder and the desktop app. If a file is retrieved, created, modified, deleted, moved, or copied, the operating system (OS) WebDAV/SMB client communicates this operation to the desktop app. After receiving the communication, the desktop app translates it into native AEM remote API calls. For example, if a user creates a file in the mounted directory, the WebDAV/SMB client initiates a request, which the desktop app translates into an HTTP request that creates the file in DAM. The WebDAV/SMB client is a built-in component of the OS. It is not affiliated with desktop app, AEM, or Adobe in any way.
+* **Adobe Experience Manager instance**: Provides access to assets stored in the AEM Assets DAM repository. In addition, it performs actions requested by the desktop app on behalf of the local desktop applications interacting with the mounted network share. The target AEM instance should run AEM version 6.1 or higher. AEM instances running previous AEM versions might require extra feature packs and hot fixes installed to become fully functional.
 
-## Intended use cases for AEM desktop app {#intended-use-cases-for-aem-desktop-app}
+## Intended use cases for the AEM desktop app {#intended-use-cases-for-aem-desktop-app}
 
-AEM desktop app uses the network share technology to map a remote AEM repository to a local desktop. However, it is not intended as a replacement for a network share holding assets, where users perform digital asset management operations directly from their local desktop. These include moving or copying multiple files, or dragging large folder structures to the AEM Assets network share directly in Finder/Explorer.
+The AEM desktop app uses the network share technology to map a remote AEM repository to a local desktop. However, it is not intended as a replacement for a network share holding assets, where users perform digital asset management operations directly from their local desktop. These include moving or copying multiple files, or dragging large folder structures to the AEM Assets network share directly in Finder/Explorer.
 
-AEM desktop app provides a convenient way of accessing (opening) and editing (saving) DAM assets between the AEM Assets Touch UI and the local desktop. It links assets in the AEM Assets server with your desktop-based workflows.
+The AEM desktop app provides a convenient way of accessing (opening) and editing (saving) DAM assets between the AEM Assets Touch UI and the local desktop. It links assets in the AEM Assets server with your desktop-based workflows.
 
 The following example use case illustrates how AEM Desktop should be used:
 
@@ -37,11 +37,11 @@ The following example use case illustrates how AEM Desktop should be used:
 * Using the context menu of AEM Desktop, the user checks in/out the asset, or returns to the DAM user interface.
 * After completing the changes to the file, the user returns to the AEM web UI
 
-This is not the only use case. However, it illustrates how AEM Desktop is a convenient mechanism to access/edit assets locally. You are encouraged to use the DAM web UI as much as possible because it provides a better experience. It provides Adobe more flexibility to meet customer requirements.
+This scenario is not the only use case. However, it illustrates how AEM Desktop is a convenient mechanism to access/edit assets locally. You are encouraged to use the DAM web UI as much as possible because it provides a better experience. It provides Adobe more flexibility to meet customer requirements.
 
 ## Limitations {#limitations}
 
-WebDAV/SMB1 network share provides the convenience of working with files in an Explorer/Finder window. However, Explorer/Finder and AEM communicate over a network connection that has certain limitations. For example, the time consumed to copy a 1-GB file to the mounted WebDAV/SMB directory is approximately the same as the time required to upload a 1-GB file to a website using a web browser. In fact, in the former case, the duration may be longer due to inefficiencies of the WebDAV/SMB protocol and the OS's WebDAV/SMB clients (particularly Mac OS X).
+WebDAV/SMB1 network share provides the convenience of working with files in an Explorer/Finder window. However, Explorer/Finder and AEM communicate over a network connection that has certain limitations. For example, the time consumed to copy a 1-GB file to the mounted WebDAV/SMB directory is approximately the same as the time required to upload a 1-GB file to a website using a web browser. In fact, in the former case, the duration may be longer due to inefficiencies of the WebDAV/SMB protocol and the OS's WebDAV/SMB clients (particularly macOS X).
 
 There are limitations to the types of tasks that can be performed from a mounted directory. In general, working with large files especially over a poor/high latency/low bandwidth network connection might be challenging, especially when editing large files.
 
@@ -56,24 +56,24 @@ AEM Desktop is not suitable for performing intensive file system manipulation, i
 
 Due to limitations in the operating system, Windows has a file size limitation of 4,294,967,295 bytes (approximately 4.29 GB). It is due to a registry setting that defines how large a file on a network share can be. The value of the registry setting is a DWORD with a maximum size that equals the referenced number.
 
-[!DNL Experience Manager] desktop app does not have a configurable timeout value that disconnects the connection between [!DNL Experience Manager] server and desktop app after a fixed time interval. When uploading large assets, if the connection gets timeout after a while, the app retries to upload the asset a few times by increasing the upload timeout. There is no recommended way to change the default timeout settings.
+The [!DNL Experience Manager] desktop app does not have a configurable timeout value that disconnects the connection between the [!DNL Experience Manager] server and the desktop app after a fixed time interval. When uploading large assets, if the connection gets timeout after a while, the app retries to upload the asset a few times by increasing the upload timeout. There is no recommended way to change the default timeout settings.
 
 ## Caching and communication with AEM {#caching-and-communication-with-aem}
 
-AEM desktop app provides internal caching and background upload capabilities to improve end user experience. When you save a large file, it is first saved locally to let you continue working. After sometime (currently 30 seconds), the file is then sent to the AEM server in the background.
+The AEM desktop app provides internal caching and background upload capabilities to improve the end user experience. When you save a large file, it is first saved locally to let you continue working. After sometime (currently 30 seconds), the file is then sent to the AEM server in the background.
 
-Unlike Creative Cloud Desktop or other file sync solutions, such Microsoft One Drive, AEM desktop app is not a full Desktop Sync client. The reason for this is that it provides access to the entire AEM Assets repository, which can be extremely large (hundreds of gigabytes or terabytes) for a full synchronization.
+Unlike Creative Cloud Desktop or other file sync solutions, such as Microsoft One Drive, the AEM desktop app is not a full Desktop Sync client. The reason for this is that it provides access to the entire AEM Assets repository, which can be extremely large (hundreds of gigabytes or terabytes) for a full synchronization.
 
 Caching provides the ability to limit the network/storage overhead to only a subset of assets that are relevant to the user.
 
 >[!CAUTION]
 >
->Adobe recommends turning off thumbnail generation to make browsing faster. If you enable icon previews, the app caches the digital assets when you navigate through the mounted folder. The app also downloads assets that the user may not care about, which adds load to the server, consumes the user's bandwidth, and uses more of the user's disk space.
+>Adobe recommends turning off thumbnail generation to make browsing faster. If you enable icon previews, the app caches the digital assets when you navigate through the mounted folder. The app also downloads assets that the user may not care about. As such, it adds load to the server, consumes the user's bandwidth, and uses more of the user's disk space.
 
-Here is how AEM desktop app performs caching:
+Here is how the AEM desktop app performs caching:
 
-* When you open a folder in Finder and thumbnails/previews of files are displayed, or when you open a file in an application, desktop app caches the file binary.
-* When you store files via Finder or other desktop applications, the file is stored locally first (cached) and the operating system is notified. The file is then queued for upload to server in the background, and eventually uploaded over network. In case of a network error, desktop app retries uploading of the whole file for a maximum of three times. If the fails to upload after three retries, the file is marked as a conflicting file, and the status is displayed via the Background Upload Queue Status window. desktop app does not attempt to update the file any more. The user should update the file and re-upload it after the connectivity is restored
+* When you open a folder in the Finder and it displays thumbnails or previews of files, the desktop app caches the file binary. Similarly, when you open a file in an application, the app also caches the file binary.
+* When you store files by way of Finder or other desktop applications, the file is stored locally first (cached) and the operating system is notified. The file is then queued for upload to the server in the background, and eventually uploaded over the network. If there is a network error, the desktop app retries uploading of the whole file for a maximum of three times. If the fails to upload after three retries, the file is marked as a conflicting file, and the status is displayed via the Background Upload Queue Status window. the desktop app does not attempt to update the file any more. The user should update the file and re-upload it after the connectivity is restored
 
 Every operation is not cached locally. The following are transmitted to the AEM Server immediately without local caching:
 
@@ -82,13 +82,13 @@ Every operation is not cached locally. The following are transmitted to the AEM 
 
 ## Individual operations {#individual-operations}
 
-When troubleshooting sub-optimized performance for the individual users, first review [the app limitations](#limitations). The subsequent sections include suggestions to improve performance for the individual users.
+When troubleshooting sub-optimized performance for individual users, first review [the app limitations](#limitations). The subsequent sections include suggestions to improve performance for individual users.
 
 ## Bandwidth recommendations {#bandwidth-recommendations}
 
 The bandwidth available to an individual user plays a critical role in the performance of the WebDAV/SMB client.
 
-Adobe recommends that an individual user's upload speed to be close to 10 Mbps. For wireless connections, bandwidth is often shared between multiple users. If multiple users simultaneously perform tasks that consume network bandwidth, the performance can degrade even further. To avoid such issues, use a wired connection.
+Adobe recommends that an individual user's upload speed be close to 10 Mbps. For wireless connections, bandwidth is often shared between multiple users. If multiple users simultaneously perform tasks that consume network bandwidth, the performance can degrade even further. To avoid such issues, use a wired connection.
 
 <!-- AG, 8/18: The Windows KB article is removed by MS now. Giving 404. Also, Win 7 support is gone and the desktop app is also not supported on Win 7. Hiding this content for now.
 
@@ -107,12 +107,12 @@ When the same file is modified both locally and in AEM, the locally modified ver
 
 If a local file is inconsistent with the version available in the server, the background upload status dialog notifies you about the conflict. To resolve the issue, open the conflicting file and save it. Saving the file forces AEM Desktop to sync your latest local changes to AEM. You can view previous versions of the asset in the timeline and resolve any conflicts.
 
-You should take into account additional factors when multiple users attempt to work in separate mounted directories targeting the same AEM instance. In particular, the following factors are important:
+Take into account additional factors when multiple users attempt to work in separate mounted directories targeting the same AEM instance. In particular, the following factors are important:
 
 * The amount of bandwidth available on the users' originating network
 * Network configuration, such as firewalls or proxies, of the originating network
 * Amount of bandwidth available in the target AEM instance's network
-* Whether a dispatcher is present before the target AEM instance
+* Whether a Dispatcher is present before the target AEM instance
 * Current load on the target AEM instance
 
 ## Additional AEM configurations {#additional-aem-configurations}
@@ -121,17 +121,17 @@ If the WebDAV/SMB performance degrades drastically when multiple users work simu
 
 ## Update Asset transient workflows {#update-asset-transient-workflows}
 
-You can improve the performance at the AEM side by enabling transient workflows for the DAM Update Asset workflow. Enabling transient workflows reduces the processing power required to update assets when they are created or modified in AEM.
+You can improve AEM performance by enabling transient workflows for the DAM Update Asset workflow. Enabling transient workflows reduces the processing power required to update assets when they are created or modified in AEM.
 
 1. Navigate to `/miscadmin` in the Experience Manager instance (`https://[aem_server]:[port]/miscadmin`).
-1. From the navigation tree, expand **Tools** &gt; **Workflow** &gt; **Models** &gt; **dam**.
+1. From the navigation tree, expand **Tools** &gt; **Workflow** &gt; **Models** &gt; **Dam**.
 1. Double-click **DAM Update Asset**.
 1. From the floating tools panel, switch to the **Page** tab and then click **Page Properties**.
 1. Select the **Transient Workflow** check box, and click **OK**.
 
 ### Adjust Granite Transient Workflow queue {#adjust-granite-transient-workflow-queue}
 
-Another method for improving AEM performance is to configure the value of the maximum parallel jobs for the Granite Transient Workflow Queue job. The recommended value is roughly half the number of the CPU available with the server. To adjust the value, perform these steps:
+Another method for improving AEM performance is to configure the value of the maximum parallel jobs for the Granite Transient Workflow Queue job. The recommended value is roughly half the number of available CPUs with the server. To adjust the value, perform these steps:
 
 1. Navigate to `/system/console/configMgr` in the AEM instance to be configured (for example, `https://[aem_server]:[port]/system/console/configMgr`).
 1. Search for `QueueConfiguration`, and click to open each job until you locate the **Granite Transient Workflow Queue** job, and click **Edit**.
@@ -143,31 +143,31 @@ Owing to network bandwidth limitations, the performance of WebDAV/SMB may degrad
 
 This measure specifically boosts the amount of network bandwidth available to the server. Here are some details:
 
-* The amount of network bandwidth dedicated to an AWS instance increases as the size of the instance increases. For information about how much bandwidth is available for each instance size, see [AWS documentation](https://aws.amazon.com/ec2/instance-types/).
+* The amount of network bandwidth dedicated to an AWS instance increases as the size of the instance increases. For information about how much bandwidth is available for each instance size, go to the [AWS documentation](https://aws.amazon.com/ec2/instance-types/).
 * When troubleshooting for a large client, Adobe configured the size of its AEM instance to c4.8xlarge, primarily for the 4000 Mbps of dedicated bandwidth that it provides.
-* If there is a dispatcher ahead of the AEM instance, ensure that it is of appropriate size. If the AEM instance provides 4000 Mbps but the dispatcher only provides 500 Mbps, the effective bandwidth is only 500 Mbps. It is because the dispatcher creates a network bottleneck.
+* If there is a Dispatcher ahead of the AEM instance, ensure that it is of appropriate size. If the AEM instance provides 4000 Mbps but the Dispatcher only provides 500 Mbps, the effective bandwidth is only 500 Mbps. It is because the Dispatcher creates a network bottleneck.
 
 ## Checked-out file limitations {#checked-out-file-limitations}
 
-There are a few known limitations in the way you can interact with checked-out files through Explorer/Finder. If a file is checked out, it should be read-only to anyone except the user that has the file checked out. The implementation of the WebDAV/SMB1 protocol in AEM enforces this rule. However, OS WebDAV/SMB clients often don't interact gracefully with checked-out files. Some oddities are described below.
+There are a few known limitations in the way that you can interact with checked-out files through Explorer/Finder. If a file is checked out, it should be read-only to anyone except the user that has the file checked out. The implementation of the WebDAV/SMB1 protocol in AEM enforces this rule. However, OS WebDAV/SMB clients often don't interact gracefully with checked-out files. Some oddities are described below.
 
 ### General {#general}
 
-When writing to a checked-out file, the lock is only enforced within AEM WebDAV implementation. Consequently, the lock is only enforced by clients that use WebDAV, such as desktop app. The lock is not enforced through AEM web interface. The AEM interface merely displays a lock icon in the card view for assets that are checked out. The icon is cosmetic and has no effect on the behavior of AEM.
+When writing to a checked-out file, the lock is only enforced within the AEM WebDAV implementation. Consequently, clients that use WebDAV, such as desktop app, only enforce the lock. The lock is not enforced through the AEM web interface. The AEM interface merely displays a lock icon in the card view for assets that are checked out. The icon is cosmetic and has no effect on the behavior of AEM.
 
 In general, the WebDAV clients don't always behave as expected. There may be additional issues. However, refreshing or checking the asset in AEM is a sound way to verify that an asset isn't being modified. This behavior is typical of the OS WebDAV clients, which isn't under Adobe's control.
 
 ### Windows {#windows}
 
-Deleting a file appears to succeed because the file disappears from the file explorer in Windows. However, refreshing the directory and checking in AEM assets shows that the file is still present. In addition, editing files appears to succeed (no warning dialogs or error messages are displayed). However, reopening the file or checking in AEM assets reveals that the file is unchanged.
+Deleting a file appears to succeed because the file disappears from the file explorer in Windows. However, refreshing the directory and checking in AEM Assets shows that the file is still present. In addition, editing files appears to succeed (no warning dialogs or error messages are displayed). However, reopening the file or checking in AEM Assets reveals that the file is unchanged.
 
-#### Mac OS X {#mac-os-x}
+#### macOS X {#mac-os-x}
 
 Replacing a file doesn't display a warning or error, but checking the asset in AEM reveals that it remains unchanged. Refresh or check the asset in AEM to verify that it isn't being modified.
 
-## Troubleshooting desktop app icon issues (Mac OS X) {#troubleshooting-desktop-app-icon-issues-mac-os-x}
+## Troubleshooting the desktop app icon issues (macOS X) {#troubleshooting-desktop-app-icon-issues-mac-os-x}
 
-After you install desktop app, the desktop app menu icon appears in the menu bar. If the icon doesn't appear, perform these steps to resolve the issue:
+After you install the desktop app, the desktop app menu icon appears in the menu bar. If the icon doesn't appear, perform these steps to resolve the issue:
 
 1. Open the operating system terminal window.
 1. Type the following command at the command prompt, and then press Enter:
@@ -202,7 +202,7 @@ After you install desktop app, the desktop app menu icon appears in the menu bar
 
 1. Restart the system.
 
-AEM Desktop attempts to sync any given file three times. If the file fails to sync after the third attempt, AEM Desktop considers the file to be in conflict and notifies you via the background upload status window. A conflict state indicates that your latest changes are still available to you locally, but they are not synced back to AEM. AEM desktop app no longer attempts to sync.
+AEM Desktop attempts to sync any given file three times. If the file fails to sync after the third attempt, AEM Desktop considers the file to be in conflict and notifies you via the background upload status window. A conflict state indicates that your latest changes are still available to you locally, but they are not synced back to AEM. The AEM desktop app no longer attempts to sync.
 
 The simplest way to fix this situation is to open the conflicting file and save it again. It forces AEM Desktop to attempt synchronization for an additional three occasions. If the file still fails to sync, see the sections below for more help.
 
@@ -221,23 +221,23 @@ To clear the cache, delete the &lt;Encoded AEM Endpoint&gt; directory.
 
 >[!NOTE]
 >
->If you clear AEM Desktop cache, local file changes that are not synced to AEM are lost.
+>If you clear AEM Desktop cache, local file changes are lost if they are not synced to AEM.
 
 >[!NOTE]
 >
->Starting with AEM desktop app version 1.5, there is an option in the desktop app UI to clear the cache.
+>Starting with the AEM desktop app version 1.5, there is an option in the UI to clear the cache.
 
 ## Finding the AEM Desktop version {#finding-the-aem-desktop-version}
 
-The procedure to ascertain the AEM Desktop version is the same for both Windows and Mac OS.
+The procedure to ascertain the AEM Desktop version is the same for both Windows and macOS.
 
 Click the AEM Desktop icon, and then choose **About**. The version number is displayed on the screen.
 
-## Upgrading AEM desktop app on macOS {#upgrading-aem-desktop-app-on-macos}
+## Upgrading the AEM desktop app on macOS {#upgrading-aem-desktop-app-on-macos}
 
-Occasionally issues may occur when upgrading AEM desktop app on macOS. This is caused by legacy system folder for AEM desktop app preventing new versions of AEM Desktop to load correctly. To remedy this issue, the following folders and files can be manually removed.
+Occasionally, issues may occur when upgrading the AEM desktop app on macOS. Legacy system folders for the AEM desktop app cause these issues. It prevents new versions of AEM Desktop to load correctly. To remedy this issue, the following folders and files can be manually removed.
 
-Prior to executing the steps below, drag the "Adobe Experience Manager Desktop" application from the macOS Applications folder to the Trash. Then open terminal, and execute the following command, providing your password when prompted.
+Prior to executing the steps below, drag the "Adobe Experience Manager Desktop" application from the macOS Applications folder to the Trash. Then open the terminal, and execute the following command, providing your password when prompted.
 
 ```shell
 sudo rm -rf ~/Library/Application\ Support/com.adobe.aem.desktop
@@ -250,7 +250,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ## Saving a file checked out by others {#saving-a-file-checked-out-by-others}
 
-Technical limitations of the operating system prevent users from having a consistent experience when attempting to overwrite a file that is checked out by others. The experience varies depending on the application used to edit the checked out file. Sometimes, the application displays an error message indicating a disk write failure or displays a seemingly unrelated or generic error. On other occasions, no error message is displayed and the operation appears to succeed.
+Technical limitations of the operating system prevent users from having a consistent experience when attempting to overwrite a file that others have checked out. The experience varies depending on the application used to edit the checked out file. Sometimes, the application displays an error message indicating a disk write failure or displays a seemingly unrelated or generic error. On other occasions, no error message is displayed and the operation appears to succeed.
 
 In this case, closing and reopening the file may reveal that the contents are unchanged. However, some applications may store a backup of the file so your changes can be applied.
 
@@ -258,15 +258,15 @@ Regardless of the behavior, the file remains unchanged when you check it in. Eve
 
 ## Troubleshooting problems around moving files {#troubleshooting-problems-around-moving-files}
 
-The server API requires additional headers, X-Destination, X-Depth, and X-Overwrite, to be passed for the move and copy operations to work. The dispatcher does not pass these headers by default, which causes these operations to fail. For more information, see [Connecting to AEM Behind a Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
+The server API requires additional headers, X-Destination, X-Depth, and X-Overwrite, to be passed for the move and copy operations to work. The Dispatcher does not pass these headers by default, which causes these operations to fail. For more information, see [Connecting to AEM Behind a Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
 
 ## Troubleshooting AEM Desktop connection issues {#troubleshooting-aem-desktop-connection-issues}
 
 ### SAML redirect issue {#saml-redirect-issue}
 
-The most common reason for issues with AEM Desktop connecting to your SSO-enabled (SAML) AEM instance is that the SAML process does not redirect back to the originally requested path. Alternatively, the connection may be redirected to a host that not configured in AEM desktop. Perform these steps to verify the login process:
+The most common reason for issues with AEM Desktop connecting to your SSO-enabled (SAML) AEM instance is that the SAML process does not redirect back to the originally requested path. Alternatively, the connection may be redirected to a host that is not configured in the AEM desktop app. Perform these steps to verify the login process:
 
-1. Open a web browser.
+1. Open a Web browser.
 1. In the address bar, specify the URL `/content/dam.json`.
 1. Replace the URL with the target AEM instance, for example `https://localhost:4502/content/dam.json`.
 1. Log on to AEM.
@@ -275,11 +275,11 @@ The most common reason for issues with AEM Desktop connecting to your SSO-enable
 
 ### SSL configuration issue {#ssl-configuration-issue}
 
-The libraries that AEM desktop app uses for HTTP communication utilizes strict SSL enforcement. At times, a connection may succeed using a browser but fails using AEM desktop app. To configure SSL appropriately, install the missing intermediate certificate in Apache. See [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575).
+The libraries that the AEM desktop app uses for HTTP communication uses strict SSL enforcement. At times, a connection may succeed using a browser but fails to use the AEM desktop app. To configure SSL appropriately, install the missing intermediate certificate in Apache. See [How to install an Intermediate CA cert in Apache](https://access.redhat.com/solutions/43575).
 
-## Using AEM Desktop with dispatcher {#using-aem-desktop-with-dispatcher}
+## Using AEM Desktop with Dispatcher {#using-aem-desktop-with-dispatcher}
 
-AEM Desktop works with AEM deployments behind a dispatcher, which is a default and recommended configuration for AEM servers. AEM dispatchers in front of AEM authoring environments are typically configured to skip caching DAM assets. Therefore, dispatchers do not provide additional caching from the AEM Desktop standpoint. Ensure that the dispatcher configuration is adjusted to work for AEM Desktop. For additional details, see [Connecting to AEM behind a dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
+AEM Desktop works with AEM deployments behind a Dispatcher, which is a default and recommended configuration for AEM servers. AEM dispatchers in front of AEM authoring environments are typically configured to skip caching DAM assets. Therefore, dispatchers do not provide additional caching from the AEM Desktop standpoint. Ensure that the Dispatcher configuration is adjusted to work for AEM Desktop. For additional details, see [Connecting to AEM with a Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
 
 ## Checking for log files {#checking-for-log-files}
 

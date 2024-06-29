@@ -8,16 +8,16 @@ exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
 
 Using the App, the assets within [!DNL Experience Manager] are easily accessible on your local desktop and can be used in any desktop applications. Assets can be easily revealed in Mac Finder or Windows Explorer, opened in desktop applications, and changed locally - the changes are saved back to [!DNL Experience Manager] with a new version created in the repository.
 
-Such an integration allows various roles in the organization to manage the assets centrally in Assets and to access them in the Creative Cloud and other applications, while making it easy to adhere to the various standards including branding.
+This integration enables centralized asset management and access across Creative Cloud and other applications, ensuring compliance with branding and other standards.
 
-The key tasks you do using the [!DNL Experience Manager] desktop app v1 include:
+The key tasks that you do using the [!DNL Experience Manager] desktop app v1 include:
 
 1. [Connect with an [!DNL Experience Manager] server](#installandconnect)
-1. [Open assets directly on desktop](#openondesktop)
-1. [Edit and check out assets from desktop](#workonassets)
+1. [Open assets directly on the desktop app](#openondesktop)
+1. [Edit and check out assets from the desktop app](#workonassets)
 1. [Upload assets and folders in bulk](#bulkupload)
 
-For the various recommended dos and don'ts, see the [best practices for using app](best-practices-for-v1.md). If you face issues using the App, see how to [troubleshoot [!DNL Experience Manager] desktop](troubleshoot-app-v1.md).
+For the various recommended dos and don'ts, see the [best practices for using the desktop app](best-practices-for-v1.md). If you face issues using the App, see how to [troubleshoot [!DNL Experience Manager] desktop app](troubleshoot-app-v1.md).
 
 >[!NOTE]
 >
@@ -31,24 +31,24 @@ For the various recommended dos and don'ts, see the [best practices for using ap
 
 [!DNL Experience Manager] desktop app touch-points the creative workflow
 
-## Install and connect the app to [!DNL Experience Manager] server {#installandconnect}
+## Install and connect the app to the [!DNL Experience Manager] server {#installandconnect}
 
 Before you can begin creating or editing the creative assets, connect the desktop application with the [!DNL Assets] server to download and upload assets in the repository. Perform the following tasks:
 
 1. [Install the app](#installapp).
 1. [Set your preferences](#inapppref) and connection details.
 1. [Connect to an [!DNL Experience Manager] server](#connect) and mount assets repository as local drive.
-1. [Enable desktop actions](#desktopactions) on [!DNL Experience Manager] server.
+1. [Enable desktop actions](#desktopactions) on the [!DNL Experience Manager] server.
 
-[!DNL Experience Manager] desktop app uses an HTTPS connection to connect to [!DNL Experience Manager] server to robustly and securely transfer your assets.
+The [!DNL Experience Manager] desktop app uses an HTTPS connection to connect to the [!DNL Experience Manager] server to transfer your assets robustly and securely.
 
 >[!NOTE]
 >
->For part of or all of the installation and configuration steps, you may need help from your [!DNL Experience Manager] administrator or system administrator.
+>For all or part of the installation and configuration steps, you may need help from your [!DNL Experience Manager] administrator or system administrator.
 
 ### Install the application {#installapp}
 
-To use [!DNL Experience Manager] desktop app, ensure that your [!DNL Experience Manager] server version is supported by the app. Download the appropriate installation file (binary) for your operating system (Mac or Windows) and install the app.
+Ensure that the app supports your version of the Experience Manager server to use the Experience Manager desktop app. Download the appropriate installation file (binary) for your operating system (Mac or Windows) and install the app.
 
 Detailed configuration can be necessary depending on your network and system preferences. See [Install and configure [!DNL Experience Manager] desktop app](install-configure-app-v1.md) for more details.
 
@@ -61,15 +61,15 @@ Detailed configuration can be necessary depending on your network and system pre
 
 ### Understand the in-app options and preferences {#inapppref}
 
-The application allows for settings to connect and disconnect from [!DNL Experience Manager] servers, view status of uploads, manage local cache, and so on. The default settings work for a typical user of the application. You can tweak the settings to get more out of the application and out of the integration with [!DNL Experience Manager] server. The various settings are described below in details.
+The application allows for settings to connect and disconnect from [!DNL Experience Manager] servers, view the status of uploads, manage local cache, and so on. The default settings work for a typical user of the application. You can tweak the settings to get more out of the application. And, get more out of the integration with the [!DNL Experience Manager] server. The following are the various settings:
 
 **Explore Assets** Open the local drive in which the [!DNL Assets] repository is mounted. In other words, explore the assets that are now made available on your local machine.
 
 **View asset status** When changed assets are uploaded or new assets are added to the [!DNL Assets] repository, the application uploads the assets in the background. The background upload allows for smooth operations, without you having to wait for the upload to finish, especially for large-sized assets. You can save your changes locally and forget it. The application takes some time to send these assets to the server, depending on the available bandwidth. You can check the status of the upload, along with some more basic information.
 
-**Options** Click options from the desktop app tray to access settings to launch the application when your system starts; to connect to the [!DNL Experience Manager] server when the app is launched; and to change the local drive letter where [!DNL Assets] is available after mounting.
+**Options** Click options in the desktop app tray to set the app to launch at startup, connect to the [!DNL Experience Manager] server on launch, and change the local drive letter for [!DNL Assets] after mounting.
 
-**Advanced > Manage cache** You can control the amount of disk space made available for local caching purposes. The artifacts from the [!DNL Assets] server are cached locally for a smoother experience. You can change the defaults to suit your requirements. Also, you can clear the cache to fetch all assets afresh. When you clear the cache, it preserves your unsaved changes. Any assets not checked into [!DNL Experience Manager] server are retained and not deleted.
+**Advanced > Manage cache** You can control the amount of disk space made available for local caching purposes. The artifacts from the [!DNL Assets] server are cached locally for a smoother experience. You can change the defaults to suit your requirements. Also, you can clear the cache to fetch all assets afresh. When you clear the cache, it preserves your unsaved changes. Any assets not checked into the [!DNL Experience Manager] server are retained and not deleted.
 
 ### Connect to an [!DNL Experience Manager] server {#connect}
 
@@ -79,7 +79,7 @@ The app supports proxy configuration on Mac and Windows. The configuration is re
 >
 >If you modify the proxy settings, restart the app for the changes to take effect. Otherwise, the app continues to use the previously configured proxy server.
 
-1. Launch [!DNL Experience Manager] desktop app. To map your [!DNL Experience Manager] instance with the app, specify your [!DNL Experience Manager] server in the format `https://[aem-server-url]:[port]`.
+1. Launch the [!DNL Experience Manager] desktop app. To map your [!DNL Experience Manager] instance with the app, specify your [!DNL Experience Manager] server in the format `https://[aem-server-url]:[port]`.
 
    ![Authenticate on Mac and provide [!DNL Experience Manager] server URL](assets/aem_desktop_app_server_url.png)
 
@@ -104,22 +104,15 @@ From within the Assets user interface, you can explore the asset locations or ch
 
 ## Access and open assets on your desktop {#openondesktop}
 
-When you click **Open** to open an asset on local machine, the app downloads the asset to its internal cache. The app launches the native desktop application that is associated with the file type of the downloaded asset.
+When you click **Open** to open an asset on your local computer, the app downloads the asset to its internal cache. The app launches the native desktop application that is associated with the file type of the downloaded asset.
 
-On Mac, select **Open** from the context menu to open an asset through [!DNL Experience Manager] desktop app. On Windows, select Open on Web from the context menu to open the asset. From the Asset Status window, click/tap ![Open on Desktop icon](assets/do-not-localize/aemassets_icon_openondesktop.png) to open the asset.
+On Mac, select **Open** from the context menu to open an asset through the [!DNL Experience Manager] desktop app. On Windows, select Open on Web from the context menu to open the asset. From the Asset Status window, click/tap ![Open on Desktop icon](assets/do-not-localize/aemassets_icon_openondesktop.png) to open the asset.
 
 For Adobe InDesign (INDD) files, select **[!UICONTROL Open]** from the context menu. When you click this option, the App downloads the linked assets to your local file system and then opens the INDD file in Adobe InDesign. This method ensures that the necessary assets are locally available when editing the INDD file.
 
 ![Context menu options to access and open assets using [!DNL Experience Manager] desktop app](assets/aem_desktopapp_mac_context_menu.png)
 
-*Figure: Context menu options to access and open assets using [!DNL Experience Manager] desktop app.*
-
->[!NOTE]
->
->On Windows, the [default Windows 7 setting](https://support.microsoft.com/en-us/kb/2668751) prevents [!DNL Experience Manager] desktop app from handling assets that are larger than 50 MB.
-
-<!-- TBD: The above note is for Windows 7 which is not supported by the app anymore. Remove it later.
--->
+*Figure: Context menu options to access and open assets using the [!DNL Experience Manager] desktop app.*
 
 >[!NOTE]
 >
@@ -133,7 +126,7 @@ After you map the [!DNL Assets] repository to your local drive, you can enable a
 
    ![In Assets UI, open quick actions menu to see desktop actions](assets/desktop_actions_in_card_view.png)
 
-   *Figure: In Assets UI, open quick actions menu to see desktop actions.*
+   *Figure: In Assets UI, open the quick actions menu to see desktop actions.*
 
    These desktop actions are also available when you click the **Desktop Actions** option in the toolbar after selecting the asset or from the toolbar in the asset page.
 
@@ -145,19 +138,19 @@ To locate the particular asset on your local file system, click **Reveal** quick
 
 ## Understand the asset statuses {#understand-the-asset-statuses}
 
-| ![Windows default app icon](assets/do-not-localize/win_default.png) | App is connected to the server and all assets are synchronized. |
+| ![Windows default app icon](assets/do-not-localize/win_default.png) | The app is connected to the server and all assets are synchronized. |
 --- |--- |
-| ![Windows disabled icon](assets/do-not-localize/win_disabled.png) | App is launched but is not connected with the server. Some assets may be pending synchronization. |
+| ![Windows disabled icon](assets/do-not-localize/win_disabled.png) | The app is launched but is not connected with the server. Some assets may be pending synchronization. |
 | ![Windows file sync icon](assets/do-not-localize/win_sync.png) | Assets are synchronizing. Files are either being uploaded or downloaded. You can see exact statuses and pause the transfers from the Asset Status window. |
-| ![Windows reconnect icon](assets/do-not-localize/win_refresh.png) | App is trying to reconnect. Potentially the network issues are causing it to disconnect. |
+| ![Windows reconnect icon](assets/do-not-localize/win_refresh.png) | App is trying to reconnect. Potentially, the network issues are causing it to disconnect. |
 
 ## Work on your assets {#workonassets}
 
 ### Check out assets from the [!DNL Experience Manager] web interface {#check-out-assets-from-the-aem-web-interface}
 
-[!DNL Assets] lets you check out assets for editing and check them back in after you complete making the changes. After you check out an asset, only you can edit, annotate, publish, move, or delete the asset. Checking out an asset locks the asset and prevents other users from performing any of these operations. To be able to check out/in assets, you require Write access on them.
+[!DNL Experience Manager Assets] lets you check out assets for editing and check them back in after you complete making the changes. After you check out an asset, only you can edit, annotate, publish, move, or delete the asset. Checking out an asset locks the asset and prevents other users from performing any of these operations. To be able to check out/in assets, you require Write access on them.
 
-There are two ways of checking out assets from the [!DNL Experience Manager] web interface. For detailed information on the first method, see [check in and checkout files from Assets UI](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/check-out-and-submit-assets.html). Follow these steps, for the second methods to check out and open the asset when [!DNL Experience Manager] desktop app is installed.
+There are two ways of checking out assets from the [!DNL Experience Manager] web interface. For detailed information on the first method, see the [check-in and checkout files from Assets UI](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Follow these steps for the second methods to check out and open the asset when the [!DNL Experience Manager] desktop app is installed.
 
 1. Open the [!DNL Assets] interface and hover the pointer over a folder or an asset, to display the desktop actions as quick actions in the Card view.
 
@@ -171,26 +164,26 @@ There are two ways of checking out assets from the [!DNL Experience Manager] web
 
    >[!NOTE]
    >
-   >When you edit a file that is just opened and not checked-out, other users do not get to know that an asset is being updated by you.
+   >When you edit an opened but unchecked-out file, other users do not know that you are updating the asset.
 
-1. To open an asset for editing in an Adobe Creative Cloud application, click/tap the Edit desktop quick action ![Edit Desktop icon](assets/do-not-localize/aemassets_icon_editdesktop.png). This also checks out the asset for editing. After you finish editing, check in the asset, to update the changes in [!DNL Assets].
+1. To open an asset for editing in an Adobe Creative Cloud application, click ![Edit Desktop icon](assets/do-not-localize/aemassets_icon_editdesktop.png). This option also checks out the asset for editing. After you finish editing, check in the asset, to update the changes in [!DNL Assets].
 
    Alternatively, choose Edit from the Desktop Actions menu in the toolbar.
 
 1. Select the Open menu option. The selected assets are opened in preview mode.
 1. To edit the assets, select the Edit option. The assets are opened in edit mode.
 
-### Check out assets from Finder on Mac OS {#check-out-assets-on-mac}
+### Check out assets from Finder on macOS {#check-out-assets-on-mac}
 
-The app lets you check out asset files to prevent other users from modifying the files that you’re working on.
+The app lets you check out asset files to prevent other users from modifying the files that you're working on.
 
-1. From the Mac context menu, select Open AEM Assets Folder option to open Finder.
+1. From the Mac context menu, select the Open AEM Assets Folder option to open the Finder.
 
    ![Context menu options to access and open assets using [!DNL Experience Manager] desktop app](assets/aem_desktopapp_mac_context_menu.png)
 
-   *Figure: Context menu options to access and open assets using [!DNL Experience Manager] desktop app.*
+   *Figure: Context menu options to access and open assets using the [!DNL Experience Manager] desktop app.*
 
-1. Navigate to the asset you want to check out.
+1. Navigate to the asset that you want to check out.
 1. Right-click the asset, and select More Assets Info from the context menu.
 1. In the Asset Info dialog, click/tap the Checkout icon to check out the asset. The Checkout icon toggles to the check-in icon after you click/tap it.
 
@@ -200,12 +193,12 @@ The app lets you check out asset files to prevent other users from modifying the
 
 ### Check out assets on Windows {#check-out-assets-on-windows}
 
-The app lets you check out asset files to prevent other users from modifying the files that you’re working on.
+The app lets you check out asset files to prevent other users from modifying the files that you're working on.
 
 1. From the Context menu, select the Explore Assets to open Explorer.
 1. In Explorer, navigate to the location of the asset you want to check out.
 1. Right-click the asset and select Open on Web from the context menu.
-1. In the Asset Info dialog, click/tap the Checkout icon. The Checkout icon toggles to check-in icon.
+1. In the Asset Info dialog, click the Checkout icon. The Checkout icon toggles to the check-in icon.
 
    ![Checkout icon toggles](assets/checkout_icon_toggles.png)
 
@@ -213,7 +206,7 @@ The app lets you check out asset files to prevent other users from modifying the
 
    >[!NOTE]
    >
-   >The lock icon may appear after some delay. [!DNL Experience Manager] desktop app caches the assets for quick access so it may take a few moments to update the locked status.
+   >The lock icon may appear after some delay. The [!DNL Experience Manager] desktop app caches the assets for quick access so it may take a few moments to update the locked status.
 
 1. To check in the asset so it is available to other users, click/tap the check-in icon in the **Asset Info** dialog.
 
@@ -221,21 +214,21 @@ The app lets you check out asset files to prevent other users from modifying the
 
 When you've finished editing the assets, save the assets in your desktop application. From the context menu, select **More Assets Info** and click check-in.
 
-The assets are uploaded to [!DNL Experience Manager] server. Optionally, you can check the status of the upload by selecting **View Asset Status** from the system tray icon. Alternatively, you can check in an asset from the [!DNL Experience Manager] web interface. Click the checked out assets or select it. From the toolbar, click the check in icon ![check-in icon](assets/do-not-localize/aemassets_icon_checkin.png).
+The assets are uploaded to the [!DNL Experience Manager] server. Optionally, you can check the status of the upload by selecting **View Asset Status** from the system tray icon. Alternatively, you can check in an asset from the [!DNL Experience Manager] web interface. Click the checked out assets or select it. From the toolbar, click the check-in icon ![check-in icon](assets/do-not-localize/aemassets_icon_checkin.png).
 
 An asset is uploaded to [!DNL Experience Manager] automatically after any changes are saved locally. The check-in makes the asset available to other [!DNL Experience Manager] users for editing.
 
 ### Bulk upload assets and folders to [!DNL Experience Manager] server {#bulkupload}
 
-Using [!DNL Experience Manager] desktop app, you can upload an entire folder containing assets from your local file directory to [!DNL Assets]. This way, all assets within the folder are uploaded in bulk instead of having to upload them one at a time.
+Using the [!DNL Experience Manager] desktop app, you can upload an entire folder containing assets from your local file directory to [!DNL Assets]. This way, all assets within the folder are uploaded in bulk instead of having to upload them one at a time.
 
-1. From the Assets UI, click/tap **Create** from the toolbar, and the choose **Upload Folder** from the menu.
-1. Browse to the folder you want to upload and select it.
+1. From the Assets UI, click/tap **Create** from the toolbar, and then from the menu, select **Upload Folder**.
+1. Browse to the folder that you want to upload and select it.
 1. Click/tap OK. The Assets Status dialog displays the status of the upload.
 
    ![See status of the upload in the Asset Status window](assets/aem_desktopapp_bulkupload_status.png)
 
-   See status of the upload in the Asset Status window
+   See the status of the upload in the Asset Status window
 
    >[!NOTE]
    >
@@ -243,9 +236,9 @@ Using [!DNL Experience Manager] desktop app, you can upload an entire folder con
 
 1. After the folder uploads, close the dialog and navigate to the Assets UI. The uploaded folder is displayed in the web interface.
 
-Adobe does not recommend to copy-paste or drag larger number of files or nested folders, from the local file system, into the network share area. The app cannot control the upload process due to technical limitations and the performance is poor.
+Adobe does not recommend copy-pasting or dragging a larger number of files or nested folders, from the local file system, into the network share area. The app cannot control the upload process due to technical limitations and the performance is poor.
 
-Alternatively, select files/folders you want to upload to [!DNL Experience Manager] in Finder or Explorer, copy them to system clipboard, navigate to the target folder in the network share area, and from the [!DNL Experience Manager] desktop app context menu select **Paste Assets**. This way, [!DNL Experience Manager] desktop app starts uploading the pasted assets similar to the **Upload Folder** option available in the [!DNL Experience Manager] web interface.
+Alternatively, select files/folders in Finder or Explorer, copy them, navigate to the target folder in the network share area, and choose **Paste Assets** from the [!DNL Experience Manager] desktop app context menu. This way, the [!DNL Experience Manager] desktop app starts uploading the pasted assets similar to the **Upload Folder** option available in the [!DNL Experience Manager] web interface.
 
 >[!MORELIKETHIS]
 >
