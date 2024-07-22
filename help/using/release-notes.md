@@ -7,14 +7,13 @@ exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 ---
 # [!DNL Adobe Experience Manager] desktop app release notes {#release-notes-v2}
 
-The release information for the latest desktop app version 2.3.0 is below. The release date is July 14, 2023.
+The release information for the latest desktop app version 2.3.1 is below. The release date is July 25, 2024.
 
 The latest version of the desktop app includes the following bug fixes and enhancements:
 
-* Added Support for IMS login. IMS integration allows the desktop app to perform access token refresh automatically, allowing the user to stay logged in for up to 14 days.
-
-* Improved support for corporate proxies and web filtering.
-
+* New Enterprise Windows installer which installs application under Program Files. 
+* Support for **Basic Authentication** during AEM and SSO logins.
+* Configurable number of assets allowed during upload operation.
 
 The **supported [!DNL Experience Manager] versions** are:
 
@@ -30,6 +29,10 @@ The **download URLs** for supported OS are:
 
 | Operating system | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v2.3.1) | [Download link](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fartifactory.corp.adobe.com%2Fartifactory%2Fmaven-aem-release-local%2Fcom%2Fadobe%2Fcq%2Faem-desktop-osx-x64%2F2.3.1%2Faem-desktop-osx-x64-2.3.1.dmg&data=05%7C02%7Canujm%40adobe.com%7C8ecfb4f6b6a9444c255108dca7453b9c%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638569163013903151%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=%2F9ISNAb39Qm3YcZNt85lrT%2F9dfJay0kEgf117TbrY0M%3D&reserved=0) | [Download link](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fartifactory.corp.adobe.com%2Fartifactory%2Fmaven-aem-release-local%2Fcom%2Fadobe%2Fcq%2Faem-desktop-osx-x64%2F2.3.1%2Faem-desktop-osx-x64-2.3.1.dmg&data=05%7C02%7Canujm%40adobe.com%7C8ecfb4f6b6a9444c255108dca7453b9c%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638569163013903151%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=%2F9ISNAb39Qm3YcZNt85lrT%2F9dfJay0kEgf117TbrY0M%3D&reserved=0) |
+| macOS Apple Silicon (M1) (v2.3.1) | [Download link](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fartifactory.corp.adobe.com%2Fartifactory%2Fmaven-aem-release-local%2Fcom%2Fadobe%2Fcq%2Faem-desktop-osx-arm64%2F2.3.1%2Faem-desktop-osx-arm64-2.3.1.dmg&data=05%7C02%7Canujm%40adobe.com%7C8ecfb4f6b6a9444c255108dca7453b9c%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638569163013909846%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=MqKl440JMG27RsIV4MirlwrOtWOuhhLygBZxXhEq3oM%3D&reserved=0) | [Download link](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fartifactory.corp.adobe.com%2Fartifactory%2Fmaven-aem-release-local%2Fcom%2Fadobe%2Fcq%2Faem-desktop-osx-arm64%2F2.3.1%2Faem-desktop-osx-arm64-2.3.1.dmg&data=05%7C02%7Canujm%40adobe.com%7C8ecfb4f6b6a9444c255108dca7453b9c%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638569163013909846%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=MqKl440JMG27RsIV4MirlwrOtWOuhhLygBZxXhEq3oM%3D&reserved=0) |
+| Windows 64-bit (v2.3.1) | [Download link](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fartifactory.corp.adobe.com%2Fartifactory%2Fmaven-aem-release-local%2Fcom%2Fadobe%2Fcq%2Faem-desktop-win-x64%2F2.3.1%2Faem-desktop-win-x64-2.3.1.exe&data=05%7C02%7Canujm%40adobe.com%7C8ecfb4f6b6a9444c255108dca7453b9c%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638569163013916867%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=YidCUuTf7XfJP7M%2FN2dByDkym3nxEmoFYjrcHcOoWeM%3D&reserved=0) | [Download link](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fartifactory.corp.adobe.com%2Fartifactory%2Fmaven-aem-release-local%2Fcom%2Fadobe%2Fcq%2Faem-desktop-win-x64%2F2.3.1%2Faem-desktop-win-x64-2.3.1.exe&data=05%7C02%7Canujm%40adobe.com%7C8ecfb4f6b6a9444c255108dca7453b9c%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638569163013916867%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=YidCUuTf7XfJP7M%2FN2dByDkym3nxEmoFYjrcHcOoWeM%3D&reserved=0)|
+| Windows 64-bit Enterprise (v2.3.1) | [Download link](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fartifactory.corp.adobe.com%2Fartifactory%2Fmaven-aem-release-local%2Fcom%2Fadobe%2Fcq%2Faem-desktop-win-x64%2F2.3.1%2Faem-desktop-win-x64-2.3.1.msi&data=05%7C02%7Canujm%40adobe.com%7C8ecfb4f6b6a9444c255108dca7453b9c%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638569163013922751%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=YfSRX0fkpRJcisKV81%2FlvaQJRFugM0GnwgLRWD3kJZA%3D&reserved=0) | [Download link](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fartifactory.corp.adobe.com%2Fartifactory%2Fmaven-aem-release-local%2Fcom%2Fadobe%2Fcq%2Faem-desktop-win-x64%2F2.3.1%2Faem-desktop-win-x64-2.3.1.msi&data=05%7C02%7Canujm%40adobe.com%7C8ecfb4f6b6a9444c255108dca7453b9c%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638569163013922751%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=YfSRX0fkpRJcisKV81%2FlvaQJRFugM0GnwgLRWD3kJZA%3D&reserved=0)|
 | macOS (v2.3.0) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.3.0.dmg) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.3.0.dmg) |
 | macOS Apple Silicon (M1) (v2.3.0) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.3.0.dmg) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.3.0.dmg) |
 | Windows 64-bit (v2.3.0) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.3.0.exe) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.3.0.exe)|
@@ -75,6 +78,12 @@ The feature is supported with [!DNL Adobe Creative Cloud] 2018 and [!DNL Adobe C
 ## New features, enhancements, and bug fixes {#what-is-new}
 
 To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
+
+**Updates in app v2.3.0**
+
+* Added Support for IMS login. IMS integration allows the desktop app to perform access token refresh automatically, allowing the user to stay logged in for up to 14 days.
+
+* Improved support for corporate proxies and web filtering.
 
 **Updates in app v2.2.2**
 
