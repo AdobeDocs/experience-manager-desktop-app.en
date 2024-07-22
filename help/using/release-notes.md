@@ -11,7 +11,7 @@ The release information for the latest desktop app version 2.3.1 is below. The r
 
 The latest version of the desktop app includes the following bug fixes and enhancements:
 
-* New Enterprise Windows installer which installs application under Program Files. 
+* New Enterprise Windows installer installs application under Program Files. 
 * Support for **Basic Authentication** during AEM and SSO logins.
 * Configurable number of assets allowed during upload operation.
 
@@ -24,6 +24,8 @@ The **supported [!DNL Experience Manager] versions** are:
 
 * macOS X 10.14 or newer, with the latest bug fixes.
 * Windows 10 with the latest service packs and bug fixes.
+
+Two versions of the Windows installer are available for AEM Desktop App version 2.3.1 and later versions. The base installer installs the AEM Desktop App under the user's local App Data directory. Adobe recommends this installation process for most of its users. An Enterprise Windows installer is also available, which installs the AEM Desktop App under the shared Program Files directory. These two installers install the same version of the AEM Desktop App, with no differences in functionality.
 
 The **download URLs** for supported OS are:
 
