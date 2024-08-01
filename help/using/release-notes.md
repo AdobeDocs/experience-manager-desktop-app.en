@@ -11,7 +11,7 @@ The release information for the latest desktop app version 2.3.1 is below. The r
 
 The latest version of the desktop app includes the following bug fixes and enhancements:
 
-* New Enterprise Windows installer installs application under Program Files. 
+* The new Enterprise Windows installer installs the application under Program Files. 
 * Support for **Basic Authentication** during AEM and SSO logins.
 * Configurable number of assets allowed during upload operation.
 
