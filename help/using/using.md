@@ -41,13 +41,15 @@ Before you start using the application, understand [how the app works](release-n
 
 * **[!UICONTROL Open]** action: Just open the asset to preview it in the native application. Adobe recommends that you avoid editing the asset by using this action. The reason is because it does not check out the asset. Meanwhile, other users can make edits leading to editing conflicts.
 
+* **[!UICONTROL Open with]** action: The "Open with" feature allows you to open a file with a specific application other than the default one. This is useful for choosing a preferred program, accessing files in different formats, troubleshooting issues with the default app, or working with multiple programs. It provides flexibility by allowing you to temporarily override the default application without changing settings permanently.
+
+* **[!UICONTROL Open In Web]** action: To view the asset in the [!DNL Experience Manager] Web interface, open it in the Web. You can initiate more workflows from the [!DNL Experience Manager] interface like updating metadata or asset discovery.
+
 * **[!UICONTROL Edit]** action: Use the action to modify the image. Clicking [!UICONTROL Edit] checks out the asset and adds a lock icon on the asset. After clicking Edit, if you do not want to edit the asset, then click [!UICONTROL Toggle check-in]. To delete, rename, or move assets in the [!DNL Experience Manager] DAM folder hierarchy, use the [!DNL Experience Manager] Web interface actions and not the edit action.
 
 * **[!UICONTROL Download]** action: Download the asset to your local machine. You can download the assets now and edit later; work offline and upload the changes later. Assets are downloaded in a cache folder on your file system.
 
 * **[!UICONTROL Reveal File]** or **[!UICONTROL Reveal Folder]** action: While the assets are downloaded to a local cache folder, the app mimics a local network drive. It provides a local path for each asset. To know this path, use the appropriate reveal option in the app. Reveal action is required to place assets in the Creative Cloud application. See [place assets](using.md#place-assets-in-native-documents).
-
-* **[!UICONTROL Open In Web]** action: To view the asset in the [!DNL Experience Manager] Web interface, open it in the Web. You can initiate more workflows from the [!DNL Experience Manager] interface like updating metadata or asset discovery.
 
 * **[!UICONTROL Delete]** action: Delete the asset from the [!DNL Experience Manager] DAM repository. The action deletes the original copy of the asset on the Experience Manager server. If you only want to discard modifications to the local asset, see [discard changes](using.md#edit-assets-upload-updated-assets).
 
@@ -65,6 +67,27 @@ From within the [!DNL Assets] user interface in a browser, you can explore the a
    ![Select Show Desktop Actions For Assets to enable desktop actions](assets/enable_desktop_actions.png)
 
    *Figure: Select [!UICONTROL Show Desktop Actions For Assets] to enable Desktop Actions.*
+
+## View assets {#view-assets}
+
+AEM Desktop App allows you to view assets in four different views:
+
+ *  **[!UICONTROL Show Assets]:** Allows you to view all the assets.
+ *  **[!UICONTROL Edited Locally]:** Allows you to show all the locally modified assets. In this view, you can add and upload multiple assets.
+ *  **[!UICONTROL Asset transfers]:** Allows you to view all the assets that are transferred from native app to local or vice versa.
+ *  **[!UICONTROL Pinned items]:** Allows you to view all the pinned items.
+
+To choose among various views of assets in AEM Desktop app, execute the following steps:
+
+1. Open AEM Desktop App.
+
+1. Go to view drop-down on the top-right. Choose one among the available views.
+
+   ![pin or unpin folder](assets/view-pinned-assets.png)  
+
+### View newly added folders and files {#view-newly-added-files-folders}
+
+You can upload newly created assets from your local machine to AEM, where the central repository is stored. To view these newly created assets locally, go to the **[!UICONTROL View]** drop-down menu and select **[!UICONTROL Show Assets]** to view all the updates with their timeline and titles, or select **[!UICONTROL Edited Locally]**. Both options explicitly show the locally edited assets.
 
 ## Browse, search, and preview assets {#browse-search-preview-assets}
 
@@ -89,11 +112,59 @@ You can browse to, search for, and preview the assets available in the [!DNL Exp
 >
 >The app displays the assets by matching the search criteria across multiple metadata fields and not just the asset's title or the filename.
 
+## Assets Management {#assets-management}
+
+Asset management involves organizing, maintaining, and optimizing digital assets to streamline workflows. It includes tasks such as duplicating and renaming files, pinning or unpinning folders for quick access, and viewing assets in various layouts. This helps improve efficiency, simplify asset tracking, and ensure easy retrieval and organization of digital assets across platforms.
+
+### Duplicate files {#duplicate-files}
+
+When you want to preserve an original file and make changes on the similar file, you can duplicate files at different locations (local and cloud) simultaneously. It can be accomplished through duplicate files operation across assets. 
+
+To duplicate files in AEM Desktop App, follow the steps below:
+
+1. Browse to a folder and select the asset that you want to duplicate.
+   
+    ![Duplicate files](assets/more-options.png)
+
+1. Click **[!UICONTROL More actions]** ![More actions icon](assets/do-not-localize/more2_da2.png) and select ![duplicate icon](assets/do-not-localize/duplicate.svg) **[!UICONTROL Duplicate File]** action.
+
+1. The duplicate file gets created with an identical file name and content.
+
+### Rename title of an asset {#rename-asset-title}
+
+To rename title of an asset, execute the steps below:
+
+1. Browse the asset which you want to rename.
+
+1. Click **[!UICONTROL More actions]** ![More actions icon](assets/do-not-localize/more-options.png) and select **[!UICONTROL Rename]** to add your desired title of an asset.
+
+<!--1. Click **[!UICONTROL More actions]** ![More actions icon](assets/do-not-localize/more2_da2.png) and select **[!UICONTROL open in web]** to open the asset in its native application.
+
+1. Go to asset details. Under [!UICONTROL Basic] tab, go to title and enter the text.-->
+
+### Pin or Unpin folder {#pin-unpin-folder}
+
+For the quick access, you can pin or unpin a folder by executing the steps below:
+
+1. Browse the asset which you want to pin or unpin.
+
+1. Click **[!UICONTROL More actions]** ![More actions icon](assets/do-not-localize/more2_da2.png) and select [!UICONTROL pin] to pin the asset or folder. Alternatively, click [!UICONTROL unpin] to unpin it.
+
+    ![pin or unpin folder](assets/pin-unpin.png)
+
+## Auto refresh {#auto-refresh}
+
+Execute the steps below to refresh assets automatically to get the list of updated assets:
+
+1. Open AEM Desktop App.
+
+1. Click ![refresh icon](assets/do-not-localize/refresh.png) on the menu bar to get the updates.
+
 ## Download assets {#download-assets}
 
 You can download the assets on your local file system. The app fetches the assets from the [!DNL Experience Manager] server and saves the same copy on your local file system.
 
-Click ![More options icon](assets/do-not-localize/more2_da2.png) for options and click ![Download icon](assets/do-not-localize/download_cloud_da2.png) to download.
+Click **[!UICONTROL More actions]** ![More options icon](assets/do-not-localize/more2_da2.png) for options and click ![Download icon](assets/do-not-localize/download_cloud_da2.png) to download.
 
 ![Download option for an asset](assets/download_option_da2.png "Download option for an asset")
 
@@ -185,6 +256,9 @@ You can control the upload concurrency (acceleration) in **[!UICONTROL Preferenc
 >[!NOTE]
 >
 >The transfer list is not persistent and is not available if you exit the app and reopen it.
+
+<!--### Upload local file to AEM {#upload-local-file-to-aem}-->
+
 
 ### Manage special characters in asset names {#special-characters-in-filename}
 
