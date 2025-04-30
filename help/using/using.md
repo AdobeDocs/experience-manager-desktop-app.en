@@ -155,7 +155,7 @@ For the quick access, you can pin or unpin a folder by executing the steps below
 
 ### Auto refresh {#auto-refresh}
 
-Execute the steps below to refresh assets automatically to get the list of updated assets:
+The auto refresh feature automatically updates content in real time, ensuring you always see the latest information without manually reloading the page. Execute the steps below to refresh assets automatically to get the list of updated assets:
 
 1. Open AEM Desktop App.
 
