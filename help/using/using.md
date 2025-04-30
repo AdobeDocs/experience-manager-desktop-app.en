@@ -214,7 +214,7 @@ Execute the following steps to download collections in the Desktop App:
 
 1. Follow steps 1 and 2 as shown in [view Collections](#view-collections-desktop-app).
 
-1. Go to ![More actions icon](assets/do-not-localize/more2_da2.png) on the collection that you want to download.
+1. Go to more actions ![More actions icon](assets/do-not-localize/more2_da2.png) on the collection that you want to download.
 
 1. Click **[!UICONTROL Download]** to download the particular collection.
 
