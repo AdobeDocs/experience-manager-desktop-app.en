@@ -73,6 +73,7 @@ From within the [!DNL Assets] user interface in a browser, you can explore the a
 AEM Desktop App allows you to view assets in four different views:
 
  *  **[!UICONTROL Show Assets]:** Allows you to view all the assets.
+ *  **[!UICONTROL Show Collections]:** Allows you to see all the collections created in the native AEM application. See more [collections](#collections-desktop-app).
  *  **[!UICONTROL Edited Locally]:** Allows you to show all the locally modified assets. In this view, you can add and upload multiple assets.
  *  **[!UICONTROL Asset transfers]:** Allows you to view all the assets that are transferred from native app to local or vice versa.
  *  **[!UICONTROL Pinned items]:** Allows you to view all the pinned items.
@@ -136,7 +137,7 @@ To rename title of an asset, execute the steps below:
 
 1. Browse the asset which you want to rename.
 
-1. Click **[!UICONTROL More actions]** ![More actions icon](assets/do-not-localize/more-options.png) and select **[!UICONTROL Rename]** to add your desired title of an asset.
+1. Click **[!UICONTROL More actions]** ![More actions icon](assets/do-not-localize/more2_da2.png) and select **[!UICONTROL Rename]** to add your desired title of an asset.
 
 <!--1. Click **[!UICONTROL More actions]** ![More actions icon](assets/do-not-localize/more2_da2.png) and select **[!UICONTROL open in web]** to open the asset in its native application.
 
@@ -152,7 +153,7 @@ For the quick access, you can pin or unpin a folder by executing the steps below
 
     ![pin or unpin folder](assets/pin-unpin.png)
 
-## Auto refresh {#auto-refresh}
+### Auto refresh {#auto-refresh}
 
 Execute the steps below to refresh assets automatically to get the list of updated assets:
 
@@ -192,6 +193,30 @@ Click **[!UICONTROL Open]** from the asset menu. The asset is downloaded locally
 >If the expected changes are not reflected in the app, click refresh icon ![Refresh icon](assets/do-not-localize/refresh.png) or right click in the app interface and click **[!UICONTROL Refresh]**. The actions are not available while larger downloads or uploads are in progress.
 
 To open the local download folder of an asset, click ![More actions icon](assets/do-not-localize/more2_da2.png) and click ![Reveal icon](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]** action.
+
+## Collections {#collections-desktop-app}
+
+AEM Desktop App allows you to view and download collections that are created on the native application.
+
+### View Collections {#view-collections-desktop-app}
+
+Execute the following steps to view collections in the Desktop App:
+
+1. Open AEM Desktop App and go to [view assets](#view-assets).
+
+1. Select **[!UICONTROL Show Collections]**. The collections available on the native application are shown.
+
+   ![Collections Desktop App](assets/collections-desktop-app.png)
+
+### Download Collections {#download-collections-desktop-app}
+
+Execute the following steps to download collections in the Desktop App:
+
+1. Follow steps 1 and 2 as shown in [view Collections](#view-collections-desktop-app).
+
+1. Go to ![More actions icon](assets/do-not-localize/more2_da2.png) on the collection that you want to download.
+
+1. Click **[!UICONTROL Download]** to download the particular collection.
 
 ## Use or place assets into native documents {#place-assets-in-native-documents}
 
