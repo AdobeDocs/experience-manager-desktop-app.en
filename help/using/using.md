@@ -196,7 +196,7 @@ To open the local download folder of an asset, click ![More actions icon](assets
 
 ## Collections {#collections-desktop-app}
 
-AEM Desktop App allows you to view and download collections that are created on the native application.
+AEM Desktop App allows you to [view](#view-collections-desktop-app), [download](#download-collections-desktop-app) and browse collections that are created on [!DNL Adobe Experience Manager Assets] application.
 
 ### View Collections {#view-collections-desktop-app}
 
