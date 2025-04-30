@@ -218,6 +218,18 @@ Execute the following steps to download collections in the Desktop App:
 
 1. Click **[!UICONTROL Download]** to download the particular collection.
 
+## Create folder with Metadata Schema {#create-folder-with-metadata-schema}
+
+Using AEM Desktop App, you can assign metadata while creating a new folder. To do this, execute the following steps:
+
+1. Go to create directory icon ![Add folder icon](assets/do-not-localize/add-folder.svg). **[!UICONTROL Create Directory]** screen appears.
+
+1. Add the following details:
+   * **[!UICONTROL Name]** of the folder.
+   * **[!UICONTROL Folder Metadata Schema]** to choose metadata hierarchy of the folder or choose **[!UICONTROL none]** if you do not want to relate any metadata to it.
+
+1. Click **[!UICONTROL OK]** to proceed further.
+
 ## Use or place assets into native documents {#place-assets-in-native-documents}
 
 In some cases, say when placing an asset into a native document, you access a file in Windows Explorer or Mac Finder. To get to the file system location of the locally downloaded file, use the ![Reveal icon](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]** option.
