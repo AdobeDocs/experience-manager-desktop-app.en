@@ -7,7 +7,7 @@ exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 ---
 # [!DNL Adobe Experience Manager] desktop app release notes {#release-notes-v2}
 
-**Updates in app v2.3.3**
+The release information for the latest desktop app version 2.3.3 is below. The release date is May 16, 2025.
 
 The latest version of the desktop app includes the following bug fixes and enhancements:
 
