@@ -17,7 +17,7 @@ The key tasks that you perform using the [!DNL Adobe Experience Manager] desktop
 
 ![Workflows and tasks you can accomplish using [!DNL Experience Manager] desktop app](assets/aem_desktop_app_usecases_v2.png "Workflows and tasks you can accomplish using [!DNL Adobe Experience Manager] desktop app")
 
-Download [this](assets/aem_desktop_app_usecases_print.pdf) print-ready PDF file.
+<!--Download [this](assets/aem_desktop_app_usecases_print.pdf) print-ready PDF file.-->
 
 ## How desktop app works {#how-app-works2}
 
