@@ -81,6 +81,19 @@ The feature is supported with [!DNL Adobe Creative Cloud] 2018 and [!DNL Adobe C
 
 To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
 
+**Updates in app v2.3.3**
+
+The app v2.3.3 includes the following enhancements:
+
+* You can upload newly created assets from your local machine to AEM, where the central repository is stored, and view them in your Desktop App.
+* The auto-refresh feature automatically updates content in real time, ensuring you always see the latest information without manually reloading the page and getting the list of updated assets.
+* The pin or unpin folder feature allows you to keep important folders easily accessible by pinning them or declutter your view by unpinning them when they are no longer needed.
+* The rename title feature allows you to easily update or modify the title of an asset, helping you keep names accurate and organized as your content evolves.
+* You can preserve the original file and make changes to a similar one by duplicating files across local and cloud locations using the duplicate files operation.
+* The check-in and check-out feature enables you to manage file access by locking a file for editing (check-out) and saving your changes while making it available for others (check-in).
+* You can view, download, and browse collections.
+* You can assign metadata when creating a new folder.
+
 **Updates in app v2.3.0**
 
 * Added Support for IMS login. IMS integration allows the desktop app to perform access token refresh automatically, allowing the user to stay logged in for up to 14 days.
