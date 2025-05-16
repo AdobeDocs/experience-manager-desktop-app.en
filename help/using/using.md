@@ -72,11 +72,11 @@ From within the [!DNL Assets] user interface in a browser, you can explore the a
 
 AEM Desktop App allows you to view assets in four different views:
 
- *  **[!UICONTROL Show Assets]:** Allows you to view all the assets.
- *  **[!UICONTROL Show Collections]:** Allows you to see all the collections created in the native AEM application. See more [collections](#collections-desktop-app).
- *  **[!UICONTROL Edited Locally]:** Allows you to show all the locally modified assets. In this view, you can add and upload multiple assets.
- *  **[!UICONTROL Asset transfers]:** Allows you to view all the assets that are transferred from native app to local or vice versa.
- *  **[!UICONTROL Pinned items]:** Allows you to view all the pinned items.
+ * **[!UICONTROL Show Assets]:** Allows you to view all the assets.
+ * **[!UICONTROL Show Collections]:** Allows you to see all the collections created in the native AEM application. See more [collections](#collections-desktop-app).
+ * **[!UICONTROL Edited Locally]:** Allows you to show all the locally modified assets. In this view, you can add and upload multiple assets.
+ * **[!UICONTROL Asset transfers]:** Allows you to view all the assets that are transferred from native app to local or vice versa.
+ * **[!UICONTROL Pinned items]:** Allows you to view all the pinned items.
 
 To choose among various views of assets in AEM Desktop app, execute the following steps:
 
