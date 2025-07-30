@@ -7,7 +7,7 @@ exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 ---
 # [!DNL Adobe Experience Manager] desktop app release notes {#release-notes-v2}
 
-The release information for the latest desktop app version 2.3.3 is below. The release date is May 16, 2025.
+The release information for the latest desktop app version 3.0.0 is below. The release date is July 31, 2025.
 
 The latest version of the desktop app includes the following bug fixes and enhancements:
 
@@ -19,6 +19,16 @@ The latest version of the desktop app includes the following bug fixes and enhan
 * The check-in and check-out feature enables you to manage file access by locking a file for editing (check-out) and saving your changes while making it available for others (check-in).
 * You can view, download, and browse collections.
 * You can assign metadata when creating a new folder.
+* Experience Manager Desktop App now allows you to move assets or folders to a new location while preserving their metadata, helping to organize and streamline your file system.
+* Added support to download folders available within collections.
+* The export option now allows downloading selected files and folders from Desktop App to their specific target location in a flat structure.
+* Desktop App now automatically identifies new files created under an already downloaded folder on your local file system and uploads them to AEM. Desktop App must be kept open to identify the new files on your local file system.
+* Auto sync feature now enables downloaded assets within collections to periodically synchronize AEM Asset management with the local file system.
+* AEM Desktop App now allows you to view folder properties, such as the folder thumbnail, size, path, date created, tags, metadata, and so on.
+* You can now access assets in Card view, Grid view, or a Tree view for a clean, organized, and visually appealing layout of assets.
+* Ability to drag an asset from Desktop App to the target Creative Cloud application. Desktop App automatically checks out the assets and downloads it onto the local file system.
+* When you update an asset that is part of a collection, the system automatically updates it in the temporary cache folder and in the Desktop App UI.
+* Various labels for various options are updated on the UI to make the application more intuitive.
 
 The **supported [!DNL Experience Manager] versions** are:
 

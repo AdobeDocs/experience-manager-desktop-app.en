@@ -10,12 +10,19 @@ feature: Desktop App
 role: User, Admin
 ---
 
-# Adobe desktop app Guide {#using}
+# Adobe Experience Manager Desktop App Guide {#get-started}
 
 + [Overview](introduction.md)
 + [Release Notes](release-notes.md)
 + [Install or upgrade](install-upgrade.md)
-+ [Use the app](using.md)
++ [Get started using AEM Desktop App](get-started.md)
++ [User Interface](user-interface.md)
++ [Search](search.md)
++ [Use desktop app](using-desktop-app.md)
++ [Assets management](assets-management-tasks.md)
++ [Download assets](download-assets.md)
++ [Upload assets](upload-assets.md)
++ [Working with multiple assets](working-with-multiple-assets.md)
 + [Troubleshoot](troubleshoot.md)
 + Help of previous version {#archive}
   + [Release Notes v1](release-notes-of-v1.md)
