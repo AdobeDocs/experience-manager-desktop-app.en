@@ -17,7 +17,7 @@ Adhere to the following best practices to prevent some common issues and trouble
 
 * **Avoid unsupported characters in folder names**: Do not use whitespaces and invalid characters when creating or uploading folders. See a list of characters at [Create folders in [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). Unsupported characters in the folder name may impact some [!DNL Experience Manager] use cases.
 
-* **Best practices to avoid conflicts**: To avoid potential conflicts when collaborating on multiple assets, go to [avoid editing conflicts](using-desktop-app.md#adv-workflow-collaborate-avoid-conflicts).
+* **Best practices to avoid conflicts**: To avoid potential conflicts when collaborating on multiple assets, go to [avoid editing conflicts](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts).
 
 * **Use folder upload for large, hierarchical folders**: Instead of using the Assets web interface or other methods, use the [!DNL Experience Manager] desktop app to upload large folders. The app uploads the assets in the background with logging and monitoring. See [bulk upload assets](using-desktop-app.md#bulk-upload-assets).
 

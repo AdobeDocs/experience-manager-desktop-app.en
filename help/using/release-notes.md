@@ -168,7 +168,7 @@ The bug fixed in this version is:
 
 * A new option has been added that, if selected, allows the app to upload folders and files with node names in [!DNL Adobe Experience Manager] matching the local file and folder names. This process ensures consistency between local and uploaded names.
 
-  This behavior is similar to the default behavior in version 1 of the desktop app. Whereas in the current version, if the option is not enabled then whitespaces and the characters `% ; # , + ? ^ { } "` in folder names are replaced with dashes in folder paths. Also, the upper-case characters are converted to lower case in folder paths. However, in file names, the characters `# % { } ? &` are replaced with dash; but whitespaces and casing are retained. For more information see, [app Preferences](/help/using/install-upgrade.md#set-preferences) and [Upload and add new assets](/help/using/using-desktop-app.md#upload-and-add-new-assets-to-aem).
+  This behavior is similar to the default behavior in version 1 of the desktop app. Whereas in the current version, if the option is not enabled then whitespaces and the characters `% ; # , + ? ^ { } "` in folder names are replaced with dashes in folder paths. Also, the upper-case characters are converted to lower case in folder paths. However, in file names, the characters `# % { } ? &` are replaced with dash; but whitespaces and casing are retained. For more information see, [app Preferences](/help/using/install-upgrade.md#set-preferences) and [Upload and add new assets](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem).
 
 **Update in app v2.1.1.0**
 
@@ -176,7 +176,7 @@ The bug fixed in this version is:
 
 **Update in app v2.1.0.0**
 
-* To upload assets, users can now drag the files or folders on the application's interface, directly from Windows Explorer or Mac Finder. This process works in addition to the upload option available in the application. See [upload assets](/help/using/using-desktop-app.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
+* To upload assets, users can now drag the files or folders on the application's interface, directly from Windows Explorer or Mac Finder. This process works in addition to the upload option available in the application. See [upload assets](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
 
 **Update in app v2.0.3**
 

@@ -26,11 +26,11 @@ Before you start using the application, understand [how the app works](release-n
 
 * File status is **[!UICONTROL Available locally]**: The assets are downloaded and available on the local machine as is. The assets are not changed.
 
-* File status is **[!UICONTROL Edited locally]**: Such assets are modified locally and the changes remain to the uploaded to [!DNL Experience Manager] server. After you upload, the status changes to [!UICONTROL Available locally]. See [edit assets](using-desktop-app.md#edit-assets-upload-updated-assets).
+* File status is **[!UICONTROL Edited locally]**: Such assets are modified locally and the changes remain to the uploaded to [!DNL Experience Manager] server. After you upload, the status changes to [!UICONTROL Available locally]. See [edit assets](upload-assets.md#edit-assets-upload-updated-assets).
 
-* File status is **[!UICONTROL Editing conflict]**: If you and others edit an asset simultaneously, the app indicates that an editing conflict has occurred. The app also provides options to retain or discard your changes. See [how to avoid editing conflicts](using-desktop-app.md#adv-workflow-collaborate-avoid-conflicts).
+* File status is **[!UICONTROL Editing conflict]**: If you and others edit an asset simultaneously, the app indicates that an editing conflict has occurred. The app also provides options to retain or discard your changes. See [how to avoid editing conflicts](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts).
 
-* File status is **[!UICONTROL Modified remotely]**: The app indicates if an asset that you have downloaded is changed on the [!DNL Experience Manager] server. The app also provides the option to download the latest version and update your local copy. See [how to avoid editing conflicts](using-desktop-app.md#adv-workflow-collaborate-avoid-conflicts).
+* File status is **[!UICONTROL Modified remotely]**: The app indicates if an asset that you have downloaded is changed on the [!DNL Experience Manager] server. The app also provides the option to download the latest version and update your local copy. See [how to avoid editing conflicts](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts).
 
 * **[!UICONTROL Check-out]**: If you are editing a file or intend to edit a file, you toggle the status to check out. It adds a lock icon on the asset in the app and [!DNL Experience Manager] Web interface. The lock icon indicates to other users to avoid simultaneously editing the same asset as it leads to an editing conflict.
 
@@ -42,13 +42,13 @@ Before you start using the application, understand [how the app works](release-n
 
 * **[!UICONTROL Download]** action: Download the asset to your local machine. You can download the assets now and edit later; work offline and upload the changes later. Assets are downloaded in a cache folder on your file system.
 
-* **[!UICONTROL Reveal File]** or **[!UICONTROL Reveal Folder]** action: While the assets are downloaded to a local cache folder, the app mimics a local network drive. It provides a local path for each asset. To know this path, use the appropriate reveal option in the app. Reveal action is required to place assets in the Creative Cloud application. See [place assets](using-desktop-app.md#place-assets-in-native-documents).
+* **[!UICONTROL Reveal File]** or **[!UICONTROL Reveal Folder]** action: While the assets are downloaded to a local cache folder, the app mimics a local network drive. It provides a local path for each asset. To know this path, use the appropriate reveal option in the app. Reveal action is required to place assets in the Creative Cloud application. See [place assets](search.md#place-assets-in-native-documents).
 
 * **[!UICONTROL Open In Web]** action: To view the asset in the [!DNL Experience Manager] Web interface, open it in the Web. You can initiate more workflows from the [!DNL Experience Manager] interface like updating metadata or asset discovery.
 
-* **[!UICONTROL Delete]** action: Delete the asset from the [!DNL Experience Manager] DAM repository. The action deletes the original copy of the asset on the Experience Manager server. If you only want to discard modifications to the local asset, see [discard changes](using-desktop-app.md#edit-assets-upload-updated-assets).
+* **[!UICONTROL Delete]** action: Delete the asset from the [!DNL Experience Manager] DAM repository. The action deletes the original copy of the asset on the Experience Manager server. If you only want to discard modifications to the local asset, see [discard changes](upload-assets.md#edit-assets-upload-updated-assets).
 
-* **[!UICONTROL Upload Changes]**: Desktop app uploads the updated asset only when you explicitly upload to the [!DNL Experience Manager] server. When you save your edits, the changes are saved on your local machine only. When you upload, the asset is automatically checked in and the lock icon is removed. See [edit assets](using-desktop-app.md#edit-assets-upload-updated-assets).
+* **[!UICONTROL Upload Changes]**: Desktop app uploads the updated asset only when you explicitly upload to the [!DNL Experience Manager] server. When you save your edits, the changes are saved on your local machine only. When you upload, the asset is automatically checked in and the lock icon is removed. See [edit assets](upload-assets.md#edit-assets-upload-updated-assets).
 
 ## Enable desktop actions in [!DNL Experience Manager] Web interface {#desktopactions-v2}
 
