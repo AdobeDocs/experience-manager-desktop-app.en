@@ -319,4 +319,4 @@ Create Jira ticket with the following information:
 >[!MORELIKETHIS]
 >
 >* [Known issues](release-notes.md#known-issues-v2)
->* [Avoid editing conflicts](using.md#adv-workflow-collaborate-avoid-conflicts)
+>* [Avoid editing conflicts](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts)

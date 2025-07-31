@@ -20,7 +20,7 @@ The key tasks that you perform using the [!DNL Adobe Experience Manager] desktop
 
 Before you start using the application, understand [how the app works](release-notes.md#how-app-works). Also, familiarize yourself with the following terms:
 
-* **[!UICONTROL Desktop Actions]**: From the Assets Web interface, from within in a browser, you can explore the asset locations or check-out and open the asset for editing in your native desktop application. These actions are available from the Web interface and use desktop app functionality. See [how to enable Desktop Actions](using.md#desktopactions-v2).
+* **[!UICONTROL Desktop Actions]**: From the Assets Web interface, from within in a browser, you can explore the asset locations or check-out and open the asset for editing in your native desktop application. These actions are available from the Web interface and use desktop app functionality.
 
 * File status is **[!UICONTROL Cloud Only]**: Such assets are not downloaded on the local machine and are available on [!DNL Experience Manager] server only.
 
