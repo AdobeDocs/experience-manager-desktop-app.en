@@ -2,8 +2,8 @@
 title: Upload assets using [!DNL Experience Manager] desktop app
 description: Upload assets using [!DNL Adobe Experience Manager] desktop app.
 feature: Desktop App,Asset Management
+exl-id: 887625c8-5ff6-4208-9bb4-f8b768292d54
 ---
-
 # Work with multiple assets {#work-with-multiple-assets}
 
 Users can easily work with and manage multiple assets using actions like uploading all edits in one go or uploading nested folders in a few clicks.

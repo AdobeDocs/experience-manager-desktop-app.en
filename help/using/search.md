@@ -2,8 +2,8 @@
 title: Browse, search, and preview assets in[!DNL Experience Manager] desktop app
 description: Browse, search, and preview assets in [!DNL Adobe Experience Manager] desktop app.
 feature: Desktop App
+exl-id: 03d20735-0808-4b52-bd9e-8284fcf506ed
 ---
-
 # Browse, search, and preview assets {#browse-search-preview-assets}
 
 You can browse to, search for, and preview the assets available in the [!DNL Experience Manager] repository, all from within the desktop application. Try the following in the app:

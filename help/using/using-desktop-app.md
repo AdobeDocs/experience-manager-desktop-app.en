@@ -2,8 +2,8 @@
 title: Using [!DNL Experience Manager] desktop app
 description: Using [!DNL Adobe Experience Manager] desktop app.
 feature: Desktop App,Asset Management
+exl-id: cb5e4738-5695-4758-8322-37509421dfc8
 ---
-
 # Open assets on your desktop {#openondesktop-v2}
 
 You can open the remote assets for viewing in the native application. The assets are downloaded to a local folder. Then they are launched in the native application associated with the file format. You can change the native application to open specific file types (extensions) in your Mac or Windows.
