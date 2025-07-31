@@ -7,7 +7,7 @@ exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 ---
 # [!DNL Adobe Experience Manager] desktop app release notes {#release-notes-v2}
 
-The release information for the latest desktop app version 2.3.3 is below. The release date is May 16, 2025.
+The release information for the latest desktop app version 3.0.0 is below. The release date is July 31, 2025.
 
 The latest version of the desktop app includes the following bug fixes and enhancements:
 
@@ -19,6 +19,16 @@ The latest version of the desktop app includes the following bug fixes and enhan
 * The check-in and check-out feature enables you to manage file access by locking a file for editing (check-out) and saving your changes while making it available for others (check-in).
 * You can view, download, and browse collections.
 * You can assign metadata when creating a new folder.
+* Experience Manager Desktop App now allows you to move assets or folders to a new location while preserving their metadata, helping to organize and streamline your file system.
+* Added support to download folders available within collections.
+* The export option now allows downloading selected files and folders from Desktop App to their specific target location in a flat structure.
+* Desktop App now automatically identifies new files created under an already downloaded folder on your local file system and uploads them to AEM. Desktop App must be kept open to identify the new files on your local file system.
+* Auto sync feature now enables downloaded assets within collections to periodically synchronize AEM Asset management with the local file system.
+* AEM Desktop App now allows you to view folder properties, such as the folder thumbnail, size, path, date created, tags, metadata, and so on.
+* You can now access assets in Card view, Grid view, or a Tree view for a clean, organized, and visually appealing layout of assets.
+* Ability to drag an asset from Desktop App to the target Creative Cloud application. Desktop App automatically checks out the assets and downloads it onto the local file system.
+* When you update an asset that is part of a collection, the system automatically updates it in the temporary cache folder and in the Desktop App UI.
+* Various labels for various options are updated on the UI to make the application more intuitive.
 
 The **supported [!DNL Experience Manager] versions** are:
 
@@ -36,6 +46,10 @@ The **download URLs** for supported OS are:
 
 | Operating system | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v3.0.0) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg)|
+| macOS Apple Silicon (M1) (v3.0.0) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) |
+| Windows 64-bit (v3.0.0) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe)|
+| Windows 64-bit Enterprise (v3.0.0) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.0.msi) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.0.msi)|
 | macOS (v2.3.3) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.3.3.dmg) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.3.3.dmg)|
 | macOS Apple Silicon (M1) (v2.3.3) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.3.3.dmg) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.3.3.dmg) |
 | Windows 64-bit (v2.3.3) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.3.3.exe) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.3.3.exe)|
@@ -154,7 +168,7 @@ The bug fixed in this version is:
 
 * A new option has been added that, if selected, allows the app to upload folders and files with node names in [!DNL Adobe Experience Manager] matching the local file and folder names. This process ensures consistency between local and uploaded names.
 
-  This behavior is similar to the default behavior in version 1 of the desktop app. Whereas in the current version, if the option is not enabled then whitespaces and the characters `% ; # , + ? ^ { } "` in folder names are replaced with dashes in folder paths. Also, the upper-case characters are converted to lower case in folder paths. However, in file names, the characters `# % { } ? &` are replaced with dash; but whitespaces and casing are retained. For more information see, [app Preferences](/help/using/install-upgrade.md#set-preferences) and [Upload and add new assets](/help/using/using.md#upload-and-add-new-assets-to-aem).
+  This behavior is similar to the default behavior in version 1 of the desktop app. Whereas in the current version, if the option is not enabled then whitespaces and the characters `% ; # , + ? ^ { } "` in folder names are replaced with dashes in folder paths. Also, the upper-case characters are converted to lower case in folder paths. However, in file names, the characters `# % { } ? &` are replaced with dash; but whitespaces and casing are retained. For more information see, [app Preferences](/help/using/install-upgrade.md#set-preferences) and [Upload and add new assets](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem).
 
 **Update in app v2.1.1.0**
 
@@ -162,7 +176,7 @@ The bug fixed in this version is:
 
 **Update in app v2.1.0.0**
 
-* To upload assets, users can now drag the files or folders on the application's interface, directly from Windows Explorer or Mac Finder. This process works in addition to the upload option available in the application. See [upload assets](/help/using/using.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
+* To upload assets, users can now drag the files or folders on the application's interface, directly from Windows Explorer or Mac Finder. This process works in addition to the upload option available in the application. See [upload assets](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
 
 **Update in app v2.0.3**
 
@@ -252,6 +266,6 @@ The following diagram illustrates the flow of assets and files from cloud to loc
 >
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service)
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview)
->* [How to use [!DNL Experience Manager] desktop app](using.md)
+>* [How to use [!DNL Experience Manager] desktop app](using-desktop-app.md)
 >* [Install and upgrade desktop app](install-upgrade.md)
 >* [Best practices and troubleshooting tips](troubleshoot.md)

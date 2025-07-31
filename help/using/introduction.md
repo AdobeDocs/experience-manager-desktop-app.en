@@ -24,7 +24,7 @@ The desktop app documentation contains information for the following roles and u
 | Want to know the prerequisites and technical specifications? Want download links? | [Release notes](release-notes.md) |
 | Not new to desktop app? Upgrading and want to transition smoothly? | [Upgrade from previous version](install-upgrade.md#upgrade-from-previous-version) |
 | Get up and running. Want to tweak default preferences? | [Install and configure the app](install-upgrade.md) |
-| Learn how to use to browse, discover, edit, upload, resolve conflicts, do bulk operations, and so on. | [Use [!DNL Experience Manager] desktop app](using.md) |
+| Learn how to use to browse, discover, edit, upload, resolve conflicts, do bulk operations, and so on. | [Use [!DNL Experience Manager] desktop app](using-desktop-app.md) |
 | Are you running into an issue? | [Troubleshoot the [!DNL Experience Manager] desktop app](troubleshoot.md) |
 
 ## What is new in the app {#whats-new-v2}
