@@ -12,7 +12,7 @@ role: User, Admin
 
 # Adobe Experience Manager Desktop App Guide {#get-started}
 
-+ [Overview](introduction.md)
++ [Introduction](introduction.md)
 + [Release Notes](release-notes.md)
 + [Install or upgrade](install-upgrade.md)
 + [Get started using AEM Desktop App](get-started.md)
