@@ -1,7 +1,7 @@
 ---
 title: Browse, search, and preview assets in[!DNL Experience Manager] desktop app
 description: Browse, search, and preview assets in [!DNL Adobe Experience Manager] desktop app.
-feature: Desktop App,search
+feature: Desktop App
 ---
 
 # Browse, search, and preview assets {#browse-search-preview-assets}
