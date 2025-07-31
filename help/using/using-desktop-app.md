@@ -47,6 +47,6 @@ The **[!UICONTROL Reveal File]** action opens a local network share. It displays
 
 >[!MORELIKETHIS]
 >
->* [Understand the user interface](/help/using/navigate-view.md)
->* [Managing Assets in Desktop App](/help/using/asset-management.md)
+>* [Understand the user interface](/help/using/user-interface.md)
+>* [Managing Assets in Desktop App](/help/using/assets-management-tasks.md)
 >* [Search](/help/using/search.md)

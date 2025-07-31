@@ -100,6 +100,6 @@ On the contrary, you can open the asset in the Web interface starting from the d
 
 >[!MORELIKETHIS]
 >
->* [Understand the user interface](/help/using/navigate-view.md)
+>* [Understand the user interface](/help/using/user-interface.md)
 >* [Release notes and known issues](/help/using/release-notes.md)
 >* [Install or Upgrade Desktop App](/help/using/install-upgrade.md)

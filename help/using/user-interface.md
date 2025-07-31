@@ -127,7 +127,7 @@ Navigate to a folder then click ![More actions icon](assets/do-not-localize/more
 
 >[!MORELIKETHIS]
 >
->* [Managing Assets in Desktop App](/help/using/asset-management.md)
+>* [Managing Assets in Desktop App](/help/using/assets-management-tasks.md)
 >* [Download assets](/help/using/download-assets.md)
 >* [Upload assets](/help/using/upload-assets.md)
  

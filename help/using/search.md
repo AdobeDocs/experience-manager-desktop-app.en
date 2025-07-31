@@ -94,6 +94,6 @@ The application provides a view, called **[!UICONTROL Edited locally]**, to give
 
 >[!MORELIKETHIS]
 >
->* [Understand the user interface](/help/using/navigate-view.md)
+>* [Understand the user interface](/help/using/user-interface.md)
 >* [Using Desktop App](/help/using/using-desktop-app.md)
->* [Managing Assets in Desktop App](/help/using/asset-management.md)
+>* [Managing Assets in Desktop App](/help/using/assets-management-tasks.md)

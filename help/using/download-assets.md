@@ -43,6 +43,6 @@ If folders are selected and downloaded, the application only downloads assets st
 >[!MORELIKETHIS]
 >
 >* [Upload assets](/help/using/upload-assets.md)
->* [Understand the user interface](/help/using/navigate-view.md)
+>* [Understand the user interface](/help/using/user-interface.md)
 >* [Search](/help/using/search.md)
 

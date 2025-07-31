@@ -75,5 +75,5 @@ After uploading, if the expected changes are not reflected in the app, click the
 >[!MORELIKETHIS]
 >
 >* [Download assets](/help/using/download-assets.md)
->* [Understand the user interface](/help/using/navigate-view.md)
+>* [Understand the user interface](/help/using/user-interface.md)
 >* [Search](/help/using/search.md)
