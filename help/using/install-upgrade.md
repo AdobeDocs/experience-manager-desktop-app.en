@@ -20,7 +20,7 @@ To use the [!DNL Experience Manager] desktop app:
 
 * Download and install the application. See [install desktop app](#install-v2) below.
 
-* Test the connection using a few assets. See [how to browse and search for assets](using.md#browse-search-preview-assets).
+* Test the connection using a few assets. See [how to browse and search for assets](using-desktop-app.md#browse-search-preview-assets).
 
 ## System requirements, prerequisites, and download links {#tech-specs-v2}
 
@@ -134,7 +134,7 @@ If your proxy requires authentication, the IT team can allow the [!DNL Experienc
 
 To uninstall the application on Windows, follow these steps:
 
-1. Upload all your changes to [!DNL Experience Manager] to avoid losing any edits. See [Edit assets and upload updated assets to [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). Log off and [!UICONTROL Exit] the app.
+1. Upload all your changes to [!DNL Experience Manager] to avoid losing any edits. See [Edit assets and upload updated assets to [!DNL Experience Manager]](using-desktop-app.md#edit-assets-upload-updated-assets). Log off and [!UICONTROL Exit] the app.
 
 1. Remove the app as you'd remove any other OS application. Uninstall it from Add and remove programs on Windows.
 
@@ -146,7 +146,7 @@ To uninstall the application on Windows, follow these steps:
 
 To uninstall the application on Mac, follow these steps:
 
-1. Upload all your changes to [!DNL Experience Manager] to avoid losing any edits. See [Edit assets and upload updated assets to [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). Log off and [!UICONTROL Exit] the app.
+1. Upload all your changes to [!DNL Experience Manager] to avoid losing any edits. See [Edit assets and upload updated assets to [!DNL Experience Manager]](using-desktop-app.md#edit-assets-upload-updated-assets). Log off and [!UICONTROL Exit] the app.
 
 1. Remove the `Adobe Experience Manager Desktop.app` from `/Applications`.
 
