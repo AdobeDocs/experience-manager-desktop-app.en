@@ -10,7 +10,7 @@ feature: Desktop App
 role: User, Admin
 ---
 
-# Adobe Experience Manager Desktop App Guide {#get-started}
+# Adobe Experience Manager Desktop App Guide {#using}
 
 + [Overview](introduction.md)
 + [Release Notes](release-notes.md)
