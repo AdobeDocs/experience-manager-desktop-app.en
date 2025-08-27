@@ -6,6 +6,8 @@ exl-id: f082c712-dc04-4bed-bac8-fa78f93de1c7
 ---
 # Upload assets {#upload-assets}
 
+AEM Desktop App users with rights to add assets can add assets (such as images, documents, videos, or other media).
+
 ## Edit assets and upload updated assets to [!DNL Experience Manager] {#edit-assets-upload-updated-assets}
 
 Open assets for editing when you want to make changes and upload the updated assets to the [!DNL Experience Manager] server. To avoid conflicts with edits of other users, use the app to initiate an editing session. Before you start editing, ensure that the asset does not have a lock icon on it indicating that another user is editing the asset.
