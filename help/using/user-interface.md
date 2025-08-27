@@ -2,8 +2,8 @@
 title: User Interface [!DNL Experience Manager] desktop app
 description: User Interface [!DNL Adobe Experience Manager] desktop app.
 feature: Desktop App,Asset Management
+exl-id: bbf47ffe-9a0f-4cf2-9bda-d5e62651c00b
 ---
-
 # User Interface of [!DNL Adobe Experience Manager] Desktop App {#user-interface-desktop-app}
 
 [!DNL Adobe Experience Manager] Desktop App offers an intuitive and user-friendly user interface. The clean interface makes assets and related information easy to find and remember.
@@ -130,4 +130,3 @@ Navigate to a folder then click ![More actions icon](assets/do-not-localize/more
 >* [Managing Assets in Desktop App](/help/using/assets-management-tasks.md)
 >* [Download assets](/help/using/download-assets.md)
 >* [Upload assets](/help/using/upload-assets.md)
- 

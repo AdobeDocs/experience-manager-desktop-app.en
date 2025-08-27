@@ -2,8 +2,8 @@
 title: Download assets using [!DNL Experience Manager] desktop app
 description: Download assets using [!DNL Adobe Experience Manager] desktop app.
 feature: Desktop App,Asset Management
+exl-id: 7004f759-ce8a-497d-9647-3a120fa3ba1d
 ---
-
 # Download assets locally {#download-assets-locally}
 
 The app frequently downloads assets from the [!DNL Experience Manager] server to your local file system. The downloads consume bandwidth and disk space. Knowing the scenarios can help you optimize your wait time for the downloads to complete. You can download the assets on your local file system. The app fetches the assets from the [!DNL Experience Manager] server and saves the same copy on your local file system.
@@ -45,4 +45,3 @@ If folders are selected and downloaded, the application only downloads assets st
 >* [Upload assets](/help/using/upload-assets.md)
 >* [Understand the user interface](/help/using/user-interface.md)
 >* [Search](/help/using/search.md)
-

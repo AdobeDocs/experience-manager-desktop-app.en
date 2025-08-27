@@ -2,8 +2,8 @@
 title: Use [!DNL Experience Manager] desktop app
 description: Use [!DNL Adobe Experience Manager] desktop app, to work with [!DNL Adobe Experience Manager] DAM assets right from your Win or Mac desktop and use in other applications.
 feature: Desktop App,Asset Management
+exl-id: c8f57bdc-1465-401f-88b1-9107fcacceb5
 ---
-
 # Assets Management tasks in [!DNL AEM Desktop App] {#assets-management-tasks}
 
 Asset management involves organizing, maintaining, and optimizing digital assets to streamline workflows. It includes tasks such as duplicating and renaming files, pinning or unpinning folders for quick access, and viewing assets in various layouts. This helps improve efficiency, simplify asset tracking, and ensure easy retrieval and organization of digital assets across platforms.
