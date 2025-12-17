@@ -9,17 +9,17 @@ exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 
 The release date of desktop app version 3.0.1 is December 18, 2025.  The release includes the following enhancements:
 
-Smoother and more reliable workflows
+**Smoother and more reliable workflows**
 
 * Ensured consistent folder naming by fixing sync issues between the AEM Desktop App and AEM Author.
 * Enabled uninterrupted workflows by allowing full application functionality during active transfer operations.
 
-Faster and more responsive user experience
+**Faster and more responsive user experience**
 
 * Enhanced UI responsiveness by replacing blocking I/O with asynchronous processing, delivering a smoother experience during high-load operations.
 * Enhanced large file transfers by introducing pagination in upload and download flows, enabling efficient handling of large datasets.
 
-Stronger stability and reliability
+**Stronger stability and reliability**
 
 * Resolved Author server restarts triggered by Desktop App interactions, significantly improving system stability.
 * Addressed application crashes during large folder (thousands of files) download or upload.
