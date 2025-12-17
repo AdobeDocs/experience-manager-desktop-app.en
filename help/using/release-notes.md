@@ -1,6 +1,6 @@
 ---
 title: "[!DNL Adobe Experience Manager] desktop app release notes"
-description: Release details, enhancements, new features, compatibility, and download links for [!DNL Adobe Experience Manager] desktop app.
+description: Release details, enhancements, new features, compatibility, and download links for [!DNL Adobe Experience Manager] Desktop App.
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
@@ -102,7 +102,7 @@ To know the details, see [What's new in v3.0.1](introduction.md#whats-new-v2).
 
 ### Updates in app v3.0.0 {#app-version-3.0.0}
 
-This release delivers multiple enhancements to Collections, Uploads, Check-in/Check-out, Metadata management, and overall usability. These updates improve efficiency, streamline asset handling, and provide a more intuitive, real-time experience in AEM Desktop App.
+This release delivers multiple enhancements to Collections, Uploads, Check-in / Check-out, Metadata management, and overall usability. These updates improve efficiency, streamline asset handling, and provide a more intuitive, real-time experience in AEM Desktop App.
 
 ![Desktop App User Interface](assets/dekktop-app-user-interface.png)
 
