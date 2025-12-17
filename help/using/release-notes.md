@@ -5,60 +5,26 @@ mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 ---
-# [!DNL Adobe Experience Manager] desktop app release notes {#release-notes-v2}
+# [!DNL Adobe Experience Manager] Desktop App release notes {#release-notes-v2}
 
-The release information for the latest desktop app version 3.0.0 is below. The release date is July 31, 2025.
+The release information for the latest Desktop App version 3.0.1 is below.
 
-This release delivers multiple enhancements to Collections, Uploads, Check-in/Check-out, Metadata management, and overall usability. These updates improve efficiency, streamline asset handling, and provide a more intuitive, real-time experience in AEM Desktop App.
+## Bug Fixes {#bug-fixes}
 
-![Desktop App User Interface](assets/dekktop-app-user-interface.png)
+The bug fixes and updates are:
+ 
+* Folder title renaming is inconsistent across the app and AEM Author.
+* The app becomes temporarily inaccessible during bulk uploads and downloads.
+* AEM Author pods restart unexpectedly during Desktop App interactions.
+* Performance and reliability issues while processing very large folders.
 
-**Collections**
+## Enhancements {#enhancements}
 
-* You can now view, download, and browse collections.
+The following are the enhancements:
 
-*  Added support to download folders available within collections.
-
-* Auto sync feature now enables downloaded assets within collections to periodically synchronize AEM Asset management with the local file system.
-
-* When you update an asset that is part of a collection, the system automatically updates it in the temporary cache folder and in the Desktop App UI.
-
-**Uploads**
-
-* You can upload newly created assets from your local machine to AEM, where the central repository is stored, and view them in your Desktop App.
-
-* Desktop App now automatically identifies new files created under an already downloaded folder on your local file system and uploads them to AEM. Desktop App must be kept open to identify the new files on your local file system.
-
-**Check-in and check-out**
-
-* The check-in and check-out feature enables you to manage file access by locking a file for editing (check-out) and saving your changes while making it available for others (check-in).
-
-* Ability to drag an asset from Desktop App to the target Creative Cloud application. Desktop App automatically checks out the assets and downloads it onto the local file system.
-
-**Metadata**
-
-* You can assign metadata when creating a new folder.
-
-* Experience Manager Desktop App now allows you to move assets or folders to a new location while preserving their metadata, helping to organize and streamline your file system.
-
-* AEM Desktop App now allows you to view folder properties, such as the folder thumbnail, size, path, date created, tags, metadata, and so on.
-
-**Usability Improvements**
-
-
-* The auto-refresh feature automatically updates content in real time, ensuring you always see the latest information without manually reloading the page and getting the list of updated assets.
-
-* The pin or unpin folder feature allows you to keep important folders easily accessible by pinning them or declutter your view by unpinning them when they are no longer needed.
-
-* The rename title feature allows you to easily update or modify the title of an asset, helping you keep names accurate and organized as your content evolves.
-
-* You can preserve the original file and make changes to a similar one by duplicating files across local and cloud locations using the duplicate files operation.
-
-* The export option now allows downloading selected files and folders from Desktop App to their specific target location in a flat structure.
-
-* You can now access assets in Card view, Grid view, or a Tree view for a clean, organized, and visually appealing layout of assets.
-
-* Various labels for various options are updated on the UI to make the application more intuitive.
+* Improved performance during bulk uploads and downloads to maintain a smooth user experience.
+* Added pagination in upload and download flows to handle large datasets efficiently.
+* Ensured full app functionality during active transfer operations.
 
 The **supported [!DNL Experience Manager] versions** are:
 
@@ -132,25 +98,77 @@ The feature is supported with [!DNL Adobe Creative Cloud] 2018 and [!DNL Adobe C
 
 ## New features, enhancements, and bug fixes {#what-is-new}
 
-To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
+To know the details, see [What's new in v3.0.1](introduction.md#whats-new-v2).
 
-**Updates in app v2.3.1**
+### Updates in app v3.0.0 {#app-version-3.0.0}
+
+This release delivers multiple enhancements to Collections, Uploads, Check-in/Check-out, Metadata management, and overall usability. These updates improve efficiency, streamline asset handling, and provide a more intuitive, real-time experience in AEM Desktop App.
+
+![Desktop App User Interface](assets/dekktop-app-user-interface.png)
+
+**Collections**
+
+* You can now view, download, and browse collections.
+
+*  Added support to download folders available within collections.
+
+* Auto sync feature now enables downloaded assets within collections to periodically synchronize AEM Asset management with the local file system.
+
+* When you update an asset that is part of a collection, the system automatically updates it in the temporary cache folder and in the Desktop App UI.
+
+**Uploads**
+
+* You can upload newly created assets from your local machine to AEM, where the central repository is stored, and view them in your Desktop App.
+
+* Desktop App now automatically identifies new files created under an already downloaded folder on your local file system and uploads them to AEM. Desktop App must be kept open to identify the new files on your local file system.
+
+**Check-in and check-out**
+
+* The check-in and check-out feature enables you to manage file access by locking a file for editing (check-out) and saving your changes while making it available for others (check-in).
+
+* Ability to drag an asset from Desktop App to the target Creative Cloud application. Desktop App automatically checks out the assets and downloads it onto the local file system.
+
+**Metadata**
+
+* You can assign metadata when creating a new folder.
+
+* Experience Manager Desktop App now allows you to move assets or folders to a new location while preserving their metadata, helping to organize and streamline your file system.
+
+* AEM Desktop App now allows you to view folder properties, such as the folder thumbnail, size, path, date created, tags, metadata, and so on.
+
+**Usability Improvements**
+
+* The auto-refresh feature automatically updates content in real time, ensuring you always see the latest information without manually reloading the page and getting the list of updated assets.
+
+* The pin or unpin folder feature allows you to keep important folders easily accessible by pinning them or declutter your view by unpinning them when they are no longer needed.
+
+* The rename title feature allows you to easily update or modify the title of an asset, helping you keep names accurate and organized as your content evolves.
+
+* You can preserve the original file and make changes to a similar one by duplicating files across local and cloud locations using the duplicate files operation.
+
+* The export option now allows downloading selected files and folders from Desktop App to their specific target location in a flat structure.
+
+* You can now access assets in Card view, Grid view, or a Tree view for a clean, organized, and visually appealing layout of assets.
+
+* Various labels for various options are updated on the UI to make the application more intuitive.
+
+### Updates in app v2.3.1 {#app-version-2.3.1}
 
 * The new Enterprise Windows installer installs the application under Program Files. 
 * Support for **Basic Authentication** during AEM and SSO logins.
 * Configurable number of assets allowed during upload operation
 
-**Updates in app v2.3.0**
+### Updates in app v2.3.0 {#app-version-2.3.0}
 
 * Added Support for IMS login. IMS integration allows the desktop app to perform access token refresh automatically, allowing the user to stay logged in for up to 14 days.
 
 * Improved support for corporate proxies and web filtering.
 
-**Updates in app v2.2.2**
+### Updates in app v2.2.2 {#app-version-2.2.2}
 
 * (Windows Only) The desktop app displays a blank screen after installing 2.2.0 and 2.2.1 release versions.
 
-**Updates in app v2.2.1**
+### Updates in app v2.2.1 {#app-version-2.2.1}
 
 * The desktop app displays a session timeout error message when you click **[!UICONTROL Sign In]**.
 
@@ -158,41 +176,41 @@ To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
 
 * The desktop app displays an error message when you sort assets by clicking **[!UICONTROL Edited Locally]**.
 
-**Updates in app v2.2.0**
+### Updates in app v2.2.0 {#app-version-2.2.0}
 
 * Support for Apple Silicon (M1).
 
 * Ability to remember the connection string while logging on to the desktop app.
 
-**Updates in app v2.1.5.0**
+### Updates in app v2.1.5.0 {#app-version-2.1.5.0}
 
-* The desktop app stops responding when you upload files in a folder that contains Chinese characters (ASSETS-9237).
+* The Desktop App stops responding when you upload files in a folder that contains Chinese characters (ASSETS-9237).
 
-* desktop app replaces dots with dashes in file names (ASSETS-10955).
+* Desktop App replaces dots with dashes in file names (ASSETS-10955).
 
-**Updates in app v2.1.4.0**
+### Updates in app v2.1.4.0 {#app-version-2.1.4.0}
 
 The new version of the application offers bug fixes.
 
-**Updates in app v2.1.3.4**
+### Updates in app v2.1.3.4 {#app-version-2.1.3.4}
 
 The new version of the application offers a bug fix.
 
-**Updates in app v2.1.3.3**
+### Updates in app v2.1.3.3 {#app-version-2.1.3.3}
 
 The new version of the application offers a bug fix.
 
-**Updates in app v2.1.3.2**
+### Updates in app v2.1.3.2 {#app-version-2.1.3.2}
 
 This version of the application offers a bug fix.
 
-**Updates in app v2.1.3.1**
+### Updates in app v2.1.3.3 {#app-version-2.1.3.3}
 
 The bug fixed in this version is:
 
 * Asset upload and download speeds have improved, even with large assets. This release fixed an issue where asset uploads with the [!DNL desktop app] failed sometimes when very large files were uploaded.
 
-**Update in app v2.1.2.0**
+### Updates in app v2.1.2.0 {#app-version-2.1.2.0}
 
 * A new option to [!UICONTROL Clear Cookies] is added to the main menu of the application. It helps with potential logon issues, for example when changing a connection from a server to another. See [clear cookies before connecting](/help/using/troubleshoot.md#cannot-login-cookies-issue).
 
@@ -200,21 +218,21 @@ The bug fixed in this version is:
 
   This behavior is similar to the default behavior in version 1 of the desktop app. Whereas in the current version, if the option is not enabled then whitespaces and the characters `% ; # , + ? ^ { } "` in folder names are replaced with dashes in folder paths. Also, the upper-case characters are converted to lower case in folder paths. However, in file names, the characters `# % { } ? &` are replaced with dash; but whitespaces and casing are retained. For more information see, [app Preferences](/help/using/install-upgrade.md#set-preferences) and [Upload and add new assets](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem).
 
-**Update in app v2.1.1.0**
+### Updates in app v2.1.1.0 {#app-version-2.1.1.0}
 
 * An advanced setting lets the app emulate v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respect the spaces and casing of the folder names provided by the user. In version 2.1, the default behavior is unchanged: multiple spaces in folder names are replaced with hyphens in the repository node name, and node names are converted to lowercase. See [the app preferences](/help/using/install-upgrade.md#set-preferences).
 
-**Update in app v2.1.0.0**
+### Updates in app v2.1.0.0 {#app-version-2.1.0.0}
 
 * To upload assets, users can now drag the files or folders on the application's interface, directly from Windows Explorer or Mac Finder. This process works in addition to the upload option available in the application. See [upload assets](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
 
-**Update in app v2.0.3**
+### Updates in app v2.0.3 {#app-version-2.0.3}
 
 The bug fixed in this version is:
 
 * Fixed the login issue for app users on Windows who try to access the DAM repository on [!DNL Adobe Experience Manager] 6.5.5.0.
 
-**Updates in app v2.0.2**
+### Updates in app v2.0.2 {#app-version-2.0.2}
 
 The bug fixes and updates are:
 
@@ -228,7 +246,7 @@ The bug fixes and updates are:
 
 * (Windows) Fixed a rare issue of unusable app interface on some Windows machines. Users cannot click on the app interface as it appears distorted with the click-area of interface elements 'shifted' sideway. <!-- CQ-4280785 -->
 
-**Updates in app v2.0.1**
+### Updates in app v2.0.1 {#app-version-2.0.1}
 
 The bug fixes and updates are:
 
