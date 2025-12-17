@@ -204,7 +204,7 @@ The new version of the application offers a bug fix.
 
 This version of the application offers a bug fix.
 
-### Updates in app v2.1.3.3 {#app-version-2.1.3.3}
+### Updates in app v2.1.3.1 {#app-version-2.1.3.1}
 
 The bug fixed in this version is:
 
