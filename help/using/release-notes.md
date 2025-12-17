@@ -7,24 +7,22 @@ exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 ---
 # [!DNL Adobe Experience Manager] Desktop App release notes {#release-notes-v2}
 
-The release information for the latest Desktop App version 3.0.1 is below.
+The release date of desktop app version 3.0.1 is December 18, 2025.  The release includes the following enhancements:
 
-## Bug Fixes {#bug-fixes}
+Smoother and more reliable workflows
 
-The bug fixes and updates are:
- 
-* Folder title renaming is inconsistent across the app and AEM Author.
-* The app becomes temporarily inaccessible during bulk uploads and downloads.
-* AEM Author pods restart unexpectedly during Desktop App interactions.
-* Performance and reliability issues while processing very large folders.
+* Ensured consistent folder naming by fixing sync issues between the AEM Desktop App and AEM Author.
+* Enabled uninterrupted workflows by allowing full application functionality during active transfer operations.
 
-## Enhancements {#enhancements}
+Faster and more responsive user experience
 
-The following are the enhancements:
+* Enhanced UI responsiveness by replacing blocking I/O with asynchronous processing, delivering a smoother experience during high-load operations.
+* Enhanced large file transfers by introducing pagination in upload and download flows, enabling efficient handling of large datasets.
 
-* Improved performance during bulk uploads and downloads to maintain a smooth user experience.
-* Added pagination in upload and download flows to handle large datasets efficiently.
-* Ensured full app functionality during active transfer operations.
+Stronger stability and reliability
+
+* Resolved Author server restarts triggered by Desktop App interactions, significantly improving system stability.
+* Addressed application crashes during large folder (thousands of files) download or upload.
 
 The **supported [!DNL Experience Manager] versions** are:
 
