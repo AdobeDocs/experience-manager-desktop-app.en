@@ -7,7 +7,7 @@ exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 ---
 # [!DNL Adobe Experience Manager] Desktop App release notes {#release-notes-v2}
 
-The release date of desktop app version 3.0.1 is December 18, 2025.  The release includes the following enhancements:
+The release date of desktop app version 3.0.1 is December 20, 2025.  The release includes the following enhancements:
 
 **Smoother and more reliable workflows**
 
