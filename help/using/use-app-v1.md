@@ -139,7 +139,7 @@ To locate the particular asset on your local file system, click **Reveal** quick
 ## Understand the asset statuses {#understand-the-asset-statuses}
 
 | ![Windows default app icon](assets/do-not-localize/win_default.png) | The app is connected to the server and all assets are synchronized. |
---- |--- |
+| --- |--- |
 | ![Windows disabled icon](assets/do-not-localize/win_disabled.png) | The app is launched but is not connected with the server. Some assets may be pending synchronization. |
 | ![Windows file sync icon](assets/do-not-localize/win_sync.png) | Assets are synchronizing. Files are either being uploaded or downloaded. You can see exact statuses and pause the transfers from the Asset Status window. |
 | ![Windows reconnect icon](assets/do-not-localize/win_refresh.png) | App is trying to reconnect. Potentially, the network issues are causing it to disconnect. |

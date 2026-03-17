@@ -90,7 +90,8 @@ The bandwidth available to an individual user plays a critical role in the perfo
 
 Adobe recommends that an individual user's upload speed be close to 10 Mbps. For wireless connections, bandwidth is often shared between multiple users. If multiple users simultaneously perform tasks that consume network bandwidth, the performance can degrade even further. To avoid such issues, use a wired connection.
 
-<!-- AG, 8/18: The Windows KB article is removed by MS now. Giving 404. Also, Win 7 support is gone and the desktop app is also not supported on Win 7. Hiding this content for now.
+<!-- 
+AG, 8/18: The Windows KB article is removed by MS now. Giving 404. Also, Win 7 support is gone and the desktop app is also not supported on Win 7. Hiding this content for now.
 
 ## Windows-specific configurations {#windows-specific-configurations}
 
