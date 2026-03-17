@@ -113,7 +113,8 @@ You can open the remote assets for viewing in the native application. The assets
 
 Click **[!UICONTROL Open]** from the asset menu. The asset is downloaded locally and opened in the native application. Check the download progress and transfer speed of large assets in the status bar.
 
-<!-- ![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
+<!-- 
+![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
 -->
 
 >[!NOTE]
@@ -171,7 +172,8 @@ If necessary, toggle check-out. The updated asset is removed from the local cach
 
 Users can add new assets to the DAM repository. For example, you may be an agency photographer or contractor who wants to add a large number of photos from a photoshoot to the [!DNL Experience Manager] repository. To add new content to [!DNL Experience Manager], select ![upload to cloud option](assets/do-not-localize/upload_to_cloud_da2.png) in the top-bar of the app. Browse to the asset files in the local file system and click **[!UICONTROL Select]**. Alternatively, to upload assets, drag the files or folders on the application interface. On Windows, if you drag assets on a folder inside the app, the assets are uploaded into the folder. If it takes longer to upload, the app displays a progress bar.
 
-<!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
+<!-- 
+![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
 
 You can upload folders or individual files from your local file system. A folder's hierarchy is preserved when it is uploaded. Before uploading assets in bulk, see [Bulk uploads](#bulk-upload-assets).
@@ -194,7 +196,8 @@ In the legacy app, the node names created in the repository retained the spaces 
 >
 >The app changes only the node names in the repository using the following naming conventions. The app retains the `Title` of the asset as is.
 
-<!-- TBD: Do NOT use this table.
+<!-- 
+TBD: Do NOT use this table.
 
 | Where do characters occur | Characters | Legacy preference | Renaming convention | Example |
 |---|---|---|---|---|
@@ -218,13 +221,15 @@ In the legacy app, the node names created in the repository retained the spaces 
 
 &Dagger; The list of characters is a whitespace-separated list. 
 
-<!-- TBD: Check if the following is to be included in the footnote.
+<!-- 
+TBD: Check if the following is to be included in the footnote.
 
 Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names of folders. 
 -->
 
 
-<!-- TBD: Securing the below presentation of the same content in a comment.
+<!-- 
+TBD: Securing the below presentation of the same content in a comment.
 
 **File names**
 

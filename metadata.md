@@ -4,7 +4,7 @@ solution: Experience Manager, Experience Manager Assets
 type: Documentation
 mini-toc-levels: 1
 git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.en
-index: y
+index: true
 recommendations: noDisplay
 ---
 

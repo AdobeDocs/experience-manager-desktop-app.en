@@ -39,7 +39,8 @@ If necessary, toggle check-out. The updated asset is removed from the local cach
 
 Users can add new assets to the DAM repository. For example, you may be an agency photographer or contractor who wants to add a large number of photos from a photoshoot to the [!DNL Experience Manager] repository. To add new content to [!DNL Experience Manager], select ![upload to cloud option](assets/do-not-localize/upload_to_cloud_da2.png) in the top-bar of the app. Browse to the asset files in the local file system and click **[!UICONTROL Select]**. Alternatively, to upload assets, drag the files or folders on the application interface. On Windows, if you drag assets on a folder inside the app, the assets are uploaded into the folder. If it takes longer to upload, the app displays a progress bar.
 
-<!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
+<!-- 
+![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
 
 You can upload folders or individual files from your local file system. A folder's hierarchy is preserved when it is uploaded. Before uploading assets in bulk, see [Bulk uploads](#bulk-upload-assets).
