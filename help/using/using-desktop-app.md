@@ -3,6 +3,17 @@ title: Using [!DNL Experience Manager] desktop app
 description: Using [!DNL Adobe Experience Manager] desktop app.
 feature: Desktop App,Asset Management
 exl-id: cb5e4738-5695-4758-8322-37509421dfc8
+TQID: https://experienceleague.adobe.com/0xzk1jHHzvUk5J8Vq4KG-CbRCBfO4owT6xLhzPJs9Mw
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Open assets on your desktop {#openondesktop-v2}
 

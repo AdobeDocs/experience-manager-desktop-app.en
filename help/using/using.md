@@ -4,6 +4,20 @@ description: Use [!DNL Adobe Experience Manager] desktop app, to work with [!DNL
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
+TQID: https://experienceleague.adobe.com/2v0mdTrS1ZgHkm0ykjYYQDQjvW0DjsVs2uLyCg8p54M
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Use [!DNL Adobe Experience Manager] desktop app  {#use-aem-desktop-app-v2}
 
