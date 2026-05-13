@@ -2,6 +2,32 @@
 title: Troubleshoot desktop app version 1.10.
 description: Troubleshoot [!DNL Adobe Experience Manager] desktop app version 1.10 to resolve the occasional issues related to installation, upgrade, and configuration.
 exl-id: 1e1409c2-bf5e-4e2d-a5aa-3dd74166862c
+TQID: https://experienceleague.adobe.com/Q0xjV0FWt0MlfoCw7LkvD-g16Byanq3hwrFI0QbWrOg
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80
+    internal-label: Components
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
 ---
 # Troubleshoot [!DNL Adobe Experience Manager] desktop app v1.x {#troubleshoot-aem-desktop-app}
 

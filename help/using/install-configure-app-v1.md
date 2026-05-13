@@ -2,6 +2,28 @@
 title: Install and configure desktop app v1.10
 description: Install and configure [!DNL Experience Manager] desktop app version 1.10 to work with [!DNL Assets] servers and map the assets to mount as a drive on your desktop.
 exl-id: 7f3bdfb1-d345-4e48-b020-6e06531f46f2
+TQID: https://experienceleague.adobe.com/q8HwCAJiC2BlVsKHHC-Pg6NrvQEuI4bfhPV6q4s9xBE
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80
+    internal-label: Components
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Install and configure [!DNL Experience Manager] desktop app v1.10 {#install-and-configure-aem-desktop-app}
 

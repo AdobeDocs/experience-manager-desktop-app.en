@@ -3,6 +3,17 @@ title: Download assets using [!DNL Experience Manager] desktop app
 description: Download assets using [!DNL Adobe Experience Manager] desktop app.
 feature: Desktop App,Asset Management
 exl-id: 7004f759-ce8a-497d-9647-3a120fa3ba1d
+TQID: https://experienceleague.adobe.com/EXan0driSkmXsYYTxPe73VaDhQP5RQt1c-L2US-cSUY
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Download assets locally {#download-assets-locally}
 

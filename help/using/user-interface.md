@@ -3,6 +3,20 @@ title: User Interface [!DNL Experience Manager] desktop app
 description: User Interface [!DNL Adobe Experience Manager] desktop app.
 feature: Desktop App,Asset Management
 exl-id: bbf47ffe-9a0f-4cf2-9bda-d5e62651c00b
+TQID: https://experienceleague.adobe.com/AEbEbJbBQI6-HuI7aAf-348pf-qjK1fZfoapY7PYveo
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # User Interface of [!DNL Adobe Experience Manager] Desktop App {#user-interface-desktop-app}
 

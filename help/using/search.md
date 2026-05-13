@@ -3,6 +3,20 @@ title: Browse, search, and preview assets in[!DNL Experience Manager] desktop ap
 description: Browse, search, and preview assets in [!DNL Adobe Experience Manager] desktop app.
 feature: Desktop App
 exl-id: 03d20735-0808-4b52-bd9e-8284fcf506ed
+TQID: https://experienceleague.adobe.com/EFyDL05ItK9DlMoVKrgSzNWHcVCh1-UBi2pEPK2JmfE
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Browse, search, and preview assets {#browse-search-preview-assets}
 
