@@ -6,6 +6,7 @@ product_v2:
     internal-label: "Experience Manager"
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: "Experience Manager Assets"
+usetq: true
 landing-page-name: experience-manager
 landing-page-breadcrumb-title: AEM
 type: Documentation
