@@ -27,7 +27,12 @@ topic_v2:
 ---
 # [!DNL Adobe Experience Manager] Desktop App release notes {#release-notes-v2}
 
-This release of desktop app version 3.0.2 includes bug fixes to enhance the overall stability and performance of the application.
+This release of desktop app version 3.0.3 includes the following enhancements and bug fixes.
+
+**Improved stability and performance**
+* Improved request handling to help prevent excessive requests to [!DNL Experience Manager].
+* Improved reliability when downloading very large assets.
+* Fixed an issue that could cause the Desktop App to crash or become unresponsive on macOS when working with large files.
 
 The **supported [!DNL Experience Manager] versions** are:
 
@@ -45,6 +50,10 @@ The **download URLs** for supported OS are:
 
 | Operating system | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v3.0.3) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.3-rebuild.1.dmg) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.3-rebuild.1.dmg) |
+| macOS Apple Silicon (M1) (v3.0.3) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.3-rebuild.1.dmg) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.3-rebuild.1.dmg) |
+| Windows 64-bit (v3.0.3) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.3-rebuild.1.exe) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.3-rebuild.1.exe) |
+| Windows 64-bit Enterprise (v3.0.3) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.3-rebuild.1.msi) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.3-rebuild.1.msi) |
 | macOS (v3.0.2) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg)|
 | macOS Apple Silicon (M1) (v3.0.2) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) |
 | Windows 64-bit (v3.0.2) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe) | [Download link](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe)|
@@ -109,7 +118,9 @@ The feature is supported with [!DNL Adobe Creative Cloud] 2018 and [!DNL Adobe C
 
 ## New features, enhancements, and bug fixes {#what-is-new}
 
-To know the details, see [What's new in v3.0.2](introduction.md#whats-new-v2).
+### Updates in app v3.0.2 {#app-version-3.0.2}
+
+This release of desktop app version 3.0.2 includes bug fixes to enhance the overall stability and performance of the application.
 
 ### Updates in app v3.0.1 {#app-version-3.0.1}
 
