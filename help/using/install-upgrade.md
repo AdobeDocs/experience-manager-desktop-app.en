@@ -3,7 +3,7 @@ title: Install and configure the desktop app
 description: Install and configure [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] servers and download the assets on your local file system.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-TQID: https://experienceleague.adobe.com/drhaNIzGSMDl80NaIvK6T39Bnd8Pp47FlBNyRBmPprQ
+TQID: 'https://experienceleague.adobe.com/drhaNIzGSMDl80NaIvK6T39Bnd8Pp47FlBNyRBmPprQ'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -12,9 +12,13 @@ product_v2:
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: ed762d86-a04b-452b-a08f-86359bb8ff27
+    internal-label: Configuration and operations
 subfeature_v2:
   - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
     internal-label: Desktop App
+  - id: c21ccc2b-e0c8-4853-bf41-f12259ed93f8
+    internal-label: Release information
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
